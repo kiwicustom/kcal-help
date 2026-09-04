@@ -415,7 +415,9 @@ h2 {
   margin-bottom: 0.25rem;
 }
 
-.academy-foundation--soon {
+/* Disabled / coming-soon tiles (EN home + DE Anleitungen) */
+.academy-foundation--soon,
+.card--soon {
   position: relative;
   overflow: hidden;
   cursor: default;
@@ -426,18 +428,23 @@ h2 {
   box-shadow: none !important;
   color: #6a6a72;
   filter: none;
+  text-decoration: none;
+}
+
+.academy-foundation--soon:hover,
+.card--soon:hover {
+  transform: none !important;
+  border-color: #b4b4bc !important;
 }
 
 .academy-foundation--soon .academy-foundation__eyebrow,
 .academy-foundation--soon strong,
-.academy-foundation--soon .note {
+.academy-foundation--soon .note,
+.card--soon .tag,
+.card--soon strong,
+.card--soon .note {
   color: #8b8b94 !important;
   opacity: 0.55;
-}
-
-.academy-foundation--soon:hover {
-  transform: none !important;
-  border-color: #b4b4bc !important;
 }
 
 .soon-stamp {
@@ -447,38 +454,37 @@ h2 {
   display: grid;
   place-items: center;
   margin: 0;
-  padding: 0.75rem;
-  font-size: 0;
-  color: transparent;
+  padding: 0.65rem;
   pointer-events: none;
-  background: rgb(236 236 240 / 0.35);
+  background: rgb(236 236 240 / 0.4);
 }
 
-.soon-stamp::before {
-  content: "COMING SOON";
+.soon-stamp__ink {
+  display: inline-block;
   box-sizing: border-box;
-  max-width: calc(100% - 1rem);
-  padding: 0.55rem 0.85rem;
+  max-width: calc(100% - 0.5rem);
+  padding: 0.5rem 0.75rem;
   border: 0.22rem solid rgb(176 42 36 / 0.9);
   border-radius: 0.35rem;
   box-shadow:
     inset 0 0 0 0.2rem rgb(176 42 36 / 0.9),
     0 1px 0 rgb(0 0 0 / 0.06);
   color: rgb(176 42 36 / 0.92);
-  background: rgb(255 255 255 / 0.12);
+  background: rgb(255 255 255 / 0.18);
   font-family: "Arial Black", "Arial Narrow", Impact, Haettenschweiler, sans-serif;
-  font-size: clamp(0.95rem, 3.2vw, 1.35rem);
+  font-size: clamp(0.85rem, 3vw, 1.2rem);
   font-weight: 900;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   transform: rotate(-18deg);
-  opacity: 0.92;
+  opacity: 0.94;
 }
 
-[data-color-mode="dark"] .academy-foundation--soon {
+[data-color-mode="dark"] .academy-foundation--soon,
+[data-color-mode="dark"] .card--soon {
   border-color: #5a5a64 !important;
   background: #2e2e36 !important;
   color: #9a9aa4;
@@ -486,15 +492,18 @@ h2 {
 
 [data-color-mode="dark"] .academy-foundation--soon .academy-foundation__eyebrow,
 [data-color-mode="dark"] .academy-foundation--soon strong,
-[data-color-mode="dark"] .academy-foundation--soon .note {
+[data-color-mode="dark"] .academy-foundation--soon .note,
+[data-color-mode="dark"] .card--soon .tag,
+[data-color-mode="dark"] .card--soon strong,
+[data-color-mode="dark"] .card--soon .note {
   color: #8e8e98 !important;
 }
 
 [data-color-mode="dark"] .soon-stamp {
-  background: rgb(46 46 54 / 0.4);
+  background: rgb(46 46 54 / 0.45);
 }
 
-[data-color-mode="dark"] .soon-stamp::before {
+[data-color-mode="dark"] .soon-stamp__ink {
   border-color: rgb(232 110 98 / 0.88);
   box-shadow:
     inset 0 0 0 0.2rem rgb(232 110 98 / 0.88),
