@@ -1,6 +1,6 @@
 /**
  * Shared Help Platform chrome — header + footer + theme + language.
- * Brand must match beta.kcal.lol. SSOT: docs/product/BUDDY-ACADEMY-HELP-PLATFORM.md
+ * Brand must match beta.kcal.lol. Phase 2.5 golden polish.
  */
 (function () {
   const root = document.documentElement;
@@ -46,10 +46,13 @@
     })
     .join("");
 
-  const langSwitch =
-    lang === "de"
-      ? `<a class="help-lang" href="${href("../" + file.replace(/^de\//, ""))}">EN</a>`
-      : `<span class="help-lang help-lang--muted" title="DE/FI via catalog locales (Phase B)">EN</span>`;
+  // Language: EN / DE / FI — flex-centered group (no padding hacks)
+  const langSwitch = `
+    <div class="help-lang-switch" role="group" aria-label="Language">
+      <a class="help-lang" href="${href("index.html")}" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
+      <a class="help-lang" href="${href("de/index.html")}" ${lang === "de" ? 'aria-current="true"' : ""}>DE</a>
+      <span class="help-lang help-lang--soon" title="Suomi — coming soon" aria-disabled="true">FI</span>
+    </div>`;
 
   const sub =
     page === "academy" ? "Academy" : page === "docs" ? "Docs" : page === "help" ? "Help" : "Help Platform";
@@ -81,38 +84,36 @@
     <p class="help-footer__tagline">Helping people build healthier habits every day.</p>
     <div class="help-footer__grid">
       <div class="help-footer__col">
-        <h3>Platform</h3>
+        <h3>Learn</h3>
         <ul>
-          <li><a href="${href("help/index.html")}">Help</a></li>
           <li><a href="${href("academy/index.html")}">Buddy Academy</a></li>
-          <li><a href="${href("docs/index.html")}">Developer Documentation</a></li>
+          <li><a href="${href("help/index.html")}">Help</a></li>
+          <li><a href="${href("docs/index.html")}">Developer Docs</a></li>
+          <li><a href="${href("docs/release-notes.html")}">Release Notes</a></li>
+        </ul>
+      </div>
+      <div class="help-footer__col">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="https://beta.kcal.lol/#/privacy">Privacy</a></li>
+          <li><a href="https://beta.kcal.lol/#/terms">Terms</a></li>
           <li><a href="mailto:hello@kcal.lol">Contact</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
         <h3>Product</h3>
         <ul>
-          <li><span style="color:var(--text-muted)">Beta is invitation-only for now.</span></li>
-          <li><a href="https://beta.kcal.lol/#/privacy">Privacy</a></li>
-          <li><a href="https://beta.kcal.lol/#/terms">Terms</a></li>
-        </ul>
-      </div>
-      <div class="help-footer__col">
-        <h3>Community</h3>
-        <ul>
-          <li><span style="color:var(--text-muted)" data-ext="community">Discussions (future)</span></li>
+          <li><span class="help-footer__muted">Beta is invitation-only</span></li>
           <li><a href="mailto:hello@kcal.lol">Feedback</a></li>
-          <li><a href="mailto:hello@kcal.lol">Bug report</a></li>
         </ul>
       </div>
     </div>
     <div class="help-footer__meta" id="help-footer-meta">
-      <div>Application Version: <span data-v="app">…</span></div>
-      <div>Documentation Version: <span data-v="docs">…</span></div>
-      <div>Last Updated: <span data-v="updated">${pageUpdated || "…"}</span></div>
-      <div>Build: <span data-v="build">…</span></div>
+      <div><span class="help-footer__meta-label">Version</span> <span data-v="app">…</span></div>
+      <div><span class="help-footer__meta-label">Documentation Version</span> <span data-v="docs">…</span></div>
+      <div><span class="help-footer__meta-label">Last Updated</span> <span data-v="updated">${pageUpdated || "…"}</span></div>
     </div>
-    <p class="help-footer__copy">© kcal.lol</p>
+    <p class="help-footer__copy">© ${new Date().getFullYear()} kcal.lol · kiwicustom GmbH</p>
   </div>
 </footer>`;
 
@@ -127,10 +128,9 @@
   });
 
   document.getElementById("help-search-hook")?.addEventListener("click", () => {
-    if (window.KcalHelpExtensions?.openSearch) window.KcalHelpExtensions.openSearch();
+    window.KcalHelpExtensions?.openSearch?.();
   });
 
-  // ⌘K / Ctrl+K reserved for Phase B search
   document.addEventListener("keydown", (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
       e.preventDefault();
@@ -143,11 +143,12 @@
     .then((v) => {
       const meta = document.getElementById("help-footer-meta");
       if (!meta) return;
-      meta.querySelector('[data-v="app"]').textContent = v.version || "—";
-      meta.querySelector('[data-v="docs"]').textContent = v.docsVersion || "1.0.0-phase1";
-      meta.querySelector('[data-v="build"]').textContent = v.generatedAt || v.builtAt || "—";
+      const app = meta.querySelector('[data-v="app"]');
+      const docs = meta.querySelector('[data-v="docs"]');
       const upd = meta.querySelector('[data-v="updated"]');
-      if (upd && (!pageUpdated || upd.textContent === "…")) upd.textContent = v.builtAt || "—";
+      if (app) app.textContent = v.version || "—";
+      if (docs) docs.textContent = v.docsVersion || "1.1.0-phase2";
+      if (upd && (!pageUpdated || upd.textContent === "…")) upd.textContent = v.builtAt || v.generatedAt?.slice(0, 10) || "—";
     })
     .catch(() => {});
 })();

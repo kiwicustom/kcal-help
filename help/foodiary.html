@@ -35,12 +35,15 @@
     <main class="help-main" id="main">
       <nav class="crumb" aria-label="Breadcrumb"><ol class="crumb-list"><li><a href="../index.html">Home</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><a href="../help/index.html">Help</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><span aria-current="page">Foodiary</span></li></ol></nav>
       
-      <h1>Foodiary</h1>
-      <p class="lead">Day book and corrections — same diary Progress reads.</p>
       
-      
-      <p class="academy-meta"><span class="badge blue">⏱ 8 min</span> <span class="badge green">Ready</span></p>
-      <p class="lead">Foodiary is the day book — the ledger Progress reads. Buddy is the smart door in; Foodiary is where you review and fix.</p>
+      <header class="page-hero">
+      <p class="page-hero__eyebrow">Help</p>
+      <h1 class="page-hero__title">Foodiary</h1>
+      <p class="page-hero__sub">Foodiary is the day book — the ledger Progress reads. Buddy is the smart door in; Foodiary is where you review and fix.</p>
+      <div class="page-hero__meta" aria-label="Article meta">
+        <span class="page-hero__chip">⏱ 8 min</span>
+        <span class="page-hero__chip">Beginner</span>
+      </div>
       <div class="callout callout--buddy">
       <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
       <div>
@@ -48,6 +51,7 @@
         <p class="note" style="margin:0.25rem 0 0">Prefer Home for new meals. Open Foodiary when you need to edit grams, time, or fill a known manual entry.</p>
       </div>
     </div>
+    </header>
       <div class="card" style="margin:1rem 0">
       <div class="tag">🎯 Today's Mission</div>
       <p style="margin:0.35rem 0 0">Open today’s Foodiary after logging on Home; fix one portion you know was off.</p>
@@ -79,8 +83,8 @@
 <li><span class="num">3</span><div><p>Edit obvious portion errors</p></div></li>
 <li><span class="num">4</span><div><p>Delete true duplicates; keep honest snacks</p></div></li>
 <li><span class="num">5</span><div><p>Leave deep analysis for weekly Progress review</p></div></li></ol>
-        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Entries created via Buddy already carry estimates you can refine. Foodiary is the correction surface that keeps ground truth trustworthy.</p></div></div>
-        <p class="note" data-ext="screenshots">Screenshots will appear here when Playwright coverage is added for this page.</p>
+        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Entries created via Buddy already carry estimates you can refine. Foodiary is the correction surface that keeps ground truth trustworthy.</p></div></div>
+        
       </section>
       <section class="cheat-block"><h2>Wrong day problems</h2><p>Late-night logs can land on the wrong calendar day depending on timing. If Progress looks empty, check Foodiary’s selected day before reporting a bug.</p></section>
 <section class="cheat-block"><h2>Manual entry etiquette</h2><p>When you type manual rows, include energy and protein if you have them. A name-only row is a sticky note, not nutrition data.</p></section>
@@ -111,10 +115,10 @@
       <a class="btn-deeplink" href="https://beta.kcal.lol/#/" rel="noopener">Open Foodiary</a>
       <span class="note"> Invitation-only product.</span>
     </p>
-      <section class="platform-next card" data-ext="next-step">
-      <div class="tag">What to do next</div>
-      <p style="margin:0.35rem 0 0"><a href="../help/voice.html">Voice logging →</a></p>
-    </section>
+      <nav class="page-pager" aria-label="Continue learning">
+      <a class="page-pager__link page-pager__prev" href="../help/home.html"><span class="page-pager__dir">Previous</span><span class="page-pager__title">Home</span></a>
+      <a class="page-pager__link page-pager__next" href="../help/voice.html"><span class="page-pager__dir">Next</span><span class="page-pager__title">Voice logging</span></a>
+    </nav>
       <section class="platform-related" data-ext="related">
       <h2>Related</h2>
       <ul class="academy-related"><li><a href="../help/home.html">Home</a></li><li><a href="../help/cheatsheet.html">Quick Guide</a></li><li><a href="../help/progress.html">Progress</a></li></ul>
