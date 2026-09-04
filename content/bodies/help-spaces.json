@@ -1,0 +1,73 @@
+{
+  "intro": "Spaces are how health scales beyond one person — family, friends, teams, and coaches improving together without Buddy owning your identity.",
+  "time": "8 min",
+  "buddyTip": "Keep personal logs honest even when sharing. Belonging helps adherence; performative logs help no one.",
+  "mission": "Open Spaces, review any invites, or note who you might invite when you’re ready — no pressure to create today.",
+  "why": [
+    "Humans rarely improve alone. Shared goals, accountability, and celebration keep people showing up when motivation dips. That is Scale Health Success in product form.",
+    "Spaces collaborate; they do not replace your personal Foodiary. Buddy still coaches you. Desks (when relevant) help professionals support Spaces without owning collaboration data.",
+    "Privacy and appropriateness matter. Share what helps the group; keep what should stay personal. Belonging should feel safe."
+  ],
+  "what": {
+    "lead": "Spaces capabilities in plain language.",
+    "points": [
+      "Join or create a Space",
+      "Invite members who share a real context (household, team, coach group)",
+      "Share appropriate progress — not every private detail by default",
+      "Use encouragement and challenges without shame culture",
+      "Keep logging your own meals on Home regardless of Space activity"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Spaces means public social media for my calories.",
+        "truth": "Spaces are intentional groups. You control context and membership."
+      },
+      {
+        "myth": "If I’m in a Space, I must be perfect for others.",
+        "truth": "Honesty over Shame still applies. Real peers prefer truth to theatre."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Start small — one trusted Space.",
+    "steps": [
+      "Open the Spaces tab",
+      "Accept an invite or create a Space with a clear purpose",
+      "Invite only people who match that purpose",
+      "Agree norms: what is shared, how feedback sounds",
+      "Continue personal logging; use Space for support and celebration",
+      "Leave or mute if a Space becomes judgmental — safety first"
+    ],
+    "buddyHelps": "Buddy remains your personal coach. Spaces add belonging. Together they support the Health Operating System’s social layer."
+  },
+  "sections": [
+    {
+      "title": "Family Spaces",
+      "paras": [
+        "Shared meal planning and gentle encouragement often work better than competitive leaderboards at home.",
+        "Protect kids’ dignity — Spaces are not a venue for public calorie policing."
+      ]
+    },
+    {
+      "title": "Coach-supported Spaces",
+      "paras": [
+        "Coaches support; they should not seize ownership of your ground truth. Share what’s useful for guidance; keep recovery credentials and private logs under your control."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I inflated my logs so the group would be impressed.",
+      "why": "That breaks your Progress and the group’s trust. Honesty scales better."
+    },
+    {
+      "quote": "I joined ten Spaces and engaged with none.",
+      "why": "Belonging needs focus. One active Space beats ten badges."
+    },
+    {
+      "quote": "Someone shamed my weekend — so I stopped logging.",
+      "why": "Wrong culture. Address norms or leave. Don’t abandon your diary."
+    }
+  ],
+  "encouragement": "Health should spread. Start with people who make showing up easier — that is already Scale Health Success."
+}

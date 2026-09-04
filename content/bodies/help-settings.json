@@ -1,0 +1,79 @@
+{
+  "intro": "Settings make the app match your life — profile, theme, language, notifications, and integrations. Change one thing at a time so you know what helped.",
+  "time": "7 min",
+  "buddyTip": "Fix language and notifications early; leave exotic integrations until logging is a habit.",
+  "mission": "Open Menu → Settings; confirm language and notification preferences match how you actually live.",
+  "why": [
+    "Defaults that fight your routine create silent churn. Wrong language, noisy alerts, or dark theme eye-strain all reduce logging — the one habit that feeds everything else.",
+    "Profile basics (weight, goals, preferences) shape coaching relevance. Keep them current when life changes, especially at monthly review.",
+    "Integrations are optional context. They should not distract from Foodiary honesty in month one.",
+    "Theme and type size (where available) affect whether you open the app at night. Comfort is adherence infrastructure."
+  ],
+  "what": {
+    "lead": "Common Settings areas.",
+    "points": [
+      "Profile — body stats, goals, dietary preferences",
+      "Theme — visual comfort",
+      "Language — EN / DE / FI and whatever the app offers",
+      "Notifications — reminders that coach, not nag",
+      "Integrations — health sources when you are ready"
+    ],
+    "misconceptions": [
+      {
+        "myth": "More integrations immediately make Progress smarter.",
+        "truth": "Honest meals and weigh-ins teach more early on. Add sources when they reduce friction."
+      },
+      {
+        "myth": "I should rebuild my profile weekly.",
+        "truth": "Update when reality changes — not as a procrastination ritual."
+      }
+    ]
+  },
+  "how": {
+    "lead": "A calm Settings pass.",
+    "steps": [
+      "Open Menu → Settings",
+      "Confirm profile goal still matches this month’s theme",
+      "Set language and theme",
+      "Enable only notifications you’ll respect",
+      "Connect at most one integration if needed; verify sync",
+      "Return to Home and log — Settings are support, not the product"
+    ],
+    "buddyHelps": "Settings tune Buddy’s environment so coaching feels personal. The diary and Progress still do the heavy learning."
+  },
+  "sections": [
+    {
+      "title": "Notifications that work",
+      "paras": [
+        "Prefer meal-time nudges you chose over constant streaks panic. If you mute everything, set a calendar reminder instead — rituals need a cue."
+      ]
+    },
+    {
+      "title": "Integrations hygiene",
+      "paras": [
+        "Revoke unused grants. Wearable burn is context, not automatic truth — keep logging food regardless."
+      ]
+    },
+    {
+      "title": "After a life change",
+      "paras": [
+        "New job hours, a new goal, pregnancy, injury, or a long trip: update profile notes and notification timing. Then return to the logging ritual—settings support the habit, they do not replace it."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I spent an hour on Settings and logged zero meals.",
+      "why": "Configuration theatre. Log first; tune later."
+    },
+    {
+      "quote": "I turned on every notification and then disabled them all in annoyance.",
+      "why": "Start with one useful reminder. Expand carefully."
+    },
+    {
+      "quote": "Wrong language made me think features were missing.",
+      "why": "Confirm language early. Labels differ; jobs stay the same."
+    }
+  ],
+  "encouragement": "Make the app comfortable, then forget Settings exist for a while. Your next win is on Home."
+}

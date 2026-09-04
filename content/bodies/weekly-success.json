@@ -1,0 +1,76 @@
+{
+  "intro": "Weekly success turns raw logs into learning. Zoom out once a week so daily noise stops running your decisions.",
+  "time": "9 min",
+  "buddyTip": "Change only one variable after each weekly review — protein consistency, fibre, steps, or dinner timing — not five at once.",
+  "mission": "Book a 20-minute weekly review slot. Open Progress, then write one change for next week.",
+  "why": [
+    "Daily weight and hunger swing for reasons that have nothing to do with fat change: sodium, carbs, training, hormones, sleep. Weekly review is where patterns become visible and crash resets become unnecessary.",
+    "A good week is not a perfect macro average. It is enough honest days, protein and fibre showing up often, training that matches recovery, and a shopping/meal plan that made weekday decisions easier.",
+    "Shopping and meal planning belong in the weekly loop because willpower is a bad grocery strategy. Decide once; execute many times."
+  ],
+  "what": {
+    "lead": "Cover these themes every week — lightly.",
+    "points": [
+      "Weekly review — Progress trends + Foodiary pattern scan",
+      "Shopping — protein anchors, fibre sources, staples that fit your budget",
+      "Meal planning — a few realistic dinners, not a fantasy menu",
+      "Weight — trend across the week; never crown a single morning king",
+      "Protein / fibre consistency — how many days hit “good enough,” not perfection",
+      "Training — sessions done vs recovery felt",
+      "Goals — keep, tweak, or pause one goal for next week"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If average calories were high, I must slash hard next week.",
+        "truth": "Find the cause: under-logged days, weekend clustering, low protein hunger. Fix the cause; avoid panic deficits."
+      },
+      {
+        "myth": "Meal planning means cooking every lunch.",
+        "truth": "Planning can mean two repeat dinners, a default lunch, and a restaurant rule. Simplicity scales."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Use the same Sunday (or midweek) script so review stays short.",
+    "steps": [
+      "Open Progress for the week — note direction of weight and protein adherence",
+      "Scan Foodiary: which meals were missing, which days felt easy",
+      "Ask: what did good days share? (protein breakfast, packed lunch, earlier dinner)",
+      "Write a short shop list from next week’s meal plan — favour repeatable proteins and fibre",
+      "Schedule training that fits sleep, not the other way around",
+      "Set one weekly goal sentence; celebrate adherence before criticising averages"
+    ],
+    "buddyHelps": "Progress shows trends Foodiary cannot shout about daily. Meal Plan holds intent; Home remains where actual intake is logged when you eat."
+  },
+  "sections": [
+    {
+      "title": "Weight without drama",
+      "paras": [
+        "Compare week averages or multi-day trends. One heavy morning after a salty dinner is information about water, not a moral failure.",
+        "If the trend stalls for several weeks with honest logs, adjust energy or activity thoughtfully — still one variable at a time."
+      ]
+    },
+    {
+      "title": "Protein, fibre, training",
+      "paras": [
+        "Count consistency: days with a clear protein anchor and fibre-containing plants beat chasing a perfect gram total on two heroic days.",
+        "Training success includes recovery. A missed session after poor sleep can be wise — log the reality and adjust the plan."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I had one bad weekend, so I’m doing a juice cleanse to compensate.",
+      "why": "Compensation extremes teach binge–restrict cycles. Return to the normal weekly plan."
+    },
+    {
+      "quote": "I’ll plan fourteen unique gourmet dinners.",
+      "why": "Over-planning collapses by Wednesday. Three reliable dinners beat seven abandoned ones."
+    },
+    {
+      "quote": "Weekly review is just looking at the scale.",
+      "why": "Scale without Foodiary context misleads. Pair weight with intake honesty, protein, and life events."
+    }
+  ],
+  "encouragement": "A calm weekly review is how amateurs become consistent. Protect the slot — your future self spends less time guessing."
+}

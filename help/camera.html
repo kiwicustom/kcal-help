@@ -17,7 +17,7 @@
     <meta name="twitter:title" content="Camera — kCal Buddy" />
     <meta name="twitter:description" content="Photo capture for meals." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
-    <meta name="kcal:docs-version" content="1.0.0-phase1" />
+    <meta name="kcal:docs-version" content="1.1.0-phase2" />
     <meta name="kcal:app-version" content="0.8.41" />
     <meta name="kcal:updated" content="2026-09-04" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
@@ -38,24 +38,75 @@
       <h1>Camera</h1>
       <p class="lead">Photo capture for meals.</p>
       
-      <p class="badge">Foundation placeholder — content expands without layout changes</p>
+      
+      <p class="academy-meta"><span class="badge blue">⏱ 7 min</span> <span class="badge green">Ready</span></p>
+      <p class="lead">A photo is often faster than typing. Capture or pick from gallery, review what Buddy recognises, confirm the portion, and save to the diary.</p>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>💬 Buddy Tip</strong>
+        <p class="note" style="margin:0.25rem 0 0">Shoot from above with decent light; include the whole plate. Mention hidden oils on confirm if the photo can’t show them.</p>
+      </div>
+    </div>
+      <div class="card" style="margin:1rem 0">
+      <div class="tag">🎯 Today's Mission</div>
+      <p style="margin:0.35rem 0 0">Log one meal with camera or gallery from Home and confirm the portion before save.</p>
+    </div>
       <section class="cheat-block" id="why">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">WHY?</span><h2>Why</h2></header>
-        <p class="cheat-block__lead">A photo is often faster than typing.</p>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">WHY?</span><h2>Why this matters</h2></header>
+        <p>Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.</p>
+<p>Camera logging still requires human judgment. Recognition can miss sauces, oils, drinks beside the plate, or second helpings. Your confirmation protects honesty.</p>
+<p>Gallery helps when you forgot to log in the moment but still have a photo — better than reconstructing from memory alone.</p>
+<p>Mixed plates (buffets, shared tapas) need your portion story on confirm. The camera sees the table; you know your share.</p>
       </section>
       <section class="cheat-block" id="what">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">WHAT?</span><h2>What</h2></header>
-        <ol class="steps"><li><span class="num">1</span><div><p>Capture or pick from gallery</p></div></li>
-<li><span class="num">2</span><div><p>Review recognition</p></div></li>
-<li><span class="num">3</span><div><p>Confirm portion and save</p></div></li></ol>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">WHAT?</span><h2>What to understand</h2></header>
+        <p class="cheat-block__lead">Camera flow essentials.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Use camera or gallery quick action on Home</p></div></li>
+<li><span class="num">2</span><div><p>Review recognised items and estimates</p></div></li>
+<li><span class="num">3</span><div><p>Adjust portions and missing fats/drinks</p></div></li>
+<li><span class="num">4</span><div><p>Save into Foodiary via Buddy</p></div></li>
+<li><span class="num">5</span><div><p>Edit later in Foodiary if you learn more</p></div></li></ol>
+        <div class="grid-2" style="margin-top:0.75rem"><div class="card"><div class="tag">Myth</div><strong>The photo alone is perfect nutrition truth.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Vision estimates help; portions and hidden fats still need you.</p></div><div class="card"><div class="tag">Myth</div><strong>Blurry photos are fine — AI will figure it out.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Clear plates produce better suggestions. Retake when you can.</p></div></div>
       </section>
       <section class="cheat-block" id="how">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">HOW?</span><h2>How</h2></header>
-        <ol class="steps"><li><span class="num">1</span><div><p>Use camera or gallery quick action on Home</p></div></li>
-<li><span class="num">2</span><div><p>Check Buddy's suggestion</p></div></li>
-<li><span class="num">3</span><div><p>Save</p></div></li></ol>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">HOW?</span><h2>How to do this in real life</h2></header>
+        <p class="cheat-block__lead">Make photo logging a tidy habit.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Frame the full meal; avoid extreme close-ups of one corner</p></div></li>
+<li><span class="num">2</span><div><p>Capture before you destroy the evidence (half-eaten chaos is harder)</p></div></li>
+<li><span class="num">3</span><div><p>Add voice or text notes for oil, butter, dressings, beverages</p></div></li>
+<li><span class="num">4</span><div><p>Confirm Buddy’s suggestion; scale portions up/down</p></div></li>
+<li><span class="num">5</span><div><p>Save; don’t double-log the same plate in Foodiary manually</p></div></li></ol>
+        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Buddy uses recognition to draft the diary row quickly. You remain editor-in-chief at confirm.</p></div></div>
         <p class="note" data-ext="screenshots">Screenshots will appear here when Playwright coverage is added for this page.</p>
       </section>
+      <section class="cheat-block"><h2>Labels and receipts</h2><p>Packaged foods and receipts can be clearer than plated meals. When Buddy reads a label, still check serving size versus what you ate.</p></section>
+<section class="cheat-block"><h2>Privacy and sharing</h2><p>Avoid photographing other people’s faces or documents. Meal photos are for your coaching loop.</p></section>
+<section class="cheat-block"><h2>When to prefer another mode</h2><p>Dark restaurants and tiny labels frustrate vision. Switch to voice: name the dish and a fair portion. The goal is a saved honest row, not a perfect photo.</p></section>
+      <section class="cheat-block" id="mistakes">
+      <header class="cheat-block__head"><span class="cheat-block__kicker">⚠ Common mistakes</span><h2>Common mistakes</h2></header>
+      <ul class="steps" style="list-style:none;padding:0"><li class="card" style="list-style:none">
+        <strong>“I photographed the salad and ignored the dressing boat.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Dressing may dominate energy. Log it explicitly.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“I snapped after finishing and Buddy saw an empty plate.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Capture before or describe leftovers. Empty crockery teaches little.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“Recognition was wrong so I logged nothing.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Edit the draft or switch to voice/text. The meal still counts.</p>
+      </li></ul>
+    </section>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>❤️ Encouragement</strong>
+        <p class="note" style="margin:0.25rem 0 0">Point, shoot, confirm, done. Camera logging exists to keep real life inside the diary — not to pass a photography exam.</p>
+      </div>
+    </div>
       <p class="platform-deeplink" data-ext="deeplink">
       <a class="btn-deeplink" href="https://beta.kcal.lol/#/" rel="noopener">Open Camera</a>
       <span class="note"> Invitation-only product.</span>

@@ -1,0 +1,76 @@
+{
+  "intro": "Authentication protects your health data: welcome, device pairing, PIN, trusted devices, and recovery. Security should feel calm — not like a quiz you fear failing.",
+  "time": "8 min",
+  "buddyTip": "Store recovery information where only you can find it. A trusted device plus a remembered PIN covers most days.",
+  "mission": "Confirm you know how you sign in on this device and where your recovery path lives — update it if fuzzy.",
+  "why": [
+    "Food, weight, and training data are personal. Sessions, device trust, and PIN exist so casual access stays hard while daily use stays smooth.",
+    "Most auth pain is forgotten PINs, new phones, or skipped recovery setup. Fix those once; logging stays uninterrupted.",
+    "Invitation-only beta means access is intentional. Follow onboarding prompts rather than inventing workarounds that weaken trust."
+  ],
+  "what": {
+    "lead": "Auth building blocks.",
+    "points": [
+      "Welcome / onboarding entry",
+      "Device pairing for your account access",
+      "PIN for quick local protection",
+      "Trusted devices for smoother return visits",
+      "Recovery paths when a device is lost"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Skipping recovery setup saves time.",
+        "truth": "It costs a crisis later. Set recovery while calm."
+      },
+      {
+        "myth": "Sharing my PIN with a partner is fine if we share goals.",
+        "truth": "Prefer separate access patterns. Shared PINs blur responsibility and safety."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Treat auth like brushing teeth — brief, regular, non-dramatic.",
+    "steps": [
+      "Complete onboarding prompts without rushing past recovery",
+      "Set a PIN you can recall under travel stress",
+      "Mark this phone as trusted if offered and it’s yours alone",
+      "When you get a new device, pair deliberately; revoke the old one if needed",
+      "If locked out, use official recovery — avoid unofficial “reset” folklore",
+      "Email hello@kcal.lol only after you’ve tried the in-app recovery path"
+    ],
+    "buddyHelps": "Auth keeps Buddy’s diary yours. The product assumes privacy is part of coaching trust — not an afterthought."
+  },
+  "sections": [
+    {
+      "title": "New phone checklist",
+      "paras": [
+        "Install → sign in / pair → confirm PIN → verify a recent Foodiary day syncs → revoke trust on the old device if it’s leaving your control."
+      ],
+      "steps": [
+        "Do not factory-reset the old phone until the new one shows your data",
+        "Keep recovery material handy during the switch"
+      ]
+    },
+    {
+      "title": "Shared households",
+      "paras": [
+        "Use Spaces for collaboration. Don’t turn one login into a household account — ground truth gets muddy and security weakens."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I wrote my PIN in a photo album titled Passwords.",
+      "why": "Too easy to leak. Use a proper password manager or offline sealed note."
+    },
+    {
+      "quote": "I ignored recovery because onboarding felt long.",
+      "why": "Recovery is the parachute. Five minutes now prevents a bad week later."
+    },
+    {
+      "quote": "I keep reinstalling to “fix” login issues.",
+      "why": "Reinstalls without recovery planning can strand you. Follow Troubleshooting and auth prompts."
+    }
+  ],
+  "encouragement": "Secure enough to protect you, simple enough that you still open Home tomorrow — that’s the auth goal. Set it once, then go log lunch."
+}

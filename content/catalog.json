@@ -2,7 +2,7 @@
   "site": {
     "name": "kCal Buddy",
     "baseUrl": "https://help.kcal.lol",
-    "docsVersion": "1.0.0-phase1",
+    "docsVersion": "1.1.0-phase2",
     "defaultOgImage": "/assets/brand/kcal-buddy-192.png",
     "organization": {
       "name": "kiwicustom GmbH",
@@ -52,10 +52,24 @@
         "Camera or gallery for plates; mic for spoken meals; water for hydration",
         "Watch Today's Progress fill after a log with kcal"
       ],
-      "next": { "id": "home", "label": "Home screen guide" },
-      "related": ["home", "foodiary", "philosophy"],
-      "screenshots": ["home-overview.png", "home-quick-actions.png", "home-budget.png"],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "next": {
+        "id": "home",
+        "label": "Home screen guide"
+      },
+      "related": [
+        "home",
+        "foodiary",
+        "philosophy"
+      ],
+      "screenshots": [
+        "home-overview.png",
+        "home-quick-actions.png",
+        "home-budget.png"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
       "status": "ready"
     },
@@ -67,14 +81,38 @@
       "summary": "Buddy Log, quick actions, and Today's Progress.",
       "kind": "feature",
       "why": "Home is the daily desk. Logging here fills Foodiary and Progress.",
-      "what": ["Buddy Log / Talk food", "Quick actions", "Today's Progress", "Bottom tabs"],
-      "how": ["Tap the orange Log control", "Confirm Buddy's estimate", "Glance at Progress after logging"],
-      "next": { "id": "foodiary", "label": "Buddy vs Foodiary" },
-      "related": ["cheatsheet", "foodiary", "nav"],
-      "screenshots": ["home-overview.png", "home-quick-actions.png", "home-budget.png"],
-      "deepLink": { "path": "/#/", "label": "Open Home" },
+      "what": [
+        "Buddy Log / Talk food",
+        "Quick actions",
+        "Today's Progress",
+        "Bottom tabs"
+      ],
+      "how": [
+        "Tap the orange Log control",
+        "Confirm Buddy's estimate",
+        "Glance at Progress after logging"
+      ],
+      "next": {
+        "id": "foodiary",
+        "label": "Buddy vs Foodiary"
+      },
+      "related": [
+        "cheatsheet",
+        "foodiary",
+        "nav"
+      ],
+      "screenshots": [
+        "home-overview.png",
+        "home-quick-actions.png",
+        "home-budget.png"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Home"
+      },
       "updated": "2026-09-04",
-      "status": "ready"
+      "status": "ready",
+      "bodyFile": "help-home.json"
     },
     {
       "id": "foodiary",
@@ -84,14 +122,33 @@
       "summary": "Day book and corrections — same diary Progress reads.",
       "kind": "feature",
       "why": "Foodiary is the ledger. Buddy is the smart door into it.",
-      "what": ["Review meals", "Edit grams and time", "Manual rows when numbers are known"],
-      "how": ["Prefer Home Log for new meals", "Open Foodiary to fix details", "Avoid blank-kcal rows if you care about Progress"],
-      "next": { "id": "voice", "label": "Voice logging" },
-      "related": ["home", "cheatsheet", "progress"],
+      "what": [
+        "Review meals",
+        "Edit grams and time",
+        "Manual rows when numbers are known"
+      ],
+      "how": [
+        "Prefer Home Log for new meals",
+        "Open Foodiary to fix details",
+        "Avoid blank-kcal rows if you care about Progress"
+      ],
+      "next": {
+        "id": "voice",
+        "label": "Voice logging"
+      },
+      "related": [
+        "home",
+        "cheatsheet",
+        "progress"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Foodiary" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Foodiary"
+      },
       "updated": "2026-09-04",
-      "status": "ready"
+      "status": "ready",
+      "bodyFile": "help-foodiary.json"
     },
     {
       "id": "voice",
@@ -101,14 +158,32 @@
       "summary": "Speak meals into Buddy.",
       "kind": "feature",
       "why": "Voice removes friction so honest logging happens.",
-      "what": ["Start voice from Home", "Review transcript and estimate", "Save to Foodiary"],
-      "how": ["Tap mic / Talk food", "Speak clearly", "Confirm before save"],
-      "next": { "id": "camera", "label": "Camera" },
-      "related": ["home", "foodiary"],
+      "what": [
+        "Start voice from Home",
+        "Review transcript and estimate",
+        "Save to Foodiary"
+      ],
+      "how": [
+        "Tap mic / Talk food",
+        "Speak clearly",
+        "Confirm before save"
+      ],
+      "next": {
+        "id": "camera",
+        "label": "Camera"
+      },
+      "related": [
+        "home",
+        "foodiary"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Voice" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Voice"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-voice.json"
     },
     {
       "id": "camera",
@@ -118,14 +193,33 @@
       "summary": "Photo capture for meals.",
       "kind": "feature",
       "why": "A photo is often faster than typing.",
-      "what": ["Capture or pick from gallery", "Review recognition", "Confirm portion and save"],
-      "how": ["Use camera or gallery quick action on Home", "Check Buddy's suggestion", "Save"],
-      "next": { "id": "meal-plan", "label": "Meal Plan" },
-      "related": ["home", "voice", "foodiary"],
+      "what": [
+        "Capture or pick from gallery",
+        "Review recognition",
+        "Confirm portion and save"
+      ],
+      "how": [
+        "Use camera or gallery quick action on Home",
+        "Check Buddy's suggestion",
+        "Save"
+      ],
+      "next": {
+        "id": "meal-plan",
+        "label": "Meal Plan"
+      },
+      "related": [
+        "home",
+        "voice",
+        "foodiary"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Camera" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Camera"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-camera.json"
     },
     {
       "id": "meal-plan",
@@ -135,14 +229,32 @@
       "summary": "Plan meals ahead — not the live diary.",
       "kind": "feature",
       "why": "Planning reduces decision fatigue.",
-      "what": ["Browse plan", "Add planned meals", "Use shopping helpers when available"],
-      "how": ["Open Meal Plan tab", "Add realistic dinners", "Log actual intake on Home when you eat"],
-      "next": { "id": "progress", "label": "Progress" },
-      "related": ["home", "nutrition"],
+      "what": [
+        "Browse plan",
+        "Add planned meals",
+        "Use shopping helpers when available"
+      ],
+      "how": [
+        "Open Meal Plan tab",
+        "Add realistic dinners",
+        "Log actual intake on Home when you eat"
+      ],
+      "next": {
+        "id": "progress",
+        "label": "Progress"
+      },
+      "related": [
+        "home",
+        "nutrition"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Meal Plan" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Meal Plan"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-meal-plan.json"
     },
     {
       "id": "progress",
@@ -152,14 +264,32 @@
       "summary": "Trends from honest logs.",
       "kind": "feature",
       "why": "Trends beat day-to-day noise.",
-      "what": ["Weekly/monthly views", "Protein and weight trends", "Link back to Foodiary"],
-      "how": ["Log consistently on Home", "Open Progress weekly", "Change one variable at a time"],
-      "next": { "id": "spaces", "label": "Spaces" },
-      "related": ["home", "weekly-success"],
+      "what": [
+        "Weekly/monthly views",
+        "Protein and weight trends",
+        "Link back to Foodiary"
+      ],
+      "how": [
+        "Log consistently on Home",
+        "Open Progress weekly",
+        "Change one variable at a time"
+      ],
+      "next": {
+        "id": "spaces",
+        "label": "Spaces"
+      },
+      "related": [
+        "home",
+        "weekly-success"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Progress" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Progress"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-progress.json"
     },
     {
       "id": "spaces",
@@ -169,14 +299,32 @@
       "summary": "Collaborate with family, friends, and coaches.",
       "kind": "feature",
       "why": "Health scales through belonging.",
-      "what": ["Join or create a Space", "Share appropriate progress", "Invite members"],
-      "how": ["Open Spaces tab", "Accept invite or create", "Keep personal logs honest"],
-      "next": { "id": "settings", "label": "Settings" },
-      "related": ["philosophy", "challenges"],
+      "what": [
+        "Join or create a Space",
+        "Share appropriate progress",
+        "Invite members"
+      ],
+      "how": [
+        "Open Spaces tab",
+        "Accept invite or create",
+        "Keep personal logs honest"
+      ],
+      "next": {
+        "id": "settings",
+        "label": "Settings"
+      },
+      "related": [
+        "philosophy",
+        "challenges"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Spaces" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Spaces"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-spaces.json"
     },
     {
       "id": "settings",
@@ -186,14 +334,34 @@
       "summary": "Profile, theme, language, notifications, integrations.",
       "kind": "feature",
       "why": "Defaults should match your life.",
-      "what": ["Profile", "Theme", "Language", "Notifications", "Integrations"],
-      "how": ["Open Menu", "Adjust one setting at a time", "Confirm language/theme"],
-      "next": { "id": "auth", "label": "Authentication" },
-      "related": ["auth", "troubleshooting"],
+      "what": [
+        "Profile",
+        "Theme",
+        "Language",
+        "Notifications",
+        "Integrations"
+      ],
+      "how": [
+        "Open Menu",
+        "Adjust one setting at a time",
+        "Confirm language/theme"
+      ],
+      "next": {
+        "id": "auth",
+        "label": "Authentication"
+      },
+      "related": [
+        "auth",
+        "troubleshooting"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Settings" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Settings"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-settings.json"
     },
     {
       "id": "auth",
@@ -203,14 +371,33 @@
       "summary": "Sign-in, devices, PIN, recovery.",
       "kind": "feature",
       "why": "Your health data stays yours.",
-      "what": ["Welcome", "Device pairing", "PIN", "Trusted devices", "Recovery"],
-      "how": ["Follow onboarding prompts", "Keep recovery info safe", "Use trusted devices"],
-      "next": { "id": "troubleshooting", "label": "Troubleshooting" },
-      "related": ["settings"],
+      "what": [
+        "Welcome",
+        "Device pairing",
+        "PIN",
+        "Trusted devices",
+        "Recovery"
+      ],
+      "how": [
+        "Follow onboarding prompts",
+        "Keep recovery info safe",
+        "Use trusted devices"
+      ],
+      "next": {
+        "id": "troubleshooting",
+        "label": "Troubleshooting"
+      },
+      "related": [
+        "settings"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open App" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open App"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-auth.json"
     },
     {
       "id": "nav",
@@ -220,12 +407,33 @@
       "summary": "What each tab is for.",
       "kind": "feature",
       "why": "Orientation prevents wrong-door logging.",
-      "what": ["Home", "Meal Plan", "Foodiary", "Activity", "Progress", "Spaces", "Menu"],
-      "how": ["Log on Home", "Edit in Foodiary", "Review in Progress"],
-      "next": { "id": "troubleshooting", "label": "Troubleshooting" },
-      "related": ["home", "cheatsheet"],
+      "what": [
+        "Home",
+        "Meal Plan",
+        "Foodiary",
+        "Activity",
+        "Progress",
+        "Spaces",
+        "Menu"
+      ],
+      "how": [
+        "Log on Home",
+        "Edit in Foodiary",
+        "Review in Progress"
+      ],
+      "next": {
+        "id": "troubleshooting",
+        "label": "Troubleshooting"
+      },
+      "related": [
+        "home",
+        "cheatsheet"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open App" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open App"
+      },
       "updated": "2026-09-04",
       "status": "ready"
     },
@@ -237,21 +445,40 @@
       "summary": "Progress at 0, wrong day, blank kcal, sync issues.",
       "kind": "feature",
       "why": "Most “bugs” are path or day mismatches.",
-      "what": ["Check log path (Home vs Foodiary)", "Check selected day", "Check kcal on rows"],
-      "how": ["Log once on Home with kcal", "Open Foodiary for that day", "Email hello@kcal.lol if stuck"],
-      "next": { "id": "cheatsheet", "label": "Quick Guide" },
-      "related": ["home", "foodiary", "cheatsheet"],
+      "what": [
+        "Check log path (Home vs Foodiary)",
+        "Check selected day",
+        "Check kcal on rows"
+      ],
+      "how": [
+        "Log once on Home with kcal",
+        "Open Foodiary for that day",
+        "Email hello@kcal.lol if stuck"
+      ],
+      "next": {
+        "id": "cheatsheet",
+        "label": "Quick Guide"
+      },
+      "related": [
+        "home",
+        "foodiary",
+        "cheatsheet"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open App" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open App"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "help-troubleshooting.json"
     },
     {
       "id": "academy-hub",
       "pillar": "academy",
       "path": "academy/index.html",
       "title": "Buddy Academy",
-      "summary": "Learn to succeed — habits, knowledge, health. Not button manuals.",
+      "summary": "Learn to succeed — from why Buddy exists to daily habits and Nutrition Academy.",
       "kind": "hub",
       "updated": "2026-09-04",
       "status": "ready"
@@ -263,11 +490,23 @@
       "title": "kCal Philosophy",
       "summary": "Why kCal Buddy exists — the foundation of everything we build.",
       "kind": "foundation",
-      "next": { "id": "first-30-days", "label": "First 30 Days" },
-      "related": ["first-30-days", "daily-success", "cheatsheet"],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "next": {
+        "id": "first-30-days",
+        "label": "First 30 Days"
+      },
+      "related": [
+        "why-kcal-buddy",
+        "first-30-days",
+        "daily-success"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
-      "status": "ready"
+      "status": "ready",
+      "bodyFile": "philosophy.json",
+      "track": "foundation"
     },
     {
       "id": "first-30-days",
@@ -277,14 +516,37 @@
       "summary": "Build the habit loop in month one.",
       "kind": "lesson",
       "why": "The first month builds the habit loop. Consistency beats perfection.",
-      "what": ["Log most meals for stretches of days", "Optional steady weigh-ins", "Weekly Progress glance", "Light Meal Plan"],
-      "how": ["Start today with one honest log", "Restart at the next meal if you miss", "Do not wait for a perfect week"],
-      "next": { "id": "daily-success", "label": "Daily Success" },
-      "related": ["philosophy", "cheatsheet", "home"],
-      "screenshots": ["home-budget.png"],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "what": [
+        "Log most meals for stretches of days",
+        "Optional steady weigh-ins",
+        "Weekly Progress glance",
+        "Light Meal Plan"
+      ],
+      "how": [
+        "Start today with one honest log",
+        "Restart at the next meal if you miss",
+        "Do not wait for a perfect week"
+      ],
+      "next": {
+        "id": "daily-success",
+        "label": "Daily Success"
+      },
+      "related": [
+        "philosophy",
+        "daily-success",
+        "cheatsheet"
+      ],
+      "screenshots": [
+        "home-budget.png"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
-      "status": "ready"
+      "status": "ready",
+      "bodyFile": "first-30-days.json",
+      "track": "journey"
     },
     {
       "id": "daily-success",
@@ -294,14 +556,37 @@
       "summary": "A tiny repeatable ritual beats motivation.",
       "kind": "lesson",
       "why": "Rituals beat motivation.",
-      "what": ["Morning check on Home", "Log each meal", "Evening Foodiary skim", "Optional water/mood"],
-      "how": ["Same time window daily", "One orange button is enough", "Fix one thing at night if needed"],
-      "next": { "id": "weekly-success", "label": "Weekly Success" },
-      "related": ["first-30-days", "home", "cheatsheet"],
-      "screenshots": ["home-quick-actions.png"],
-      "deepLink": { "path": "/#/", "label": "Open Home" },
+      "what": [
+        "Morning check on Home",
+        "Log each meal",
+        "Evening Foodiary skim",
+        "Optional water/mood"
+      ],
+      "how": [
+        "Same time window daily",
+        "One orange button is enough",
+        "Fix one thing at night if needed"
+      ],
+      "next": {
+        "id": "weekly-success",
+        "label": "Weekly Success"
+      },
+      "related": [
+        "first-30-days",
+        "home",
+        "cheatsheet"
+      ],
+      "screenshots": [
+        "home-quick-actions.png"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Home"
+      },
       "updated": "2026-09-04",
-      "status": "ready"
+      "status": "ready",
+      "bodyFile": "daily-success.json",
+      "track": "journey"
     },
     {
       "id": "weekly-success",
@@ -311,14 +596,35 @@
       "summary": "Turn raw logs into learning without daily obsession.",
       "kind": "lesson",
       "why": "Weekly review turns logs into learning.",
-      "what": ["Open Progress for the week", "Scan Foodiary patterns", "One Meal Plan tweak", "Celebrate adherence"],
-      "how": ["Ask what good days shared", "Change one variable", "Avoid crash resets"],
-      "next": { "id": "monthly-success", "label": "Monthly Success" },
-      "related": ["daily-success", "progress"],
+      "what": [
+        "Open Progress for the week",
+        "Scan Foodiary patterns",
+        "One Meal Plan tweak",
+        "Celebrate adherence"
+      ],
+      "how": [
+        "Ask what good days shared",
+        "Change one variable",
+        "Avoid crash resets"
+      ],
+      "next": {
+        "id": "monthly-success",
+        "label": "Monthly Success"
+      },
+      "related": [
+        "daily-success",
+        "progress",
+        "nutrition-protein"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Progress" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Progress"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "weekly-success.json",
+      "track": "journey"
     },
     {
       "id": "monthly-success",
@@ -328,14 +634,35 @@
       "summary": "Months show direction. Days show noise.",
       "kind": "lesson",
       "why": "Zoom out monthly to see direction.",
-      "what": ["Compare adherence", "Update goals if life changed", "Archive wins", "Set one theme"],
-      "how": ["Review Progress trends", "Adjust protein/fiber themes", "Restart small if messy"],
-      "next": { "id": "nutrition", "label": "Nutrition" },
-      "related": ["weekly-success", "nutrition"],
+      "what": [
+        "Compare adherence",
+        "Update goals if life changed",
+        "Archive wins",
+        "Set one theme"
+      ],
+      "how": [
+        "Review Progress trends",
+        "Adjust protein/fiber themes",
+        "Restart small if messy"
+      ],
+      "next": {
+        "id": "nutrition-calories",
+        "label": "Calories"
+      },
+      "related": [
+        "weekly-success",
+        "nutrition-protein",
+        "progress"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Progress" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Progress"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "ready",
+      "bodyFile": "monthly-success.json",
+      "track": "journey"
     },
     {
       "id": "nutrition",
@@ -345,12 +672,30 @@
       "summary": "Protein, fibre, energy — knowledge over guessing.",
       "kind": "lesson",
       "why": "Understanding why creates lasting habits.",
-      "what": ["Protein targets", "Fibre matters", "Energy budget basics"],
-      "how": ["Log honestly", "Prefer protein-forward meals", "Use Buddy estimates then refine"],
-      "next": { "id": "exercise", "label": "Exercise" },
-      "related": ["philosophy", "meal-plan", "progress"],
+      "what": [
+        "Protein targets",
+        "Fibre matters",
+        "Energy budget basics"
+      ],
+      "how": [
+        "Log honestly",
+        "Prefer protein-forward meals",
+        "Use Buddy estimates then refine"
+      ],
+      "next": {
+        "id": "exercise",
+        "label": "Exercise"
+      },
+      "related": [
+        "philosophy",
+        "meal-plan",
+        "progress"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
       "status": "placeholder"
     },
@@ -362,14 +707,32 @@
       "summary": "Movement as part of the Health Operating System.",
       "kind": "lesson",
       "why": "Movement supports recovery, mood, and long-term health.",
-      "what": ["Activity logging", "Training context", "Balance with recovery"],
-      "how": ["Log activity when relevant", "Do not punish food days", "Pair with protein and sleep"],
-      "next": { "id": "recovery", "label": "Recovery" },
-      "related": ["recovery", "nutrition"],
+      "what": [
+        "Activity logging",
+        "Training context",
+        "Balance with recovery"
+      ],
+      "how": [
+        "Log activity when relevant",
+        "Do not punish food days",
+        "Pair with protein and sleep"
+      ],
+      "next": {
+        "id": "recovery",
+        "label": "Recovery"
+      },
+      "related": [
+        "recovery",
+        "nutrition"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Activity" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Activity"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "placeholder",
+      "track": "journey"
     },
     {
       "id": "recovery",
@@ -379,14 +742,32 @@
       "summary": "Sleep, hydration, and rest are health — not optional.",
       "kind": "lesson",
       "why": "Recovery matters as much as training and diet.",
-      "what": ["Sleep", "Hydration", "Rest days"],
-      "how": ["Log water on Home", "Protect sleep windows", "Treat rest as planned"],
-      "next": { "id": "challenges", "label": "Challenges" },
-      "related": ["philosophy", "daily-success"],
+      "what": [
+        "Sleep",
+        "Hydration",
+        "Rest days"
+      ],
+      "how": [
+        "Log water on Home",
+        "Protect sleep windows",
+        "Treat rest as planned"
+      ],
+      "next": {
+        "id": "challenges",
+        "label": "Challenges"
+      },
+      "related": [
+        "philosophy",
+        "daily-success"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "placeholder",
+      "track": "journey"
     },
     {
       "id": "challenges",
@@ -396,14 +777,32 @@
       "summary": "Structured streaks and goals — encouragement, not shame.",
       "kind": "lesson",
       "why": "Challenges create shared momentum.",
-      "what": ["Pick a realistic challenge", "Track adherence", "Celebrate completion"],
-      "how": ["Start small", "Log honestly", "Reset without shame"],
-      "next": { "id": "faq", "label": "FAQ" },
-      "related": ["spaces", "first-30-days"],
+      "what": [
+        "Pick a realistic challenge",
+        "Track adherence",
+        "Celebrate completion"
+      ],
+      "how": [
+        "Start small",
+        "Log honestly",
+        "Reset without shame"
+      ],
+      "next": {
+        "id": "faq",
+        "label": "FAQ"
+      },
+      "related": [
+        "spaces",
+        "first-30-days"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "placeholder",
+      "track": "journey"
     },
     {
       "id": "faq",
@@ -413,14 +812,34 @@
       "summary": "Common questions about Buddy, Foodiary, and Progress.",
       "kind": "lesson",
       "why": "Clear answers reduce frustration.",
-      "what": ["Buddy vs Foodiary", "Why Progress is 0", "Voice and camera", "Spaces"],
-      "how": ["Read Quick Guide first", "Check Troubleshooting", "Contact hello@kcal.lol"],
-      "next": { "id": "cheatsheet", "label": "Quick Guide" },
-      "related": ["cheatsheet", "troubleshooting", "philosophy"],
+      "what": [
+        "Buddy vs Foodiary",
+        "Why Progress is 0",
+        "Voice and camera",
+        "Spaces"
+      ],
+      "how": [
+        "Read Quick Guide first",
+        "Check Troubleshooting",
+        "Contact hello@kcal.lol"
+      ],
+      "next": {
+        "id": "cheatsheet",
+        "label": "Quick Guide"
+      },
+      "related": [
+        "cheatsheet",
+        "troubleshooting",
+        "philosophy"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open in kCal Buddy" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
-      "status": "placeholder"
+      "status": "placeholder",
+      "track": "journey"
     },
     {
       "id": "docs-hub",
@@ -440,10 +859,26 @@
       "summary": "Public overview: Buddy · Spaces · Desks on Platform Core.",
       "kind": "tech",
       "why": "Partners and power users need a stable mental model.",
-      "what": ["Platform Core", "Buddy", "Spaces", "Desks"],
-      "how": ["Read this overview", "See Integrations for connectors", "Internal detail remains in monorepo docs/"],
-      "next": { "id": "apis", "label": "Public APIs" },
-      "related": ["apis", "authentication", "integrations"],
+      "what": [
+        "Platform Core",
+        "Buddy",
+        "Spaces",
+        "Desks"
+      ],
+      "how": [
+        "Read this overview",
+        "See Integrations for connectors",
+        "Internal detail remains in monorepo docs/"
+      ],
+      "next": {
+        "id": "apis",
+        "label": "Public APIs"
+      },
+      "related": [
+        "apis",
+        "authentication",
+        "integrations"
+      ],
       "screenshots": [],
       "deepLink": null,
       "updated": "2026-09-04",
@@ -457,10 +892,24 @@
       "summary": "Public API surface (expand as endpoints are published).",
       "kind": "tech",
       "why": "Stable contracts enable integrations.",
-      "what": ["Versioned public endpoints", "Auth requirements", "Rate limits (when published)"],
-      "how": ["Authenticate per Authentication", "Call documented routes only", "Do not scrape private app APIs"],
-      "next": { "id": "authentication", "label": "Authentication" },
-      "related": ["authentication", "integrations"],
+      "what": [
+        "Versioned public endpoints",
+        "Auth requirements",
+        "Rate limits (when published)"
+      ],
+      "how": [
+        "Authenticate per Authentication",
+        "Call documented routes only",
+        "Do not scrape private app APIs"
+      ],
+      "next": {
+        "id": "authentication",
+        "label": "Authentication"
+      },
+      "related": [
+        "authentication",
+        "integrations"
+      ],
       "screenshots": [],
       "deepLink": null,
       "updated": "2026-09-04",
@@ -474,10 +923,24 @@
       "summary": "Public auth model for app and future APIs.",
       "kind": "tech",
       "why": "Security and privacy are non-negotiable.",
-      "what": ["User sessions", "Device trust", "API credentials (when published)"],
-      "how": ["Use official clients", "Never share recovery secrets", "Report issues to hello@kcal.lol"],
-      "next": { "id": "integrations", "label": "Integrations" },
-      "related": ["apis", "auth"],
+      "what": [
+        "User sessions",
+        "Device trust",
+        "API credentials (when published)"
+      ],
+      "how": [
+        "Use official clients",
+        "Never share recovery secrets",
+        "Report issues to hello@kcal.lol"
+      ],
+      "next": {
+        "id": "integrations",
+        "label": "Integrations"
+      },
+      "related": [
+        "apis",
+        "auth"
+      ],
       "screenshots": [],
       "deepLink": null,
       "updated": "2026-09-04",
@@ -491,12 +954,29 @@
       "summary": "Health sources and partner connectors (public).",
       "kind": "tech",
       "why": "Health data should connect without lock-in theater.",
-      "what": ["Supported sources (as published)", "OAuth patterns", "Data ownership"],
-      "how": ["Connect from Settings when available", "Revoke unused grants", "Read partner terms"],
-      "next": { "id": "release-notes", "label": "Release Notes" },
-      "related": ["architecture", "apis"],
+      "what": [
+        "Supported sources (as published)",
+        "OAuth patterns",
+        "Data ownership"
+      ],
+      "how": [
+        "Connect from Settings when available",
+        "Revoke unused grants",
+        "Read partner terms"
+      ],
+      "next": {
+        "id": "release-notes",
+        "label": "Release Notes"
+      },
+      "related": [
+        "architecture",
+        "apis"
+      ],
       "screenshots": [],
-      "deepLink": { "path": "/#/", "label": "Open Settings" },
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open Settings"
+      },
       "updated": "2026-09-04",
       "status": "placeholder"
     },
@@ -508,12 +988,417 @@
       "summary": "Public release highlights for kCal Buddy.",
       "kind": "tech",
       "why": "Users and partners need a clear change log.",
-      "what": ["Version", "Highlights", "Known issues"],
-      "how": ["Read latest notes", "Update the app when prompted", "Send feedback to hello@kcal.lol"],
-      "next": { "id": "docs-hub", "label": "Developer Documentation hub" },
-      "related": ["architecture"],
+      "what": [
+        "Version",
+        "Highlights",
+        "Known issues"
+      ],
+      "how": [
+        "Read latest notes",
+        "Update the app when prompted",
+        "Send feedback to hello@kcal.lol"
+      ],
+      "next": {
+        "id": "docs-hub",
+        "label": "Developer Documentation hub"
+      },
+      "related": [
+        "architecture"
+      ],
       "screenshots": [],
       "deepLink": null,
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "why-kcal-buddy",
+      "pillar": "academy",
+      "path": "academy/why-kcal-buddy.html",
+      "title": "Why kCal Buddy?",
+      "summary": "Why another health app exists — and what makes Buddy different.",
+      "kind": "lesson",
+      "track": "foundation",
+      "bodyFile": "why-kcal-buddy.json",
+      "next": {
+        "id": "philosophy",
+        "label": "kCal Philosophy"
+      },
+      "related": [
+        "philosophy",
+        "first-30-days",
+        "cheatsheet"
+      ],
+      "screenshots": [
+        "home-overview.png"
+      ],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-calories",
+      "pillar": "academy",
+      "path": "academy/nutrition-calories.html",
+      "title": "Calories",
+      "summary": "Energy is physics — outcomes are food quality.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-calories.json",
+      "next": {
+        "id": "nutrition-protein",
+        "label": "Protein"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-protein",
+      "pillar": "academy",
+      "path": "academy/nutrition-protein.html",
+      "title": "Protein",
+      "summary": "Muscle, recovery, and satiety.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-protein.json",
+      "next": {
+        "id": "nutrition-leucine",
+        "label": "Leucine"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-leucine",
+      "pillar": "academy",
+      "path": "academy/nutrition-leucine.html",
+      "title": "Leucine",
+      "summary": "The amino acid that helps trigger muscle building.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-leucine.json",
+      "next": {
+        "id": "nutrition-fiber",
+        "label": "Fiber"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-fiber",
+      "pillar": "academy",
+      "path": "academy/nutrition-fiber.html",
+      "title": "Fiber",
+      "summary": "Digestion, fullness, long-term health.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-fiber.json",
+      "next": {
+        "id": "nutrition-water",
+        "label": "Water"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-water",
+      "pillar": "academy",
+      "path": "academy/nutrition-water.html",
+      "title": "Water",
+      "summary": "Hydration as a daily habit.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-water.json",
+      "next": {
+        "id": "nutrition-fats",
+        "label": "Healthy Fats"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-fats",
+      "pillar": "academy",
+      "path": "academy/nutrition-fats.html",
+      "title": "Healthy Fats",
+      "summary": "Fats that support hormones and meals.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-fats.json",
+      "next": {
+        "id": "nutrition-carbs",
+        "label": "Carbohydrates"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-carbs",
+      "pillar": "academy",
+      "path": "academy/nutrition-carbs.html",
+      "title": "Carbohydrates",
+      "summary": "Fuel — without fear.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-carbs.json",
+      "next": {
+        "id": "nutrition-tef",
+        "label": "TEF"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-tef",
+      "pillar": "academy",
+      "path": "academy/nutrition-tef.html",
+      "title": "TEF",
+      "summary": "Thermic effect of food — why protein costs energy to digest.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-tef.json",
+      "next": {
+        "id": "nutrition-meal-planning",
+        "label": "Meal Planning"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-meal-planning",
+      "pillar": "academy",
+      "path": "academy/nutrition-meal-planning.html",
+      "title": "Meal Planning",
+      "summary": "Plan meals you will actually eat.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-meal-planning.json",
+      "next": {
+        "id": "nutrition-budget",
+        "label": "Budget Nutrition"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-budget",
+      "pillar": "academy",
+      "path": "academy/nutrition-budget.html",
+      "title": "Budget Nutrition",
+      "summary": "Healthy eating without expensive groceries.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-budget.json",
+      "next": {
+        "id": "nutrition-restaurant",
+        "label": "Restaurant Eating"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-restaurant",
+      "pillar": "academy",
+      "path": "academy/nutrition-restaurant.html",
+      "title": "Restaurant Eating",
+      "summary": "Survive menus without abandoning the plan.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-restaurant.json",
+      "next": {
+        "id": "nutrition-travel",
+        "label": "Travel"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-travel",
+      "pillar": "academy",
+      "path": "academy/nutrition-travel.html",
+      "title": "Travel",
+      "summary": "Stay consistent on the road.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-travel.json",
+      "next": {
+        "id": "nutrition-cheat-meals",
+        "label": "Cheat Meals"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-cheat-meals",
+      "pillar": "academy",
+      "path": "academy/nutrition-cheat-meals.html",
+      "title": "Cheat Meals",
+      "summary": "Flexibility without shame spirals.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-cheat-meals.json",
+      "next": {
+        "id": "nutrition-meal-prep",
+        "label": "Meal Prep"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
+      "updated": "2026-09-04",
+      "status": "ready"
+    },
+    {
+      "id": "nutrition-meal-prep",
+      "pillar": "academy",
+      "path": "academy/nutrition-meal-prep.html",
+      "title": "Meal Prep",
+      "summary": "Cook once, eat well all week.",
+      "kind": "lesson",
+      "track": "nutrition",
+      "bodyFile": "nutrition-meal-prep.json",
+      "next": {
+        "id": "daily-success",
+        "label": "Daily Success"
+      },
+      "related": [
+        "philosophy",
+        "nutrition-protein",
+        "meal-plan"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/",
+        "label": "Open in kCal Buddy"
+      },
       "updated": "2026-09-04",
       "status": "ready"
     }

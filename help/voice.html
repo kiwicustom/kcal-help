@@ -17,7 +17,7 @@
     <meta name="twitter:title" content="Voice — kCal Buddy" />
     <meta name="twitter:description" content="Speak meals into Buddy." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
-    <meta name="kcal:docs-version" content="1.0.0-phase1" />
+    <meta name="kcal:docs-version" content="1.1.0-phase2" />
     <meta name="kcal:app-version" content="0.8.41" />
     <meta name="kcal:updated" content="2026-09-04" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
@@ -38,24 +38,73 @@
       <h1>Voice</h1>
       <p class="lead">Speak meals into Buddy.</p>
       
-      <p class="badge">Foundation placeholder — content expands without layout changes</p>
+      
+      <p class="academy-meta"><span class="badge blue">⏱ 7 min</span> <span class="badge green">Ready</span></p>
+      <p class="lead">Voice removes friction so honest logging happens. Speak the meal, review the transcript and estimate, then save — especially powerful when your hands are full.</p>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>💬 Buddy Tip</strong>
+        <p class="note" style="margin:0.25rem 0 0">Say the protein first, then sides, then oils and drinks: “chicken, rice, broccoli, olive oil, sparkling water.”</p>
+      </div>
+    </div>
+      <div class="card" style="margin:1rem 0">
+      <div class="tag">🎯 Today's Mission</div>
+      <p style="margin:0.35rem 0 0">Log your next meal with voice from Home and confirm before save.</p>
+    </div>
       <section class="cheat-block" id="why">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">WHY?</span><h2>Why</h2></header>
-        <p class="cheat-block__lead">Voice removes friction so honest logging happens.</p>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">WHY?</span><h2>Why this matters</h2></header>
+        <p>Typing every ingredient fails on busy days. Voice keeps capture close to the plate, which improves honesty versus midnight reconstruction.</p>
+<p>Spoken logs also encourage completeness: when you talk, you remember sauces and the second bread roll more often than when you tap three generic items.</p>
+<p>Voice is not magic — accents, noise, and vague phrases need your confirmation. The confirm step is the coaching moment, not a nuisance.</p>
       </section>
       <section class="cheat-block" id="what">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">WHAT?</span><h2>What</h2></header>
-        <ol class="steps"><li><span class="num">1</span><div><p>Start voice from Home</p></div></li>
-<li><span class="num">2</span><div><p>Review transcript and estimate</p></div></li>
-<li><span class="num">3</span><div><p>Save to Foodiary</p></div></li></ol>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">WHAT?</span><h2>What to understand</h2></header>
+        <p class="cheat-block__lead">What voice logging includes.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Start from Home mic / Talk food</p></div></li>
+<li><span class="num">2</span><div><p>Speak clearly; include oils, drinks, and approximate portions</p></div></li>
+<li><span class="num">3</span><div><p>Review transcript and Buddy’s estimate</p></div></li>
+<li><span class="num">4</span><div><p>Adjust before save when something is wrong</p></div></li>
+<li><span class="num">5</span><div><p>Find the meal afterward in Foodiary for fine edits</p></div></li></ol>
+        <div class="grid-2" style="margin-top:0.75rem"><div class="card"><div class="tag">Myth</div><strong>If the transcript isn’t perfect, the log is useless.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Fix key foods and portions on confirm. Directional honesty beats silence.</p></div><div class="card"><div class="tag">Myth</div><strong>Voice means I shouldn’t use camera or text.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Mix modes. Voice for speed; camera for complex plates; text for labels.</p></div></div>
       </section>
       <section class="cheat-block" id="how">
-        <header class="cheat-block__head"><span class="cheat-block__kicker">HOW?</span><h2>How</h2></header>
-        <ol class="steps"><li><span class="num">1</span><div><p>Tap mic / Talk food</p></div></li>
-<li><span class="num">2</span><div><p>Speak clearly</p></div></li>
-<li><span class="num">3</span><div><p>Confirm before save</p></div></li></ol>
+        <header class="cheat-block__head"><span class="cheat-block__kicker">HOW?</span><h2>How to do this in real life</h2></header>
+        <p class="cheat-block__lead">Build a speaking template.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Tap mic on Home</p></div></li>
+<li><span class="num">2</span><div><p>List foods with rough amounts (“two eggs,” “a fist of rice,” “a teaspoon oil”)</p></div></li>
+<li><span class="num">3</span><div><p>Mention cooking method if it changes fat (“fried,” “grilled,” “with cream sauce”)</p></div></li>
+<li><span class="num">4</span><div><p>Pause; review what Buddy heard and estimated</p></div></li>
+<li><span class="num">5</span><div><p>Confirm save; skim Foodiary later only if needed</p></div></li></ol>
+        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Buddy turns speech into structured diary entries with estimates. Confirmation keeps you in control while still moving fast.</p></div></div>
         <p class="note" data-ext="screenshots">Screenshots will appear here when Playwright coverage is added for this page.</p>
       </section>
+      <section class="cheat-block"><h2>Noisy environments</h2><p>Cup a hand, face away from the room, or step aside. If recognition fails twice, switch to photo or text — don’t abandon the log.</p></section>
+<section class="cheat-block"><h2>Privacy</h2><p>Be mindful in quiet offices or shared spaces. Short phrases work; you don’t need to narrate your life story.</p></section>
+      <section class="cheat-block" id="mistakes">
+      <header class="cheat-block__head"><span class="cheat-block__kicker">⚠ Common mistakes</span><h2>Common mistakes</h2></header>
+      <ul class="steps" style="list-style:none;padding:0"><li class="card" style="list-style:none">
+        <strong>“I said “lunch” and expected Buddy to invent the plate.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Voice needs content. Name foods and portions.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“I saved without reading the estimate and got angry later.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Confirm is part of the flow. Ten seconds prevents bad ledger rows.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“Mic failed once so I stopped logging for the day.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Switch input mode. The meal still deserves a diary line.</p>
+      </li></ul>
+    </section>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>❤️ Encouragement</strong>
+        <p class="note" style="margin:0.25rem 0 0">Talk food like you’re telling a friend what you ate. Buddy listens, estimates, and keeps the day honest — you stay in charge at confirm.</p>
+      </div>
+    </div>
       <p class="platform-deeplink" data-ext="deeplink">
       <a class="btn-deeplink" href="https://beta.kcal.lol/#/" rel="noopener">Open Voice</a>
       <span class="note"> Invitation-only product.</span>

@@ -1,0 +1,71 @@
+{
+  "intro": "Voice removes friction so honest logging happens. Speak the meal, review the transcript and estimate, then save — especially powerful when your hands are full.",
+  "time": "7 min",
+  "buddyTip": "Say the protein first, then sides, then oils and drinks: “chicken, rice, broccoli, olive oil, sparkling water.”",
+  "mission": "Log your next meal with voice from Home and confirm before save.",
+  "why": [
+    "Typing every ingredient fails on busy days. Voice keeps capture close to the plate, which improves honesty versus midnight reconstruction.",
+    "Spoken logs also encourage completeness: when you talk, you remember sauces and the second bread roll more often than when you tap three generic items.",
+    "Voice is not magic — accents, noise, and vague phrases need your confirmation. The confirm step is the coaching moment, not a nuisance."
+  ],
+  "what": {
+    "lead": "What voice logging includes.",
+    "points": [
+      "Start from Home mic / Talk food",
+      "Speak clearly; include oils, drinks, and approximate portions",
+      "Review transcript and Buddy’s estimate",
+      "Adjust before save when something is wrong",
+      "Find the meal afterward in Foodiary for fine edits"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If the transcript isn’t perfect, the log is useless.",
+        "truth": "Fix key foods and portions on confirm. Directional honesty beats silence."
+      },
+      {
+        "myth": "Voice means I shouldn’t use camera or text.",
+        "truth": "Mix modes. Voice for speed; camera for complex plates; text for labels."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Build a speaking template.",
+    "steps": [
+      "Tap mic on Home",
+      "List foods with rough amounts (“two eggs,” “a fist of rice,” “a teaspoon oil”)",
+      "Mention cooking method if it changes fat (“fried,” “grilled,” “with cream sauce”)",
+      "Pause; review what Buddy heard and estimated",
+      "Confirm save; skim Foodiary later only if needed"
+    ],
+    "buddyHelps": "Buddy turns speech into structured diary entries with estimates. Confirmation keeps you in control while still moving fast."
+  },
+  "sections": [
+    {
+      "title": "Noisy environments",
+      "paras": [
+        "Cup a hand, face away from the room, or step aside. If recognition fails twice, switch to photo or text — don’t abandon the log."
+      ]
+    },
+    {
+      "title": "Privacy",
+      "paras": [
+        "Be mindful in quiet offices or shared spaces. Short phrases work; you don’t need to narrate your life story."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I said “lunch” and expected Buddy to invent the plate.",
+      "why": "Voice needs content. Name foods and portions."
+    },
+    {
+      "quote": "I saved without reading the estimate and got angry later.",
+      "why": "Confirm is part of the flow. Ten seconds prevents bad ledger rows."
+    },
+    {
+      "quote": "Mic failed once so I stopped logging for the day.",
+      "why": "Switch input mode. The meal still deserves a diary line."
+    }
+  ],
+  "encouragement": "Talk food like you’re telling a friend what you ate. Buddy listens, estimates, and keeps the day honest — you stay in charge at confirm."
+}

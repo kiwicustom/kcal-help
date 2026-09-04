@@ -1,0 +1,78 @@
+{
+  "intro": "A photo is often faster than typing. Capture or pick from gallery, review what Buddy recognises, confirm the portion, and save to the diary.",
+  "time": "7 min",
+  "buddyTip": "Shoot from above with decent light; include the whole plate. Mention hidden oils on confirm if the photo can’t show them.",
+  "mission": "Log one meal with camera or gallery from Home and confirm the portion before save.",
+  "why": [
+    "Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.",
+    "Camera logging still requires human judgment. Recognition can miss sauces, oils, drinks beside the plate, or second helpings. Your confirmation protects honesty.",
+    "Gallery helps when you forgot to log in the moment but still have a photo — better than reconstructing from memory alone.",
+    "Mixed plates (buffets, shared tapas) need your portion story on confirm. The camera sees the table; you know your share."
+  ],
+  "what": {
+    "lead": "Camera flow essentials.",
+    "points": [
+      "Use camera or gallery quick action on Home",
+      "Review recognised items and estimates",
+      "Adjust portions and missing fats/drinks",
+      "Save into Foodiary via Buddy",
+      "Edit later in Foodiary if you learn more"
+    ],
+    "misconceptions": [
+      {
+        "myth": "The photo alone is perfect nutrition truth.",
+        "truth": "Vision estimates help; portions and hidden fats still need you."
+      },
+      {
+        "myth": "Blurry photos are fine — AI will figure it out.",
+        "truth": "Clear plates produce better suggestions. Retake when you can."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Make photo logging a tidy habit.",
+    "steps": [
+      "Frame the full meal; avoid extreme close-ups of one corner",
+      "Capture before you destroy the evidence (half-eaten chaos is harder)",
+      "Add voice or text notes for oil, butter, dressings, beverages",
+      "Confirm Buddy’s suggestion; scale portions up/down",
+      "Save; don’t double-log the same plate in Foodiary manually"
+    ],
+    "buddyHelps": "Buddy uses recognition to draft the diary row quickly. You remain editor-in-chief at confirm."
+  },
+  "sections": [
+    {
+      "title": "Labels and receipts",
+      "paras": [
+        "Packaged foods and receipts can be clearer than plated meals. When Buddy reads a label, still check serving size versus what you ate."
+      ]
+    },
+    {
+      "title": "Privacy and sharing",
+      "paras": [
+        "Avoid photographing other people’s faces or documents. Meal photos are for your coaching loop."
+      ]
+    },
+    {
+      "title": "When to prefer another mode",
+      "paras": [
+        "Dark restaurants and tiny labels frustrate vision. Switch to voice: name the dish and a fair portion. The goal is a saved honest row, not a perfect photo."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I photographed the salad and ignored the dressing boat.",
+      "why": "Dressing may dominate energy. Log it explicitly."
+    },
+    {
+      "quote": "I snapped after finishing and Buddy saw an empty plate.",
+      "why": "Capture before or describe leftovers. Empty crockery teaches little."
+    },
+    {
+      "quote": "Recognition was wrong so I logged nothing.",
+      "why": "Edit the draft or switch to voice/text. The meal still counts."
+    }
+  ],
+  "encouragement": "Point, shoot, confirm, done. Camera logging exists to keep real life inside the diary — not to pass a photography exam."
+}

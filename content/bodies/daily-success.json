@@ -1,0 +1,79 @@
+{
+  "intro": "Daily success is a tiny ritual, not a heroic day. Morning glance, honest meals, evening skim — then stop obsessing.",
+  "time": "8 min",
+  "buddyTip": "Anchor logging to existing moments: after you sit down with the plate, not “when I remember tonight.”",
+  "mission": "Complete today’s loop: morning check → log each meal → evening Foodiary skim.",
+  "why": [
+    "Motivation is unreliable. Rituals survive busy weeks. A daily loop keeps Foodiary complete enough for Progress to mean something, without turning health into a second job.",
+    "Most “failures” are missing capture, not missing willpower. When breakfast goes unlogged, lunch estimates drift, and dinner becomes guesswork at midnight. Capture close to the meal protects honesty.",
+    "Daily wins are boring on purpose: protein at one meal, water logged, Progress glanced. Boredom is a feature — it means the system is becoming automatic."
+  ],
+  "what": {
+    "lead": "A full successful day has five quiet beats.",
+    "points": [
+      "Morning — open Home; notice budget / Progress; optional weigh-in and water",
+      "Breakfast — log with Buddy; favour a protein-forward start when possible",
+      "Lunch — log again; if rushed, voice or photo beats skipping",
+      "Dinner — log what you actually ate; correct grams later if needed",
+      "Evening review — two-minute Foodiary skim; fix blank-kcal rows; one sentence win"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If I didn’t hit every target, the day was wasted.",
+        "truth": "A logged imperfect day teaches Buddy. An unlogged “perfect” day teaches nothing."
+      },
+      {
+        "myth": "Evening review means analysing macros for an hour.",
+        "truth": "Skim for missing meals and obvious errors. Deep analysis belongs to the weekly review."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Keep the same time windows so the brain stops negotiating.",
+    "steps": [
+      "Morning: 60 seconds on Home — weigh if that’s your habit, log water, note the day type (travel, training, rest)",
+      "Each meal: use the orange Log / Talk food control on Home — not Foodiary-first",
+      "Confirm Buddy’s estimate; adjust only when you know better",
+      "Evening: open Foodiary for today; fill gaps; avoid inventing precise grams you didn’t see",
+      "Write one daily win: “protein at lunch,” “walked,” “logged restaurant honestly”"
+    ],
+    "buddyHelps": "Home is the daily desk. Quick actions (camera, mic, water) reduce friction. Today’s Progress fills when logs carry real nutrition — that’s your feedback loop."
+  },
+  "sections": [
+    {
+      "title": "Morning",
+      "paras": [
+        "Keep mornings light. The job is orientation, not optimisation. If weigh-ins stress you, weigh less often — consistency of method beats daily drama."
+      ]
+    },
+    {
+      "title": "Meals",
+      "paras": [
+        "Breakfast, lunch, and dinner are equal citizens in the diary. Snacks count too. If you only log “clean” meals, Progress will lie optimistically.",
+        "When portions are unclear, a fair estimate logged now beats a perfect estimate never entered."
+      ]
+    },
+    {
+      "title": "Evening review & daily wins",
+      "paras": [
+        "Ask: Did I capture the day? What one thing worked? What will I try tomorrow?",
+        "Then close the app. Sleep is recovery work — leave the spreadsheet brain at the door."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I’ll batch-log everything at 11pm from memory.",
+      "why": "Memory under-reports snacks and oils. Near-meal logging is more honest and less stressful."
+    },
+    {
+      "quote": "I only log on good days so my average looks clean.",
+      "why": "Selective logging invents a fictional person. Buddy coaches the real one."
+    },
+    {
+      "quote": "Daily success means crushing a huge deficit every day.",
+      "why": "Huge daily deficits often rebound. Daily success means ritual + protein/fibre awareness + sustainable energy."
+    }
+  ],
+  "encouragement": "If you logged the day and learned one small thing, you won. Repeat tomorrow — that is the whole game."
+}

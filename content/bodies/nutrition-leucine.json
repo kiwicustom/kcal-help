@@ -1,0 +1,73 @@
+{
+  "intro": "Leucine is an amino acid that helps trigger muscle protein synthesis. You do not need to obsess over milligrams — you need meals that naturally deliver enough high-quality protein.",
+  "time": "8 min",
+  "buddyTip": "When choosing a protein, ask: “Is this a real portion of a leucine-rich food — or a sprinkle?”",
+  "mission": "Build one meal around a leucine-rich protein (dairy, eggs, fish, meat, or a well-planned soy option) and log the portion.",
+  "why": [
+    "Muscle does not only care that “some protein” appeared today. A sufficient per-meal dose of essential amino acids — leucine among them — helps signal repair and growth, especially alongside training and aging.",
+    "This is why a yoghurt with 5g protein and a cottage-cheese bowl with 30g protein are not interchangeable coaching advice. The second is more likely to cross a practical leucine threshold for that meal.",
+    "kCal Buddy talks about leucine because food quality is part of ground truth. Equal calories and even similar protein grams can differ in amino acid profile and real-world effect."
+  ],
+  "what": {
+    "lead": "Leucine literacy without supplement hype.",
+    "points": [
+      "Animal proteins and dairy are typically leucine-dense per calorie",
+      "Soy can be a strong plant option; many other plants need larger portions or combining",
+      "Per-meal protein targets usually take care of leucine without tracking it directly",
+      "Spreading 3–4 protein-containing meals beats one late spike for most people",
+      "Supplements are optional tools — food patterns come first"
+    ],
+    "misconceptions": [
+      {
+        "myth": "I must buy leucine pills to make progress.",
+        "truth": "Most people meet needs by eating adequate high-quality protein portions. Pills are niche, not a prerequisite."
+      },
+      {
+        "myth": "Any protein bar with “25g protein” is automatically leucine-optimal.",
+        "truth": "Check actual protein quality and how you feel. Some bars are candy with a protein claim — still fine occasionally, not a daily strategy."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Use leucine as a lens on meal design, not a new spreadsheet column.",
+    "steps": [
+      "Choose protein foods you enjoy and can repeat",
+      "Aim for a satisfying protein portion at breakfast and lunch — not only dinner",
+      "On plant-forward days, increase portion size or include soy/dairy if it fits your pattern",
+      "Around training, include a normal protein-rich meal or snack within your routine",
+      "Log honestly so weekly Progress reflects real protein consistency"
+    ],
+    "buddyHelps": "Buddy emphasises protein-forward meals and teaching moments about food quality. You coach plates; Buddy keeps the diary and trends honest."
+  },
+  "sections": [
+    {
+      "title": "Aging and training",
+      "paras": [
+        "Older adults often need more intentional per-meal protein to stimulate muscle protein synthesis. Leucine-aware meal design is practical longevity work.",
+        "Lifters benefit too — but recovery, total energy, and sleep still matter. Leucine is one signal, not a magic switch."
+      ]
+    },
+    {
+      "title": "Simple food examples",
+      "paras": [
+        "Eggs, skyr/quark, cottage cheese, milk-based proteins, fish, poultry, lean meats, and tofu/tempeh are common building blocks.",
+        "Build the meal around that block, then add fibre-rich plants and smart carbs/fats for the rest of your budget."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I sprinkled cheese on salad for leucine.",
+      "why": "Sprinkles rarely hit a useful per-meal dose. Use a proper protein portion."
+    },
+    {
+      "quote": "I’ll just mega-dose whey at night and eat low protein all day.",
+      "why": "One spike does not fully replace distributed meals for hunger or frequent MPS signals."
+    },
+    {
+      "quote": "Leucine means I can ignore total calories.",
+      "why": "Amino acid quality sits on top of energy balance — it does not replace it."
+    }
+  ],
+  "encouragement": "You do not need a lab notebook. You need satisfying protein portions most meals. That is leucine strategy in real life."
+}

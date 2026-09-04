@@ -1,0 +1,73 @@
+{
+  "intro": "TEF — the thermic effect of food — is the energy your body uses to digest and process what you eat. It is one reason equal calories from different foods do not feel or perform the same.",
+  "time": "8 min",
+  "buddyTip": "Use TEF as a reason to favour protein-rich, whole meals — not as a loophole to eat endless food because “digestion burns it.”",
+  "mission": "Swap one refined snack for a protein-plus-fibre mini-meal and notice fullness two hours later.",
+  "why": [
+    "Digesting protein typically costs more energy than digesting fat or refined carbohydrate. High-protein patterns therefore return a slightly smaller net energy yield — helpful, but not magic.",
+    "Whole foods with fibre also tend to take more work to process and improve satiety. Ultra-processed refined combinations often deliver energy with less chewing, less fullness, and easier overeating.",
+    "kCal Buddy teaches TEF so you stop treating all calories as identical experiences. Physics still counts; food information changes the lived outcome."
+  ],
+  "what": {
+    "lead": "TEF in plain coaching language.",
+    "points": [
+      "Protein has a higher thermic effect than fat or refined carbs on average",
+      "TEF is a nudge, not a free pass to ignore portions",
+      "Meal size and composition both influence digestion cost and fullness",
+      "Liquid calories often produce less satiety per kcal than solid meals",
+      "Combine TEF thinking with protein, fibre, and energy budget — never TEF alone"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Spicy food or cold water “boosts metabolism” enough to ignore diet.",
+        "truth": "Those effects are tiny next to total intake, protein pattern, and movement."
+      },
+      {
+        "myth": "Because of TEF I can eat unlimited lean protein.",
+        "truth": "Protein still contains energy. Unlimited anything usually breaks the budget."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Let TEF shape defaults, not spreadsheets.",
+    "steps": [
+      "Build meals around protein and plants first",
+      "Prefer solid meals over grazing on refined snacks when hunger is real",
+      "Keep ultra-processed convenience foods intentional, not accidental defaults",
+      "Log honestly — TEF does not erase unlogged oils and drinks",
+      "Judge success by adherence and weekly trends, not by imagining burned digestion calories"
+    ],
+    "buddyHelps": "Buddy’s food-quality teaching (protein, fibre, leucine) is TEF-aware coaching without forcing you to calculate percentages after every bite."
+  },
+  "sections": [
+    {
+      "title": "Where TEF fits in energy out",
+      "paras": [
+        "Total daily energy expenditure includes basal metabolism, movement, and TEF. Movement and body size usually dwarf TEF — so walk and train too.",
+        "Still, choosing higher-TEF, higher-satiety meals makes a calorie budget easier to keep. Ease is the real advantage."
+      ]
+    },
+    {
+      "title": "Coca-Cola vs real-food example",
+      "paras": [
+        "Equal calories from sugary drinks versus a protein- and fibre-rich plate differ in hunger, recovery, and how likely you are to keep eating.",
+        "That difference is food information — TEF is one piece of it."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I drank a protein shake and assumed TEF cancelled the calories.",
+      "why": "TEF reduces net yield slightly; it does not zero the shake."
+    },
+    {
+      "quote": "I chase metabolism hacks instead of logging dinner.",
+      "why": "Capture beats hacks. TEF only helps inside an honest diary."
+    },
+    {
+      "quote": "If TEF matters, I’ll eat six tiny meals no matter what.",
+      "why": "Meal frequency is preference. Total composition and energy matter more than forced grazing."
+    }
+  ],
+  "encouragement": "Remember TEF when you build plates: protein and plants earn their keep. Then return to the simple loop — log, learn, adjust."
+}

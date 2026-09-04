@@ -1,0 +1,73 @@
+{
+  "intro": "Carbohydrates fuel training, daily movement, and brain work. They also influence hunger, gym performance, and day-to-day scale weight through glycogen and water — which is why carb fear creates so much confusion.",
+  "time": "8 min",
+  "buddyTip": "Place most carbs around the meals and workouts where you need energy — and keep fibre-rich sources as the default.",
+  "mission": "Choose one carb source you enjoy (oats, potatoes, rice, fruit, bread you actually like) and portion it on purpose at one meal.",
+  "why": [
+    "Carbs are not villains. In a calorie-controlled, protein-adequate pattern, carb amount is a tool for performance and preference. Demonising them often leads to rebound eating of the exact foods you banned.",
+    "Higher-carb days can raise scale weight via glycogen and water even when fat is unchanged. Knowing that protects you from panic after pasta night.",
+    "Carb quality still matters for satiety and health patterns: fibre-containing carbs usually help more than sugar-sweetened drinks for the same energy."
+  ],
+  "what": {
+    "lead": "Use carbs with intention.",
+    "points": [
+      "Match carb intake to activity: harder training days often deserve more fuel",
+      "Prefer potatoes, oats, whole grains, fruit, and legumes when they fit your culture and taste",
+      "Liquid sugar is easy to over-drink and under-log",
+      "Low-carb can work for some; it is not mandatory for fat loss",
+      "Evening carbs are not automatically stored as fat — totals and weekly balance matter more"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Eating carbs after 6pm prevents fat loss.",
+        "truth": "Timing myths distract from energy balance, protein, and sleep. Choose a schedule you can keep."
+      },
+      {
+        "myth": "Fruit is sugar, so skip it.",
+        "truth": "Fruit brings fibre and micronutrients. Portions matter; fear is unnecessary for most people."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Build a personal carb map for the week.",
+    "steps": [
+      "List your training days and assign slightly higher carb meals there",
+      "Keep a default carb side you can cook half-asleep",
+      "Log sauces and sweet drinks that hitchhike with “simple meals”",
+      "If weight jumps after a high-carb day, wait for the weekly trend before changing everything",
+      "If energy crashes on low carb, add a measured portion back and reassess"
+    ],
+    "buddyHelps": "Foodiary captures carb-containing foods so Progress can show patterns across training weeks. Buddy coaching should protect fuel for hard days, not praise under-eating."
+  },
+  "sections": [
+    {
+      "title": "Performance",
+      "paras": [
+        "Hard sessions without carbs feel heroic once and stupid by week three. Fuel the work you ask your body to do.",
+        "If fat loss is the goal, create the deficit from the week’s average — not by starving every workout."
+      ]
+    },
+    {
+      "title": "Cultural foods",
+      "paras": [
+        "Bread, rice, potatoes, and pasta are not moral categories. They are foods to portion inside your budget and fibre goals.",
+        "Sustainable plans keep cultural staples; they do not replace your cuisine with someone else’s grocery list."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I cut all carbs and wondered why lifts collapsed.",
+      "why": "Performance fuel dropped. Restore carbs around training and keep protein high."
+    },
+    {
+      "quote": "The scale was up 1.5kg after a rice day so I panicked.",
+      "why": "Glycogen/water explains much of that. Watch the week."
+    },
+    {
+      "quote": "I only eat “clean carbs” then binge on sweets.",
+      "why": "Rigid purity rules increase binge risk. Include planned enjoyable carbs."
+    }
+  ],
+  "encouragement": "Carbs are a dial, not a demon. Turn them to fit training and hunger — then let weekly Progress tell you if the dial is right."
+}

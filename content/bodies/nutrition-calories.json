@@ -1,0 +1,73 @@
+{
+  "intro": "Calories are physics: energy in versus energy out shapes body energy stores. They are necessary — and incomplete — until you pair them with food quality and your real-life burn.",
+  "time": "9 min",
+  "buddyTip": "Treat daily calories as a budget range, not a moral score. Weekly averages teach more than any single day.",
+  "mission": "Log every energy-containing item today — including oils, drinks, and “bites” — without editing the story.",
+  "why": [
+    "Energy balance still matters. If intake stays above what you expend for long enough, stores rise; if below, they tend to fall. Denying calories does not make healthier coaching — it makes confused coaching.",
+    "Equal calories are not equal experiences. 1000 kcal from sugary drinks and 1000 kcal from protein- and fibre-rich meals hit hunger, recovery, and muscle repair differently. Calories measure energy; they do not fully describe information in food.",
+    "Generic calculators guess. Your weight trend plus honest intake teaches Buddy a Personal Burning Rate under your actual life — work, walking, training, stress — which is more useful than a textbook formula alone."
+  ],
+  "what": {
+    "lead": "What to keep in mind when working with calories.",
+    "points": [
+      "Calories estimate metabolisable energy — useful, approximate, and sensitive to portion error",
+      "Body weight day-to-day is mostly water and glycogen noise; fat change is slower",
+      "Under-logging (oils, drinks, tastes) is the most common “mystery stall”",
+      "Wearable calorie burn is context, not automatic truth",
+      "Protein, fibre, and meal pattern change how a calorie budget feels to live"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If I hit calories exactly, composition doesn’t matter.",
+        "truth": "Composition changes satiety, training quality, and adherence. Energy balance and food quality work together."
+      },
+      {
+        "myth": "Exercise calories on my watch mean I earned a matching feast.",
+        "truth": "Wearables often overestimate. Prefer trend-based adjustments over matching every workout calorie."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Use calories as a steering wheel, not a courtroom.",
+    "steps": [
+      "Log meals near the time you eat so portions stay realistic",
+      "Include cooking fats, sauces, alcohol, and milky drinks",
+      "Aim for a consistent weekly average rather than perfect daily hits",
+      "Compare multi-week weight trend to intake before big target changes",
+      "When hungry on a “correct” calorie day, check protein, fibre, sleep, and steps first"
+    ],
+    "buddyHelps": "Buddy estimates help you capture energy quickly; Foodiary lets you refine grams. Progress shows whether your budget matches reality over time."
+  },
+  "sections": [
+    {
+      "title": "Budgets and ranges",
+      "paras": [
+        "A range (for example a band around a target) reduces anxiety and matches real portion uncertainty. Obsessive exactness often increases binge risk.",
+        "During early learning weeks, prioritise complete logs over aggressive deficits so Buddy can see your true baseline."
+      ]
+    },
+    {
+      "title": "When numbers disagree with the scale",
+      "paras": [
+        "First check logging gaps and sodium/carb swings. Then check adherence length. Only then adjust the budget.",
+        "Patience is a skill. Three noisy days are not a new metabolism."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I saved calories by skipping meals, then overate at night.",
+      "why": "Severe restriction drives rebound. Distribute intake and protein across the day."
+    },
+    {
+      "quote": "The label said 200 kcal so I didn’t weigh the portion.",
+      "why": "Labels assume a serving. Your pour or slice may be double — grams beat vibes."
+    },
+    {
+      "quote": "Calories are toxic thinking — I only eat “clean.”",
+      "why": "Ignoring energy while chasing clean food can still stall fat loss or underfuel training. Both lenses help."
+    }
+  ],
+  "encouragement": "You do not need to fear calories. You need to understand them well enough to stop guessing — and kindly enough to keep logging tomorrow."
+}

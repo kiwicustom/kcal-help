@@ -1,0 +1,73 @@
+{
+  "intro": "Restaurants are part of a normal life. The skill is honest logging and a few defaults — not avoiding every invitation.",
+  "time": "8 min",
+  "buddyTip": "Decide your protein order first, then build sides. Invisible oils are expected — estimate them instead of logging a fantasy grilled-only plate.",
+  "mission": "At your next restaurant meal, pick a protein-forward main, enjoy it, and log it the same day with a fair fat estimate.",
+  "why": [
+    "Social meals sustain relationships — and relationships sustain habits. A plan that forbids restaurants usually fails the first birthday dinner.",
+    "Restaurant calories are uncertain. Coaching aims for directional honesty: protein source, rough carbs, and a non-zero fat assumption beat precise fiction.",
+    "One restaurant meal rarely breaks a week. A weekend of unlogged feasts plus Monday punishment might."
+  ],
+  "what": {
+    "lead": "Practical restaurant tactics.",
+    "points": [
+      "Scan the menu for a clear protein centre",
+      "Ask for dressings and sauces on the side when it helps you",
+      "Share large sides or box half if portions are huge",
+      "Alcohol counts — log it",
+      "Voice-log at the table or right after: “salmon, potatoes, butter sauce, wine”"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If I can’t know exact grams, I shouldn’t log.",
+        "truth": "A fair estimate keeps Progress usable. Silence creates bigger errors."
+      },
+      {
+        "myth": "Salad is always the low-calorie choice.",
+        "truth": "Cheese, candied nuts, and creamy dressing can exceed a simple hot protein plate."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Use a short pre-game, then enjoy the people.",
+    "steps": [
+      "Preview the menu if possible; choose a default protein dish category",
+      "Eat a normal protein-aware day around the meal — don’t “save” all calories and arrive ravenous",
+      "Order intentionally; skip the guilt narration at the table",
+      "Log with Buddy (voice is ideal) including oils/sauces/drinks",
+      "Return to your usual plan at the next meal — no compensatory starve"
+    ],
+    "buddyHelps": "Voice and camera capture messy real-world meals quickly. Foodiary lets you refine later if you learn more about the dish."
+  },
+  "sections": [
+    {
+      "title": "Cuisine-specific defaults",
+      "paras": [
+        "Grill/fish houses: protein + potato + vegetable, watch butter sauces.",
+        "Pizza: add a protein side salad, decide slice count in advance, log oil-rich reality.",
+        "Buffets: one plate strategy — protein and plants first."
+      ]
+    },
+    {
+      "title": "Business lunches",
+      "paras": [
+        "Default to water or one drink; keep afternoon work in mind. Logging afterward matters more than performing restriction in front of colleagues."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I logged grilled chicken breast with zero oil because I scraped the sauce.",
+      "why": "Cooking fat remains. Add a modest oil estimate."
+    },
+    {
+      "quote": "I skipped logging so I wouldn’t see the damage.",
+      "why": "Avoidance blocks learning. Honest ugly logs are brave and useful."
+    },
+    {
+      "quote": "I punished yesterday’s dinner with no food until 6pm.",
+      "why": "Compensation increases the next overeat. Resume normal structure."
+    }
+  ],
+  "encouragement": "Belonging and food can coexist. Order like an adult, log like a scientist, and rejoin your routine at the next meal."
+}

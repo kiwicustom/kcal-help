@@ -1,0 +1,80 @@
+{
+  "intro": "Month one is a learning period for you and for Buddy — not a test you can fail. Build the habit loop before you chase aggressive targets.",
+  "time": "9 min",
+  "buddyTip": "If you miss a day, say “continue from now” out loud. Never reconstruct a perfect past week.",
+  "mission": "Log today’s meals from Home and set one steady weigh-in time for this week.",
+  "why": [
+    "The first thirty days decide whether kCal Buddy becomes a ritual or another abandoned download. Consistency of capture matters more than perfect macros. Buddy needs representative weeks — real workdays, real weekends, real restaurants — to learn your Personal Burning Rate.",
+    "Generic calorie targets arrive too early in most apps. We wait until intake and weight trend teach something useful. That patience feels slow on day three and wise on day twenty-one.",
+    "Celebrate adherence, not aesthetic perfection. Logging most meals across stretches of days, glancing at Progress weekly, and making one light Meal Plan tweak is already a successful month."
+  ],
+  "what": {
+    "lead": "Milestones are guides, not scorecards.",
+    "points": [
+      "Day 1: complete profile basics, log your first honest meal on Home, find Today’s Progress",
+      "Week 1: log most meals; optional morning weigh-ins; ignore day-to-day scale noise",
+      "Week 2: start noticing protein-forward meals; fix obvious Foodiary errors",
+      "Week 3: weekly Progress glance; one Meal Plan experiment for dinners",
+      "Week 4: identify what good days shared; set one theme for month two",
+      "Celebrate: streaks of honesty beat streaks of restriction"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If weight didn’t drop in week one, the Method failed.",
+        "truth": "Week one is water, glycogen, and learning. Direction shows across weeks, not forty-eight hours."
+      },
+      {
+        "myth": "I must hit an exact calorie target from day one.",
+        "truth": "Early weeks prioritise honest observation. Targets personalise after Buddy has a clearer burn picture."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Keep each day small: one action, one reason, one encouragement.",
+    "steps": [
+      "Day 1 — Open Home, use Log / Talk food once, confirm Buddy’s estimate, notice Progress move",
+      "Week 1 — Aim for “most meals logged,” not perfection; weigh in at the same time if useful",
+      "Week 2 — Add protein awareness at one meal; correct grams in Foodiary when you know better",
+      "Week 3 — Sunday: open Progress, scan Foodiary patterns, plan two realistic dinners",
+      "Week 4 — Write one sentence: what I’ll keep and what I’ll change next month",
+      "Any miss — restart at the next meal; do not wait for Monday"
+    ],
+    "buddyHelps": "Home keeps logging friction low. Foodiary holds the ledger. Progress turns noisy days into weekly learning. Buddy reminders stay coaching-shaped, not punishment-shaped."
+  },
+  "sections": [
+    {
+      "title": "Day 1 checklist",
+      "paras": [
+        "You only need enough profile data to begin: goal, weight, height, age, typical activity, and preferences that affect guidance.",
+        "Then one honest log. That single action teaches more than reading every Academy lesson."
+      ],
+      "steps": [
+        "Confirm you can find Home, Foodiary, and Progress",
+        "Log breakfast or the next meal with voice, photo, or text",
+        "Skip advanced integrations until the logging habit sticks"
+      ]
+    },
+    {
+      "title": "What “success” looks like on day 30",
+      "paras": [
+        "You open the app without dread. Most meals of a normal week are in Foodiary. You know one or two protein anchors. You have looked at Progress at least three times.",
+        "You may not know your burn with high confidence yet — and that is fine. You have built the loop that makes confidence possible."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I ate out three times, so this week doesn’t count.",
+      "why": "Restaurant weeks are real life. Log them. Buddy needs those days to coach travel and social eating later."
+    },
+    {
+      "quote": "I’ll start over next month when work is quieter.",
+      "why": "Quieter months rarely arrive. Build the ritual inside real noise — that is the skill."
+    },
+    {
+      "quote": "I forgot four days, so I deleted everything and reset.",
+      "why": "Deletion throws away signal. Gaps are allowed. Continue; patterns still emerge."
+    }
+  ],
+  "encouragement": "Thirty days from now, you will not remember every meal. You will remember whether you kept showing up. Start with today’s next meal — that is enough for Day 1 energy every day."
+}

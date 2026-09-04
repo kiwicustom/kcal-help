@@ -1,0 +1,79 @@
+{
+  "intro": "Progress turns honest logs into trends. Days are noisy; weeks and months show direction — protein, weight, and adherence included.",
+  "time": "8 min",
+  "buddyTip": "Open Progress weekly with one question: “What did good days share?” Change one variable afterward.",
+  "mission": "Open Progress, scan the last week, and write one keep / one change note.",
+  "why": [
+    "Without Progress, Foodiary is a pile of receipts. Trends reveal whether your energy budget, protein anchors, and habits are working under real life.",
+    "Daily obsession with a single weigh-in creates false emergencies. Progress exists to zoom out so you can coach calmly.",
+    "Progress only works if logs are honest and complete enough. Capture on Home; correct in Foodiary; learn here.",
+    "Progress is also where you notice skill gains: fewer blank days, better restaurant estimates, steadier protein. Those wins deserve equal attention beside the scale."
+  ],
+  "what": {
+    "lead": "What to look for.",
+    "points": [
+      "Weekly and monthly views",
+      "Weight trend versus day-to-day spikes",
+      "Protein consistency patterns",
+      "Links back to Foodiary for cause-finding",
+      "One-variable experiments after each review"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Progress at 0 means the app is broken.",
+        "truth": "Often missing kcal on rows, wrong day selected, or logging only in empty Foodiary placeholders. Check the Quick Guide path."
+      },
+      {
+        "myth": "I should change five targets every time Progress looks messy.",
+        "truth": "Multi-change weeks teach nothing. Adjust one lever."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Make Progress a weekly appointment.",
+    "steps": [
+      "Ensure the week has enough Home logs with nutrition",
+      "Open Progress; note direction, not drama",
+      "Tap into odd days via Foodiary context",
+      "Celebrate adherence before criticising averages",
+      "Set one theme for next week",
+      "Return to daily ritual — don’t live inside charts"
+    ],
+    "buddyHelps": "Buddy capture feeds Progress. Coaching quality rises when trends reflect real restaurants, travel, and training — not curated highlights."
+  },
+  "sections": [
+    {
+      "title": "Reading weight",
+      "paras": [
+        "Prefer multi-day or weekly trends. Sodium, carbs, and hormones move water. Fat change is slower."
+      ]
+    },
+    {
+      "title": "Reading protein",
+      "paras": [
+        "Count how often anchors appeared. Two heroic protein days don’t cancel five low ones for how the week felt."
+      ]
+    },
+    {
+      "title": "Monthly zoom",
+      "paras": [
+        "Once a month, widen the window. Ask whether goals still fit life, then change at most one target. Archive a win in writing so memory does not erase it."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I judged my whole program on this morning’s weigh-in.",
+      "why": "Use Progress trends. One morning is weather, not climate."
+    },
+    {
+      "quote": "Progress looked bad so I deleted old logs.",
+      "why": "Deleting erases learning. Keep honesty; adjust forward."
+    },
+    {
+      "quote": "I only check Progress when I feel guilty.",
+      "why": "Scheduled calm reviews beat shame-triggered chart spirals."
+    }
+  ],
+  "encouragement": "Progress is a mirror for patterns, not a verdict on your worth. Log honestly, review weekly, improve once — repeat."
+}

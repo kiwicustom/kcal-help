@@ -1,0 +1,74 @@
+{
+  "intro": "Meal planning reduces decision fatigue. You decide once when you have calm — then execute on busy days when willpower is tired.",
+  "time": "9 min",
+  "buddyTip": "Plan fewer meals than you think. Two reliable dinners and a default lunch beat a colourful schedule you abandon.",
+  "mission": "Write tomorrow’s lunch and dinner before bed — realistic foods already in the house or on tomorrow’s shop path.",
+  "why": [
+    "Unplanned evenings default to the easiest delivery app. That is not a character flaw; it is empty fridge plus fatigue. Planning is environmental design.",
+    "Plans are intent — not the live diary. You still log what you actually eat on Home. If the plan changes, the log tells the truth; the plan simply made a good default available.",
+    "Planning also supports protein and fibre consistency. When anchors are pre-decided, you stop hoping lunch “somehow” becomes high-protein."
+  ],
+  "what": {
+    "lead": "What a good plan includes — and excludes.",
+    "points": [
+      "A short list of dinners you can cook in your real time budget",
+      "A default breakfast and lunch pattern for weekdays",
+      "Protein and fibre called out explicitly",
+      "One flexible slot for restaurants or leftovers",
+      "A shop list that matches the plan — not aspirational recipes you’ll never cook"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If I deviate from the plan, I failed.",
+        "truth": "Plans guide. Logs record. Deviation is data — update next week’s plan."
+      },
+      {
+        "myth": "Meal Plan replaces Foodiary.",
+        "truth": "Meal Plan is forward-looking. Foodiary/Home capture what happened. Both matter."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Run a weekly 15-minute planning ritual.",
+    "steps": [
+      "Check calendar: late nights, training, travel, social meals",
+      "Pick 2–4 dinners; repeat favourites on purpose",
+      "Assign protein anchors to breakfast/lunch defaults",
+      "Write the shop list from the plan only",
+      "Enter intent in Meal Plan if you use it; log reality on Home when you eat",
+      "Sunday review: which planned meals actually happened?"
+    ],
+    "buddyHelps": "Meal Plan holds intent and can support shopping helpers. Home logging keeps Progress honest when life edits the plan."
+  },
+  "sections": [
+    {
+      "title": "Templates over novelty",
+      "paras": [
+        "Rotation beats novelty for adherence. Keep a personal “greatest hits” list of 8–10 meals.",
+        "Introduce at most one new recipe per week while habits are forming."
+      ]
+    },
+    {
+      "title": "Family and Spaces",
+      "paras": [
+        "If you cook for others, plan shared bases (protein + carb + veg) with optional sauces so one kitchen serves many preferences.",
+        "Scale Health Success starts at the dinner table — planning makes healthy the path of least resistance for more than one person."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I planned seven gourmet dinners and ordered pizza on Tuesday.",
+      "why": "Overambitious plans collapse. Match cooking skill and time."
+    },
+    {
+      "quote": "I planned but never shopped.",
+      "why": "A plan without a list is a wish. Shop the same day you plan when possible."
+    },
+    {
+      "quote": "I logged the plan instead of what I ate.",
+      "why": "That corrupts Progress. Log reality; keep the plan as a guide."
+    }
+  ],
+  "encouragement": "A humble plan you follow most days will outperform a perfect menu you admire. Decide tonight’s default — future-you will thank you."
+}

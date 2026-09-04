@@ -1,0 +1,71 @@
+{
+  "intro": "Protein is the nutrient that most reliably supports muscle, recovery, and fullness. Make it a daily habit, not a weekend hero meal.",
+  "time": "8 min",
+  "buddyTip": "Anchor each main meal with a clear protein source before you add the rest of the plate.",
+  "mission": "Hit a protein-forward lunch today and log it — notice afternoon hunger afterward.",
+  "why": [
+    "Adequate protein helps preserve lean mass when you are in a calorie deficit and supports repair when you train. It also tends to increase satiety, which makes an energy budget easier to live with.",
+    "Many people “eat healthy” yet drift low on protein because breakfasts are toast-heavy, lunches are salad-only, and dinners carry most of the day’s protein too late to help hunger earlier.",
+    "Protein quality and distribution matter. Spreading protein across meals usually beats one giant evening hit for comfort and muscle protein synthesis signals — especially when leucine-rich sources are included."
+  ],
+  "what": {
+    "lead": "Practical protein literacy.",
+    "points": [
+      "Think in anchors: eggs, dairy/quark, fish, poultry, lean meat, tofu/tempeh, legumes + complementary foods",
+      "Per-meal targets often beat “I’ll catch up at night”",
+      "Plant patterns can work — plan combining and total amount carefully",
+      "Protein foods still contain calories; they are not free",
+      "Consistency across the week matters more than one perfect day"
+    ],
+    "misconceptions": [
+      {
+        "myth": "More protein is always better — I’ll eat 300g.",
+        "truth": "Extremes crowd out fibre and micronutrients and are hard to sustain. Aim for enough, distributed, and enjoyable."
+      },
+      {
+        "myth": "If I lift, protein powder is mandatory.",
+        "truth": "Powder is a convenience tool. Food-first works; powder helps when life is busy."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Design defaults, not willpower moments.",
+    "steps": [
+      "Pick a default breakfast protein (eggs, skyr/quark, protein yoghurt, tofu scramble)",
+      "Build lunches around a palm-sized protein portion you can repeat",
+      "Shop a weekly protein list before snacks",
+      "Log protein-containing foods carefully — Buddy’s estimates improve when you confirm portions",
+      "Review Progress weekly for protein consistency, not only calories"
+    ],
+    "buddyHelps": "Buddy and Foodiary surface protein alongside energy so you can coach the plate, not only the total. Progress trends show whether anchors are sticking."
+  },
+  "sections": [
+    {
+      "title": "Hunger and adherence",
+      "paras": [
+        "If you are “good on calories” but ravenous, check protein and fibre before slashing further. Under-fuelled, low-protein days feel like failure of character when they are often failure of plate design."
+      ]
+    },
+    {
+      "title": "Training days",
+      "paras": [
+        "Pair training with protein-containing meals in the hours around sessions when possible. You do not need perfection — you need repeatable patterns."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Salad with a few shrimp was my high-protein lunch.",
+      "why": "Garnish protein is not a portion. Weigh or estimate the actual protein food."
+    },
+    {
+      "quote": "I saved all protein for a huge dinner steak.",
+      "why": "Distribution helps daytime hunger and training. Split across meals when you can."
+    },
+    {
+      "quote": "Plant protein doesn’t count.",
+      "why": "It counts. Plan totals and complementary sources; don’t dismiss it or assume tiny portions suffice."
+    }
+  ],
+  "encouragement": "One protein anchor per meal is a quiet superpower. Repeat it until Buddy’s weekly view looks calmly green more often than not."
+}

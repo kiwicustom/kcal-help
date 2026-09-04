@@ -1,0 +1,92 @@
+{
+  "intro": "kCal Buddy is not a streak machine. It is a philosophy of small, honest improvements — taught by Buddy, grounded in your data, and designed to scale through people.",
+  "time": "10 min",
+  "buddyTip": "When you feel behind, return to the loop: Observe → Understand → Improve → Repeat. Skip shame; pick the next meal.",
+  "mission": "Pick one belief below and practise it until bedtime — e.g. Honesty over Shame on every log.",
+  "why": [
+    "Apps fail when they optimise for perfect weeks. Real health is built from thousands of ordinary decisions under imperfect conditions. Our philosophy exists so product, coaching, and features stay aligned with that reality.",
+    "Beliefs are not slogans. They decide what we build: teaching over guessing, consistency over intensity, protein and fibre as first-class signals, recovery as health work, AI that coaches without judgment, and Spaces so health can spread.",
+    "When you understand the philosophy, every screen makes more sense. Home is for capture. Foodiary is the ledger. Progress is learning. Meal Plan is intent. Spaces are belonging. Buddy’s job is to make the next decision a little easier."
+  ],
+  "what": {
+    "lead": "These beliefs are the foundation of everything we build.",
+    "points": [
+      "Progress over Perfection — small improvements repeated beat short bursts of perfection",
+      "Knowledge over Guessing — understanding why creates lasting habits; Buddy should teach, not only count",
+      "Consistency over Intensity — healthy routines outperform unsustainable extremes",
+      "Honesty over Shame — there are no bad days; honest logs help Buddy coach better",
+      "Protein Matters — protein supports muscle, recovery, and satiety",
+      "Fibre Matters — fibre supports digestion, fullness, and long-term health",
+      "Recovery Matters — sleep, hydration, and rest are essential, not optional",
+      "AI Should Coach — reduce stress and empower; never judge",
+      "Health Should Scale — habits should spread to families, friends, workplaces, coaches, and communities"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Philosophy is soft — I just need a calorie target.",
+        "truth": "Targets without beliefs produce crash resets. Philosophy keeps the Method human: learn first, adjust second, verify always."
+      },
+      {
+        "myth": "If I miss a day, I broke the system.",
+        "truth": "The system expects gaps. Continue from the next meal. Buddy learns from patterns, not from perfection streaks."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Practise the kCal Way as a weekly rhythm, not a lecture.",
+    "steps": [
+      "Observe — log food, movement, sleep context, and how you feel without editing the story",
+      "Understand — ask why weight or hunger moved; use Progress and weekly review, not one weigh-in",
+      "Improve — choose one change Buddy can coach (protein at lunch, water, earlier dinner)",
+      "Repeat — protect the logging ritual so insight becomes identity"
+    ],
+    "buddyHelps": "Buddy keeps capture easy, explains estimates, and surfaces Progress so the loop stays visible. Spaces carry Scale Health Success when you want company."
+  },
+  "sections": [
+    {
+      "title": "The kCal Way",
+      "paras": [
+        "Observe: see what you eat, move, sleep, and feel — without judgment.",
+        "Understand: learn why numbers move — water, sodium, training, under-logging, or a real energy gap.",
+        "Improve: one honest change Buddy can coach this week.",
+        "Repeat: consistency turns insight into who you are, not a temporary diet."
+      ]
+    },
+    {
+      "title": "Health Operating System",
+      "paras": [
+        "kCal Buddy is a personal Health Operating System: nutrition, movement, recovery, sleep, hydration, weight, habits, friends, coaches, communities, and AI in one coherent picture.",
+        "It is not “more charts.” It is one place where ground truth and coaching meet so decisions get simpler over time."
+      ]
+    },
+    {
+      "title": "Scale Health Success",
+      "paras": [
+        "Healthy habits should never stay with one person. Health should spread: You → Family → Friends → Teams → Communities → the wider world.",
+        "Spaces and coaching are built around this philosophy. Belonging keeps people showing up when motivation dips."
+      ]
+    },
+    {
+      "title": "Buddy’s message",
+      "paras": [
+        "“My job isn't to make you perfect. My job is to help you become a little healthier every single day.”",
+        "That sentence is the product contract. If a feature pushes perfection theatre over honest progress, it does not belong."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I’ll follow the philosophy after I lose the first five kilos.",
+      "why": "The philosophy is how you lose them sustainably. Start with honest logs and one improvement — not a temporary extreme."
+    },
+    {
+      "quote": "Protein and fibre matter, so I’ll ignore calories entirely.",
+      "why": "Food quality and energy balance both matter. Calories are physics; protein, leucine, fibre, and TEF explain why equal calories feel and perform differently."
+    },
+    {
+      "quote": "AI coaching means Buddy should scold me when I slip.",
+      "why": "Judgment increases hiding. Honest logs need psychological safety. Buddy coaches the next action, not your character."
+    }
+  ],
+  "encouragement": "You do not need to believe every belief on day one. Practise Progress over Perfection until it feels normal — the rest of the philosophy will meet you there."
+}

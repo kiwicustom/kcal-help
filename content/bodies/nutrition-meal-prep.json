@@ -1,0 +1,73 @@
+{
+  "intro": "Meal prep is batching future decisions. A few containers of protein, plants, and smart carbs turn chaotic weekdays into automatic wins.",
+  "time": "9 min",
+  "buddyTip": "Prep components, not seventeen unique finished plates — mix-and-match keeps boredom away.",
+  "mission": "Cook one protein batch and one fibre side you can reuse for two lunches; log today’s portion accurately including oil.",
+  "why": [
+    "Prep attacks the same problem as meal planning: empty-fridge evenings. It is especially powerful for lunch at work, where defaults otherwise become pastries and guesswork.",
+    "Prep fails when it is overly ambitious or when food quality dies by day three. Start small: one protein, one carb, two vegetables — 60–90 minutes once or twice a week.",
+    "Logging prepped food still matters. Homemade is not automatically tracked. Weigh a representative portion once so Buddy’s estimates match your containers."
+  ],
+  "what": {
+    "lead": "Prep that survives contact with real weeks.",
+    "points": [
+      "Component prep > elaborate multi-day tasting menus",
+      "Cool food safely; refrigerate promptly; freeze extras",
+      "Sauces separate to avoid sogginess",
+      "Label containers with rough grams if that helps you",
+      "Leave one flexible dinner un-prepped for freshness and social life"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Meal prep requires a perfect Sunday and identical meals daily.",
+        "truth": "Short midweek refresh cooks also count. Variety can come from spices and sides."
+      },
+      {
+        "myth": "If I meal prep, I don’t need to log.",
+        "truth": "You still log portions. Prep makes portions easier — it doesn’t replace Foodiary."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Run a minimal viable prep session.",
+    "steps": [
+      "Pick protein (chicken, mince, tofu, eggs, lentils) and cook a batch",
+      "Roast or steam two vegetables; cook a carb staple",
+      "Portion into containers sized for your real hunger — not aspirational tiny boxes",
+      "Measure oil used in cooking and divide across portions when logging",
+      "Schedule a 20-minute midweek top-up if needed",
+      "On eating days: plate, log, go"
+    ],
+    "buddyHelps": "Repeat logs get faster once a meal template exists. Meal Plan can mirror prep intent; Home captures when you eat the container."
+  },
+  "sections": [
+    {
+      "title": "Safety and quality",
+      "paras": [
+        "Use shallow containers, refrigerate within two hours, and follow sensible leftovers timelines. When unsure, freeze.",
+        "Reheat thoroughly. Texture issues? Keep crunchy add-ons (fresh veg, yoghurt) for day-of."
+      ]
+    },
+    {
+      "title": "Family prep",
+      "paras": [
+        "Cook a shared base; customise kids’ or partners’ plates at the end. One kitchen session, many outcomes — Scale Health Success in a lunchbox."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I prepped five identical dry chicken trays and quit by Wednesday.",
+      "why": "Boredom is predictable. Components + sauces + rotation fix this."
+    },
+    {
+      "quote": "I guessed oil as zero because it was meal prep.",
+      "why": "Batch oil still lands in each box. Divide it."
+    },
+    {
+      "quote": "I spent five hours prepping and burned out.",
+      "why": "Overbuild kills the habit. Shrink the session until it feels easy."
+    }
+  ],
+  "encouragement": "One batch of protein in the fridge is a kindness to midweek-you. Start there — excellence is optional; repeatability is not."
+}

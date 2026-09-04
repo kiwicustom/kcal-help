@@ -1,0 +1,79 @@
+{
+  "intro": "Meal Plan holds intent — meals you mean to eat. It is not the live diary. Log what actually happens on Home when you eat.",
+  "time": "7 min",
+  "buddyTip": "Plan realistic dinners you can cook on a Tuesday. Then shop that list — not a fantasy cookbook.",
+  "mission": "Add two realistic dinners to Meal Plan for the coming days; log today’s actual meals on Home as usual.",
+  "why": [
+    "Planning reduces decision fatigue and supports protein/fibre consistency. Without a plan, evenings default to whatever is fastest.",
+    "Confusion between plan and diary breaks Progress. If you only “plan” and never log intake, trends stay empty. If you log the plan instead of reality, trends lie.",
+    "Shopping helpers (when available) work best from a short, honest plan — not twenty unused recipes.",
+    "A plan also protects protein on busy weeks: when dinner is pre-decided, you are less likely to skip the anchor and snack randomly later."
+  ],
+  "what": {
+    "lead": "What Meal Plan is for.",
+    "points": [
+      "Browse and add planned meals",
+      "Keep plans lighter than your ambition",
+      "Use shopping helpers when offered",
+      "Treat plan changes as normal",
+      "Always log actual intake separately on Home"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Adding to Meal Plan logs nutrition automatically.",
+        "truth": "Intent ≠ intake. Capture eating on Home / Foodiary."
+      },
+      {
+        "myth": "If I didn’t follow the plan, I shouldn’t use Meal Plan.",
+        "truth": "Update the plan. It’s a tool, not a contract you can breach."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Connect plan → shop → cook → log.",
+    "steps": [
+      "Open Meal Plan tab",
+      "Add a few dinners and a default lunch idea",
+      "Generate or write a shop list from those meals",
+      "Cook/eat",
+      "Log the real plate on Home (voice/camera/text)",
+      "Adjust next week’s plan based on what you actually repeated"
+    ],
+    "buddyHelps": "Meal Plan reduces weekday chaos. Buddy logging keeps Progress tied to reality so coaching stays grounded."
+  },
+  "sections": [
+    {
+      "title": "Keep plan and diary distinct",
+      "paras": [
+        "Ask: “Am I deciding future food, or recording past food?” Future → Meal Plan. Past/present → Home/Foodiary."
+      ]
+    },
+    {
+      "title": "Family planning",
+      "paras": [
+        "Plan shared bases; customise portions per person. One plan can support Scale Health Success at home."
+      ]
+    },
+    {
+      "title": "Plan light, shop hard",
+      "paras": [
+        "If time is short, plan only dinners and keep breakfast/lunch as standing defaults. The shop list should still prioritise protein and plants for those defaults."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I filled Meal Plan and wondered why Progress was zero.",
+      "why": "No intake logs. Log meals when eaten."
+    },
+    {
+      "quote": "I copied the plan into Foodiary without eating it.",
+      "why": "That invents adherence. Only log what you consumed."
+    },
+    {
+      "quote": "My plan had seven new recipes; I cooked none.",
+      "why": "Shrink to repeats. Novelty is optional."
+    }
+  ],
+  "encouragement": "A small plan you follow most nights beats a beautiful plan you admire. Intent first, honesty always."
+}

@@ -1,0 +1,72 @@
+{
+  "intro": "Home is your daily desk. Logging here fills Foodiary and Progress — start with the orange Log control, not a scavenger hunt through tabs.",
+  "time": "7 min",
+  "buddyTip": "If Progress looks empty, ask “did I log on Home with real kcal?” before assuming a bug.",
+  "mission": "Open Home, log one meal with Buddy, and watch Today’s Progress update.",
+  "why": [
+    "Wrong-door logging is the most common frustration. People open Foodiary to invent a blank row, leave kcal empty, then wonder why Progress stays at zero. Home is built as the smart door into the ledger.",
+    "Home gathers the daily loop: Buddy Log / Talk food, quick actions (camera, mic, water), and Today’s Progress. That composition matches how successful days actually work.",
+    "Orientation saves willpower. When Home is the habit, the rest of the app becomes review and planning — not a maze."
+  ],
+  "what": {
+    "lead": "What you should recognise on Home.",
+    "points": [
+      "Buddy Log / Talk food — the primary capture path",
+      "Quick actions — camera, gallery, mic, water",
+      "Today’s Progress — fills after logs with nutrition",
+      "Bottom tabs — Meal Plan, Foodiary, Progress, Spaces, Menu for other jobs",
+      "Deep coaching moments — confirm estimates before save when Buddy asks"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Home is just a dashboard; real logging happens in Foodiary.",
+        "truth": "Prefer Home for new meals. Foodiary is for review and corrections."
+      },
+      {
+        "myth": "I need to fill every widget before logging.",
+        "truth": "One honest log is enough. Ignore unused surfaces until you need them."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Make Home the reflex.",
+    "steps": [
+      "Open the app to Home by default",
+      "Tap the orange Log / Talk food strip",
+      "Speak, type, or attach a photo of the meal",
+      "Confirm Buddy’s estimate; adjust grams if you know better",
+      "Glance at Today’s Progress — then return to life"
+    ],
+    "buddyHelps": "Buddy reduces friction and teaches while capturing. Progress on Home is immediate feedback that the loop worked."
+  },
+  "sections": [
+    {
+      "title": "Quick actions",
+      "paras": [
+        "Camera and gallery help when typing is slow. Mic helps when your hands are full. Water keeps hydration in the same ritual as meals.",
+        "Use the action that matches the moment — consistency beats loyalty to one input mode."
+      ]
+    },
+    {
+      "title": "Today’s Progress",
+      "paras": [
+        "Treat it as a compass, not a courtroom. If it doesn’t move, check that the saved row has energy values and that you’re viewing today."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I added a Foodiary row with no kcal and thought Home was broken.",
+      "why": "Blank-kcal rows don’t teach Progress. Log via Buddy on Home or fill nutrition."
+    },
+    {
+      "quote": "I ignore Home because there are too many numbers.",
+      "why": "Use one control: Log. Numbers can wait until the habit sticks."
+    },
+    {
+      "quote": "I only open Progress tab, never Home.",
+      "why": "Progress needs inputs. Capture on Home first."
+    }
+  ],
+  "encouragement": "Home is where honesty becomes easy. Tap Log, confirm, glance, go — that is a complete Buddy day starter."
+}

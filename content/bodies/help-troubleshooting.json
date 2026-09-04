@@ -1,0 +1,83 @@
+{
+  "intro": "Most “bugs” are path or day mismatches: logged in the wrong place, viewed the wrong day, or saved rows without kcal. Walk the checklist before you lose a week of patience.",
+  "time": "9 min",
+  "buddyTip": "Reproduce once on Home with a simple meal that has clear kcal. If Progress moves, the system works — fix the path, not your motivation.",
+  "mission": "If something feels broken, run the three checks: Home log path, selected day, kcal on the row.",
+  "why": [
+    "Troubleshooting skill protects Consistency over Intensity. People quit when they think the product ignored their effort — often the effort landed in an empty row or another date.",
+    "Sync delays, offline moments, and confirm-skipped voice drafts also confuse. A short ritual finds the cause without shame.",
+    "When it’s truly stuck, hello@kcal.lol helps faster if you can say what you tried: device, day, whether Home or Foodiary, and a screenshot if possible."
+  ],
+  "what": {
+    "lead": "Highest-frequency issues.",
+    "points": [
+      "Progress at 0 — blank kcal, placeholders, or no Home log",
+      "Wrong day — late logs / selected date mismatch",
+      "Voice/camera draft not saved — confirm skipped",
+      "Meal Plan vs diary confusion — intent logged as intake (or intake never logged)",
+      "Sync / reinstall surprises — auth and recovery gaps"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If Progress is 0, my data is gone.",
+        "truth": "Often the data is in Foodiary on another day or without energy fields. Inspect before panicking."
+      },
+      {
+        "myth": "Reinstalling always fixes it.",
+        "truth": "Reinstall without a clear auth/recovery plan can make things worse. Diagnose first."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Use this order every time.",
+    "steps": [
+      "Log one known meal on Home with Buddy; confirm save",
+      "Open Foodiary for today — see the row and its kcal/protein",
+      "Open Progress — confirm it responds",
+      "If empty: check selected day; fix blank-kcal rows; avoid duplicate manual empties",
+      "For voice/camera: retry and explicitly confirm",
+      "Still stuck: note device + time + what you tapped; email hello@kcal.lol"
+    ],
+    "buddyHelps": "The Quick Guide (WHAT / WHY / HOW) matches this path. Buddy capture with nutrition is the fastest proof the loop is alive."
+  },
+  "sections": [
+    {
+      "title": "Progress at 0",
+      "paras": [
+        "Blank-kcal Foodiary rows do not feed Progress. Prefer Buddy logs from Home. Edit rows to include energy or delete useless placeholders."
+      ],
+      "steps": [
+        "Home → Log → confirm",
+        "Foodiary → verify numbers",
+        "Progress → refresh view / revisit today"
+      ]
+    },
+    {
+      "title": "Wrong day",
+      "paras": [
+        "Check the date control in Foodiary. Late-night entries may sit on yesterday or tomorrow relative to your mental model. Align the day you’re judging in Progress."
+      ]
+    },
+    {
+      "title": "Sync and auth",
+      "paras": [
+        "Confirm you’re on a trusted/paired device and online long enough to sync. If you switched phones, finish pairing before declaring data missing."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I added five empty Foodiary lines to “force” Progress.",
+      "why": "Empty lines add noise. One complete Buddy log teaches more."
+    },
+    {
+      "quote": "I emailed support with only “it doesn’t work.”",
+      "why": "Path, day, and screenshot cut resolution time dramatically."
+    },
+    {
+      "quote": "I stopped logging for a week until it’s fixed.",
+      "why": "Try the Home proof log first. Often you’re unblocked in two minutes — and gaps hurt learning."
+    }
+  ],
+  "encouragement": "You are not failing the app. Walk Home → Foodiary → Progress once with a real meal. Most mysteries end there — and Buddy will be waiting at the next log."
+}

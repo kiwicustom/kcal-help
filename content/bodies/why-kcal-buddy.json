@@ -1,0 +1,73 @@
+{
+  "intro": "You already tried apps that count calories and still left you guessing. kCal Buddy exists because counting alone does not build health — understanding your real life does.",
+  "time": "8 min",
+  "buddyTip": "Install the habit of honest logging first. Differentiation only matters after Buddy has something true to learn from.",
+  "mission": "Open Home and log one real meal without “cleaning it up.” Notice how that feels.",
+  "why": [
+    "Most health apps solve a narrow problem: enter food, show a number, hope willpower does the rest. That model fails when life is noisy — travel, family dinners, stress, water weight, and imperfect estimates. People quit not because they lack discipline, but because the app never taught them what the numbers meant for their body.",
+    "kCal Buddy is built for a different job. We help you observe what you actually eat and do, understand how your weight and energy respond over weeks, then improve one sustainable change at a time. That loop — not a stricter daily target — is what makes another health app worth opening.",
+    "We also treat health as social. Habits stick when family, friends, teams, and coaches are part of the story. That is Scale Health Success: healthy behaviour should spread, not stay locked inside one lonely dashboard."
+  ],
+  "what": {
+    "lead": "The problem we solve is not “more tracking.” It is clearer decisions from real data.",
+    "points": [
+      "Stop guessing your burn from a generic calculator alone — learn from your intake and weight trend over time",
+      "Log with less friction (voice, photo, text) so honesty beats abandoned days",
+      "See protein, fibre, energy, and recovery as connected — not separate scoreboards",
+      "Use Buddy as a coach that explains, not a judge that shames incomplete days",
+      "Grow from personal ground truth into Spaces where people improve together"
+    ],
+    "misconceptions": [
+      {
+        "myth": "If I already have a calorie app, another one is redundant.",
+        "truth": "Calorie apps share a number. A Health Operating System connects nutrition, movement, recovery, weight, habits, and people — and learns your pattern instead of assuming a formula."
+      },
+      {
+        "myth": "Different means more features on day one.",
+        "truth": "Different means a clearer loop: Observe → Understand → Improve → Repeat. Features appear when they help that loop, not when they decorate the screen."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Treat the first weeks as learning, not a performance diet.",
+    "steps": [
+      "Log meals from Home — voice, camera, or text — as they happen",
+      "Weigh in on a steady schedule if weight is part of your goal; ignore single-day noise",
+      "Glance at Today’s Progress after logging; use Foodiary only to fix details",
+      "Once a week, open Progress and ask what good days shared — change one thing",
+      "When ready, join or create a Space so support is built in, not optional"
+    ],
+    "buddyHelps": "Buddy is the smart door into Foodiary. Estimates, confirmations, and Progress views exist so you spend energy on decisions, not data entry theatre."
+  },
+  "sections": [
+    {
+      "title": "Health Operating System",
+      "paras": [
+        "A Health Operating System is the quiet layer that keeps nutrition, movement, sleep, hydration, weight, and habits in one coherent picture. You still make the choices; Buddy keeps the picture honest and usable.",
+        "Think of it like a personal OS for health: logging is input, Progress is feedback, Meal Plan is intent, Spaces are collaboration. No single screen is the product — the system is."
+      ]
+    },
+    {
+      "title": "Scale Health Success",
+      "paras": [
+        "Health that stays only with you is fragile. When partners, kids, teammates, or a coach can share appropriate progress and encouragement, showing up gets easier.",
+        "Scale Health Success is the belief that good habits should move from you → family → friends → teams → communities. Spaces and coaching are built around that spread — never around owning your identity for someone else’s dashboard."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I’ll switch apps once I’ve perfected my macros elsewhere.",
+      "why": "Waiting for perfect data delays the only thing that teaches Buddy: your real weeks. Start messy; refine portions later."
+    },
+    {
+      "quote": "If it’s a Health OS, I need every sensor connected on day one.",
+      "why": "Sensors are context. Honest food logs and a steady weigh-in habit teach more in month one than a crowded integrations list."
+    },
+    {
+      "quote": "I’ll use Buddy alone forever — communities aren’t for me.",
+      "why": "Solo use is valid. Scale Health Success just means the door stays open when belonging would help you stay consistent."
+    }
+  ],
+  "encouragement": "You do not need another app that shouts at incomplete days. You need a calm system that learns with you. Log today as it is — that is already the kCal difference."
+}
