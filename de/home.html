@@ -4,15 +4,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Home — Hilfe · kCal Buddy</title>
+    <script>
+      /*kcal-cache-bust*/
+      (function () {
+        var link = document.querySelector('link[href*="css/tokens.css"]');
+        var base = "";
+        if (link) {
+          var href = link.getAttribute("href") || "";
+          base = href.replace(/css\/tokens\.css.*$/, "");
+        }
+        fetch(base + "version.json", { cache: "no-store" })
+          .then(function (r) { return r.json(); })
+          .then(function (v) {
+            if (!v || !v.assetVer) return;
+            var u = new URL(window.location.href);
+            if (u.searchParams.get("v") === v.assetVer) return;
+            u.searchParams.set("v", v.assetVer);
+            window.location.replace(u.toString());
+          })
+          .catch(function () {});
+      })();
+    </script>
     <meta name="theme-color" content="#FF7A00" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnb0stk" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnbbm3x" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnb0stk" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnbbm3x" />
   </head>
   <body>
     <div id="help-shell-header"></div>
@@ -41,6 +62,6 @@
       </div>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtnb0stk" data-page="home-guide" data-lang="de" data-base="../" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtnbbm3x" data-page="home-guide" data-lang="de" data-base="../" defer></script>
   </body>
 </html>

@@ -1,0 +1,94 @@
+{
+  "intro": "kCal Buddy by version line — the main idea of each era.",
+  "eras": [
+    {
+      "version": "0.8.x",
+      "name": "Together",
+      "status": "current",
+      "oneLiner": "How do we improve together?",
+      "highlights": [
+        "Spaces and shared challenges",
+        "iPhone + Android apps",
+        "Buddy Home coach loop for real daily use",
+        "Help Platform + Buddy Academy"
+      ]
+    },
+    {
+      "version": "0.7.x",
+      "name": "Personal",
+      "status": "closed",
+      "oneLiner": "How do I improve myself?",
+      "highlights": [
+        "Buddy Home: log → Foodiary → Progress",
+        "Voice + text logging that sticks",
+        "Targets, fuel, and habit coaching"
+      ]
+    },
+    {
+      "version": "0.6.x",
+      "name": "Stability",
+      "status": "closed",
+      "oneLiner": "Make the daily loop trustworthy.",
+      "highlights": [
+        "Diary accuracy and day handling",
+        "Mobile layout hardening",
+        "Invitation-only beta ops"
+      ]
+    },
+    {
+      "version": "0.5.x",
+      "name": "Body data",
+      "status": "closed",
+      "oneLiner": "Food, drink, and wearables connect.",
+      "highlights": [
+        "Liquids as first-class (water, coffee, volume)",
+        "Quick food in Foodiary",
+        "Oura and health integrations"
+      ]
+    },
+    {
+      "version": "0.4.x",
+      "name": "Buddy voice",
+      "status": "closed",
+      "oneLiner": "Talk to Buddy instead of fighting forms.",
+      "highlights": [
+        "Voice as a primary log door",
+        "Preview → confirm before save",
+        "Usable mic in real rooms"
+      ]
+    },
+    {
+      "version": "0.3.x",
+      "name": "Progress",
+      "status": "closed",
+      "oneLiner": "See whether the day is working.",
+      "highlights": [
+        "Calorie and macro targets",
+        "Today’s progress after logging",
+        "Early coaching from what you ate"
+      ]
+    },
+    {
+      "version": "0.2.x",
+      "name": "Foodiary",
+      "status": "closed",
+      "oneLiner": "A diary you can correct.",
+      "highlights": [
+        "Foodiary to review and fix meals",
+        "Portions, edits, day browsing",
+        "Home captures; Foodiary proofreads"
+      ]
+    },
+    {
+      "version": "0.1.x",
+      "name": "Spark",
+      "status": "closed",
+      "oneLiner": "First working Buddy — log something, see something.",
+      "highlights": [
+        "Core food logging",
+        "Buddy as the intelligent helper",
+        "Invitation-only beta begins"
+      ]
+    }
+  ]
+}

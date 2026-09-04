@@ -20,17 +20,33 @@
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
     <meta name="kcal:app-version" content="0.8.41" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnb0stk" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnbbm3x" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
+    <script>
+      /*kcal-cache-bust*/
+      (function () {
+        var base = "../";
+        fetch(base + "version.json", { cache: "no-store" })
+          .then(function (r) { return r.json(); })
+          .then(function (v) {
+            if (!v || !v.assetVer) return;
+            var u = new URL(window.location.href);
+            if (u.searchParams.get("v") === v.assetVer) return;
+            u.searchParams.set("v", v.assetVer);
+            window.location.replace(u.toString());
+          })
+          .catch(function () {});
+      })();
+    </script>
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnb0stk" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnb0stk" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnbbm3x" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -39,83 +55,107 @@
       <nav class="crumb" aria-label="Breadcrumb"><ol class="crumb-list"><li><a href="../index.html">Home</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><span aria-current="page">Release Notes</span></li></ol></nav>
       
       <h1>Release Notes</h1>
-      <p class="lead">What shipped recently in kCal Buddy — the highlights that matter for everyday use.</p>
+      <p class="lead">kCal Buddy by version line — the main idea of each era.</p>
       <div class="release-stack">
       <article class="card release-card">
-        <div class="tag">v0.8.41</div>
-        <strong>2026-09-04</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.8.x</span><span class="tag" style="margin-left:0.35rem">Current</span>
+        </div>
+        <strong>Together</strong>
+        <p class="note" style="margin:0.35rem 0 0">How do we improve together?</p>
         <ul class="release-card__list">
-          <li>Home health cards fit one phone row — Protein / Ballast / Water no longer spill sideways (Silke · TF-1).</li>
-          <li>Settings ← Zurück always clear of the iOS status bar — uses `--kcal-safe-top` like Home; stronger orange chrome (Silke · TF-4).</li>
-          <li>Weight / Water compose escape — sheet shows **← Zurück** (not only ✕) so you can leave without logging (Silke · TF-2).</li>
-          <li>Foodiary save without typed kcal — blank kcal is estimated from name + grams (e.g. Pizza Salami 100 g → ~240 kcal) so half a pizza still logs (Silke · TF-5).</li>
-          <li>Silke TestFlight batch — TF-3 (choose date) already shipped via compose Today/Yesterday + Foodiary eaten stamp; TF-6 swipe-day deferred. Credits **+350** ledger (~$3.50) **awarded** on beta 2026-09-04 (balance 350). Sam idea weight **+0.006**. Triage: `docs/mobile/TESTFLIGHT-FEEDBACK-TRIAGE.md`.</li>
+          <li>Spaces and shared challenges</li>
+          <li>iPhone + Android apps</li>
+          <li>Buddy Home coach loop for real daily use</li>
+          <li>Help Platform + Buddy Academy</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.40</div>
-        <strong>2026-09-04</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.7.x</span>
+        </div>
+        <strong>Personal</strong>
+        <p class="note" style="margin:0.35rem 0 0">How do I improve myself?</p>
         <ul class="release-card__list">
-          <li>Oats fiber on Home — dry oats / porridge now count toward the Fiber card (~4.2 g for 42 g). Name heuristic matches plural “oats”.</li>
-          <li>Food catalogue macros complete — all **151** catalogue foods now have `fiber_per_100g`, `sugar_per_100g`, and `sodium_mg_per_100g` (plus existing kcal/protein/carbs/fat). Meat/oil fiber stays 0 on purpose.</li>
+          <li>Buddy Home: log → Foodiary → Progress</li>
+          <li>Voice + text logging that sticks</li>
+          <li>Targets, fuel, and habit coaching</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.39</div>
-        <strong>2026-09-04</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.6.x</span>
+        </div>
+        <strong>Stability</strong>
+        <p class="note" style="margin:0.35rem 0 0">Make the daily loop trustworthy.</p>
         <ul class="release-card__list">
-          <li>Native ship SSOT — `docs/mobile/NATIVE-SHIP-PROCESS.md`: web tag → Android APK → iOS Archive → master (cross-linked from RUNBOOK / ship-mode / Get the App).</li>
-          <li>Foodiary eaten stamp — day + time on add/edit; always persists date + `HH:MM`; time remaps meal column; changing day moves the row.</li>
-          <li>Stuck on yesterday — warm SPA / Cap overnight no longer logs breakfast to the previous day. Resume heal (Cap `appStateChange`, visibility/focus, live refresh); Home always defaults to wall-clock today; Foodiary past-day browse still works.</li>
-          <li>Buddy voice/text time + date — spoken/clock forms (`20:00`, `um 20 Uhr`, `at 8:30 pm`, yesterday/gestern/eilen, …); no time → local clock; date hints flow into drafts/confirm.</li>
+          <li>Diary accuracy and day handling</li>
+          <li>Mobile layout hardening</li>
+          <li>Invitation-only beta ops</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.38</div>
-        <strong>2026-09-03</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.5.x</span>
+        </div>
+        <strong>Body data</strong>
+        <p class="note" style="margin:0.35rem 0 0">Food, drink, and wearables connect.</p>
         <ul class="release-card__list">
-          <li>Home coach strip — one compact row: Last meal, fuel/body Now (digesting / fat burn / fasting), and Next advice (Fuel Gauge–backed).</li>
-          <li>Home header Buddy — mobile top bar: animated Buddy + rotating tip bubble (“Hello {Name}, I am kCal Buddy!”), language, theme, gear → More. Big greeting card removed; Daily Energy stays below.</li>
-          <li>Quick Food starter chips — Top food, Protein + water, and From my foods are all visible (no clipped third pill).</li>
-          <li>Quick Food ⋯ menu — centered card; history tiles get Edit + Hide from Quick food (not Keep and Remove together).</li>
-          <li>Energy Minimize — hides the whole totals card (Energy, Macros, Food quality, Micros, Buddy summary), not only the Energy grid.</li>
-          <li>iPhone app first install — first open of kCal Buddy **Create PIN** on this phone (overrides the website PIN). Session cookie is retried after enroll. A full device list says so, instead of only “close the app.”</li>
-          <li>iPhone 14 first open layout — WKWebView no longer boots at ~980px “tile” scale; `viewport-fit=cover` + safe-area apply on first paint (no flip-to-fix).</li>
-          <li>iPhone status bar overlap — kCal Buddy title and ladybug no longer sit under the clock / battery when `env(safe-area-inset-top)` is 0 on first paint.</li>
+          <li>Liquids as first-class (water, coffee, volume)</li>
+          <li>Quick food in Foodiary</li>
+          <li>Oura and health integrations</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.37</div>
-        <strong>2026-09-03</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.4.x</span>
+        </div>
+        <strong>Buddy voice</strong>
+        <p class="note" style="margin:0.35rem 0 0">Talk to Buddy instead of fighting forms.</p>
         <ul class="release-card__list">
-          <li>Foodiary fiber — Raspberries, blueberries, strawberries, and chia count toward fiber (name heuristic + USDA nutrient 291/`amount`). The item line shows grams when &gt; 0. Eggs stay 0 g.</li>
-          <li>iPhone sideways pan — Home / Foodiary / Progress / Connected Health only scroll up/down on iPhone 16 width.</li>
-          <li>Android ladybug — Beta feedback chip shows in the native app (including old localhost WebViews).</li>
+          <li>Voice as a primary log door</li>
+          <li>Preview → confirm before save</li>
+          <li>Usable mic in real rooms</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.36</div>
-        <strong>2026-09-02</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.3.x</span>
+        </div>
+        <strong>Progress</strong>
+        <p class="note" style="margin:0.35rem 0 0">See whether the day is working.</p>
         <ul class="release-card__list">
-          <li>iPhone / Android app sign-in — kCal Buddy loads `https://beta.kcal.lol` in the WebView so the session cookie sticks (same as Safari). App path is **PIN only** (create or enter). No QR, no email. Uninstall wipes the app sandbox. Reset sign-in then Create PIN. Browsers keep the existing email / QR path.</li>
+          <li>Calorie and macro targets</li>
+          <li>Today’s progress after logging</li>
+          <li>Early coaching from what you ate</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.35</div>
-        <strong>2026-09-02</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.2.x</span>
+        </div>
+        <strong>Foodiary</strong>
+        <p class="note" style="margin:0.35rem 0 0">A diary you can correct.</p>
         <ul class="release-card__list">
-          <li>No pairing QR on phones — iPhone / Android (Safari, PWA, and the installed app) never show the laptop QR. First open / after Reset sign-in goes to **Create PIN**. Laptop browsers still use QR.</li>
+          <li>Foodiary to review and fix meals</li>
+          <li>Portions, edits, day browsing</li>
+          <li>Home captures; Foodiary proofreads</li>
         </ul>
       </article>
       <article class="card release-card">
-        <div class="tag">v0.8.34</div>
-        <strong>2026-09-02</strong>
+        <div class="release-card__head">
+          <span class="tag">v0.1.x</span>
+        </div>
+        <strong>Spark</strong>
+        <p class="note" style="margin:0.35rem 0 0">First working Buddy — log something, see something.</p>
         <ul class="release-card__list">
-          <li>Launch screen — Orange + kCal Buddy splash is first paint again on localhost, beta, Spaces, and the Android APK. Same art everywhere. **KCAL BUDDY - Beta** on the logo, **Ready to rock?** bubble, typewriter **Loading…**, then a slow orange dissolve into Home — no white flash.</li>
+          <li>Core food logging</li>
+          <li>Buddy as the intelligent helper</li>
+          <li>Invitation-only beta begins</li>
         </ul>
       </article>
       </div>
-      <p class="note" style="margin-top:1.25rem">Full engineering history lives in the monorepo <code>CHANGELOG.md</code>.</p>
+      <p class="note" style="margin-top:1.25rem">Patch-level engineering detail lives in the monorepo <code>CHANGELOG.md</code>.</p>
       <p class="note"><a href="../help/index.html">Help</a> · <a href="../academy/index.html">Buddy Academy</a></p>
       <aside class="platform-feedback" data-ext="ratings" hidden>
         <!-- Phase C: page ratings mount point -->
@@ -125,7 +165,7 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtnb0stk" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtnb0stk" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtnbbm3x" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtnbbm3x" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
