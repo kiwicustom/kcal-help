@@ -36,6 +36,15 @@
   border-color: rgb(255 122 0 / 0.45);
 }
 
+.academy-card.card--soon:hover {
+  border-color: #b4b4bc !important;
+}
+
+.academy-card.card--soon .academy-card__num {
+  color: #8b8b94 !important;
+  opacity: 0.55;
+}
+
 .academy-card__num {
   font-weight: 800;
   font-size: 1.1rem;

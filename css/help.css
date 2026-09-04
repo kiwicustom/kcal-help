@@ -451,19 +451,20 @@ h2 {
   position: absolute;
   inset: 0;
   z-index: 3;
-  display: grid;
-  place-items: center;
   margin: 0;
-  padding: 0.65rem;
+  padding: 0;
   pointer-events: none;
   background: rgb(236 236 240 / 0.4);
 }
 
 .soon-stamp__ink {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   display: inline-block;
   box-sizing: border-box;
-  max-width: calc(100% - 0.5rem);
-  padding: 0.5rem 0.75rem;
+  max-width: calc(100% - 1rem);
+  padding: 0.55rem 0.85rem;
   border: 0.22rem solid rgb(176 42 36 / 0.9);
   border-radius: 0.35rem;
   box-shadow:
@@ -479,7 +480,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  transform: rotate(-18deg);
+  transform: translate(-50%, -50%) rotate(-18deg);
   opacity: 0.94;
 }
 

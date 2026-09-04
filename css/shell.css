@@ -230,10 +230,23 @@ a:hover {
 }
 
 .help-lang--soon,
-.help-lang--muted {
+.help-lang--muted,
+.help-nav__soon {
   opacity: 0.45;
   cursor: default;
   pointer-events: none;
+}
+
+.help-nav__soon {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--text-muted);
 }
 
 .help-nav a {
@@ -255,7 +268,8 @@ a:hover {
   display: none;
 }
 
-.help-nav-mobile a {
+.help-nav-mobile a,
+.help-nav-mobile .help-nav__soon {
   text-decoration: none;
   color: var(--text-muted);
   font-size: 0.78rem;

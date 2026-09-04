@@ -24,10 +24,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtna1jo9" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtna1jo9" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtna1jo9" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtna1jo9" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtna5cou" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtna5cou" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtna5cou" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtna5cou" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Developer Documentation","item":"https://help.kcal.lol/docs/index.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="docs-hub">
@@ -37,43 +37,53 @@
       
       <h1>Developer Documentation</h1>
       <p class="lead">Public technical documentation. Internal engineering stays in the monorepo.</p>
-      <div class="callout callout--buddy"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" /><div><strong>Coming soon</strong><p class="note" style="margin:0.25rem 0 0">Public developer docs are under development for a future release. Internal engineering stays in the monorepo <code>docs/</code>.</p></div></div>
-      <p class="academy-path-label">Preview (draft)</p>
-      <div class="academy-grid"><a class="academy-card card" href="../docs/architecture.html">
-        <span class="academy-card__num">··</span>
-        <span class="academy-card__body">
-          <strong>Architecture</strong>
-          <span class="note">Public overview: Buddy · Spaces · Desks on Platform Core.</span>
-        </span>
-      </a>
-<a class="academy-card card" href="../docs/apis.html">
-        <span class="academy-card__num">··</span>
-        <span class="academy-card__body">
-          <strong>Public APIs</strong>
-          <span class="note">Public API surface (expand as endpoints are published).</span>
-        </span>
-      </a>
-<a class="academy-card card" href="../docs/authentication.html">
-        <span class="academy-card__num">··</span>
-        <span class="academy-card__body">
-          <strong>Authentication</strong>
-          <span class="note">Public auth model for app and future APIs.</span>
-        </span>
-      </a>
-<a class="academy-card card" href="../docs/integrations.html">
-        <span class="academy-card__num">··</span>
-        <span class="academy-card__body">
-          <strong>Integrations</strong>
-          <span class="note">Health sources and partner connectors (public).</span>
-        </span>
-      </a>
-<a class="academy-card card" href="../docs/release-notes.html">
+      <div class="card card--soon" aria-disabled="true" aria-label="Public technical docs — Coming soon" style="min-height:9rem;position:relative;overflow:hidden">
+          <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Coming soon</span></span>
+          <div class="tag">Developer Docs</div>
+          <strong>Public technical docs</strong>
+          <p class="note" style="margin:0.35rem 0 0">Architecture, APIs, auth, and integrations are under development for a future release. Internal engineering stays in the monorepo <code>docs/</code>.</p>
+        </div>
+      <p class="academy-path-label">Available now</p>
+      <div class="academy-grid"><a class="academy-card card" href="../docs/release-notes.html">
         <span class="academy-card__num">→</span>
         <span class="academy-card__body">
           <strong>Release Notes</strong>
           <span class="note">Public release highlights for kCal Buddy.</span>
         </span>
       </a></div>
+      <p class="academy-path-label">Coming soon</p>
+      <div class="academy-grid"><div class="academy-card card card--soon" aria-disabled="true" aria-label="Architecture — Coming soon">
+        <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Coming soon</span></span>
+        <span class="academy-card__num">··</span>
+        <span class="academy-card__body">
+          <strong>Architecture</strong>
+          <span class="note">Public overview: Buddy · Spaces · Desks on Platform Core.</span>
+        </span>
+      </div>
+<div class="academy-card card card--soon" aria-disabled="true" aria-label="Public APIs — Coming soon">
+        <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Coming soon</span></span>
+        <span class="academy-card__num">··</span>
+        <span class="academy-card__body">
+          <strong>Public APIs</strong>
+          <span class="note">Public API surface (expand as endpoints are published).</span>
+        </span>
+      </div>
+<div class="academy-card card card--soon" aria-disabled="true" aria-label="Authentication — Coming soon">
+        <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Coming soon</span></span>
+        <span class="academy-card__num">··</span>
+        <span class="academy-card__body">
+          <strong>Authentication</strong>
+          <span class="note">Public auth model for app and future APIs.</span>
+        </span>
+      </div>
+<div class="academy-card card card--soon" aria-disabled="true" aria-label="Integrations — Coming soon">
+        <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Coming soon</span></span>
+        <span class="academy-card__num">··</span>
+        <span class="academy-card__body">
+          <strong>Integrations</strong>
+          <span class="note">Health sources and partner connectors (public).</span>
+        </span>
+      </div></div>
       <aside class="platform-feedback" data-ext="ratings" hidden>
         <!-- Phase C: page ratings mount point -->
       </aside>

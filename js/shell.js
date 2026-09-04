@@ -10,6 +10,7 @@
   const base = (script && script.getAttribute("data-base")) || "";
   const file = (script && script.getAttribute("data-file")) || "index.html";
   const pageUpdated = (script && script.getAttribute("data-updated")) || "";
+  const de = lang === "de";
 
   const THEME_KEY = "kcal.help.colorMode";
 
@@ -33,20 +34,73 @@
     return base + path;
   }
 
-  const nav = [
-    ["help", "help/index.html", "Help"],
-    ["academy", "academy/index.html", "Academy"],
-    ["docs", "docs/index.html", "Docs"],
-  ];
+  const homePath = de ? "de/index.html" : "index.html";
+  const helpPath = de ? "de/index.html" : "help/index.html";
+  const academyPath = "academy/index.html";
+  const releaseNotesPath = de ? "de/whats-new.html" : "docs/release-notes.html";
 
-  const navHtml = nav
-    .map(([id, path, label]) => {
-      const cur = page === id ? ' aria-current="page"' : "";
-      return `<a href="${href(path)}"${cur}>${label}</a>`;
-    })
-    .join("");
+  const labels = de
+    ? {
+        help: "Hilfe",
+        academy: "Academy",
+        docs: "Docs",
+        docsSoon: "Demnächst",
+        docsTitle: "Entwickler-Docs — demnächst",
+        learn: "Lernen",
+        academyLink: "Buddy Academy",
+        helpLink: "Hilfe",
+        docsLink: "Entwickler-Docs",
+        releaseNotes: "Was ist neu",
+        legal: "Rechtliches",
+        privacy: "Datenschutz",
+        terms: "AGB",
+        contact: "Kontakt",
+        product: "Produkt",
+        beta: "Beta nur auf Einladung",
+        feedback: "Feedback",
+        version: "Version",
+        docsVersion: "Dokumentations-Version",
+        updated: "Zuletzt aktualisiert",
+        subHelp: "Hilfe",
+        subAcademy: "Academy",
+        subDocs: "Docs",
+        subSite: "Hilfe",
+        searchSoon: "Suche (demnächst)",
+      }
+    : {
+        help: "Help",
+        academy: "Academy",
+        docs: "Docs",
+        docsSoon: "Coming soon",
+        docsTitle: "Developer Docs — coming soon",
+        learn: "Learn",
+        academyLink: "Buddy Academy",
+        helpLink: "Help",
+        docsLink: "Developer Docs",
+        releaseNotes: "Release Notes",
+        legal: "Legal",
+        privacy: "Privacy",
+        terms: "Terms",
+        contact: "Contact",
+        product: "Product",
+        beta: "Beta is invitation-only",
+        feedback: "Feedback",
+        version: "Version",
+        docsVersion: "Documentation Version",
+        updated: "Last Updated",
+        subHelp: "Help",
+        subAcademy: "Academy",
+        subDocs: "Docs",
+        subSite: "Help Platform",
+        searchSoon: "Search (coming soon)",
+      };
 
-  // Language: EN / DE / FI — flex-centered group (no padding hacks)
+  const navHtml = `
+    <a href="${href(helpPath)}"${page === "help" || (de && page === "help") ? ' aria-current="page"' : ""}>${labels.help}</a>
+    <a href="${href(academyPath)}"${page === "academy" ? ' aria-current="page"' : ""}>${labels.academy}</a>
+    <span class="help-nav__soon" title="${labels.docsTitle}" aria-disabled="true">${labels.docs} · ${labels.docsSoon}</span>
+  `;
+
   const langSwitch = `
     <div class="help-lang-switch" role="group" aria-label="Language">
       <a class="help-lang" href="${href("index.html")}" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
@@ -55,12 +109,18 @@
     </div>`;
 
   const sub =
-    page === "academy" ? "Academy" : page === "docs" ? "Docs" : page === "help" ? "Help" : "Help Platform";
+    page === "academy"
+      ? labels.subAcademy
+      : page === "docs"
+        ? labels.subDocs
+        : page === "help"
+          ? labels.subHelp
+          : labels.subSite;
 
   const header = `
 <header class="help-header" role="banner">
   <div class="help-header__inner">
-    <a class="help-brand" href="${href("index.html")}">
+    <a class="help-brand" href="${href(homePath)}">
       <img class="help-brand__mark" src="${href("assets/brand/kcal-buddy-192.png")}" width="36" height="36" alt="" />
       <span class="help-brand__text">
         <span class="help-brand__name">kCal Buddy</span>
@@ -69,7 +129,7 @@
     </a>
     <nav class="help-nav" aria-label="Primary">${navHtml}</nav>
     <div class="help-header__tools">
-      <button type="button" class="help-icon-btn" id="help-search-hook" data-ext="search" aria-label="Search (coming soon)" title="Search — Phase B">🔍</button>
+      <button type="button" class="help-icon-btn" id="help-search-hook" data-ext="search" aria-label="${labels.searchSoon}" title="${labels.searchSoon}">🔍</button>
       <button type="button" class="help-icon-btn" id="help-theme-toggle" aria-label="Toggle color mode">🌙</button>
       ${langSwitch}
     </div>
@@ -84,34 +144,34 @@
     <p class="help-footer__tagline">Helping people build healthier habits every day.</p>
     <div class="help-footer__grid">
       <div class="help-footer__col">
-        <h3>Learn</h3>
+        <h3>${labels.learn}</h3>
         <ul>
-          <li><a href="${href("academy/index.html")}">Buddy Academy</a></li>
-          <li><a href="${href("help/index.html")}">Help</a></li>
-          <li><a href="${href("docs/index.html")}">Developer Docs</a></li>
-          <li><a href="${href("docs/release-notes.html")}">Release Notes</a></li>
+          <li><a href="${href(academyPath)}">${labels.academyLink}</a></li>
+          <li><a href="${href(helpPath)}">${labels.helpLink}</a></li>
+          <li><span class="help-footer__muted" title="${labels.docsTitle}">${labels.docsLink} · ${labels.docsSoon}</span></li>
+          <li><a href="${href(releaseNotesPath)}">${labels.releaseNotes}</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
-        <h3>Legal</h3>
+        <h3>${labels.legal}</h3>
         <ul>
-          <li><a href="https://beta.kcal.lol/#/privacy">Privacy</a></li>
-          <li><a href="https://beta.kcal.lol/#/terms">Terms</a></li>
-          <li><a href="mailto:hello@kcal.lol">Contact</a></li>
+          <li><a href="https://beta.kcal.lol/#/privacy">${labels.privacy}</a></li>
+          <li><a href="https://beta.kcal.lol/#/terms">${labels.terms}</a></li>
+          <li><a href="mailto:hello@kcal.lol">${labels.contact}</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
-        <h3>Product</h3>
+        <h3>${labels.product}</h3>
         <ul>
-          <li><span class="help-footer__muted">Beta is invitation-only</span></li>
-          <li><a href="mailto:hello@kcal.lol">Feedback</a></li>
+          <li><span class="help-footer__muted">${labels.beta}</span></li>
+          <li><a href="mailto:hello@kcal.lol">${labels.feedback}</a></li>
         </ul>
       </div>
     </div>
     <div class="help-footer__meta" id="help-footer-meta">
-      <div><span class="help-footer__meta-label">Version</span> <span data-v="app">…</span></div>
-      <div><span class="help-footer__meta-label">Documentation Version</span> <span data-v="docs">…</span></div>
-      <div><span class="help-footer__meta-label">Last Updated</span> <span data-v="updated">${pageUpdated || "…"}</span></div>
+      <div><span class="help-footer__meta-label">${labels.version}</span> <span data-v="app">…</span></div>
+      <div><span class="help-footer__meta-label">${labels.docsVersion}</span> <span data-v="docs">…</span></div>
+      <div><span class="help-footer__meta-label">${labels.updated}</span> <span data-v="updated">${pageUpdated || "…"}</span></div>
     </div>
     <p class="help-footer__copy">© ${new Date().getFullYear()} kcal.lol · kiwicustom GmbH</p>
   </div>
