@@ -40,6 +40,7 @@
   const navEn = [
     ["home", "index.html", "🏠 Home"],
     ["help", "index.html", "📚 Help"],
+    ["academy", "academy/index.html", "🎓 Academy"],
     ["docs", "documentation.html", "📖 Documentation"],
     ["new", "whats-new.html", "🆕 What's New"],
     ["search", "search.html", "🔍 Search"],
@@ -48,6 +49,7 @@
   const navDe = [
     ["home", "index.html", "🏠 Start"],
     ["help", "index.html", "📚 Hilfe"],
+    ["academy", "academy/index.html", "🎓 Academy"],
     ["docs", "documentation.html", "📖 Dokumentation"],
     ["new", "whats-new.html", "🆕 Neu"],
     ["search", "search.html", "🔍 Suche"],
@@ -59,6 +61,7 @@
     .map(([id, path, label]) => {
       let cur = page === id;
       if (id === "help" && ["help", "home-guide", "foodiary", "nav"].includes(page)) cur = true;
+      if (id === "academy" && page === "academy") cur = true;
       if (id === "home" && page === "home") cur = true;
       if (id === "home" && page !== "home") cur = false;
       const current = cur ? ' aria-current="page"' : "";
@@ -111,7 +114,6 @@
         updated: "Zuletzt aktualisiert",
         build: "Build-Datum",
         copy: "© kcal.lol",
-        beta: "Zur App (Beta)",
       }
     : {
         tagline: "Helping people build healthier habits every day.",
@@ -133,8 +135,14 @@
         updated: "Last Updated",
         build: "Build Date",
         copy: "© kcal.lol",
-        beta: "Open app (Beta)",
       };
+
+  const inviteNote =
+    lang === "de"
+      ? "Beta derzeit nur auf Einladung."
+      : lang === "fi"
+        ? "Beta vain kutsulla."
+        : "Beta is invitation-only for now.";
 
   const footer = `
 <footer class="help-footer" role="contentinfo">
@@ -158,16 +166,15 @@
       <div class="help-footer__col">
         <h3>${t.community}</h3>
         <ul>
-          <li><a href="https://github.com/kiwicustom/kcal">GitHub</a></li>
           <li><span style="color:var(--text-muted)">Discord (future)</span></li>
-          <li><a href="https://beta.kcal.lol/">${t.feedback}</a></li>
+          <li><a href="mailto:hello@kcal.lol">${t.feedback}</a></li>
           <li><a href="mailto:hello@kcal.lol">${t.bugs}</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
         <h3>${t.product}</h3>
         <ul>
-          <li><a class="btn-primary" href="https://beta.kcal.lol/" style="margin-top:0.25rem">${t.beta}</a></li>
+          <li><span style="color:var(--text-muted)">${inviteNote}</span></li>
         </ul>
       </div>
     </div>

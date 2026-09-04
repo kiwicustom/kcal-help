@@ -1,0 +1,116 @@
+{
+  "title": "Buddy Academy",
+  "foundation": {
+    "id": "philosophy",
+    "title": "kCal Philosophy",
+    "path": "academy/philosophy.html"
+  },
+  "lessonCount": 15,
+  "lessons": [
+    {
+      "id": "getting-started",
+      "num": 1,
+      "title": "Getting Started",
+      "time": "8 min",
+      "path": "academy/getting-started.html"
+    },
+    {
+      "id": "first-30-days",
+      "num": 2,
+      "title": "First 30 Days",
+      "time": "10 min",
+      "path": "academy/first-30-days.html"
+    },
+    {
+      "id": "daily-routine",
+      "num": 3,
+      "title": "Daily Routine",
+      "time": "6 min",
+      "path": "academy/daily-routine.html"
+    },
+    {
+      "id": "weekly-review",
+      "num": 4,
+      "title": "Weekly Review",
+      "time": "7 min",
+      "path": "academy/weekly-review.html"
+    },
+    {
+      "id": "monthly-review",
+      "num": 5,
+      "title": "Monthly Review",
+      "time": "8 min",
+      "path": "academy/monthly-review.html"
+    },
+    {
+      "id": "weight-loss",
+      "num": 6,
+      "title": "Weight Loss Journey",
+      "time": "9 min",
+      "path": "academy/weight-loss.html"
+    },
+    {
+      "id": "muscle-building",
+      "num": 7,
+      "title": "Muscle Building Journey",
+      "time": "9 min",
+      "path": "academy/muscle-building.html"
+    },
+    {
+      "id": "healthy-eating",
+      "num": 8,
+      "title": "Healthy Eating",
+      "time": "7 min",
+      "path": "academy/healthy-eating.html"
+    },
+    {
+      "id": "meal-planning",
+      "num": 9,
+      "title": "Meal Planning",
+      "time": "8 min",
+      "path": "academy/meal-planning.html"
+    },
+    {
+      "id": "voice-logging",
+      "num": 10,
+      "title": "Voice Logging",
+      "time": "6 min",
+      "path": "academy/voice-logging.html"
+    },
+    {
+      "id": "progress-analytics",
+      "num": 11,
+      "title": "Progress & Analytics",
+      "time": "7 min",
+      "path": "academy/progress-analytics.html"
+    },
+    {
+      "id": "spaces-coaching",
+      "num": 12,
+      "title": "Spaces & Coaching",
+      "time": "8 min",
+      "path": "academy/spaces-coaching.html"
+    },
+    {
+      "id": "tips-tricks",
+      "num": 13,
+      "title": "Tips & Tricks",
+      "time": "5 min",
+      "path": "academy/tips-tricks.html"
+    },
+    {
+      "id": "challenges",
+      "num": 14,
+      "title": "Challenges",
+      "time": "6 min",
+      "path": "academy/challenges.html"
+    },
+    {
+      "id": "faq",
+      "num": 15,
+      "title": "FAQ",
+      "time": "6 min",
+      "path": "academy/faq.html"
+    }
+  ]
+}
