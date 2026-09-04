@@ -2,340 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home screen — Help · kcal.lol</title>
-    <meta name="description" content="Numbered picture guide to every control on the kcal Home screen." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Home screen — Help · kCal Buddy</title>
+    <meta name="theme-color" content="#FF7A00" />
+    <link rel="icon" href="assets/brand/kcal-mark-64.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/shell.css" />
     <link rel="stylesheet" href="css/help.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header class="topnav">
-        <a class="brand" href="index.html">kcal.lol <span>Help</span></a>
-        <nav>
-          <a href="index.html">Start</a>
-          <a href="home.html" aria-current="page">Home screen</a>
-          <a href="foodiary.html">Buddy vs Foodiary</a>
-          <a href="nav.html">Bottom tabs</a>
-          <a class="lang" href="de/home.html">DE</a>
-        </nav>
-      </header>
-
+    <div id="help-shell-header"></div>
+    <main class="help-main">
+      <p class="crumb"><a href="index.html">Help</a> · Home screen</p>
       <h1>Home screen — picture guide</h1>
-      <p class="lead">
-        This is your daily desk. Log up top. Progress in the middle. Tabs at the bottom.
-        Numbers below match the screenshot regions from top to bottom.
-      </p>
+      <p class="lead">Log up top. Progress in the middle. Tabs at the bottom. Shots from the live app (Playwright).</p>
 
-      <figure class="shot-wrap">
-        <img
-          src="assets/screenshots/home-overview.png"
-          width="520"
-          height="1024"
-          alt="kcal Home screen: orange Log strip, Today's Progress, mood row, bottom navigation"
-        />
-        <figcaption class="caption">Home on mobile / PWA — Playwright shot <code>home-overview.png</code>. Numbered list below.</figcaption>
-      </figure>
-
-      <h2>1 · Header</h2>
-      <ol class="steps" start="1">
-        <li>
-          <span class="num">1</span>
-          <div>
-            <strong>Buddy mascot</strong>
-            <p>Brand mark. You are in kCal Buddy — not a generic diary app.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">2</span>
-          <div>
-            <strong>“+ Log is always up top”</strong>
-            <p>
-              Reminder during early use: food logging lives in this top strip, not buried in
-              Foodiary.
-            </p>
-          </div>
-        </li>
-        <li>
-          <span class="num">3</span>
-          <div>
-            <strong>Language (EN)</strong>
-            <p>Switch UI language (EN / DE / FI / …).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">4</span>
-          <div>
-            <strong>Dark mode</strong>
-            <p>Moon icon — light / dark appearance.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">5</span>
-          <div>
-            <strong>Settings gear</strong>
-            <p>Account and app settings.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>2 · Buddy Log (orange card) — start here</h2>
-      <ol class="steps" start="6">
-        <li>
-          <span class="num">6</span>
-          <div>
-            <strong>Log as Text (Default)</strong>
-            <p>
-              Main button. Type what you ate (“2 eggs and toast”). Buddy parses and estimates
-              nutrition, then saves into Foodiary.
-            </p>
-            <div class="badge-row">
-              <span class="badge">Default path</span>
-              <span class="badge green">Fills Progress</span>
-            </div>
-          </div>
-        </li>
-        <li>
-          <span class="num">7</span>
-          <div>
-            <strong>Log settings (gear on the orange button)</strong>
-            <p>Preferences for how logging behaves (default mode, etc.).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">8</span>
-          <div>
-            <strong>Camera</strong>
-            <p>Photograph a meal. Buddy reads the plate and proposes food + nutrition.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">9</span>
-          <div>
-            <strong>Gallery</strong>
-            <p>Pick an existing photo from your phone instead of taking a new one.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">10</span>
-          <div>
-            <strong>Text mode (highlighted)</strong>
-            <p>Active when the text icon is orange — same as the big Log as Text button.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">11</span>
-          <div>
-            <strong>Microphone (Voice)</strong>
-            <p>Say the meal out loud. Buddy listens, shows a transcript, then confirms.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">12</span>
-          <div>
-            <strong>Water drop</strong>
-            <p>Quick water log — updates the Water card without a full food entry.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">13</span>
-          <div>
-            <strong>Shopping / bag</strong>
-            <p>Shopping / receipt-related shortcuts when available.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">14</span>
-          <div>
-            <strong>More (chevron)</strong>
-            <p>Extra log options that do not fit on the first row.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>3 · Day context</h2>
-      <ol class="steps" start="15">
-        <li>
-          <span class="num">15</span>
-          <div>
-            <strong>Date &amp; time</strong>
-            <p>
-              Which day you are looking at. Change day when logging yesterday or reviewing the
-              past.
-            </p>
-          </div>
-        </li>
-        <li>
-          <span class="num">16</span>
-          <div>
-            <strong>Daylight timeline</strong>
-            <p>Sunrise → sunset with where you are in the day (context, not a calorie control).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">17</span>
-          <div>
-            <strong>Weather &amp; place</strong>
-            <p>Local temperature and location context for the day.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>4 · Today's Progress</h2>
-      <ol class="steps" start="18">
-        <li>
-          <span class="num">18</span>
-          <div>
-            <strong>Progress settings (gear)</strong>
-            <p>Customize what this progress block shows.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">19</span>
-          <div>
-            <strong>Daily energy budget</strong>
-            <p>
-              Eaten vs target (e.g. 0 / 1,500 kcal) and how much is left. Fills when Foodiary
-              rows for this day have calories.
-            </p>
-          </div>
-        </li>
-        <li>
-          <span class="num">20</span>
-          <div>
-            <strong>FOOD</strong>
-            <p>Calories from food logged today.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">21</span>
-          <div>
-            <strong>TEF</strong>
-            <p>Thermic effect of food — digestion cost estimated from what you ate.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">22</span>
-          <div>
-            <strong>EXERCISE</strong>
-            <p>Activity burn credited for the day (when connected / logged).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">23</span>
-          <div>
-            <strong>REMAINING</strong>
-            <p>What is left in the budget after food, TEF, and exercise.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">24</span>
-          <div>
-            <strong>Protein card</strong>
-            <p>Protein vs target, plus leucine estimate. Tap for sources and detail.</p>
-            <div class="badge-row"><span class="badge">Orange</span></div>
-          </div>
-        </li>
-        <li>
-          <span class="num">25</span>
-          <div>
-            <strong>Fiber card</strong>
-            <p>Fiber vs target and a short tip (e.g. vegetables / beans).</p>
-            <div class="badge-row"><span class="badge green">Green</span></div>
-          </div>
-        </li>
-        <li>
-          <span class="num">26</span>
-          <div>
-            <strong>Water card</strong>
-            <p>Liters vs target and “next drink” nudge. Updated by the water drop (#12).</p>
-            <div class="badge-row"><span class="badge blue">Blue</span></div>
-          </div>
-        </li>
-        <li>
-          <span class="num">27</span>
-          <div>
-            <strong>Tip line</strong>
-            <p>“Tap any metric for details…” — cards open deeper insights, not just numbers.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>5 · Mood</h2>
-      <ol class="steps" start="28">
-        <li>
-          <span class="num">28</span>
-          <div>
-            <strong>How's it going?</strong>
-            <p>Optional mood check-in (five faces). Separate from food logging.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>6 · Bottom tabs</h2>
-      <p class="note">Full tab list with jobs: <a href="nav.html">Bottom tabs guide</a>.</p>
-      <ol class="steps" start="29">
-        <li>
-          <span class="num">29</span>
-          <div>
-            <strong>Home</strong>
-            <p>This screen — log + progress (active when orange).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">30</span>
-          <div>
-            <strong>Meal Plan</strong>
-            <p>Planned meals for the days ahead.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">31</span>
-          <div>
-            <strong>Foodiary</strong>
-            <p>Day book — edit rows Buddy saved, or add a careful manual entry.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">32</span>
-          <div>
-            <strong>Activity</strong>
-            <p>Movement / burn calendar and activity views.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">33</span>
-          <div>
-            <strong>Progress</strong>
-            <p>Trends over time (weight, streaks, longer charts).</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">34</span>
-          <div>
-            <strong>Spaces</strong>
-            <p>Together features — groups and shared spaces.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">35</span>
-          <div>
-            <strong>Menu</strong>
-            <p>More: About, legal, install app, Help link, extras.</p>
-          </div>
-        </li>
-      </ol>
-
-      <div class="callout">
-        <strong>If Progress stays at 0:</strong> check you logged for <em>today</em> on the same
-        account, and that the Foodiary row has kcal (Buddy fill or estimate). Then pull to
-        refresh / reopen Home.
+      <div class="callout callout--buddy">
+        <img class="callout__icon" src="assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+        <div>
+          <strong>💬 Buddy Tip</strong>
+          <p class="note" style="margin: 0.25rem 0 0">Food logging lives in the orange strip — not buried only in Foodiary.</p>
+        </div>
       </div>
 
-      <footer class="footer">
-        <a href="index.html">← Start</a>
-        ·
-        <a href="foodiary.html">Buddy vs Foodiary →</a>
-      </footer>
-    </div>
+      <h2>Overview</h2>
+      <figure class="shot-wrap">
+        <img src="assets/screenshots/home-overview.png" width="780" height="1688" alt="kCal Buddy Home overview" />
+        <figcaption class="caption">home-overview.png</figcaption>
+      </figure>
+
+      <h2>Quick actions</h2>
+      <figure class="shot-wrap">
+        <img src="assets/screenshots/home-quick-actions.png" alt="Home quick actions and Talk food" />
+        <figcaption class="caption">home-quick-actions.png</figcaption>
+      </figure>
+
+      <h2>Today's Progress / budget</h2>
+      <figure class="shot-wrap">
+        <img src="assets/screenshots/home-budget.png" alt="Today's Progress energy budget" />
+        <figcaption class="caption">home-budget.png</figcaption>
+      </figure>
+
+      <h2>Numbered map</h2>
+      <ol class="steps">
+        <li><span class="num">1</span><div><strong>Buddy mascot</strong><p>Brand mark — you are in kCal Buddy.</p></div></li>
+        <li><span class="num">2</span><div><strong>Primary Log / Talk food</strong><p>Default capture path — text, photo, voice.</p></div></li>
+        <li><span class="num">3</span><div><strong>Quick action icons</strong><p>Camera, gallery, text, mic, water, shopping, more.</p></div></li>
+        <li><span class="num">4</span><div><strong>Day + daylight + weather</strong><p>Which day you are logging for.</p></div></li>
+        <li><span class="num">5</span><div><strong>Today's Progress</strong><p>Energy budget, protein, fiber, water.</p></div></li>
+        <li><span class="num">6</span><div><strong>Bottom tabs</strong><p>Home · Meal Plan · Foodiary · Activity · Progress · Spaces · Menu.</p></div></li>
+      </ol>
+
+      <div class="callout callout--warn">
+        <span class="callout__emoji" aria-hidden="true">⚠</span>
+        <div>
+          <strong>Common mistake</strong>
+          <p class="note" style="margin: 0.25rem 0 0">
+            Logging only in Foodiary with blank kcal leaves Progress at 0. Use Buddy Log on Home first.
+          </p>
+        </div>
+      </div>
+
+      <p><a href="foodiary.html">Buddy vs Foodiary →</a></p>
+    </main>
+    <div id="help-shell-footer"></div>
+    <script src="js/shell.js" data-page="home-guide" data-lang="en" data-base="" defer></script>
   </body>
 </html>

@@ -1,0 +1,57 @@
+/**
+ * Help site tokens — SAME identity as beta.kcal.lol (KCAL-DESIGN-SYSTEM / orange palette).
+ * Do not invent a second design system.
+ */
+:root {
+  color-scheme: light;
+
+  --kcal-orange-50: #fff7ed;
+  --kcal-orange-100: #ffedd5;
+  --kcal-orange-400: #ff9f43;
+  --kcal-orange-500: #ff7a00;
+  --kcal-orange-600: #e66a00;
+  --kcal-orange-700: #c2410c;
+  --kcal-orange-800: #9a3412;
+
+  --kcal-ink: #0f172a;
+  --kcal-muted: #64748b;
+  --kcal-btn-focus: #ff7a00;
+
+  --surface-page-from: #f4f8ff;
+  --surface-page-via: #f6f9fc;
+  --surface-page-to: #f8fafc;
+  --surface-paper: #ffffff;
+  --surface-card: #ffffff;
+  --surface-inset: #f8fafc;
+  --border-subtle: rgb(15 23 42 / 0.14);
+  --border-soft: #e2e8f0;
+
+  --text: var(--kcal-ink);
+  --text-muted: var(--kcal-muted);
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-pill: 999px;
+  --shadow: 0 10px 28px rgb(15 23 42 / 0.08);
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.06);
+  --header-h: 56px;
+  --max: 42rem;
+  --font: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+[data-color-mode="dark"] {
+  color-scheme: dark;
+
+  --surface-page-from: #0b1018;
+  --surface-page-via: #0f1520;
+  --surface-page-to: #121a27;
+  --surface-paper: #1a2230;
+  --surface-card: #1a2230;
+  --surface-inset: #141b26;
+  --border-subtle: rgb(148 163 184 / 0.28);
+  --border-soft: #334155;
+
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --shadow: 0 12px 32px rgb(0 0 0 / 0.45);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.35);
+}

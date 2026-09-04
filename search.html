@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Search — Help · kCal Buddy</title>
+    <meta name="theme-color" content="#FF7A00" />
+    <link rel="icon" href="assets/brand/kcal-mark-64.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/shell.css" />
+    <link rel="stylesheet" href="css/help.css" />
+  </head>
+  <body>
+    <div id="help-shell-header"></div>
+    <main class="help-main">
+      <p class="crumb"><a href="index.html">Help</a> · Search</p>
+      <h1>Search Help</h1>
+      <p class="lead">Jump to a guide. Full-text search comes next — for now, pick a topic.</p>
+      <label class="note" for="help-search">Filter topics</label>
+      <input id="help-search" class="search-box" type="search" placeholder="e.g. Foodiary, voice, Progress…" autocomplete="off" />
+      <ul id="help-search-results" class="steps" style="list-style: none; padding: 0; margin-top: 1rem">
+        <li class="card" data-q="home log buddy progress"><a href="home.html">Home screen</a></li>
+        <li class="card" data-q="foodiary diary macros"><a href="foodiary.html">Buddy vs Foodiary</a></li>
+        <li class="card" data-q="tabs nav meal plan spaces"><a href="nav.html">Bottom tabs</a></li>
+        <li class="card" data-q="documentation law screenshots"><a href="documentation.html">Documentation</a></li>
+        <li class="card" data-q="release changelog new"><a href="whats-new.html">What's New</a></li>
+      </ul>
+    </main>
+    <div id="help-shell-footer"></div>
+    <script src="js/shell.js" data-page="search" data-lang="en" data-base="" defer></script>
+    <script>
+      (function () {
+        const input = document.getElementById("help-search");
+        const items = [...document.querySelectorAll("#help-search-results [data-q]")];
+        input?.addEventListener("input", () => {
+          const q = input.value.trim().toLowerCase();
+          items.forEach((el) => {
+            const hay = (el.getAttribute("data-q") || "") + " " + el.textContent;
+            el.style.display = !q || hay.toLowerCase().includes(q) ? "" : "none";
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -2,37 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Help — kcal.lol</title>
-    <meta
-      name="description"
-      content="How to use kCal Buddy: log food on Home, edit in Foodiary, watch Today's Progress."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Help — kCal Buddy</title>
+    <meta name="description" content="How to use kCal Buddy — same product as beta.kcal.lol." />
+    <meta name="theme-color" content="#FF7A00" />
+    <link rel="icon" href="assets/brand/kcal-mark-64.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/shell.css" />
     <link rel="stylesheet" href="css/help.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header class="topnav">
-        <a class="brand" href="index.html">kcal.lol <span>Help</span></a>
-        <nav>
-          <a href="index.html" aria-current="page">Start</a>
-          <a href="home.html">Home screen</a>
-          <a href="foodiary.html">Buddy vs Foodiary</a>
-          <a href="nav.html">Bottom tabs</a>
-          <a class="lang" href="de/index.html">DE</a>
-        </nav>
-      </header>
-
+    <div id="help-shell-header"></div>
+    <main class="help-main">
+      <p class="crumb"><a href="https://beta.kcal.lol/">beta.kcal.lol</a> · Help</p>
       <h1>How kcal works</h1>
       <p class="lead">
-        One loop. Log food with Buddy on Home → it lands in your Foodiary → Today's Progress
-        updates. That is the whole system for daily use.
+        One product. One loop. Log with Buddy on Home → it lands in Foodiary → Today's Progress
+        updates.
       </p>
 
-      <div class="callout">
-        <strong>Beta tip:</strong> Prefer the big orange Log on
-        <em>Home</em> (text / photo / voice). Open <em>Foodiary</em> to fix grams, times, or
-        yesterday — not as your only way to add food.
+      <div class="callout callout--buddy">
+        <img class="callout__icon" src="assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+        <div>
+          <strong>💬 Buddy Tip</strong>
+          <p class="note" style="margin: 0.25rem 0 0">
+            Prefer the big orange Log on <em>Home</em> (text / photo / voice). Open
+            <em>Foodiary</em> to fix grams, times, or yesterday — not as your only way to add food.
+          </p>
+        </div>
       </div>
 
       <h2>The daily loop</h2>
@@ -41,39 +41,28 @@
           <span class="num">1</span>
           <div>
             <strong>Log on Home (Buddy)</strong>
-            <p>
-              Tap <em>Log as Text</em>, or use camera, gallery, or microphone. Buddy estimates
-              calories, protein, fiber, and more, then saves a diary row.
-            </p>
+            <p>Text, camera, gallery, or mic. Buddy estimates nutrition, then saves a diary row.</p>
           </div>
         </li>
         <li>
           <span class="num">2</span>
           <div>
             <strong>Confirm if Buddy asks</strong>
-            <p>
-              Check the name, amount, and numbers. Confirm once. One meal = one Foodiary row.
-            </p>
+            <p>Check name, amount, and numbers. One meal = one Foodiary row.</p>
           </div>
         </li>
         <li>
           <span class="num">3</span>
           <div>
             <strong>Watch Today's Progress</strong>
-            <p>
-              Energy budget, protein, fiber, and water fill from what you logged. Tap any metric
-              for details.
-            </p>
+            <p>Energy, protein, fiber, water fill from what you logged. Tap a metric for details.</p>
           </div>
         </li>
         <li>
           <span class="num">4</span>
           <div>
             <strong>Use Foodiary to edit</strong>
-            <p>
-              Change grams, time, leftovers, or add a manual row when you already know the
-              numbers. Same diary Buddy writes into.
-            </p>
+            <p>Fix grams, time, leftovers — same diary Progress reads.</p>
           </div>
         </li>
       </ol>
@@ -82,40 +71,31 @@
       <div class="grid-2">
         <a class="card" href="home.html" style="text-decoration: none; color: inherit">
           <div class="tag">Picture guide</div>
-          <strong>Home screen — every control numbered</strong>
-          <p class="note" style="margin: 0.4rem 0 0">
-            Buddy mascot, Log strip, progress cards, mood, bottom tabs.
-          </p>
+          <strong>Home screen</strong>
+          <p class="note" style="margin: 0.35rem 0 0">Numbered controls + Playwright shots.</p>
         </a>
         <a class="card" href="foodiary.html" style="text-decoration: none; color: inherit">
           <div class="tag">Important</div>
           <strong>Buddy vs Foodiary</strong>
-          <p class="note" style="margin: 0.4rem 0 0">
-            Why logging on Home is the smart path, and when Foodiary is better.
-          </p>
+          <p class="note" style="margin: 0.35rem 0 0">Smart capture vs day book.</p>
         </a>
         <a class="card" href="nav.html" style="text-decoration: none; color: inherit">
           <div class="tag">Orientation</div>
           <strong>Bottom tabs</strong>
-          <p class="note" style="margin: 0.4rem 0 0">
-            Home, Meal Plan, Foodiary, Activity, Progress, Spaces, Menu.
-          </p>
+          <p class="note" style="margin: 0.35rem 0 0">What each tab is for.</p>
         </a>
-        <a class="card" href="https://kcal.lol/" style="text-decoration: none; color: inherit">
-          <div class="tag">Site</div>
-          <strong>kcal.lol landing</strong>
-          <p class="note" style="margin: 0.4rem 0 0">Marketing / request access. App lives on beta or the native apps.</p>
+        <a class="card" href="documentation.html" style="text-decoration: none; color: inherit">
+          <div class="tag">Docs</div>
+          <strong>Documentation</strong>
+          <p class="note" style="margin: 0.35rem 0 0">Law, screenshots, versioning.</p>
         </a>
       </div>
 
-      <footer class="footer">
-        Static help on GitHub Pages — no load on the app servers.
-        <a href="https://kcal.lol/">kcal.lol</a>
-        ·
-        <a href="mailto:hello@kcal.lol">hello@kcal.lol</a>
-        ·
-        <span class="note">docs.kcal.lol redirects here (same help).</span>
-      </footer>
-    </div>
+      <p style="margin-top: 1.5rem">
+        <a class="btn-primary" href="https://beta.kcal.lol/">Open kCal Buddy (Beta)</a>
+      </p>
+    </main>
+    <div id="help-shell-footer"></div>
+    <script src="js/shell.js" data-page="help" data-lang="en" data-base="" defer></script>
   </body>
 </html>
