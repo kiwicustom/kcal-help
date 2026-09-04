@@ -1,6 +1,7 @@
 /**
  * Shared Help Platform chrome — header + footer + theme + language.
  * Brand must match beta.kcal.lol. Phase 2.5 golden polish.
+ * EN and DE share the same IA; only strings differ.
  */
 (function () {
   const root = document.documentElement;
@@ -8,11 +9,12 @@
   const page = (script && script.getAttribute("data-page")) || "site";
   const lang = (script && script.getAttribute("data-lang")) || "en";
   const base = (script && script.getAttribute("data-base")) || "";
-  const file = (script && script.getAttribute("data-file")) || "index.html";
   const pageUpdated = (script && script.getAttribute("data-updated")) || "";
   const de = lang === "de";
 
   const THEME_KEY = "kcal.help.colorMode";
+  const assetVer =
+    document.querySelector('meta[name="kcal:asset-ver"]')?.getAttribute("content") || "";
 
   function resolveTheme() {
     const stored = localStorage.getItem(THEME_KEY);
@@ -30,14 +32,21 @@
     }
   }
 
+  /** Same-origin path + optional cache-bust query (HTML + assets). */
   function href(path) {
-    return base + path;
+    let url = base + path;
+    if (!assetVer) return url;
+    if (/^(https?:|mailto:)/i.test(url)) return url;
+    url += url.includes("?") ? "&" : "?";
+    url += "v=" + encodeURIComponent(assetVer);
+    return url;
   }
 
+  // Same destinations EN/DE — only the home entry differs by language folder.
   const homePath = de ? "de/index.html" : "index.html";
-  const helpPath = de ? "de/index.html" : "help/index.html";
+  const helpPath = "help/index.html";
   const academyPath = "academy/index.html";
-  const releaseNotesPath = de ? "de/whats-new.html" : "docs/release-notes.html";
+  const releaseNotesPath = "docs/release-notes.html";
 
   const labels = de
     ? {
@@ -50,7 +59,7 @@
         academyLink: "Buddy Academy",
         helpLink: "Hilfe",
         docsLink: "Entwickler-Docs",
-        releaseNotes: "Was ist neu",
+        releaseNotes: "Release Notes",
         legal: "Rechtliches",
         privacy: "Datenschutz",
         terms: "AGB",
@@ -64,8 +73,9 @@
         subHelp: "Hilfe",
         subAcademy: "Academy",
         subDocs: "Docs",
-        subSite: "Hilfe",
+        subSite: "Hilfe-Plattform",
         searchSoon: "Suche (demnächst)",
+        tagline: "Helping people build healthier habits every day.",
       }
     : {
         help: "Help",
@@ -93,10 +103,11 @@
         subDocs: "Docs",
         subSite: "Help Platform",
         searchSoon: "Search (coming soon)",
+        tagline: "Helping people build healthier habits every day.",
       };
 
   const navHtml = `
-    <a href="${href(helpPath)}"${page === "help" || (de && page === "help") ? ' aria-current="page"' : ""}>${labels.help}</a>
+    <a href="${href(helpPath)}"${page === "help" ? ' aria-current="page"' : ""}>${labels.help}</a>
     <a href="${href(academyPath)}"${page === "academy" ? ' aria-current="page"' : ""}>${labels.academy}</a>
     <span class="help-nav__soon" title="${labels.docsTitle}" aria-disabled="true">${labels.docs} · ${labels.docsSoon}</span>
   `;
@@ -117,11 +128,13 @@
           ? labels.subHelp
           : labels.subSite;
 
+  const brandSrc = base + "assets/brand/kcal-buddy-192.png" + (assetVer ? "?v=" + encodeURIComponent(assetVer) : "");
+
   const header = `
 <header class="help-header" role="banner">
   <div class="help-header__inner">
     <a class="help-brand" href="${href(homePath)}">
-      <img class="help-brand__mark" src="${href("assets/brand/kcal-buddy-192.png")}" width="36" height="36" alt="" />
+      <img class="help-brand__mark" src="${brandSrc}" width="36" height="36" alt="" />
       <span class="help-brand__text">
         <span class="help-brand__name">kCal Buddy</span>
         <span class="help-brand__sub">${sub}</span>
@@ -141,7 +154,7 @@
 <footer class="help-footer" role="contentinfo">
   <div class="help-footer__inner">
     <p class="help-footer__brand">kCal Buddy</p>
-    <p class="help-footer__tagline">Helping people build healthier habits every day.</p>
+    <p class="help-footer__tagline">${labels.tagline}</p>
     <div class="help-footer__grid">
       <div class="help-footer__col">
         <h3>${labels.learn}</h3>
@@ -198,7 +211,8 @@
     }
   });
 
-  fetch(href("version.json"))
+  const versionUrl = base + "version.json" + (assetVer ? "?v=" + encodeURIComponent(assetVer) : "");
+  fetch(versionUrl)
     .then((r) => r.json())
     .then((v) => {
       const meta = document.getElementById("help-footer-meta");
