@@ -69,13 +69,13 @@
         help: "Hilfe",
         academy: "Academy",
         docs: "Docs",
-        docsSoon: "Demnächst",
         docsTitle: "Entwickler-Docs — demnächst",
+        releaseNotes: "Release Notes",
         learn: "Lernen",
         academyLink: "Buddy Academy",
         helpLink: "Hilfe",
         docsLink: "Entwickler-Docs",
-        releaseNotes: "Release Notes",
+        docsSoon: "Demnächst",
         legal: "Rechtliches",
         privacy: "Datenschutz",
         terms: "AGB",
@@ -89,6 +89,7 @@
         subHelp: "Hilfe",
         subAcademy: "Academy",
         subDocs: "Docs",
+        subRelease: "Release Notes",
         subSite: "Hilfe-Plattform",
         searchSoon: "Suche (demnächst)",
         tagline: "Helping people build healthier habits every day.",
@@ -97,13 +98,13 @@
         help: "Help",
         academy: "Academy",
         docs: "Docs",
-        docsSoon: "Coming soon",
         docsTitle: "Developer Docs — coming soon",
+        releaseNotes: "Release Notes",
         learn: "Learn",
         academyLink: "Buddy Academy",
         helpLink: "Help",
         docsLink: "Developer Docs",
-        releaseNotes: "Release Notes",
+        docsSoon: "Coming soon",
         legal: "Legal",
         privacy: "Privacy",
         terms: "Terms",
@@ -117,6 +118,7 @@
         subHelp: "Help",
         subAcademy: "Academy",
         subDocs: "Docs",
+        subRelease: "Release Notes",
         subSite: "Help Platform",
         searchSoon: "Search (coming soon)",
         tagline: "Helping people build healthier habits every day.",
@@ -125,7 +127,8 @@
   const navHtml = `
     <a href="${href(helpPath)}"${page === "help" ? ' aria-current="page"' : ""}>${labels.help}</a>
     <a href="${href(academyPath)}"${page === "academy" ? ' aria-current="page"' : ""}>${labels.academy}</a>
-    <span class="help-nav__soon" title="${labels.docsTitle}" aria-disabled="true">${labels.docs} · ${labels.docsSoon}</span>
+    <a href="${href(releaseNotesPath)}"${page === "release" ? ' aria-current="page"' : ""}>${labels.releaseNotes}</a>
+    <span class="help-nav__soon" title="${labels.docsTitle}" aria-disabled="true">${labels.docs}</span>
   `;
 
   const langSwitch = `
@@ -138,11 +141,13 @@
   const sub =
     page === "academy"
       ? labels.subAcademy
-      : page === "docs"
-        ? labels.subDocs
-        : page === "help"
-          ? labels.subHelp
-          : labels.subSite;
+      : page === "release"
+        ? labels.subRelease
+        : page === "docs"
+          ? labels.subDocs
+          : page === "help"
+            ? labels.subHelp
+            : labels.subSite;
 
   const brandSrc = base + "assets/brand/kcal-buddy-192.png" + (assetVer ? "?v=" + encodeURIComponent(assetVer) : "");
 

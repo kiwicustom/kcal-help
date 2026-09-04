@@ -985,7 +985,7 @@
       "pillar": "docs",
       "path": "docs/release-notes.html",
       "title": "Release Notes",
-      "summary": "Public release highlights for kCal Buddy.",
+      "summary": "What shipped recently in kCal Buddy — public highlights.",
       "kind": "tech",
       "why": "Users and partners need a clear change log.",
       "what": [
@@ -998,13 +998,8 @@
         "Update the app when prompted",
         "Send feedback to hello@kcal.lol"
       ],
-      "next": {
-        "id": "docs-hub",
-        "label": "Developer Documentation hub"
-      },
-      "related": [
-        "architecture"
-      ],
+      "next": null,
+      "related": [],
       "screenshots": [],
       "deepLink": null,
       "updated": "2026-09-04",
