@@ -1,20 +1,38 @@
 /**
  * Shared Help Platform chrome — header + footer + theme + language.
- * Brand must match beta.kcal.lol. Phase 2.5 golden polish.
- * EN and DE share the same IA; only strings differ.
+ * Brand must match beta.kcal.lol.
+ * EN/DE share the same IA; chrome language persists via localStorage when
+ * browsing EN content pages after choosing DE (translations still incomplete).
  */
 (function () {
   const root = document.documentElement;
   const script = document.currentScript;
   const page = (script && script.getAttribute("data-page")) || "site";
-  const lang = (script && script.getAttribute("data-lang")) || "en";
   const base = (script && script.getAttribute("data-base")) || "";
   const pageUpdated = (script && script.getAttribute("data-updated")) || "";
-  const de = lang === "de";
 
   const THEME_KEY = "kcal.help.colorMode";
+  const LANG_KEY = "kcal.help.lang";
+
   const assetVer =
     document.querySelector('meta[name="kcal:asset-ver"]')?.getAttribute("content") || "";
+
+  function resolveLang() {
+    const pathDe = /\/de(\/|$)/i.test(location.pathname);
+    const attr = (script && script.getAttribute("data-lang")) || "";
+    const stored = localStorage.getItem(LANG_KEY) || "";
+    let lang = "en";
+    if (pathDe) lang = "de";
+    else if (attr === "de" || attr === "en") lang = attr;
+    else if (stored === "de" || stored === "en") lang = stored;
+    try {
+      localStorage.setItem(LANG_KEY, lang);
+    } catch (_) {}
+    return lang;
+  }
+
+  const lang = resolveLang();
+  const de = lang === "de";
 
   function resolveTheme() {
     const stored = localStorage.getItem(THEME_KEY);
@@ -32,7 +50,6 @@
     }
   }
 
-  /** Same-origin path + optional cache-bust query (HTML + assets). */
   function href(path) {
     let url = base + path;
     if (!assetVer) return url;
@@ -42,7 +59,6 @@
     return url;
   }
 
-  // Same destinations EN/DE — only the home entry differs by language folder.
   const homePath = de ? "de/index.html" : "index.html";
   const helpPath = "help/index.html";
   const academyPath = "academy/index.html";
@@ -114,8 +130,8 @@
 
   const langSwitch = `
     <div class="help-lang-switch" role="group" aria-label="Language">
-      <a class="help-lang" href="${href("index.html")}" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
-      <a class="help-lang" href="${href("de/index.html")}" ${lang === "de" ? 'aria-current="true"' : ""}>DE</a>
+      <a class="help-lang" href="${href("index.html")}" data-set-lang="en" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
+      <a class="help-lang" href="${href("de/index.html")}" data-set-lang="de" ${lang === "de" ? 'aria-current="true"' : ""}>DE</a>
       <span class="help-lang help-lang--soon" title="Suomi — coming soon" aria-disabled="true">FI</span>
     </div>`;
 
@@ -194,6 +210,16 @@
   const mountFooter = document.getElementById("help-shell-footer");
   if (mountHeader) mountHeader.outerHTML = header;
   if (mountFooter) mountFooter.outerHTML = footer;
+
+  document.documentElement.setAttribute("lang", lang);
+
+  document.querySelectorAll("[data-set-lang]").forEach((a) => {
+    a.addEventListener("click", () => {
+      try {
+        localStorage.setItem(LANG_KEY, a.getAttribute("data-set-lang") || "en");
+      } catch (_) {}
+    });
+  });
 
   applyTheme(resolveTheme());
   document.getElementById("help-theme-toggle")?.addEventListener("click", () => {

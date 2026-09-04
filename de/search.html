@@ -2,49 +2,10 @@
 <html lang="de">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Suche — Hilfe</title>
-    <meta name="theme-color" content="#FF7A00" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnam0dq" />
-    <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
-    <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnam0dq" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnam0dq" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnam0dq" />
+    <meta http-equiv="refresh" content="0; url=index.html" />
+    <link rel="canonical" href="https://help.kcal.lol/de/index.html" />
+    <title>Redirecting…</title>
+    <script>location.replace("index.html")</script>
   </head>
-  <body>
-    <div id="help-shell-header"></div>
-    <main class="help-main">
-      <p class="crumb"><a href="index.html">Hilfe</a> · Suche</p>
-      <h1>Hilfe suchen</h1>
-      <input id="help-search" class="search-box" type="search" placeholder="z. B. Foodiary…" />
-      <ul id="help-search-results" class="steps" style="list-style: none; padding: 0; margin-top: 1rem">
-        <li class="card" data-q="home"><a href="home.html">Home</a></li>
-        <li class="card" data-q="foodiary"><a href="foodiary.html">Buddy vs Foodiary</a></li>
-        <li class="card" data-q="tabs"><a href="nav.html">Unterleiste</a></li>
-        <li class="card" data-q="neu"><a href="whats-new.html">Neu</a></li>
-        <li class="card card--soon" data-q="docs demnächst dokumentation entwickler" aria-disabled="true" aria-label="Entwickler-Dokumentation — Demnächst" style="min-height: 4.5rem">
-          <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Demnächst</span></span>
-          <div class="tag">Docs</div>
-          <strong>Entwickler-Dokumentation</strong>
-        </li>
-      </ul>
-    </main>
-    <div id="help-shell-footer"></div>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtnam0dq" data-page="search" data-lang="de" data-base="../" defer></script>
-    <script>
-      (function () {
-        const input = document.getElementById("help-search");
-        const items = [...document.querySelectorAll("#help-search-results [data-q]")];
-        input?.addEventListener("input", () => {
-          const q = input.value.trim().toLowerCase();
-          items.forEach((el) => {
-            const hay = (el.getAttribute("data-q") || "") + " " + el.textContent;
-            el.style.display = !q || hay.toLowerCase().includes(q) ? "" : "none";
-          });
-        });
-      })();
-    </script>
-  </body>
+  <body><p><a href="index.html">Continue</a></p></body>
 </html>
