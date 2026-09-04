@@ -1,13 +1,15 @@
 /**
- * Shared Help chrome — header + footer + theme + language.
- * Brand must match beta.kcal.lol (Documentation Law / design system).
+ * Shared Help Platform chrome — header + footer + theme + language.
+ * Brand must match beta.kcal.lol. SSOT: docs/product/BUDDY-ACADEMY-HELP-PLATFORM.md
  */
 (function () {
   const root = document.documentElement;
   const script = document.currentScript;
-  const page = (script && script.getAttribute("data-page")) || "home";
+  const page = (script && script.getAttribute("data-page")) || "site";
   const lang = (script && script.getAttribute("data-lang")) || "en";
   const base = (script && script.getAttribute("data-base")) || "";
+  const file = (script && script.getAttribute("data-file")) || "index.html";
+  const pageUpdated = (script && script.getAttribute("data-updated")) || "";
 
   const THEME_KEY = "kcal.help.colorMode";
 
@@ -24,7 +26,6 @@
     if (btn) {
       btn.textContent = mode === "dark" ? "☀️" : "🌙";
       btn.setAttribute("aria-label", mode === "dark" ? "Switch to light mode" : "Switch to dark mode");
-      btn.title = mode === "dark" ? "Light mode" : "Dark mode";
     }
   }
 
@@ -32,47 +33,26 @@
     return base + path;
   }
 
-  function navLink(id, path, label) {
-    const current = page === id ? ' aria-current="page"' : "";
-    return `<a href="${href(path)}"${current}>${label}</a>`;
-  }
-
-  const navEn = [
-    ["cheat", "cheatsheet.html", "⚡ Quick Guide"],
-    ["home", "home.html", "🏠 Home"],
-    ["academy", "academy/index.html", "🎓 Academy"],
-    ["docs", "documentation.html", "📖 Documentation"],
-    ["new", "whats-new.html", "🆕 What's New"],
-    ["search", "search.html", "🔍 Search"],
+  const nav = [
+    ["help", "help/index.html", "Help"],
+    ["academy", "academy/index.html", "Academy"],
+    ["docs", "docs/index.html", "Docs"],
   ];
 
-  const navDe = [
-    ["cheat", "cheatsheet.html", "⚡ Quick Guide"],
-    ["home", "home.html", "🏠 Home"],
-    ["academy", "academy/index.html", "🎓 Academy"],
-    ["docs", "documentation.html", "📖 Dokumentation"],
-    ["new", "whats-new.html", "🆕 Neu"],
-    ["search", "search.html", "🔍 Suche"],
-  ];
-
-  const nav = lang === "de" ? navDe : navEn;
   const navHtml = nav
     .map(([id, path, label]) => {
-      let cur = page === id;
-      if (id === "cheat" && page === "cheat") cur = true;
-      if (id === "home" && ["home", "home-guide"].includes(page)) cur = true;
-      if (id === "academy" && page === "academy") cur = true;
-      if (id === "docs" && page === "docs") cur = true;
-      const current = cur ? ' aria-current="page"' : "";
-      return `<a href="${href(path)}"${current}>${label}</a>`;
+      const cur = page === id ? ' aria-current="page"' : "";
+      return `<a href="${href(path)}"${cur}>${label}</a>`;
     })
     .join("");
 
-  const file = (script && script.getAttribute("data-file")) || "index.html";
   const langSwitch =
     lang === "de"
-      ? `<a class="help-lang" href="../${file}" style="display:inline-flex;align-items:center;text-decoration:none">EN</a>`
-      : `<a class="help-lang" href="de/${file}" style="display:inline-flex;align-items:center;text-decoration:none">DE</a>`;
+      ? `<a class="help-lang" href="${href("../" + file.replace(/^de\//, ""))}">EN</a>`
+      : `<span class="help-lang help-lang--muted" title="DE/FI via catalog locales (Phase B)">EN</span>`;
+
+  const sub =
+    page === "academy" ? "Academy" : page === "docs" ? "Docs" : page === "help" ? "Help" : "Help Platform";
 
   const header = `
 <header class="help-header" role="banner">
@@ -81,11 +61,12 @@
       <img class="help-brand__mark" src="${href("assets/brand/kcal-buddy-192.png")}" width="36" height="36" alt="" />
       <span class="help-brand__text">
         <span class="help-brand__name">kCal Buddy</span>
-        <span class="help-brand__sub">${lang === "de" ? "Hilfe" : "Help"}</span>
+        <span class="help-brand__sub">${sub}</span>
       </span>
     </a>
     <nav class="help-nav" aria-label="Primary">${navHtml}</nav>
     <div class="help-header__tools">
+      <button type="button" class="help-icon-btn" id="help-search-hook" data-ext="search" aria-label="Search (coming soon)" title="Search — Phase B">🔍</button>
       <button type="button" class="help-icon-btn" id="help-theme-toggle" aria-label="Toggle color mode">🌙</button>
       ${langSwitch}
     </div>
@@ -93,99 +74,45 @@
   <nav class="help-nav-mobile" aria-label="Primary mobile">${navHtml}</nav>
 </header>`;
 
-  const t = lang === "de"
-    ? {
-        tagline: "Menschen helfen, jeden Tag gesündere Gewohnheiten aufzubauen.",
-        quick: "Schnelllinks",
-        community: "Community",
-        product: "Produkt",
-        home: "Start",
-        help: "Hilfe",
-        docs: "Dokumentation",
-        privacy: "Datenschutz",
-        terms: "AGB",
-        contact: "Kontakt",
-        roadmap: "Roadmap",
-        release: "Release Notes",
-        feedback: "Feedback",
-        bugs: "Fehler melden",
-        version: "App-Version",
-        docsVer: "Hilfe-Version",
-        updated: "Zuletzt aktualisiert",
-        build: "Build-Datum",
-        copy: "© kcal.lol",
-      }
-    : {
-        tagline: "Helping people build healthier habits every day.",
-        quick: "Quick Links",
-        community: "Community",
-        product: "Product",
-        home: "Home",
-        help: "Help",
-        docs: "Documentation",
-        privacy: "Privacy",
-        terms: "Terms",
-        contact: "Contact",
-        roadmap: "Roadmap",
-        release: "Release Notes",
-        feedback: "Feedback",
-        bugs: "Bug Report",
-        version: "Version",
-        docsVer: "Documentation Version",
-        updated: "Last Updated",
-        build: "Build Date",
-        copy: "© kcal.lol",
-      };
-
-  const inviteNote =
-    lang === "de"
-      ? "Beta derzeit nur auf Einladung."
-      : lang === "fi"
-        ? "Beta vain kutsulla."
-        : "Beta is invitation-only for now.";
-
   const footer = `
 <footer class="help-footer" role="contentinfo">
   <div class="help-footer__inner">
     <p class="help-footer__brand">kCal Buddy</p>
-    <p class="help-footer__tagline">${t.tagline}</p>
+    <p class="help-footer__tagline">Helping people build healthier habits every day.</p>
     <div class="help-footer__grid">
       <div class="help-footer__col">
-        <h3>${t.quick}</h3>
+        <h3>Platform</h3>
         <ul>
-          <li><a href="${href("cheatsheet.html")}">${lang === "de" ? "Quick Guide" : "Quick Guide"}</a></li>
-          <li><a href="${href("home.html")}">${t.home}</a></li>
-          <li><a href="${href("academy/index.html")}">${lang === "de" ? "Academy" : "Academy"}</a></li>
-          <li><a href="${href("documentation.html")}">${t.docs}</a></li>
-          <li><a href="https://beta.kcal.lol/#/privacy">${t.privacy}</a></li>
-          <li><a href="https://beta.kcal.lol/#/terms">${t.terms}</a></li>
-          <li><a href="mailto:hello@kcal.lol">${t.contact}</a></li>
-          <li><a href="${href("whats-new.html")}">${t.roadmap}</a></li>
-          <li><a href="${href("whats-new.html")}">${t.release}</a></li>
+          <li><a href="${href("help/index.html")}">Help</a></li>
+          <li><a href="${href("academy/index.html")}">Buddy Academy</a></li>
+          <li><a href="${href("docs/index.html")}">Developer Documentation</a></li>
+          <li><a href="mailto:hello@kcal.lol">Contact</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
-        <h3>${t.community}</h3>
+        <h3>Product</h3>
         <ul>
-          <li><span style="color:var(--text-muted)">Discord (future)</span></li>
-          <li><a href="mailto:hello@kcal.lol">${t.feedback}</a></li>
-          <li><a href="mailto:hello@kcal.lol">${t.bugs}</a></li>
+          <li><span style="color:var(--text-muted)">Beta is invitation-only for now.</span></li>
+          <li><a href="https://beta.kcal.lol/#/privacy">Privacy</a></li>
+          <li><a href="https://beta.kcal.lol/#/terms">Terms</a></li>
         </ul>
       </div>
       <div class="help-footer__col">
-        <h3>${t.product}</h3>
+        <h3>Community</h3>
         <ul>
-          <li><span style="color:var(--text-muted)">${inviteNote}</span></li>
+          <li><span style="color:var(--text-muted)" data-ext="community">Discussions (future)</span></li>
+          <li><a href="mailto:hello@kcal.lol">Feedback</a></li>
+          <li><a href="mailto:hello@kcal.lol">Bug report</a></li>
         </ul>
       </div>
     </div>
     <div class="help-footer__meta" id="help-footer-meta">
-      <div>${t.version}: <span data-v="app">…</span></div>
-      <div>${t.docsVer}: <span data-v="docs">…</span></div>
-      <div>${t.updated}: <span data-v="updated">…</span></div>
-      <div>${t.build}: <span data-v="build">…</span></div>
+      <div>Application Version: <span data-v="app">…</span></div>
+      <div>Documentation Version: <span data-v="docs">…</span></div>
+      <div>Last Updated: <span data-v="updated">${pageUpdated || "…"}</span></div>
+      <div>Build: <span data-v="build">…</span></div>
     </div>
-    <p class="help-footer__copy">${t.copy}</p>
+    <p class="help-footer__copy">© kcal.lol</p>
   </div>
 </footer>`;
 
@@ -196,21 +123,31 @@
 
   applyTheme(resolveTheme());
   document.getElementById("help-theme-toggle")?.addEventListener("click", () => {
-    const next = root.getAttribute("data-color-mode") === "dark" ? "light" : "dark";
-    applyTheme(next);
+    applyTheme(root.getAttribute("data-color-mode") === "dark" ? "light" : "dark");
+  });
+
+  document.getElementById("help-search-hook")?.addEventListener("click", () => {
+    if (window.KcalHelpExtensions?.openSearch) window.KcalHelpExtensions.openSearch();
+  });
+
+  // ⌘K / Ctrl+K reserved for Phase B search
+  document.addEventListener("keydown", (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      window.KcalHelpExtensions?.openSearch?.();
+    }
   });
 
   fetch(href("version.json"))
     .then((r) => r.json())
     .then((v) => {
-      const set = (k, val) => {
-        const el = document.querySelector(`[data-v="${k}"]`);
-        if (el) el.textContent = val;
-      };
-      set("app", v.version || "—");
-      set("docs", v.version || "—");
-      set("updated", v.builtAt || "—");
-      set("build", v.builtAt || "—");
+      const meta = document.getElementById("help-footer-meta");
+      if (!meta) return;
+      meta.querySelector('[data-v="app"]').textContent = v.version || "—";
+      meta.querySelector('[data-v="docs"]').textContent = v.docsVersion || "1.0.0-phase1";
+      meta.querySelector('[data-v="build"]').textContent = v.generatedAt || v.builtAt || "—";
+      const upd = meta.querySelector('[data-v="updated"]');
+      if (upd && (!pageUpdated || upd.textContent === "…")) upd.textContent = v.builtAt || "—";
     })
     .catch(() => {});
 })();

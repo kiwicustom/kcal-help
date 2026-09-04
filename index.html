@@ -3,9 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Help — kCal Buddy</title>
-    <meta name="description" content="How to use kCal Buddy — Quick Guide with screenshots." />
+    <title>Help Platform — kCal Buddy</title>
+    <meta name="description" content="Help, Buddy Academy, and public Developer Documentation — same product as kCal Buddy." />
+    <link rel="canonical" href="https://help.kcal.lol/index.html" />
     <meta name="theme-color" content="#FF7A00" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="kCal Buddy" />
+    <meta property="og:title" content="Help Platform — kCal Buddy" />
+    <meta property="og:description" content="Help, Buddy Academy, and public Developer Documentation — same product as kCal Buddy." />
+    <meta property="og:url" content="https://help.kcal.lol/index.html" />
+    <meta property="og:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Help Platform — kCal Buddy" />
+    <meta name="twitter:description" content="Help, Buddy Academy, and public Developer Documentation — same product as kCal Buddy." />
+    <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
+    <meta name="kcal:docs-version" content="1.0.0-phase1" />
+    <meta name="kcal:app-version" content="0.8.41" />
+    <meta name="kcal:updated" content="2026-09-04" />
     <link rel="icon" href="assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,126 +27,31 @@
     <link rel="stylesheet" href="css/tokens.css" />
     <link rel="stylesheet" href="css/shell.css" />
     <link rel="stylesheet" href="css/help.css" />
+    <link rel="stylesheet" href="css/academy.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"}]}]}</script>
   </head>
-  <body>
+  <body data-pillar="site" data-page-id="site-home">
     <div id="help-shell-header"></div>
-    <main class="help-main">
-      <p class="crumb">Help</p>
-      <h1>How kcal works</h1>
-      <p class="lead">
-        One product. One loop. Log with Buddy on Home → it lands in Foodiary → Today's Progress
-        updates.
-      </p>
-
-      <a class="academy-foundation" href="cheatsheet.html" style="margin-bottom: 1.25rem">
-        <span class="academy-foundation__eyebrow">⚡ Start here</span>
-        <strong>Quick Guide (Cheatsheet)</strong>
-        <span class="note">WHAT? · WHY? · HOW? — with live app screenshots.</span>
-      </a>
-
-      <div class="callout callout--buddy">
-        <img class="callout__icon" src="assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
-        <div>
-          <strong>💬 Buddy Tip</strong>
-          <p class="note" style="margin: 0.25rem 0 0">
-            Prefer the big orange Log on <em>Home</em> (text / photo / voice). Open
-            <em>Foodiary</em> to fix grams, times, or yesterday — not as your only way to add food.
-          </p>
-        </div>
-      </div>
-
-      <h2>See it in the app</h2>
-      <p class="note" style="margin: 0 0 0.75rem">Playwright screenshots from the live product.</p>
-      <div class="shot-rail">
-        <figure class="shot-wrap">
-          <img
-            src="assets/screenshots/home-overview.png"
-            width="780"
-            height="1688"
-            alt="kCal Buddy Home overview"
-          />
-          <figcaption class="caption">Home — your daily desk · <code>home-overview.png</code></figcaption>
-        </figure>
-        <figure class="shot-wrap">
-          <img
-            src="assets/screenshots/home-quick-actions.png"
-            alt="Home quick actions and Talk food"
-          />
-          <figcaption class="caption">Log strip · <code>home-quick-actions.png</code></figcaption>
-        </figure>
-        <figure class="shot-wrap">
-          <img src="assets/screenshots/home-budget.png" alt="Today's Progress energy budget" />
-          <figcaption class="caption">Today's Progress · <code>home-budget.png</code></figcaption>
-        </figure>
-      </div>
-
-      <h2>The daily loop</h2>
-      <ol class="steps">
-        <li>
-          <span class="num">1</span>
-          <div>
-            <strong>Log on Home (Buddy)</strong>
-            <p>Text, camera, gallery, or mic. Buddy estimates nutrition, then saves a diary row.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">2</span>
-          <div>
-            <strong>Confirm if Buddy asks</strong>
-            <p>Check name, amount, and numbers. One meal = one Foodiary row.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">3</span>
-          <div>
-            <strong>Watch Today's Progress</strong>
-            <p>Energy, protein, fiber, water fill from what you logged. Tap a metric for details.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">4</span>
-          <div>
-            <strong>Use Foodiary to edit</strong>
-            <p>Fix grams, time, leftovers — same diary Progress reads.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h2>Guides</h2>
+    <main class="help-main" id="main">
+      <nav class="crumb" aria-label="Breadcrumb"><ol class="crumb-list"><li><span aria-current="page">Home</span></li></ol></nav>
+      
+      <h1>kCal Buddy Help Platform</h1>
+      <p class="lead">Help, Buddy Academy, and public Developer Documentation — same product as kCal Buddy.</p>
       <div class="grid-2">
-        <a class="card" href="cheatsheet.html" style="text-decoration: none; color: inherit">
-          <div class="tag">⚡ First</div>
-          <strong>Quick Guide</strong>
-          <p class="note" style="margin: 0.35rem 0 0">WHAT? · WHY? · HOW? + screenshots.</p>
-        </a>
-        <a class="card" href="home.html" style="text-decoration: none; color: inherit">
-          <div class="tag">Picture guide</div>
-          <strong>Home screen</strong>
-          <p class="note" style="margin: 0.35rem 0 0">Numbered controls + Playwright shots.</p>
-        </a>
-        <a class="card" href="foodiary.html" style="text-decoration: none; color: inherit">
-          <div class="tag">Important</div>
-          <strong>Buddy vs Foodiary</strong>
-          <p class="note" style="margin: 0.35rem 0 0">Smart capture vs day book.</p>
-        </a>
-        <a class="card" href="academy/philosophy.html" style="text-decoration: none; color: inherit">
-          <div class="tag">❤️ Philosophy</div>
-          <strong>kCal Philosophy</strong>
-          <p class="note" style="margin: 0.35rem 0 0">Why Buddy exists.</p>
-        </a>
-        <a class="card" href="academy/index.html" style="text-decoration: none; color: inherit">
-          <div class="tag">Course</div>
-          <strong>Buddy Academy</strong>
-          <p class="note" style="margin: 0.35rem 0 0">Guided journeys.</p>
-        </a>
-        <a class="card" href="nav.html" style="text-decoration: none; color: inherit">
-          <div class="tag">Orientation</div>
-          <strong>Bottom tabs</strong>
-          <p class="note" style="margin: 0.35rem 0 0">What each tab is for.</p>
-        </a>
+        <a class="academy-foundation" href="help/index.html"><span class="academy-foundation__eyebrow">Help</span><strong>How do I use this?</strong><span class="note">Feature guides + Quick Guide</span></a>
+        <a class="academy-foundation" href="academy/index.html"><span class="academy-foundation__eyebrow">Buddy Academy</span><strong>How do I succeed?</strong><span class="note">Philosophy, journeys, habits</span></a>
+        <a class="academy-foundation" href="docs/index.html"><span class="academy-foundation__eyebrow">Developer Documentation</span><strong>Public technical docs</strong><span class="note">Architecture, APIs, auth, integrations</span></a>
       </div>
+      <p class="note" style="margin-top:1rem">Internal engineering documentation stays in the monorepo <code>docs/</code> — not published here.</p>
+      <aside class="platform-feedback" data-ext="ratings" hidden>
+        <!-- Phase C: page ratings mount point -->
+      </aside>
+      <aside class="platform-analytics" data-ext="analytics" hidden>
+        <!-- Phase C: analytics mount point -->
+      </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="js/shell.js" data-page="help" data-lang="en" data-base="" data-file="index.html" defer></script>
+    <script src="js/extensions.js" defer></script>
+    <script src="js/shell.js" data-page="site" data-lang="en" data-base="" data-file="index.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

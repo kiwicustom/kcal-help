@@ -1,7 +1,19 @@
-# kcal.lol Help (source)
+# help-site — kCal Buddy Help Platform
 
-Static user guide published to **https://help.kcal.lol/** via public repo `kiwicustom/kcal-help`.
+Public static site for **help.kcal.lol** (alias **docs.kcal.lol**).
 
-SSOT for hosting: [`docs/infra/HELP-SITE.md`](../docs/infra/HELP-SITE.md)
+**SSOT:** [`docs/product/BUDDY-ACADEMY-HELP-PLATFORM.md`](../docs/product/BUDDY-ACADEMY-HELP-PLATFORM.md)
 
-Do not put engineering runbooks here — only end-user how-to.
+## Pillars
+
+- `/help/` — feature how-to  
+- `/academy/` — Buddy Academy  
+- `/docs/` — public developer documentation only  
+
+## Generate
+
+```bash
+npm run help:platform
+```
+
+Do not hand-edit generated HTML long-term — edit `content/catalog.json` and regenerate.
