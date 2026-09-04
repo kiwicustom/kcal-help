@@ -3,42 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Hilfe — kCal Buddy</title>
+    <title>Hilfe-Plattform — kCal Buddy</title>
+    <meta name="description" content="Hilfe, Buddy Academy und öffentliche Entwickler-Dokumentation — dasselbe Produkt wie kCal Buddy." />
     <meta name="theme-color" content="#FF7A00" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css" />
-    <link rel="stylesheet" href="../css/shell.css" />
-    <link rel="stylesheet" href="../css/help.css" />
+    <link rel="stylesheet" href="../css/tokens.css?v=de-parity-1" />
+    <link rel="stylesheet" href="../css/shell.css?v=de-parity-1" />
+    <link rel="stylesheet" href="../css/help.css?v=de-parity-1" />
+    <link rel="stylesheet" href="../css/academy.css?v=de-parity-1" />
   </head>
-  <body>
+  <body data-pillar="site" data-page-id="site-home-de">
     <div id="help-shell-header"></div>
-    <main class="help-main">
-      <p class="crumb"><a href="https://beta.kcal.lol/">beta.kcal.lol</a> · Hilfe</p>
-      <h1>So funktioniert kcal</h1>
-      <p class="lead">Ein Produkt. Eine Schleife. Mit Buddy auf Home loggen → Foodiary → Today's Progress.</p>
-      <div class="callout callout--buddy">
-        <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" />
+    <main class="help-main" id="main">
+      <nav class="crumb" aria-label="Brotkrumen"><ol class="crumb-list"><li><span aria-current="page">Start</span></li></ol></nav>
+
+      <h1>kCal Buddy Hilfe-Plattform</h1>
+      <p class="lead">Hilfe, Buddy Academy und öffentliche Entwickler-Dokumentation — dasselbe Produkt wie kCal Buddy.</p>
+      <div class="grid-2">
+        <a class="academy-foundation" href="../help/index.html"><span class="academy-foundation__eyebrow">Hilfe</span><strong>Wie benutze ich das?</strong><span class="note">Feature-Guides + Quick Guide</span></a>
+        <a class="academy-foundation" href="../academy/index.html"><span class="academy-foundation__eyebrow">Buddy Academy</span><strong>Wie werde ich erfolgreich?</strong><span class="note">Philosophie, Journeys, Habits</span></a>
+        <div class="academy-foundation academy-foundation--soon" aria-disabled="true" aria-label="Entwickler-Dokumentation — Demnächst">
+          <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Demnächst</span></span>
+          <span class="academy-foundation__eyebrow">Entwickler-Dokumentation</span>
+          <strong>Öffentliche Technik-Docs</strong>
+          <span class="note">Architektur, APIs, Auth, Integrationen — in Entwicklung für eine spätere Version.</span>
+        </div>
+      </div>
+      <p class="note" style="margin-top:1rem">Interne Engineering-Dokumentation bleibt im Monorepo unter <code>docs/</code> — nicht hier veröffentlicht.</p>
+
+      <div class="callout callout--buddy" style="margin-top:1.5rem">
+        <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
         <div>
-          <strong>💬 Buddy-Tipp</strong>
+          <strong>Buddy-Tipp</strong>
           <p class="note" style="margin: 0.25rem 0 0">
             Nutze den orangen Log auf <em>Home</em>. Foodiary zum Korrigieren — nicht als einziger Weg.
           </p>
         </div>
       </div>
-      <h2>Anleitungen</h2>
+
+      <h2>Anleitungen (DE)</h2>
       <div class="grid-2">
         <a class="card" href="home.html" style="text-decoration: none; color: inherit"><div class="tag">Bild-Guide</div><strong>Home</strong></a>
         <a class="card" href="foodiary.html" style="text-decoration: none; color: inherit"><div class="tag">Wichtig</div><strong>Buddy vs Foodiary</strong></a>
         <a class="card" href="nav.html" style="text-decoration: none; color: inherit"><div class="tag">Orientierung</div><strong>Unterleiste</strong></a>
-        <div class="card card--soon" aria-disabled="true" aria-label="Dokumentation — Demnächst">
-          <span class="soon-stamp" aria-hidden="true"><span class="soon-stamp__ink">Demnächst</span></span>
-          <div class="tag">Docs</div>
-          <strong>Dokumentation</strong>
-        </div>
       </div>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/shell.js" data-page="help" data-lang="de" data-base="../" defer></script>
+    <script src="../js/shell.js" data-page="site" data-lang="de" data-base="../" defer></script>
   </body>
 </html>
