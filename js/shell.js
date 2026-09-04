@@ -38,8 +38,8 @@
   }
 
   const navEn = [
-    ["home", "index.html", "🏠 Home"],
-    ["help", "index.html", "📚 Help"],
+    ["cheat", "cheatsheet.html", "⚡ Quick Guide"],
+    ["home", "home.html", "🏠 Home"],
     ["academy", "academy/index.html", "🎓 Academy"],
     ["docs", "documentation.html", "📖 Documentation"],
     ["new", "whats-new.html", "🆕 What's New"],
@@ -47,8 +47,8 @@
   ];
 
   const navDe = [
-    ["home", "index.html", "🏠 Start"],
-    ["help", "index.html", "📚 Hilfe"],
+    ["cheat", "cheatsheet.html", "⚡ Quick Guide"],
+    ["home", "home.html", "🏠 Home"],
     ["academy", "academy/index.html", "🎓 Academy"],
     ["docs", "documentation.html", "📖 Dokumentation"],
     ["new", "whats-new.html", "🆕 Neu"],
@@ -56,23 +56,23 @@
   ];
 
   const nav = lang === "de" ? navDe : navEn;
-  // Home + Help both point at index for now — mark Help current for guide pages
   const navHtml = nav
     .map(([id, path, label]) => {
       let cur = page === id;
-      if (id === "help" && ["help", "home-guide", "foodiary", "nav"].includes(page)) cur = true;
+      if (id === "cheat" && page === "cheat") cur = true;
+      if (id === "home" && ["home", "home-guide"].includes(page)) cur = true;
       if (id === "academy" && page === "academy") cur = true;
-      if (id === "home" && page === "home") cur = true;
-      if (id === "home" && page !== "home") cur = false;
+      if (id === "docs" && page === "docs") cur = true;
       const current = cur ? ' aria-current="page"' : "";
       return `<a href="${href(path)}"${current}>${label}</a>`;
     })
     .join("");
 
+  const file = (script && script.getAttribute("data-file")) || "index.html";
   const langSwitch =
     lang === "de"
-      ? `<a class="help-lang" href="../index.html" style="display:inline-flex;align-items:center;text-decoration:none">EN</a>`
-      : `<a class="help-lang" href="de/index.html" style="display:inline-flex;align-items:center;text-decoration:none">DE</a>`;
+      ? `<a class="help-lang" href="../${file}" style="display:inline-flex;align-items:center;text-decoration:none">EN</a>`
+      : `<a class="help-lang" href="de/${file}" style="display:inline-flex;align-items:center;text-decoration:none">DE</a>`;
 
   const header = `
 <header class="help-header" role="banner">
@@ -153,8 +153,9 @@
       <div class="help-footer__col">
         <h3>${t.quick}</h3>
         <ul>
-          <li><a href="${href("index.html")}">${t.home}</a></li>
-          <li><a href="${href("index.html")}">${t.help}</a></li>
+          <li><a href="${href("cheatsheet.html")}">${lang === "de" ? "Quick Guide" : "Quick Guide"}</a></li>
+          <li><a href="${href("home.html")}">${t.home}</a></li>
+          <li><a href="${href("academy/index.html")}">${lang === "de" ? "Academy" : "Academy"}</a></li>
           <li><a href="${href("documentation.html")}">${t.docs}</a></li>
           <li><a href="https://beta.kcal.lol/#/privacy">${t.privacy}</a></li>
           <li><a href="https://beta.kcal.lol/#/terms">${t.terms}</a></li>
