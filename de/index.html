@@ -4,44 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Hilfe-Plattform — kCal Buddy</title>
-    <script>
-      /*kcal-cache-bust*/
-      (function () {
-        var link = document.querySelector('link[href*="css/tokens.css"]');
-        var base = "";
-        if (link) {
-          var href = link.getAttribute("href") || "";
-          base = href.replace(/css\/tokens\.css.*$/, "");
-        }
-        fetch(base + "version.json", { cache: "no-store" })
-          .then(function (r) { return r.json(); })
-          .then(function (v) {
-            if (!v || !v.assetVer) return;
-            var u = new URL(window.location.href);
-            if (u.searchParams.get("v") === v.assetVer) return;
-            u.searchParams.set("v", v.assetVer);
-            window.location.replace(u.toString());
-          })
-          .catch(function () {});
-      })();
-    </script>
     <meta name="description" content="Hilfe, Buddy Academy und öffentliche Entwickler-Dokumentation — dasselbe Produkt wie kCal Buddy." />
     <link rel="canonical" href="https://help.kcal.lol/de/index.html" />
     <meta name="theme-color" content="#FF7A00" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
     <meta name="kcal:app-version" content="0.8.41" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnbbm3x" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtog11en" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtog11en" />
   </head>
   <body data-pillar="site" data-page-id="site-home">
     <div id="help-shell-header"></div>
@@ -65,7 +44,8 @@
       <aside class="platform-analytics" data-ext="analytics" hidden></aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtnbbm3x" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtnbbm3x" data-page="site" data-lang="de" data-base="../" data-file="de/index.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtog11en" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtog11en" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtog11en" data-page="site" data-lang="de" data-base="../" data-file="de/index.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

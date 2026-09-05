@@ -573,6 +573,117 @@ a.card {
   margin-top: 0.35rem;
 }
 
+.release-card__detail-label {
+  margin: 1rem 0 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.release-patches {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.release-patch {
+  border: 1px solid rgb(15 23 42 / 0.1);
+  border-radius: 0.65rem;
+  background: rgb(248 250 252);
+  padding: 0.35rem 0.65rem 0.45rem;
+}
+
+.release-patch summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+}
+
+.release-patch summary::-webkit-details-marker {
+  display: none;
+}
+
+.release-patch summary::before {
+  content: "▸ ";
+  color: var(--kcal-orange-500, #ff7a00);
+  font-weight: 800;
+}
+
+.release-patch[open] summary::before {
+  content: "▾ ";
+}
+
+.release-patch__date {
+  margin-left: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.release-card__list--patch {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.86rem;
+}
+
+.release-card--current {
+  border-color: rgb(255 122 0 / 0.35);
+}
+
+/* App-style “newer version — reload” (never silent HTML replace). */
+.help-version-banner {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  background: rgb(15 23 42 / 0.96);
+  color: #f8fafc;
+  box-shadow: 0 -8px 28px rgb(15 23 42 / 0.25);
+}
+
+.help-version-banner[hidden] {
+  display: none !important;
+}
+
+.help-version-banner__inner {
+  max-width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  justify-content: space-between;
+}
+
+.help-version-banner__text {
+  margin: 0;
+  flex: 1 1 14rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.help-version-banner__btn {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 0.65rem;
+  padding: 0.55rem 0.95rem;
+  font-size: 0.88rem;
+  font-weight: 750;
+  background: var(--kcal-orange-500, #ff7a00);
+  color: #fffbf7;
+  cursor: pointer;
+}
+
+.help-version-banner__btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
 .shot-rail {
   display: grid;
   gap: 0.75rem;

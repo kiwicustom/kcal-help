@@ -1,5 +1,5 @@
 {
-  "intro": "kCal Buddy by version line — the main idea of each era.",
+  "intro": "kCal Buddy by version line. The current era shows every patch; closed eras keep the main idea only.",
   "eras": [
     {
       "version": "0.8.x",

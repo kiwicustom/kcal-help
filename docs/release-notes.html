@@ -18,35 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.41" />
+    <meta name="kcal:app-version" content="0.8.42" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtnbbm3x" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtog11en" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <script>
-      /*kcal-cache-bust*/
-      (function () {
-        var base = "../";
-        fetch(base + "version.json", { cache: "no-store" })
-          .then(function (r) { return r.json(); })
-          .then(function (v) {
-            if (!v || !v.assetVer) return;
-            var u = new URL(window.location.href);
-            if (u.searchParams.get("v") === v.assetVer) return;
-            u.searchParams.set("v", v.assetVer);
-            window.location.replace(u.toString());
-          })
-          .catch(function () {});
-      })();
-    </script>
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtnbbm3x" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtnbbm3x" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtog11en" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -55,9 +39,9 @@
       <nav class="crumb" aria-label="Breadcrumb"><ol class="crumb-list"><li><a href="../index.html">Home</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><span aria-current="page">Release Notes</span></li></ol></nav>
       
       <h1>Release Notes</h1>
-      <p class="lead">kCal Buddy by version line — the main idea of each era.</p>
+      <p class="lead">kCal Buddy by version line. The current era shows every patch; closed eras keep the main idea only.</p>
       <div class="release-stack">
-      <article class="card release-card">
+      <article class="card release-card release-card--current">
         <div class="release-card__head">
           <span class="tag">v0.8.x</span><span class="tag" style="margin-left:0.35rem">Current</span>
         </div>
@@ -69,6 +53,347 @@
           <li>Buddy Home coach loop for real daily use</li>
           <li>Help Platform + Buddy Academy</li>
         </ul>
+        <p class="release-card__detail-label">Patch notes (this era)</p>
+        <div class="release-patches">
+          <details class="release-patch" open>
+            <summary><strong>v0.8.45</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Receipt review UX — after scan, show the **found item list** with editable **g** + **CHF** (OCR values or empty boxes to fill), Accept / Skip / rename before Log. Changing weight scales macros. ALDI / Coop / SPAR fixtures must keep line prices.</li>
+              <li>Water quick chips (Beta User Dominic · TF) — smaller glasses **100 / 200 / 250 / 500 ml** (was 250–1 L); DE/FI placeholders **Wasser?** / **Vesi?** (not English `Water?`).</li>
+              <li>Buddy Voice STT upgrade — drop Latin hallucinations (e.g. `Eine? kuvaime paike.`), stronger DE/FI STT prompts, **Schnell speichern** only when the heard line looks like food.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.44</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Buddy food micros pipe — sugar/fibre persist on Buddy/voice saves (strawberries ~12 g / 250 g; cola real sugar). SSOT: `docs/foodiary/FOOD-MICROS-PIPE.md`.</li>
+              <li>Past-day dinner no longer → Breakfast — late-logs to yesterday default to dinner (Beta User Silke · TF-9 / TF-13).</li>
+              <li>Camera X silent — dismissing camera/gallery no longer shows a permissions error (Beta User Katja · TF-8).</li>
+              <li>DE Method + Settings + voice footer — Method / Settings / quick-food / voice footer localized (Beta User Dominic · TF-7 / TF-11 / TF-12).</li>
+              <li>Nutrition label photos — meal camera auto-routes Nährwerte tables (Beta User Dominic · TF-10).</li>
+              <li>CI Home composer test — i18n day-picker aria + submitText meal arg (unblocks image build after v0.8.43 tag).</li>
+              <li>First live beta of the 2026-09-05 polish train — `v0.8.43` was tagged but CI failed; do not expect that tag on beta.</li>
+              <li>Native bump — Android **0.8.44-beta** (`versionCode` **80044**); iOS **0.8.44** / **80044**.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.43</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Same product fixes as 0.8.44 (tagged only; image build failed — not rolled).</li>
+              <li>Not live on beta — superseded by **v0.8.44**.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.42</strong> <span class="release-patch__date">2026-09-04</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Spaces Experience Sprint (Together Era) — Space Home is a daily community ritual, not a dashboard: Hero (“what are we doing?”) → Today (mission + Buddy + **Open Foodiary** only) → Friends today (people + warm status) → Our week → Recent wins → Invite (“Health is better together”). Micro-delight for together / everyone / welcome / halfway. Progress / Leaderboard / Feed / Complete copy aligned emotionally. No new APIs or tables.</li>
+              <li>spaces.kcal.lol + beta.kcal.lol on the same v0.8.42 image — separate DBs and users; shared product version only.</li>
+              <li>Validation Sprint 01 notes — `docs/product/SPACES-VALIDATION-SPRINT-01.md` (observe 😊❓🚪❤️ only; no feature building during the week).</li>
+              <li>Help Platform Release Notes — era cards `v0.1.x`…`v0.8.x` (main ideas) on help.kcal.lol; Developer Docs marked coming soon.</li>
+              <li>Native bump — Android **0.8.42-beta** (`versionCode` **80042**); iOS **0.8.42** / **80042**. Build APK + Archive next; install over previous beta.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.41</strong> <span class="release-patch__date">2026-09-04</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Home health cards fit one phone row — Protein / Ballast / Water no longer spill sideways (Beta User Silke · TF-1).</li>
+              <li>Settings ← Zurück always clear of the iOS status bar — uses `--kcal-safe-top` like Home; stronger orange chrome (Beta User Silke · TF-4).</li>
+              <li>Weight / Water compose escape — sheet shows **← Zurück** (not only ✕) so you can leave without logging (Beta User Silke · TF-2).</li>
+              <li>Foodiary save without typed kcal — blank kcal is estimated from name + grams (e.g. Pizza Salami 100 g → ~240 kcal) so half a pizza still logs (Beta User Silke · TF-5).</li>
+              <li>Beta User Silke TestFlight batch — TF-3 (choose date) already shipped via compose Today/Yesterday + Foodiary eaten stamp; TF-6 swipe-day deferred. Credits **+350** ledger (~$3.50) **awarded** on beta 2026-09-04 (balance 350). Sam idea weight **+0.006**. Triage: `docs/mobile/TESTFLIGHT-FEEDBACK-TRIAGE.md`.</li>
+              <li>Native — Android APK **0.8.41** (`versionCode` 80041) published; iOS **0.8.41 / 80041** archived (public TestFlight URL still Coming shortly).</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.40</strong> <span class="release-patch__date">2026-09-04</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Oats fiber on Home — dry oats / porridge now count toward the Fiber card (~4.2 g for 42 g). Name heuristic matches plural “oats”.</li>
+              <li>Food catalogue macros complete — all **151** catalogue foods now have `fiber_per_100g`, `sugar_per_100g`, and `sodium_mg_per_100g` (plus existing kcal/protein/carbs/fat). Meat/oil fiber stays 0 on purpose.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.39</strong> <span class="release-patch__date">2026-09-04</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Native ship SSOT — `docs/mobile/NATIVE-SHIP-PROCESS.md`: web tag → Android APK → iOS Archive → master (cross-linked from RUNBOOK / ship-mode / Get the App).</li>
+              <li>Foodiary eaten stamp — day + time on add/edit; always persists date + `HH:MM`; time remaps meal column; changing day moves the row.</li>
+              <li>Stuck on yesterday — warm SPA / Cap overnight no longer logs breakfast to the previous day. Resume heal (Cap `appStateChange`, visibility/focus, live refresh); Home always defaults to wall-clock today; Foodiary past-day browse still works.</li>
+              <li>Buddy voice/text time + date — spoken/clock forms (`20:00`, `um 20 Uhr`, `at 8:30 pm`, yesterday/gestern/eilen, …); no time → local clock; date hints flow into drafts/confirm.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.38</strong> <span class="release-patch__date">2026-09-03</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Home coach strip — one compact row: Last meal, fuel/body Now (digesting / fat burn / fasting), and Next advice (Fuel Gauge–backed).</li>
+              <li>Home header Buddy — mobile top bar: animated Buddy + rotating tip bubble (“Hello {Name}, I am kCal Buddy!”), language, theme, gear → More. Big greeting card removed; Daily Energy stays below.</li>
+              <li>Quick Food starter chips — Top food, Protein + water, and From my foods are all visible (no clipped third pill).</li>
+              <li>Quick Food ⋯ menu — centered card; history tiles get Edit + Hide from Quick food (not Keep and Remove together).</li>
+              <li>Energy Minimize — hides the whole totals card (Energy, Macros, Food quality, Micros, Buddy summary), not only the Energy grid.</li>
+              <li>iPhone app first install — first open of kCal Buddy **Create PIN** on this phone (overrides the website PIN). Session cookie is retried after enroll. A full device list says so, instead of only “close the app.”</li>
+              <li>iPhone 14 first open layout — WKWebView no longer boots at ~980px “tile” scale; `viewport-fit=cover` + safe-area apply on first paint (no flip-to-fix).</li>
+              <li>iPhone status bar overlap — kCal Buddy title and ladybug no longer sit under the clock / battery when `env(safe-area-inset-top)` is 0 on first paint.</li>
+              <li>Admin Users — close detail panel (✕ / Esc / click row again). Fresh invites show **Invited** (orange), not green Active. Detail shows sign-in stats: last seen, logins, devices, PIN.</li>
+              <li>Admin Feedback — select many (or all shown), bulk **Mark reviewed / fixed / reject**; obvious **Select all** toggle in toolbar + list header.</li>
+              <li>Admin Feedback reporter — list/detail show the real email (no more `Sa***` masking in the operator inbox).</li>
+              <li>Admin Overview search — filter Recent activity and Needs attention by name, email, feedback text, or invite string; type filter (sign-ins / feedback / invites).</li>
+              <li>Admin Activity page — own nav tab with full event feed, search, type chips (sign-in / feedback / invite), time range (24h–90d), click-through to user or feedback.</li>
+              <li>Android hero sun/moon line — native fetch no longer forces cookies on Open-Meteo; solar arc shows again (was date-only).</li>
+              <li>Mood check-in prompt — tap “How's it going?” for a playful bounce around the screen.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.37</strong> <span class="release-patch__date">2026-09-03</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Foodiary fiber — Raspberries, blueberries, strawberries, and chia count toward fiber (name heuristic + USDA nutrient 291/`amount`). The item line shows grams when &gt; 0. Eggs stay 0 g.</li>
+              <li>iPhone sideways pan — Home / Foodiary / Progress / Connected Health only scroll up/down on iPhone 16 width.</li>
+              <li>Admin Feedback — Inbox scrolls the full list; new reports toast without Refresh.</li>
+              <li>Android ladybug — Beta feedback chip shows in the native app (including old localhost WebViews).</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.36</strong> <span class="release-patch__date">2026-09-02</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>iPhone / Android app sign-in — kCal Buddy loads `https://beta.kcal.lol` in the WebView so the session cookie sticks (same as Safari). App path is **PIN only** (create or enter). No QR, no email. Uninstall wipes the app sandbox. Reset sign-in then Create PIN. Browsers keep the existing email / QR path.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.35</strong> <span class="release-patch__date">2026-09-02</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>No pairing QR on phones — iPhone / Android (Safari, PWA, and the installed app) never show the laptop QR. First open / after Reset sign-in goes to **Create PIN**. Laptop browsers still use QR.</li>
+              <li>Capacitor iOS accepts the session cookie like Android so PIN setup can complete in TestFlight.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.34</strong> <span class="release-patch__date">2026-09-02</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Launch screen — Orange + kCal Buddy splash is first paint again on localhost, beta, Spaces, and the Android APK. Same art everywhere. **KCAL BUDDY - Beta** on the logo, **Ready to rock?** bubble, typewriter **Loading…**, then a slow orange dissolve into Home — no white flash.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.33</strong> <span class="release-patch__date">2026-09-02</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Home welcome — Good morning / afternoon / evening + name sits in Buddy’s first bubble. Home cards share one even gap. Android launch stays kcal orange (Buddy icon) instead of a white flash.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.32</strong> <span class="release-patch__date">2026-09-01</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Home Protein / Fiber / Water — Color tiles on Daily Energy Budget. Tap a tile for remaining grams/litres, 2–3 eatable fill options (`225 g chicken breast = ~70 g protein`), sources, week chart, and Learn more. Fiber uses name heuristics when the diary stored `0`. Log food from the Home Buddy bar, not from this sheet.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.27</strong> <span class="release-patch__date">2026-09-01</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>First-device enroll — Closing the browser before PIN/recovery no longer locks the invite. Incomplete setup stays `pending`; another browser can start first-device again. Trusted only after PIN + recovery codes.</li>
+              <li>Admin Reset sign-in — Clears devices, PINs, sessions, and recovery codes. Next visit is first-device setup again. Button is on the user detail pane.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.26</strong> <span class="release-patch__date">2026-09-01</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Admin delete user — Deleting an invite on beta no longer 500s (`Nested runSync/deasync` inside a Postgres transaction). Hard-refresh Admin → Users, then delete again.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.25</strong> <span class="release-patch__date">2026-09-01</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Trusted-device auth on beta — `/api/auth/status` no longer uses sync Postgres (`deasync`) on the async path. That was timing out the device count and starving the pool. Hard-refresh after deploy.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.24</strong> <span class="release-patch__date">2026-09-01</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Trusted-device auth (Phase 1) — New browser: phone Approve (QR + 6-digit), optional email, recovery codes, admin rescue. Existing sessions keep working. Delayed email is no longer the only way onto a laptop. Hard-refresh after deploy.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.17</strong> <span class="release-patch__date">2026-08-31</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Buddy Voice meal save — One Buddy per room (joining jobs were deleted as orphans → two transcribers). Save logs the full plate, not the first STT chunk (`chicken burger` is not bare chicken; fries and coke stay). Buddy’s “Drink another 500 ml” is never parsed as a water log. Quick Save saves the overlay. Localhost proven 2026-08-31; hard-refresh after deploy.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.16</strong> <span class="release-patch__date">2026-08-31</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Buddy Voice listen loop — Tap Voice → LISTENING (no spoken Yep). Overlay shows what to say (`coffee and oats` · Done · Bye). Later food appends instead of wiping the first item. STT is pinned to the app language (EN/DE/FI) so “Baeee” is bye, not Chinese. Worker owns spoken Done/Bye. Localhost proven 2026-08-31; this tag is the beta tester build. Hard-refresh after deploy.</li>
+              <li>Buddy Voice Slice 1 — one owner, silent open, one save — Tap Voice goes straight to LISTENING with no spoken `&quot;Yep.&quot;` greeting. The voice worker owns spoken Yes/No/Done; LiveKit captions are display-only. Duplicate STT/reconnect of the same turn is ignored. Confirm is idempotent on `sessionId + turnId + draftId` so a replay cannot insert a second `food_log_items` row.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.14</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Reconnect dumped Chrome onto beta.kcal.lol, then “Could not load health connections” — Oura/Google grants were saving, but Custom Tabs were sent to the website (no APK session). Connect/status no longer require a Chrome cookie; the callback returns to the APK; kcal-integrations now allows credentialed CORS from the WebView.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.13</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Android Health Sources never left “Starting connection…” — Chrome Custom Tabs do not share the APK WebView session cookie. Every OAuth provider (`/connect` then `/status` for Oura, Google, Garmin, Strava) therefore hit `auth_required` in Chrome while the APK waited. Native connect/status with `kcal_client=native` now uses the access key in the URL (same secret as the connect link). The APK still polls `/status` on a native thread because Custom Tabs pause the WebView.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.12</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Health Sources spinner never cleared on Android — Custom Tabs pauses the WebView, so JS `/status` polling never saw Oura/Google/Garmin/Strava grants. The APK now polls `/status` on a native thread and brings the app back when the grant exists.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.11</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Android Reconnect opened the PWA — Capacitor turned `window.open(https://beta.kcal.lol/…)` into `ACTION_VIEW`, and Android handed that origin to the installed PWA. Connect/Reconnect now opens **Chrome Custom Tabs** (Chrome package). The OAuth callback returns with an Android intent URL pinned to `lol.kcal.app`, not the website hash.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.10</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Account chrome on the server — Home mood, Getting started (“New here?”), onboarding, bowls, recipes, My Meals, named meal-plan days, chips, NEAT notes, activity-source toggles, food portions, and quick-add tiles sync via `user_account_state` (`GET`/`PATCH`/`POST /account-state/migrate`). Browser / PWA / Android share the same invite account. Empty Android does not wipe a Browser migrate. Theme, voice mic, layout, and avatar stay on-device.</li>
+              <li>Android Health Sources spinner — after Oura/Google/Garmin/Strava OAuth returns to the APK, the app polls `/status` until the grant is visible (and on App resume / `lol.kcal.app://` return) instead of leaving **Starting connection…** forever. The API grant was already saving; the WebView had stopped waiting.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.9</strong> <span class="release-patch__date">2026-08-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Person Profile on the server — invite keys load/save `user_profiles` via `GET`/`PATCH` `/api/:accessKey/profile`, with one-shot `POST /profile/migrate` from legacy localStorage. Server wins after migrate; empty Android does not block Browser import. Demo/`sam` stay local.</li>
+              <li>Current weight from diary — `derived.currentWeightKg` is the latest `entries.weight` (not a stored profile field). Age is derived from `birthDateIso`. Device panel layout and avatar stay on-device.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.5</strong> <span class="release-patch__date">2026-08-28</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Recipes under Meal Plan — catalog + Mine recipes (Spartan Pannukakku first), nutrition from the food catalog, Add to Foodiary as one `kcal_recipe:` row, not a new nav item.</li>
+              <li>Quick Food recipe tiles — every catalog and Mine recipe is always a tile; tap logs 1 serving into the clock/selected meal.</li>
+              <li>Buddy live voice aura — Home/Hero waveform + live caption while Talk is active.</li>
+              <li>Meal Plan plus-button crash — logging a recipe no longer remounts Meal Plan mid-update (`buddyDiaryRevision` is not the panel key).</li>
+              <li>iOS Safari photo scan — service worker no longer intercepts POST uploads; friendly error instead of raw `FetchEvent.respondWith … Load failed` when network fails.</li>
+              <li>Buddy Home speech bubble i18n — coach/toolbar hints (e.g. gear on log bar) now follow FI/DE/EN language selection instead of staying English.</li>
+              <li>Activity → Activity Cal — nav + panel rename. **DAY / WEEK / MONTH** lives on the calendar toolbar (not under the page title). Day = vertical board; Week = one compact week row; Month = full grid + Day view under the cal. **Fuel Gauge** sits directly under the calendar card (not between source chips and the grid). Range label includes ISO week (`W34`). Panel no longer repeats the page title or long marketing blurb — source chips + Share + Sync only; calendar chrome is i18n’d (en/de/fi).</li>
+              <li>Home Buddy Inputs card — warm peach/orange wash so Log chips don’t look like the cool white bottom nav.</li>
+              <li>Meal Plan is day-first, not bowl-first — allocate remaining kcal/protein across meals, pick archetypes, then compose food. Default max 1 bowl/day (not “Bowls first”). Remaining = target − Foodiary actual − still-planned (can show OVER TARGET). Generate = preview; per-meal Clear / Give me another; Approve writes Foodiary; Undo removes that last add. PLAN is not ACTUAL until approved.</li>
+              <li>Home Text composer — taller field (7 rows) with a bottom-right drag handle to resize.</li>
+              <li>Foodiary toolbar — Quick/Coach/Expert, Share, and +/− expand-collapse sit on one row.</li>
+              <li>The Method internal-beta gate: Buddy food confirm peeks today’s log so satisfied-lesson hints fire; local SQLite migrates `food_log_items` CHECK to allow Buddy `generated` source; weekly review rejects days not yet reached (`REVIEW_NOT_READY`); burn UI pairs product term with plain estimate gloss + “How was this estimated?”; DE/FI burn terms proposed pending human approval; non-sensitive analytics for burn-not-ready / migration / sync failure.</li>
+              <li>Buddy Soft Stop → rejoin corpses (Theme 01q) — Soft Stop kept the room warm but did not prove the sleeper could still receive Wake (`buddy-state: sleeping`). Next mic tap took the fast path into a zombie participant → hang / silent fail. Fix: wait ≤1.5s for sleep ACK; on miss → `/voice/redispatch` + skip fast path; client Black Box beacons (JOIN/BYE/SLEEP_ACK/…). Android 50-session DoD still OPEN. Never Again R5q. See `docs/buddy/THEME-01Q-SOFT-STOP-REJOIN.md`.</li>
+              <li>Camera “Don't show again” — dismiss is honored for camera as well as gallery (`kcal.buddy.photoTips.dismissed`); camera no longer forces the tips sheet every time.</li>
+              <li>Weight Edit stayed in Foodiary mode — after Log Weight → Edit, bare kg (e.g. `117.4`) re-opens Weight mode so resend parses as weight, not “Could not detect any foods.”</li>
+              <li>The Method Phase 3 hardening: cross-key HTTP authorization integration test, `KCAL_METHOD_ENABLED` authoritative for invite/`sam`/`demo`/Buddy/UI, structured + food Buddy Method awareness, desktop Home Method entry, dev-only visual fixtures, Ground Truth boundary docs, extended Playwright Method coverage.</li>
+              <li>The Method (production path): per-user Postgres/SQLite `method_state`, authenticated `/api/:accessKey/method/*` transitions, localStorage→server migration for `kcl_*`, Activity Log / Timeline activity signals, full Day 7/14/21/30 weekly reviews, Day 29 personal rules editor, Buddy day-summary Method awareness, `KCAL_METHOD_ENABLED` flag, Method i18n (en/de/fi), safety guidance helper, Playwright Method smoke.</li>
+              <li>The Method (first month): guided daily lessons on Buddy Home — opt-in, lesson-based progress (missing days never reset), Personal Burning Rate reveal gated on calibration data</li>
+              <li>Canonical product docs: `docs/product/KCAL-THE-METHOD.md`, `docs/product/KCAL-THE-METHOD-FIRST-30-DAYS.md`</li>
+              <li>Engine notes: `docs/architecture/KCAL-THE-METHOD-ENGINE.md`</li>
+              <li>Foodiary meal Clear — Clear on the meal title, a **Clear Lunch** (etc.) button under Add food item, and Clear on collapsed bowl rows (tap twice to confirm).</li>
+              <li>Quick food Minimize/Expand — Foodiary Quick food grid collapses; preference persists.</li>
+              <li>TGIF Friday — Spartan Maximus — reusable Friday meal plan (~1,498 kcal / ~192 g protein). PLAN vs ACTUAL stay separate; mark eaten / edit grams or substitute / skip. Foodiary updates only when eaten.</li>
+              <li>Official kCal Buddy PWA icon pack — Android 192/512 + maskable, iOS apple-touch 180, favicons; Home top-left brand uses the same mark.</li>
+              <li>Home Text typeahead from Foodiary — typing in Text (e.g. `Salmon`) suggests previously logged foods (Salmon Sandwich, …) ranked by frequency. Tap to fill, then send.</li>
+              <li>Admin → Email: beta / release broadcast — after deploy, compose an informative release-note email (What’s new · Please try · hard-refresh steps · Feedback; **no docs page**). Audience Me / Me &amp; beta / Beta / Everyone; Dry run shows HTML preview then Send. API `POST /api/admin/email/broadcast`. Doc: [`KCAL-ADMIN-PANEL.md`](docs/product/KCAL-ADMIN-PANEL.md).</li>
+              <li>Buddy Black Box — immutable flight recorder for every Buddy session. Append-only transitions (CreateRoom → … → Listening / Sleep / Destroy); `Replay(sessionId)` returns one timeline, illegal highlights, metrics, and root cause. Admin UI `/admin/buddy-blackbox`. Doc: [`docs/buddy/BUDDY-BLACK-BOX.md`](docs/buddy/BUDDY-BLACK-BOX.md). No kubectl / log grep to explain a failed join.</li>
+              <li>Home Log methods sheet — chips **do the action** (Text opens composer, Camera opens camera, …). Orange CTA default + **per-chip On/Off** via wrench tool on the Log card (and Voice also in Settings → Microphone). Chip row uses flexible equal columns so hiding Voice (or any chip) doesn’t leave a gap. Factory default is Text when voice is off.</li>
+              <li>Disable Voice input (per device) — Settings → Microphone: turn **Voice input** off to hide Voice UI, skip mic prefetch/prompts, and disconnect any live session. Same panel sets **Home Log button default**. Local preference `kcal.voiceInputEnabled.v1`. Doc: [`KCAL-VOICE-INPUT.md`](docs/buddy/KCAL-VOICE-INPUT.md).</li>
+              <li>Apply remaining meals on live accounts — planned bowls/meals POST to `/food-item` (server keys); client-only keys stay on IndexedDB.</li>
+              <li>Activity Share sits in the Activity Log header — next to Sync, not a floating empty row under TODAY. Calendar is Day / Week / Month (default Week).</li>
+              <li>Text/voice confirm showed photo “Retake” UI — low-confidence confirm is source-aware (text / voice / camera / gallery); BCAA-style text asks for amounts/brands, not “photo was hard to read.”</li>
+              <li>Weight confirm said Save to Foodiary — primary save CTA follows intent (Save weight / water / training / Foodiary).</li>
+              <li>Buddy speech closer — ends with “Ready to rock? I am!”</li>
+              <li>TODAY hero is a live day/night timeline — charcoal TODAY + clock, muted weather/place, thin grey sunrise→sunset (or sunset→next sunrise) line. Graphical sun/moon is the progress marker (real lunar phase at night). Install kCal Buddy moved from the Home banner into Menu.</li>
+              <li>Installed PWA named Buddy and opened the public landing — launcher `short_name` is **kCal Buddy**; static `start_url` stays credential-free (`/?source=pwa`). Install persists the current `/u/:accessKey` via existing `kcal.lastAccountAccessKey`; standalone/PWA launch of `/` restores that user’s Home. Visitors with no remembered key still see the public landing.</li>
+              <li>Android PWA Install stuck on “Installing…” — Chrome accepted the prompt but WebAPK never finished (`id: &quot;/&quot;` collided with stale kcal installs; alpha PNGs hurt mint). New manifest `id: /kcal-buddy`, opaque icons, 20s stall → Add-to-Home-screen fallback copy on Home.</li>
+              <li>Android PWA Install still dead — SW register only in late Vue boot was fragile; add inline `index.html` register + `beforeinstallprompt` **Install** banner on Home so Chrome Android can actually install Buddy.</li>
+              <li>Android PWA Install missing — service worker registered on `window.load` *after* boot awaits, so `load` had already fired → SW never registered → Chrome hid Install app. Register ASAP + when `document.readyState === &quot;complete&quot;`; nginx manifest MIME kept in sync on deploy.</li>
+              <li>Buddy open &lt;1s (Theme 01p) — Theme 01i made Home prewarm room-only, so every mic tap cold-dispatched (`ctx.connect` often 1.5–16s) and wake packets died before `session.start` wired DataReceived. Fix: Home prewarm Dispatches a **sleeping** worker again (coalesce, never Wake); agent early-acks Wake before `session.start`; client fires Wake on the warm fast-path before mic permission; Soft Stop re-prewarms if the agent vanished. Target: mic → Wake ACK under 1s when Home was open first.</li>
+              <li>Buddy “20 chicken nuggets” → Chicken 36 kcal — Input-2.0 heuristics treated bare `20` as grams and `\bchicken\b` matched inside “chicken nuggets”. Countable nugget path (~18 g/piece) + narrower chicken match; regression tests added.</li>
+              <li>Share image lagged text — default was Day totals (summary-only PNG) while text listed meals/food. Default is now Food items; single-day A4 stacks meals vertically with body text in the writing column (not a side-by-side mess).</li>
+              <li>Foodiary Quick/Coach/Expert looked broken — chips changed, but mobile remount re-collapsed Coach panels and effects stayed below the fold. Mode now gates panels (Quick = food only; Coach = Summary + Insights; Expert = all), scrolls to them, and shows a short mode hint.</li>
+              <li>Share control visibility — Foodiary Share sits in the view toolbar (not its own row); timeline uses Material connected-dots (icon only; tip on hover). No Share in the phone top bar.</li>
+              <li>Foodiary + FAB → Buddy inputs — floating **+** opens Camera / Gallery / Text / Voice / Water / Weight (same chip set as Home). Camera/Gallery/Voice stay on Foodiary with Buddy AI; Text/Water/Weight open Buddy Home compose.</li>
+              <li>Buddy Soft Stop → rejoin thrash (Theme 01n) — mic activate with `replaceAgent: true` murdered healthy in-room agents (`skip_live` + present → force-cleared / force-removed / force_created). Soft Stop → leave → rejoin raced ParticipantConnected and killed the joining worker. Fix: `replaceAgent` uses the same warm coalesce as force activate; Close zombies recover via age-out + `/voice/redispatch` after wake fail. Never Again R5n.</li>
+              <li>Buddy joining → Home drop (Theme 01o) — agent participant appeared before DataReceived was wired; client cleared “Buddy joining…” on presence (illegal) and wake bursts died in ≤350ms → dump to Home at ~3–4s with no Abort. Fix: stay connecting until Wake ACK; wake retries through activation window; Cancel/× on overlay; hard timeout 20s.</li>
+              <li>Home Text / Water / Weight compose — same day picker (Today / Yesterday / any past day) on all three; phone opens **full-screen** above the keyboard; Water glass chips save immediately; confirm stays in the sheet (not behind it). Typed water/weight/text use the chosen day.</li>
+              <li>Home text composer under bottom nav + keyboard (Beta User Katja) — typing kept Home in `idle`, so the tab bar stayed up and covered +/Send when the keyboard opened. Text/Weight/Water (and day picker / defaults sheet) **float as centered pop cards** over lightly blurred Home; keyboard lifts the compose card via `visualViewport` so +/Send stay reachable. Chip order ends **Water → Weight**.</li>
+              <li>Foodiary `+` menu opacity — Quick FAB menu used a translucent backdrop that made items unreadable over diary content. Solid white/dark panel, teleported to `body`, higher z-index. Doc: [`KCAL-FOODIARY-LAYOUT.md`](docs/foodiary/KCAL-FOODIARY-LAYOUT.md).</li>
+              <li>Health Sources Reset/Disconnect progress — Reset connection showed no on-screen feedback while busy (felt dead). Page banner + card hint + button label now show Resetting… / Disconnecting… with elapsed seconds, then a done line.</li>
+              <li>Oura/Google/Strava/Garmin connect runSync — Beta User Katja could open Health Sources + start OAuth, but connect/disconnect still used `runSync` and timed out mid-flow. Connect/disconnect paths are now async (same Never Again class as magic-link/PIN).</li>
+              <li>Home Weight day + primary modality — Weight opens the same day picker as Camera/Gallery (today / yesterday / any past day). Orange CTA remembers last Voice/Text/Camera/Gallery choice so non-voice users aren’t stuck on “Tap to tell Buddy”.</li>
+              <li>Health Sources + invite auth i18n — Health Sources page body and magic-link/PIN gates were English-only (only the chrome title “Terveyslähteet” switched). Wired `app.healthSources` + `app.auth` for en/de/fi.</li>
+              <li>Health Sources fluent status — “Checking connections…” was an on-demand blocking waterfall (4–6 status polls + retry) that disabled Connect/Reset. Now: last-known `sessionStorage` paint, background refresh, cold-only “Checking…”, actions never gated on status poll. Doc: [`KCAL-HEALTH-SOURCES.md` § Fluent status](docs/health/KCAL-HEALTH-SOURCES.md#fluent-status-do-not-block-connect).</li>
+              <li>Invite Access expired UX — browser navigations no longer show raw `{&quot;ok&quot;:false,&quot;error&quot;:&quot;Access expired&quot;}`; friendly HTML + invite gate (“Your beta invite has ended”). Auth status returns `invite_expired` with title/hint.</li>
+              <li>Health Sources misinformation — Menu/Activity could show Connected while Health Sources stuck on “Checking connections…” / Not connected. Loading always clears; status fetches time out; ERROR/TOKEN_EXPIRED count as connected; **Reset connection** on every disconnected live card; Disconnect on error/reconnect; Strava capabilities no longer claim Steps.</li>
+              <li>Health Sources scare banner (`v0.7.119`) — partial status poll failures no longer flash “Could not refresh…”. Doc: [`KCAL-HEALTH-SOURCES.md` § Status refresh banner](docs/health/KCAL-HEALTH-SOURCES.md#status-refresh-banner-do-not-scare) · Never Again R9.</li>
+              <li>Sign-in email runSync timeout (Beta User Katja) — “Could not send sign-in email” was `runSync` deadlocking on `getAccessKeyAllowedEmails` / `insertAuthToken` during magic-link. Magic-link path is now fully async (no deasync). Unblocks Oura Connect (needs signed-in session first).</li>
+              <li>PIN verify/set runSync timeout (Beta User Katja) — after magic-link worked she stuck on PIN: `verify-pin`/`set-pin` still used sync `getAuthSession`. Now async.</li>
+              <li>Buddy reopen hang (Theme 01m) — 1st join OK, close, reopen → 40s+ “Buddy joining…”: `ctx.shutdown` after Close left `agent-AJ_*` in LiveKit; 2nd activate logged `force_coalesced_skip_live` on the corpse. Fix: `room.disconnect()` before shutdown; mic activate sends `replaceAgent: true` when the phone has no local agent so server hard-clears zombies. Never Again R5m.</li>
+              <li>Buddy zombie after crash (Theme 01l) — worked once (~20s), then endless “Buddy joining…”: `AgentSession` closed but agent participant stayed (`closeOnDisconnect: false`) with data handlers torn down → wake hit a corpse; Theme 01k coalesce blocked `/activate` murder; `/voice/redispatch` then coalesced via `dispatchVoiceAgentToRoom` instead of creating. Fix: shutdown job on session Close (participant leaves); redispatch always `createDispatch`; UI stays connecting until Wake ACK. Never Again R5l.</li>
+              <li>Buddy 3rd join kill (Theme 01k) — 1st/2nd join OK, 3rd silent fail: mic `forceRedispatch` treated warm `skip_live` as hard-clear → `force-cleared` + `force-removed` the live agent mid-rejoin (founder room `kcal-voice-5-ab437f85-…`). Fix: never murder an in-room agent on activate (`skip_live`/`skip_inflight` + agent present → coalesce). Never Again R5k.</li>
+              <li>Buddy JOIN protocol LOCK (Theme 01j) — join is now an enforced state machine (`buddyJoinProtocol.ts`): illegal transitions ERROR + metric + correlationId/session/worker/pod/timeline; READY = Wake ACK only (presence ≠ READY); Soft Stop keeps room; metrics `kcal_buddy_join_phase_total`; regression suite for dispatch/wake/greeting/listening/rejoin/double-activate. Never Again R5j. Theme 01 Android DoD (20 joins) still OPEN.</li>
+              <li>Beta User Katja P0 — Health Sources ← Back stuck — utility pages (`/connections` etc.) now always navigate to Home (hash fallback), sit above leftover Home/Twos/Feedback chrome (`z-index: 400`), and photo-scan failure offers Dismiss beside Retake so beta users are never trapped after a failed coffee/meal photo. Never Again R8.</li>
+              <li>Buddy 2nd join after BYE (Theme 01g) — 1st join OK, 2nd silent fail: stale `buddyWakeAckedAt` + wake-only fast-path skipped `/room/activate` while the LiveKit `AgentSession` had already closed (founder room `kcal-voice-5-ab437f85-…`). Fix: clear wake-ack on sleep/disconnect/new activate; after sleep always force-dispatch. Never Again R5g.</li>
+              <li>Buddy leave keep-warm (Theme 01h) — `/voice/stop` deleted the LiveKit room on every leave → agent died immediately → 2nd/3rd join cold+flaky. Device Buddy rooms now keep-warm (`departureTimeout` 180s); stop no longer deletes them. Never Again R5h.</li>
+              <li>Buddy JOIN protocol (Theme 01i) — violated invariant: multiple Dispatch owners (Home prewarm + mic activate + void/await double POST + `force_coalesced_skip_inflight` on empty room) produced 12–16s “Buddy joining…”. Delete: prewarm never dispatches; mic `/room/activate` is sole Dispatch owner; force coalesce only when an agent participant is actually in-room. Never Again R5i.</li>
+              <li>ENVIRONMENT ISOLATION (Buddy Steel) — beta LiveKit agent name is now `kcal-voice-agent-beta` (API + voice-agent); prod stays `kcal-voice-agent`. Stops prod workers stealing beta Buddy jobs on the shared LiveKit project (founder join hang / wake never lands). Boot + post-deploy smoke fail on mismatch. Never Again R5e.</li>
+              <li>Buddy BYE→rejoin hang — Home prewarm treated a healthy warm agent as “stale” after the 12s join grace (`JS_RUNNING` + participant still in room) and deleted it. Fix: `skip_live` / cleanup keep aged RUNNING jobs while the agent participant is present; orphans without a participant still clear. Manual load: `npm run test:buddy-bye-rejoin --prefix backend`. Never Again R5f.</li>
+              <li>Buddy join (Theme 01) — mic `forceRedispatch` no longer kills an in-flight prewarm agent (`force_coalesced` when live/joining); activate HTTP failures fail fast instead of silent “Buddy joining…” wait. Tests: `shouldHardClearOnForceActivate`, voice invariants.</li>
+              <li>Buddy join (Theme 01b) — coalescing `skip_live` left zombie `agent-AJ_*` in user rooms (prewarm skip forever, mic never POSTed activate). Fix: hard-clear `skip_live` on activate; always POST `/room/activate` on mic tap; cleared stuck room `kcal-voice-5-…`.</li>
+              <li>Buddy join (Theme 01c) — hard-clear `skip_live` on every tap killed warm agent after BYE → ~18s rejoin / kick-to-main. Fix: coalesce `skip_live` again; fast path wakes before any force-activate.</li>
+              <li>Buddy join (Theme 01d) — server `skip_live` while phone room empty → 20s+ spinner. Fix: hard-clear `skip_live` on cold activate only; warm = wake-only; empty-room redispatch at 2s; hard timeout 12s.</li>
+              <li>Buddy Android audio (Theme 01e) — greeting started on loudspeaker then flipped to quiet earpiece mid-sentence. Cause: Android WebAudio loudspeaker path mutes `&lt;audio&gt;`, so `isBuddyAudioPlaying()` was always false → listening/mic open mid-TTS → `MODE_IN_COMMUNICATION` earpiece. Fix: AnalyserNode energy on the WebAudio graph; ignore muted-element `ended`; hold mic closed while TTS energy present.</li>
+              <li>Buddy join hang (Theme 01f) — zombie agent in room cleared loading/timer so the 12s hard-timeout no-op'd while UI stayed on `connecting` (300s+ spinner). Fix: hard-timeout keys off wake-ack / connecting / session; `markBuddyOnlineUi` never leaves `connecting` stuck.</li>
+              <li>Operation BUILD — enough planning; build trust; order: Theme 01 → Telegram → Buddy smoke → sync paths → watch beta. Doc: [`docs/infra/OPERATION-BUILD.md`](docs/infra/OPERATION-BUILD.md)</li>
+              <li>Operation Buddy Steel v1.1 — execution charter: Rule 0 (measure before fix), reliability budget (RED → Steel is today’s theme), every bug → 5 artifacts, PR boredom filter. Doc: [`docs/buddy/OPERATION-BUDDY-STEEL.md`](docs/buddy/OPERATION-BUDDY-STEEL.md)</li>
+              <li>Operation Buddy Steel — harden Buddy v1 into predictable infrastructure (not v2 redesign). Metrics: join &gt;99.5%, median &amp;lt;3s, P95 &amp;lt;6s, zero infinite spinner. Doc: [`docs/buddy/OPERATION-BUDDY-STEEL.md`](docs/buddy/OPERATION-BUDDY-STEEL.md)</li>
+              <li>Engineering Constitution v1.1 — LAW 16 Founder Rule (no bypass for excitement/urgency/beta asks); decision filter before any work. Doc: [`docs/infra/ENGINEERING-CONSTITUTION.md`](docs/infra/ENGINEERING-CONSTITUTION.md)</li>
+              <li>Engineering Constitution v1.0 — binding laws (healthy &gt; features, one theme, stabilize→measure→redesign, real phone, boring UX). Doc: [`docs/infra/ENGINEERING-CONSTITUTION.md`](docs/infra/ENGINEERING-CONSTITUTION.md)</li>
+              <li>Buddy greeting (EN) — spoken/presence opener is now `Hi {name}! What's up?` (was `What to add?`).</li>
+              <li>STABILITY MODE (Stop the bleeding) — no new features / UI polish / new ideas until beta feels healthy. Rules 1–10 (one theme, sacred-path smoke, real phone, bug→test+Never Again+CHANGELOG, fail soft). Docs: [`docs/infra/STABILITY-SPRINT.md`](docs/infra/STABILITY-SPRINT.md) · [`DAILY.md`](DAILY.md)</li>
+              <li>OPERATION: FIX THIS SHIT — make kcal.lol boring-reliable; Steps 1–10. Playbook: [`docs/infra/OPERATION-FIX-THIS-SHIT.md`](docs/infra/OPERATION-FIX-THIS-SHIT.md). Health audit (2026-08-10): [`docs/infra/HEALTH-AUDIT-2026-08-10.md`](docs/infra/HEALTH-AUDIT-2026-08-10.md)</li>
+              <li>Post-deploy smoke — `deploy.sh` / `tag.sh --deploy` run `scripts/post-deploy-smoke.sh` after rollout: live `/api/version` + `/api/health`, `REDIS_URL` on every API pod, in-cluster Job `parse → meal-override → cancel` (×4 across replicas), plus `/api/voice/agent/draft-ha-smoke` (Redis re-read) when the image has it. Escape hatch `--skip-smoke`. Doc: [`docs/testing/KCAL-DEPLOY-TEST-SUITE.md`](docs/testing/KCAL-DEPLOY-TEST-SUITE.md)</li>
+              <li>Incident report 2026-08-09 — beta cascade (activity/Pilates session → Buddy/Foodiary/HA/`runSync`): [`docs/infra/INCIDENT-2026-08-09-BETA-CASCADE.md`](docs/infra/INCIDENT-2026-08-09-BETA-CASCADE.md)</li>
+              <li>Beta Voice canary — CronJob every 2m (`k8s/voice-canary-cronjob-beta.yaml`): food-gate in voice-agent image + LiveKit agent join ≤12s + parse smoke; gauges `kcal_voice_canary_ok` / `last_success_unixtime`; PrometheusRule alerts `KcalVoiceCanaryDown` / `KcalLivekitDown`</li>
+              <li>Ops paging path — Alertmanager (mon) → Telegram via `kcCloud-monitoring/metrics/setup-telegram-alerting.sh`; Grafana **kcal-beta - Advanced** shows Voice canary; optional instant Telegram from canary Job secret `telegram-alert`</li>
+              <li>The Way of Sam (TWoS) — opt-in floating philosopher (default off): draggable Sam, transparent cutout art, dedicated page `/u/:key/twos`, event-driven quiet wisdom; Do No Harm + Human Principle. Spec: [`docs/product/THE-WAY-OF-SAM.md`](docs/product/THE-WAY-OF-SAM.md)</li>
+              <li>KLC coin — Bitcoin-shaped credits: toolbar shows **both** `◈ 0.00001538 KLC · 15.38 µKLC` (genesis frozen ~$65k/BTC; $1 retail). Ledger stays integer (1 = $0.01). Spec: [`docs/product/KLC-CREDITS.md`](docs/product/KLC-CREDITS.md)</li>
+              <li>Admin → Credits — beta roster with KLC/µKLC/$ + ledger; add/subtract or set; award chips; cost simulator. Feedback quick awards +25/+50/+75/+150 ledger</li>
+              <li>Gallery quick chip — Buddy Home log row: Voice · Camera · **Gallery** · Text · Weight · Water (no more Photo Library buried under Text → +)</li>
+              <li>Food mass totals — meal headers show food kg + drink L (not only kcal/protein); Foodiary day KPIs include Food/Drinks; Progress shows Today / 7d / 30d / 365d food mass</li>
+              <li>Platform reliability track — [`docs/infra/PLATFORM-RELIABILITY.md`](docs/infra/PLATFORM-RELIABILITY.md) with NOW/DESIRED architecture + sequence diagrams; HA bar applies to **dev / beta / prod**</li>
+              <li>API HA — `kcal` Deployment **replicas ≥ 2**, **RollingUpdate** `maxUnavailable: 0` (dev + beta + prod manifests)</li>
+              <li>PodDisruptionBudgets — `k8s/pdb-dev.yaml`, `pdb-beta.yaml`, `pdb.yaml` applied on deploy/tag rollout</li>
+              <li>Async `/api/auth/status` — Postgres path uses `pg` pool (no `deasync` on the sign-in hot path)</li>
+              <li>Home location — Settings → Profile &amp; goals: search city (Open-Meteo geocode), pick disambiguated result (e.g. Lachen, Schwyz vs Zürich); stores resolved place on profile; Home top bar shows short label (`Helsinki, FI` / `Lachen, SZ`); weather charts follow the chosen place (default remains Lachen, SZ)</li>
+              <li>Activity catalog (search-first) — data-driven `activityCatalog.json` (Pilates, sports, combat, winter, … + synonyms); Activity Log search UI; unknown names → Other Activity; MET / intensity kcal estimates; logging never blocked by a missing type</li>
+              <li>`runSync: timed out waiting for database operation` (hot-path purge) — async Postgres for Saved Foods, food search, Buddy/voice confirm writes (insert/sum/sync/timeline), day-context, agent fuel-gauge + weekly summary, voice coach routes (`/coach/*`), diary entry/food-item/analysis mutations, and remaining auth `resolveAccessKey` callers; request mutex bypasses Buddy/voice/auth/diary async routes so deasync cannot wedge HA under load</li>
+              <li>Buddy “Half a cucumber…” silent ignore — fraction + produce (`half a …` / cucumber &amp; common veg) now food_log so silence-commit / Done / ⚡ Quick Save fire (was `not_food` with transcript on screen)</li>
+              <li>Heard ⚡ Quick Save always when transcript visible — button no longer hidden by Spartan food gate; tap parses via Foodiary (gate still guides silence-commit)</li>
+              <li>Buddy voice route — BT when connected; otherwise main loudspeaker (stop iOS `play-and-record` earpiece quiet path when no BT)</li>
+              <li>Android Buddy loudspeaker — Chrome has no `setSinkId`; select **Speakerphone** mic input so OS leaves quiet earpiece / in-call mode; republish if wrong mic already open</li>
+              <li>Android Buddy → bottom speaker — without BT, play Buddy TTS via WebAudio `AudioContext.destination` (loudspeaker); mute the WebRTC `&lt;audio&gt;` element that was stuck on the quiet top earpiece</li>
+              <li>Android earpiece lock — soft-muted mic still forces call/earpiece mode; fully unpublish mic while Buddy speaks (republish on listening) so TTS can use speakerphone</li>
+              <li>“Draft not found or expired” on HA — Buddy/Foodiary drafts were in-memory per API pod; with 2 replicas parse≠confirm. Drafts now in Redis (`REDIS_URL` on API)</li>
+              <li>Buddy join UX under 1s when prewarmed — clear “joining…” on agent present; fire activate immediately on mic tap; tighter wake burst; wake∥mic prep</li>
+              <li>TWoS *ohmmm* bubble — position + ellipsis cleanup (bubble dots kept)</li>
+              <li>Blank UI / diary load dead — `/entries` (Home hard-require) + `/activity-items` now async; mutex bypass for cold-load routes; `runSync` timeout resets the PG chain; food/timeline/fuel-gauge already async</li>
+              <li>Buddy “didn’t join” after healthy agent — re-activate no longer silent (publishes listening ack); client keeps early wake-ack and allows ~22s for one redispatch (was 12s race)</li>
+              <li>Activity Log / Buddy: Pilates — searchable in catalog; bare “Pilates” / “I did Pilates” classifies as training (Buddy + voice), not unknown/food</li>
+              <li>Health Sources / Oura load failure (beta) — integrations (and API) access-key auth no longer uses nested `deasync` under concurrent provider status fetches; Beta User Katja–style “Could not load health integrations” + missing Oura was the deadlock</li>
+              <li>Buddy “Handfull of studentenfutter” silent ignore — size-word + unknown snack (and `30 g X` without “of”) now classifies as food_log so silence-commit / Done / ⚡ Quick Save actually fire (was `not_food` → keep listening)</li>
+              <li>Buddy “joining…” hang — force-redispatch always evicts zombie agents (no `skipped_existing` on recovery); client hard-fails connect UI ≤12s and clears the overlay on connecting timeouts; voice-agent pods get a LiveKit `/` liveness probe; deploy docs no longer default `--skip-voice`</li>
+              <li>Buddy food paste → Day Plan — product names like “High Protein … Pudding” no longer trigger Day Plan; multi-line gram lists go to Foodiary confirm</li>
+              <li>Gallery/camera → previous days — pick Today / Yesterday / date before photo; confirm card can still change the diary day before Save</li>
+              <li>Photo scan overlay — review note no longer shown twice (“Almost done…” modal)</li>
+              <li>Admin → Credits roster timeout — `runSync: timed out waiting for database operation` fixed by loading balances via async Postgres (no deasync after `await`); add/set/snapshot also async on PG</li>
+              <li>Admin ← Home — operator Back no longer jumps to marketing `/`; returns to last account Buddy Home (`/u/…/home`)</li>
+              <li>Phone view modes — Näkymä / Desktop / Grid controls hidden on phone viewport; show **KCAL Koti** escape to Buddy Home instead; Full Desktop never mounts on phone</li>
+              <li>FI Quick Actions — meal buttons use i18n again (`Lisää aamiainen` …); Share/Export + Show all translated</li>
+              <li>Save confirmation toast — “Added …” appears as a fixed toast (was easy to miss at page footer)</li>
+              <li>API hang / stuck “Checking sign-in…” — SMTP send now has hard timeouts; Fixed+notify persists status before email and never blocks beta forever; invite auth status fetch times out in 8s with **Try again** (no infinite spinner)</li>
+              <li>Postgres deasync deadlock — sync request semaphore under Postgres so concurrent `/api/auth/status` cannot nested-`loopWhile` and freeze the only API pod (health/version stay concurrent). v0.7.64’s Promise-based mutex was wrong (hung the first DB call) — fixed in **v0.7.65**.</li>
+              <li>Admin Fixed+email 500 — after SMTP, do not reload screenshot blobs via deasync (timed out); return light feedback row + `emailError`</li>
+              <li>Deploy race on `:latest` — `tag.sh` / `deploy.sh` `--wait-ci` waits for **this commit SHA’s** `build-image` run(s), not the latest workflow on the repo</li>
+              <li>Admin mobile-first UX — compact header, single-line scrollable tabs, compact Oura status, Create invite sheet, user cards + detail/filters/bulk sheets; desktop table retained; no page horizontal scroll</li>
+              <li>Admin mobile golden pass — Feedback / Email / Groups / Credits use mobile rows + detail sheets (desktop tables kept); Playwright responsive Admin E2E (`e2e/specs/admin-responsive.spec.ts`) asserts no page-level horizontal overflow across viewports</li>
+              <li>Admin UI polish — warm gold + slate operator console: segmented tabs, banner alerts, refined connect screen; Credits defaults to All cohorts; monospace only on keys/ledger</li>
+              <li>Admin → Feedback — reply templates, clearer Fixed &amp; email / Fixed (no email) / Email again, status color badges, safe-workflow hint</li>
+              <li>Admin Fixed+notify — persist → respond with `emailQueued` → fire-and-forget SMTP (never awaits mail on the request)</li>
+            </ul>
+          </details>
+        </div>
       </article>
       <article class="card release-card">
         <div class="release-card__head">
@@ -155,7 +480,7 @@
         </ul>
       </article>
       </div>
-      <p class="note" style="margin-top:1.25rem">Patch-level engineering detail lives in the monorepo <code>CHANGELOG.md</code>.</p>
+      <p class="note" style="margin-top:1.25rem">The <strong>current</strong> era expands every patch from <code>CHANGELOG.md</code>. When that era closes (next major line), detail folds back to the era summary only.</p>
       <p class="note"><a href="../help/index.html">Help</a> · <a href="../academy/index.html">Buddy Academy</a></p>
       <aside class="platform-feedback" data-ext="ratings" hidden>
         <!-- Phase C: page ratings mount point -->
@@ -165,7 +490,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtnbbm3x" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtnbbm3x" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtog11en" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtog11en" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtog11en" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

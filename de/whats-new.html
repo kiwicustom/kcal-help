@@ -5,27 +5,6 @@
     <meta http-equiv="refresh" content="0; url=../docs/release-notes.html" />
     <link rel="canonical" href="https://help.kcal.lol/docs/release-notes.html" />
     <title>Redirecting…</title>
-    <script>
-      /*kcal-cache-bust*/
-      (function () {
-        var link = document.querySelector('link[href*="css/tokens.css"]');
-        var base = "";
-        if (link) {
-          var href = link.getAttribute("href") || "";
-          base = href.replace(/css\/tokens\.css.*$/, "");
-        }
-        fetch(base + "version.json", { cache: "no-store" })
-          .then(function (r) { return r.json(); })
-          .then(function (v) {
-            if (!v || !v.assetVer) return;
-            var u = new URL(window.location.href);
-            if (u.searchParams.get("v") === v.assetVer) return;
-            u.searchParams.set("v", v.assetVer);
-            window.location.replace(u.toString());
-          })
-          .catch(function () {});
-      })();
-    </script>
     <script>location.replace("../docs/release-notes.html")</script>
   </head>
   <body><p><a href="../docs/release-notes.html">Continue</a></p></body>
