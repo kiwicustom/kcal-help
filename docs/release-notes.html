@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.42" />
+    <meta name="kcal:app-version" content="0.8.54" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtog11en" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtt316dr" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtog11en" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtog11en" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtog11en" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtog11en" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtt316dr" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtt316dr" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtt316dr" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtt316dr" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,73 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.54</strong> <span class="release-patch__date">2026-09-08</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Beginner checklist empty meal — Lunch (or any meal) with nothing logged stays in Still to do; Done requires real Foodiary kcal/protein/fiber, not time of day or empty/hydration-only slots.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.53</strong> <span class="release-patch__date">2026-09-08</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Buddy Confirm save 404 — meal Save no longer depends on a separate `/buddy/foods-override` call (that was returning Draft not found and blocking breakfast/any meal). Portion edits apply atomically on `/buddy/confirm`; draft ownership matches by userId.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.52</strong> <span class="release-patch__date">2026-09-08</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>CI Home layout contracts — update BuddyFirstHome source tests for Beginner docked log bar, Coach Narrative (replaces DailyCoachCard), and hero-bar gating so the progressive ship can build.</li>
+              <li>Ship note — `v0.8.51` was tagged but image CI failed; this patch is the first live beta of Beginner Mode / Coach Narrative.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.51</strong> <span class="release-patch__date">2026-09-08</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Not deployed — tag exists; `build-image` failed on Home layout contract tests. Use **0.8.52+**.</li>
+              <li>Buddy Coaching Constitution v1.0 — binding coach law (Golden Rule, one next action, no wall of numbers). SSOT: `docs/product/BUDDY-COACHING-CONSTITUTION.md`.</li>
+              <li>Coach Narrative Engine v1.0 — every login is a coaching conversation (collect → done → missing → one NEXT → why; priorities; input confidence; Today’s Lesson). SSOT: `docs/product/COACH-NARRATIVE-ENGINE.md`. Implementation: `frontend/src/coach/coachNarrativeEngine.ts` + `BuddyCoachNarrative.vue`.</li>
+              <li>Beginner Mode v2.0 — zero cognitive load Home (greeting · health metrics · one NEXT · Log Food); tabs Home · Foodiary · Progress · Menu. SSOT: `docs/product/PROGRESSIVE-EXPERIENCE-MODES.md`.</li>
+              <li>Beginner Progress — trend charts (kcal · protein · fiber · water · weight) vs rolling average for 7D/14D/30D/1Y, plus min/max/median/avg.</li>
+              <li>Progressive Experience Modes — beginner / standard / power presentation layer (same routes &amp; APIs). Central `useProgressiveExperience()`; PX switcher on beta / native / localhost. SSOT: `docs/product/PROGRESSIVE-EXPERIENCE-MODES.md`.</li>
+              <li>Beta → Beginner default — beta.kcal.lol + native apps force Beginner once on first load after this release (PX switch still available).</li>
+              <li>Full-app sitemap — txt IA map of Buddy · Desktop · Spaces · hosts in `docs/architecture/SITEMAP.md`.</li>
+              <li>Buddy Confirm save — celebrate only after save succeeds; deferred reset so dismiss cannot cancel the write; client-diary allowlist includes `/buddy/foods-override` + `/buddy/date-override`.</li>
+              <li>Buddy multiline / fibre — verified products no longer swallow multi-food lists; fibre carried on detected payloads.</li>
+              <li>Foodiary meal rows — clearer Clear / Edit / Save·Cancel; tap row for nutrients; Modify · Move · Delete behind Edit; generated rows use positive green tint.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.50</strong> <span class="release-patch__date">2026-09-07</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>TestFlight TF-21…24 — kcal goal via gear/Settings CTA (commit intake on type for iOS); Settings Profile/Diet strings EN+DE+FI; vegetarian/vegan sync hides turkey from Meal Plan + bubble palette; ladybug tip that OS screenshots don’t open TestFlight feedback; banana (and apple/orange) resolve kcal without asking.</li>
+              <li>iPhone Get-the-App journey: idiot-proof You/Sam TestFlight steps (install TestFlight → send Apple email → accept Apple invite → Sam activates → install Buddy); EN/DE on `/download`. “Open my kCal Buddy in browser” returns personal `/#/u/:accessKey/home` (never marketing kcal.lol). SSOT: `docs/mobile/GET-THE-APP.md`.</li>
+              <li>Verified label products: Leader Protein Powder (30 g → 123 kcal / 23 g protein) and BCAA amino powder (scaled amino panel; no invented kcal) in Verified Products — text/voice multi-item parse, known vs estimated leucine, Stock-compatible names. Contract: `docs/buddy/VERIFIED-PRODUCTS-LABEL-CONTRACT.md`.</li>
+              <li>TestFlight TF-14…20 — splash retry when hung; boot awaits fail-open after 8s; dinner from 15:00 / spoken clock; juice/mehu (incl. karpalomehu) not forced to Water; Quick foods A→Z with Show 5/10/25/50/all; fiber estimate cap + softer copy; water chips as 1 dl / 2 dl; voice heard text tap-to-edit (Home + input bar) before Quick Save.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.48</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Spaces MVP social UI — six tabs: Home · Wall · Boards · People · Challenges · Resources. Home is living story + feed/boards preview + Continue my day. Wall posts (local) with reactions/comments. Behaviour-only leaderboards. People directory + profiles. Challenges calendar/milestones. Resources recipe/library seed. Existing Spaces APIs only.</li>
+              <li>Spaces MVP Phase 2 polish — richer Home/Wall/Boards/People/Challenges/Resources: media covers, podium boards, human member cards, journey dots, pinned library, card lift + reaction micro-motion. DEV-only demo Wall/story content marked Demo. Sticky bottom Space nav, My Spaces back, fetch cache across tabs.</li>
+              <li>Spaces journey polish — local demo Spaces API for `/u/sam`; Wall keeps demo posts after you post; demo reactions/comments stick; true podium without duplicate rows; solo Home invite card; friendlier challenge dates; People presence dots; larger nav taps &amp; library covers.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.47</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Spaces Campfire Home (beta) — Space Home is the campfire: living fire + circle of people, presence, empty chairs, Buddy (speak then silence), **Continue my day**, Today, memory, Looking ahead, emergent culture. Experience-only — no new APIs/pages. `prefers-reduced-motion` respected.</li>
+              <li>Spaces documentation — UX sitemap, Campfire experience/storyboard, product vision, WOW catalog; Help spaces screen-by-screen (aligned with campfire era).</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.46</strong> <span class="release-patch__date">2026-09-05</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Spaces Community Redesign — stop the admin-dashboard vibe. Space Home is people-first (hero art → faces → Buddy → Today's mission → team momentum bar → wins → invite). List cards use warm hero banners. Tabs: Home · Team · Moments · Goals. No horizontal scrolling. Experience-only — no API changes.</li>
+              <li>Help Release Notes — current era (`v0.8.x`) expands every patch from `CHANGELOG.md`; closed eras stay summary-only (folds when we open `v0.9.x`). Credits use **Beta User \&lt;FirstName\&gt;**.</li>
+              <li>Help cache-bust — no silent `?v=` HTML replace (left stale bodies); banner **Newer Help is live → Reload latest** when `version.json` moves ahead of the page (same idea as the app).</li>
+            </ul>
+          </details>
+          <details class="release-patch">
             <summary><strong>v0.8.45</strong> <span class="release-patch__date">2026-09-05</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Receipt review UX — after scan, show the **found item list** with editable **g** + **CHF** (OCR values or empty boxes to fill), Accept / Skip / rename before Log. Changing weight scales macros. ALDI / Coop / SPAR fixtures must keep line prices.</li>
@@ -63,7 +130,7 @@
               <li>Buddy Voice STT upgrade — drop Latin hallucinations (e.g. `Eine? kuvaime paike.`), stronger DE/FI STT prompts, **Schnell speichern** only when the heard line looks like food.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.44</strong> <span class="release-patch__date">2026-09-05</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Buddy food micros pipe — sugar/fibre persist on Buddy/voice saves (strawberries ~12 g / 250 g; cola real sugar). SSOT: `docs/foodiary/FOOD-MICROS-PIPE.md`.</li>
@@ -76,7 +143,7 @@
               <li>Native bump — Android **0.8.44-beta** (`versionCode` **80044**); iOS **0.8.44** / **80044**.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.43</strong> <span class="release-patch__date">2026-09-05</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Same product fixes as 0.8.44 (tagged only; image build failed — not rolled).</li>
@@ -490,8 +557,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtog11en" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtog11en" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtog11en" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtt316dr" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtt316dr" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtt316dr" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
