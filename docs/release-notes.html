@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.63" />
+    <meta name="kcal:app-version" content="0.8.64" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtvk7s5d" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtvr43x4" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtvk7s5d" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtvr43x4" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,16 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.64</strong> <span class="release-patch__date">2026-09-10</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>One Health Sources page — Settings no longer opens a leftover “Health Integrations” catalog (Apple hub, Polar missing, Oura/Strava Coming soon). Menu → Connected Health is the only list. `/health-integrations` is the same page.</li>
+              <li>Settings: Health first + TOC — Connected Health sits at the top of Settings, before profile. Jump chips live in the Settings header (Connected Health / You / This phone / Data).</li>
+              <li>LAW 17 — deploy means build the apps. Same `X.Y.Z` on web, Android APK, and iOS Archive/TestFlight. Capacitor loading beta.kcal.lol is not a skip. [`ENGINEERING-CONSTITUTION.md`](./docs/infra/ENGINEERING-CONSTITUTION.md).</li>
+              <li>TestFlight keep last 5 — after a new build is on ASC, expire older TestFlight builds (`python3 scripts/testflight-keep-last.py --keep 5 --yes`). Does not delete git tags, CHANGELOG, or Android GitHub releases.</li>
+              <li>Help Release Notes always match the tag — `./tag.sh` regenerates `help-site/docs/release-notes.html` from CHANGELOG and publishes to help.kcal.lol (`npm run help:publish`).</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.63</strong> <span class="release-patch__date">2026-09-10</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Polar Flow — Health Sources Connect/Sync for Polar AccessLink (same pattern as Strava). Needs `POLAR_*` secrets.</li>
@@ -63,7 +73,7 @@
               <li>Compact log bar — one-row Foodiary toolbar on Home (mode chip · camera/photos/voice/water/weight · gear + expand).</li>
               <li>Drinks category — Foodiary + compose/confirm chips get Drinks (coffee, tea, beer, wine, energy, protein, BCAA/EAA). Parser logs nutrition drinks there instead of Snack / clock meals. Mixed food + drink still follows the meal clock. Plain water stays hydration. **Drinks is always visible** on Home (Beginner Today's Health + Standard/Power cards), the Daily task list, and Foodiary columns — same as Breakfast / Lunch / Dinner / Snack. Not hidden behind an empty state.</li>
               <li>Spaces Reimagined v3 — social layer of the HOS: Home · Wall · Challenges · Progress · People + Settings gear. Invitation-only. Sharing checklist + one-tap encouragement are local and honest until APIs exist.</li>
-              <li>Menu vs Settings — Menu is doors (Settings first, then Connected Health, Share, Spaces, Help). Explore / About &amp; legal stay A–Z. Settings cards are grouped: You · This phone · Health (both Connected Health and Health Integrations) · Data. Nothing removed.</li>
+              <li>Menu vs Settings — Menu is doors (Settings first, then Connected Health, Share, Spaces, Help). Explore / About &amp; legal stay A–Z. Settings cards are grouped: You · This phone · Health · Data. Nothing removed.</li>
               <li>Activity Cal Health gear — ⚙ on the calendar hint row (right). Today is centered on that same row; date range sits alone above.</li>
               <li>Apple Health Connect on Health Sources — card is live (not Later). Connect / Sync now / Disconnect go through HealthKit in the kcal iOS app and persist CONNECTED on the server. Safari shows “open the iOS app”; no fake web grant. Beta User Dominik.</li>
               <li>Your burn unit — Beginner Today's Health Now column shows kcal next to the number.</li>
@@ -79,7 +89,7 @@
               <li>TF-V voice vs Spotify — Capacitor iOS owns `AVAudioSession`: mic tap claims `playAndRecord` + `mixWithOthers`; sleep/end deactivates with `notifyOthersOnDeactivation` then restores ambient so Spotify can resume. Web Safari still best-effort only.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.61</strong> <span class="release-patch__date">2026-09-09</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>TF batch 2026-09-09 — mustikka≠Tikka (word-boundary OCR); porkkana/carrot + Scheiben dunkles Brot macros; Twix/zero-macro named foods stay on Today; More sheet above FAB + DE/FI i18n; photo keeps meal chip; weight auto-save + weigh-in list chronological; Home compose uses `/food-search` (Food bank); water chips unified in dl; keyboard inset earlier; iOS ambient audio + no LiveKit prewarm on Capacitor so Spotify isn’t killed on launch.</li>
@@ -631,8 +641,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtvk7s5d" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtvr43x4" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtvr43x4" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtvr43x4" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

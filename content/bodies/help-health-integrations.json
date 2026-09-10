@@ -1,32 +1,31 @@
 {
-  "intro": "Health Integrations is where you connect Apple Health (and see what’s coming for Garmin, Withings, Oura, and more). Buddy stays the coach — Apple Health stays the hub. You own the data.",
+  "intro": "Connected Health (Health Sources) is the only place to connect wearables. Live today: Oura, Strava, Polar Flow, Google Fit, and Apple Health (iPhone app). Garmin, WHOOP, Withings, Fitbit, and Android Health Connect stay Later until those bridges ship.",
   "time": "5 min",
-  "buddyTip": "Apple Health Connect and Sync now run in the kcal iOS app (TestFlight). Safari cannot talk to HealthKit. After Connect, tap Sync now for the last 14 days.",
-  "mission": "On iPhone, open Connected Health / Health Sources, tap Connect on Apple Health, grant HealthKit, then Sync now.",
+  "buddyTip": "Open Menu → Connected Health. Polar, Oura, Strava, and Google Fit use Connect in the browser. Apple Health Connect and Sync now run in the kcal iOS app (TestFlight) — Safari cannot talk to HealthKit.",
+  "mission": "Open Menu → Connected Health, connect the source you actually use, then Sync now. On iPhone, Apple Health needs the kcal app, not Safari.",
   "why": [
-    "One place for health sources beats hunting through Menu and Connected Health separately.",
+    "One list. Settings used to open a leftover page that said Oura and Strava were Coming soon while they were already live.",
     "Every permission explains why Buddy wants it — no blind “Allow all”.",
-    "Disconnect anytime. Sync now pulls HealthKit samples into Buddy — it does not happen from Safari.",
-    "Coming-soon cards (Garmin, Withings, WHOOP, Fitbit, Health Connect) stay Later until those bridges ship."
+    "Disconnect anytime. Cloud sources sync when you tap Sync now. Apple HealthKit does not sync from Safari.",
+    "Later cards (Garmin, WHOOP, Withings, Fitbit, Health Connect) stay Later until those bridges ship — they are not fake-live."
   ],
   "what": {
     "lead": "What you will see.",
     "points": [
-      "Settings → Health Integrations — open the page",
-      "Apple Health card — Connect when you are ready",
-      "Permission list — Weight, Sleep, Heart Rate, and more, each with a short why",
-      "Connected dashboard — status, permissions granted, data sources (foundation)",
-      "Coming soon — Garmin, Withings, Oura, Strava, Fitbit, Android Health Connect",
-      "Buddy placeholders — sleep / recovery / heart trends (not coaching yet)"
+      "Menu → Connected Health (Health Sources) — or Settings → Open Connected Health",
+      "Live: Oura Ring, Strava, Polar Flow, Google Fit, Apple Health",
+      "Later: Garmin, WHOOP, Withings, Fitbit, Android Health Connect",
+      "Connect / Disconnect / Sync now on live cards",
+      "Apple Health — Connect and Sync now in the iPhone app only"
     ],
     "misconceptions": [
       {
-        "myth": "Connecting Apple Health on a Mac already syncs sleep and workouts into Buddy.",
-        "truth": "Connect and Sync now need the kcal iOS app. Safari / Mac cannot read HealthKit."
+        "myth": "Settings → Health Integrations is a different, newer Health page.",
+        "truth": "That leftover page is gone. Same sources as Connected Health. Bookmarks to /health-integrations open the real list."
       },
       {
-        "myth": "I can finish the real HealthKit grant on a MacBook alone.",
-        "truth": "You can review the screens on beta web. Real Apple Health / HealthKit needs an iPhone."
+        "myth": "Connecting Apple Health on a Mac already syncs sleep and workouts into Buddy.",
+        "truth": "Connect and Sync now need the kcal iOS app. Safari / Mac cannot read HealthKit."
       }
     ]
   },
@@ -35,54 +34,53 @@
     "steps": [
       "Update to the latest beta (web hard-refresh, or newest TestFlight).",
       "Open Menu → Connected Health (Health Sources).",
-      "On iPhone TestFlight, tap Connect on Apple Health and grant HealthKit.",
-      "Tap Sync now for the last 14 days (weight, sleep, workouts, steps, heart, active kcal).",
-      "Return to Home and keep logging meals — Health Integrations supports Buddy; it does not replace Foodiary."
+      "Tap Connect on Oura, Strava, Polar Flow, or Google Fit and finish that provider’s sign-in.",
+      "On iPhone TestFlight, tap Connect on Apple Health and grant HealthKit, then Sync now.",
+      "Return to Home and keep logging meals — health sources support Buddy; they do not replace Foodiary."
     ],
-    "buddyHelps": "Buddy will coach from health context in later phases. Today, honest logging still teaches the most."
+    "buddyHelps": "Buddy coaches from what you log. Wearable data fills activity and recovery — it does not skip Foodiary."
   },
   "sections": [
     {
       "title": "Where to find it",
       "paras": [
-        "Path: Menu → Settings → Health Integrations → Open Health Integrations.",
-        "Direct path on your invite URL: …/#/u/YOUR_KEY/health-integrations (same page)."
+        "Path: Menu → Connected Health.",
+        "Settings → Open Connected Health goes to the same page.",
+        "Direct path on your invite URL: …/#/u/YOUR_KEY/connections"
       ]
     },
     {
-      "title": "Permissions Buddy may ask for",
+      "title": "Live vs Later",
       "paras": [
-        "Weight, body fat, lean mass, steps, walking distance, heart rate, resting heart rate, HRV, sleep, workouts, active energy, exercise minutes, VO2 max, hydration, nutrition, blood pressure, blood oxygen.",
-        "You choose which ones to grant. We do not request “everything” silently."
+        "Live means Connect works today (Polar needs Polar Flow AccessLink; Apple Health needs the iPhone app).",
+        "Later means we are not pretending. Garmin needs their developer program. WHOOP, Withings, Fitbit, and Android Health Connect are not wired yet."
       ]
     },
     {
       "title": "Privacy",
       "paras": [
-        "Health data never leaves the device without your explicit consent.",
-        "Phase 1 foundation connection is local. No dark patterns — disconnect anytime.",
-        "Existing Connected Health (Oura / Google / Strava OAuth) remains available under Connected Health for live cloud sources."
+        "Health data leaves the device or provider only when you connect and sync.",
+        "Disconnect anytime. No dark patterns."
       ]
     },
     {
       "title": "What testers should report",
       "paras": [
-        "Can you open Settings → Health Integrations on iPhone TestFlight?",
-        "Does Connect show the why-list before confirming?",
-        "Does Connected / Disconnect feel clear?",
-        "Anything confusing in the Coming soon cards?"
+        "Does Menu → Connected Health show Polar Flow as live (not Coming soon)?",
+        "Does Settings open that same list — not a second Apple-only page?",
+        "Does Connect work for the source you use?"
       ]
     }
   ],
   "mistakes": [
     {
       "quote": "I connected Apple Health and expected sleep coaching the same day.",
-      "why": "Coaching and auto-sync are later phases. This release ships the foundation screen."
+      "why": "Sync now imports samples. Buddy still coaches from Foodiary first."
     },
     {
-      "quote": "I skipped the why text and allowed everything.",
-      "why": "Read the reasons. Granular choice is the point."
+      "quote": "I opened Health Integrations because the name sounded newer.",
+      "why": "That name was a leftover. Use Connected Health."
     }
   ],
-  "encouragement": "Connect when you are ready. Your Foodiary habit still comes first — Health Integrations will meet you there."
+  "encouragement": "Connect the watch or ring you already wear. Your Foodiary habit still comes first."
 }

@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="Connect Apple Health — permissions with why, privacy first. Setup guide for beta testers." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.63" />
+    <meta name="kcal:app-version" content="0.8.64" />
     <meta name="kcal:updated" content="2026-09-09" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtvk7s5d" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtvr43x4" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtvk7s5d" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtvk7s5d" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtvr43x4" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtvr43x4" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Help","item":"https://help.kcal.lol/help/index.html"},{"@type":"ListItem","position":3,"name":"Health Integrations","item":"https://help.kcal.lol/help/health-integrations.html"}]},{"@type":"Article","headline":"Health Integrations","description":"Connect Apple Health — permissions with why, privacy first. Setup guide for beta testers.","dateModified":"2026-09-09","author":{"@id":"https://help.kcal.lol/#org"},"mainEntityOfPage":"https://help.kcal.lol/help/health-integrations.html"}]}</script>
   </head>
   <body data-pillar="help" data-page-id="health-integrations">
@@ -42,7 +42,7 @@
       <header class="page-hero">
       <p class="page-hero__eyebrow">Help</p>
       <h1 class="page-hero__title">Health Integrations</h1>
-      <p class="page-hero__sub">Health Integrations is where you connect Apple Health (and see what’s coming for Garmin, Withings, Oura, and more). Buddy stays the coach — Apple Health stays the hub. You own the data.</p>
+      <p class="page-hero__sub">Connected Health (Health Sources) is the only place to connect wearables. Live today: Oura, Strava, Polar Flow, Google Fit, and Apple Health (iPhone app). Garmin, WHOOP, Withings, Fitbit, and Android Health Connect stay Later until those bridges ship.</p>
       <div class="page-hero__meta" aria-label="Article meta">
         <span class="page-hero__chip">⏱ 5 min</span>
         <span class="page-hero__chip">Beginner</span>
@@ -51,72 +51,70 @@
       <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
       <div>
         <strong>💬 Buddy Tip</strong>
-        <p class="note" style="margin:0.25rem 0 0">Apple Health Connect and Sync now run in the kcal iOS app (TestFlight). Safari cannot talk to HealthKit. After Connect, tap Sync now for the last 14 days.</p>
+        <p class="note" style="margin:0.25rem 0 0">Open Menu → Connected Health. Polar, Oura, Strava, and Google Fit use Connect in the browser. Apple Health Connect and Sync now run in the kcal iOS app (TestFlight) — Safari cannot talk to HealthKit.</p>
       </div>
     </div>
     </header>
       <div class="card" style="margin:1rem 0">
       <div class="tag">🎯 Today's Mission</div>
-      <p style="margin:0.35rem 0 0">On iPhone, open Connected Health / Health Sources, tap Connect on Apple Health, grant HealthKit, then Sync now.</p>
+      <p style="margin:0.35rem 0 0">Open Menu → Connected Health, connect the source you actually use, then Sync now. On iPhone, Apple Health needs the kcal app, not Safari.</p>
     </div>
       <section class="cheat-block" id="why">
         <header class="cheat-block__head"><span class="cheat-block__kicker">WHY?</span><h2>Why this matters</h2></header>
-        <p>One place for health sources beats hunting through Menu and Connected Health separately.</p>
+        <p>One list. Settings used to open a leftover page that said Oura and Strava were Coming soon while they were already live.</p>
 <p>Every permission explains why Buddy wants it — no blind “Allow all”.</p>
-<p>Disconnect anytime. Sync now pulls HealthKit samples into Buddy — it does not happen from Safari.</p>
-<p>Coming-soon cards (Garmin, Withings, WHOOP, Fitbit, Health Connect) stay Later until those bridges ship.</p>
+<p>Disconnect anytime. Cloud sources sync when you tap Sync now. Apple HealthKit does not sync from Safari.</p>
+<p>Later cards (Garmin, WHOOP, Withings, Fitbit, Health Connect) stay Later until those bridges ship — they are not fake-live.</p>
       </section>
       <section class="cheat-block" id="what">
         <header class="cheat-block__head"><span class="cheat-block__kicker">WHAT?</span><h2>What to understand</h2></header>
         <p class="cheat-block__lead">What you will see.</p>
-        <ol class="steps"><li><span class="num">1</span><div><p>Settings → Health Integrations — open the page</p></div></li>
-<li><span class="num">2</span><div><p>Apple Health card — Connect when you are ready</p></div></li>
-<li><span class="num">3</span><div><p>Permission list — Weight, Sleep, Heart Rate, and more, each with a short why</p></div></li>
-<li><span class="num">4</span><div><p>Connected dashboard — status, permissions granted, data sources (foundation)</p></div></li>
-<li><span class="num">5</span><div><p>Coming soon — Garmin, Withings, Oura, Strava, Fitbit, Android Health Connect</p></div></li>
-<li><span class="num">6</span><div><p>Buddy placeholders — sleep / recovery / heart trends (not coaching yet)</p></div></li></ol>
-        <div class="grid-2" style="margin-top:0.75rem"><div class="card"><div class="tag">Myth</div><strong>Connecting Apple Health on a Mac already syncs sleep and workouts into Buddy.</strong>
-        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Connect and Sync now need the kcal iOS app. Safari / Mac cannot read HealthKit.</p></div><div class="card"><div class="tag">Myth</div><strong>I can finish the real HealthKit grant on a MacBook alone.</strong>
-        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> You can review the screens on beta web. Real Apple Health / HealthKit needs an iPhone.</p></div></div>
+        <ol class="steps"><li><span class="num">1</span><div><p>Menu → Connected Health (Health Sources) — or Settings → Open Connected Health</p></div></li>
+<li><span class="num">2</span><div><p>Live: Oura Ring, Strava, Polar Flow, Google Fit, Apple Health</p></div></li>
+<li><span class="num">3</span><div><p>Later: Garmin, WHOOP, Withings, Fitbit, Android Health Connect</p></div></li>
+<li><span class="num">4</span><div><p>Connect / Disconnect / Sync now on live cards</p></div></li>
+<li><span class="num">5</span><div><p>Apple Health — Connect and Sync now in the iPhone app only</p></div></li></ol>
+        <div class="grid-2" style="margin-top:0.75rem"><div class="card"><div class="tag">Myth</div><strong>Settings → Health Integrations is a different, newer Health page.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> That leftover page is gone. Same sources as Connected Health. Bookmarks to /health-integrations open the real list.</p></div><div class="card"><div class="tag">Myth</div><strong>Connecting Apple Health on a Mac already syncs sleep and workouts into Buddy.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Truth:</strong> Connect and Sync now need the kcal iOS app. Safari / Mac cannot read HealthKit.</p></div></div>
       </section>
       <section class="cheat-block" id="how">
         <header class="cheat-block__head"><span class="cheat-block__kicker">HOW?</span><h2>How to do this in real life</h2></header>
         <p class="cheat-block__lead">How to set it up (beta).</p>
         <ol class="steps"><li><span class="num">1</span><div><p>Update to the latest beta (web hard-refresh, or newest TestFlight).</p></div></li>
 <li><span class="num">2</span><div><p>Open Menu → Connected Health (Health Sources).</p></div></li>
-<li><span class="num">3</span><div><p>On iPhone TestFlight, tap Connect on Apple Health and grant HealthKit.</p></div></li>
-<li><span class="num">4</span><div><p>Tap Sync now for the last 14 days (weight, sleep, workouts, steps, heart, active kcal).</p></div></li>
-<li><span class="num">5</span><div><p>Return to Home and keep logging meals — Health Integrations supports Buddy; it does not replace Foodiary.</p></div></li></ol>
-        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Buddy will coach from health context in later phases. Today, honest logging still teaches the most.</p></div></div>
+<li><span class="num">3</span><div><p>Tap Connect on Oura, Strava, Polar Flow, or Google Fit and finish that provider’s sign-in.</p></div></li>
+<li><span class="num">4</span><div><p>On iPhone TestFlight, tap Connect on Apple Health and grant HealthKit, then Sync now.</p></div></li>
+<li><span class="num">5</span><div><p>Return to Home and keep logging meals — health sources support Buddy; they do not replace Foodiary.</p></div></li></ol>
+        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" /><div><strong>How Buddy helps</strong><p class="note" style="margin:0.25rem 0 0">Buddy coaches from what you log. Wearable data fills activity and recovery — it does not skip Foodiary.</p></div></div>
         
       </section>
-      <section class="cheat-block"><h2>Where to find it</h2><p>Path: Menu → Settings → Health Integrations → Open Health Integrations.</p>
-<p>Direct path on your invite URL: …/#/u/YOUR_KEY/health-integrations (same page).</p></section>
-<section class="cheat-block"><h2>Permissions Buddy may ask for</h2><p>Weight, body fat, lean mass, steps, walking distance, heart rate, resting heart rate, HRV, sleep, workouts, active energy, exercise minutes, VO2 max, hydration, nutrition, blood pressure, blood oxygen.</p>
-<p>You choose which ones to grant. We do not request “everything” silently.</p></section>
-<section class="cheat-block"><h2>Privacy</h2><p>Health data never leaves the device without your explicit consent.</p>
-<p>Phase 1 foundation connection is local. No dark patterns — disconnect anytime.</p>
-<p>Existing Connected Health (Oura / Google / Strava OAuth) remains available under Connected Health for live cloud sources.</p></section>
-<section class="cheat-block"><h2>What testers should report</h2><p>Can you open Settings → Health Integrations on iPhone TestFlight?</p>
-<p>Does Connect show the why-list before confirming?</p>
-<p>Does Connected / Disconnect feel clear?</p>
-<p>Anything confusing in the Coming soon cards?</p></section>
+      <section class="cheat-block"><h2>Where to find it</h2><p>Path: Menu → Connected Health.</p>
+<p>Settings → Open Connected Health goes to the same page.</p>
+<p>Direct path on your invite URL: …/#/u/YOUR_KEY/connections</p></section>
+<section class="cheat-block"><h2>Live vs Later</h2><p>Live means Connect works today (Polar needs Polar Flow AccessLink; Apple Health needs the iPhone app).</p>
+<p>Later means we are not pretending. Garmin needs their developer program. WHOOP, Withings, Fitbit, and Android Health Connect are not wired yet.</p></section>
+<section class="cheat-block"><h2>Privacy</h2><p>Health data leaves the device or provider only when you connect and sync.</p>
+<p>Disconnect anytime. No dark patterns.</p></section>
+<section class="cheat-block"><h2>What testers should report</h2><p>Does Menu → Connected Health show Polar Flow as live (not Coming soon)?</p>
+<p>Does Settings open that same list — not a second Apple-only page?</p>
+<p>Does Connect work for the source you use?</p></section>
       <section class="cheat-block" id="mistakes">
       <header class="cheat-block__head"><span class="cheat-block__kicker">⚠ Common mistakes</span><h2>Common mistakes</h2></header>
       <ul class="steps" style="list-style:none;padding:0"><li class="card" style="list-style:none">
         <strong>“I connected Apple Health and expected sleep coaching the same day.”</strong>
-        <p class="note" style="margin:0.35rem 0 0">Coaching and auto-sync are later phases. This release ships the foundation screen.</p>
+        <p class="note" style="margin:0.35rem 0 0">Sync now imports samples. Buddy still coaches from Foodiary first.</p>
       </li>
 <li class="card" style="list-style:none">
-        <strong>“I skipped the why text and allowed everything.”</strong>
-        <p class="note" style="margin:0.35rem 0 0">Read the reasons. Granular choice is the point.</p>
+        <strong>“I opened Health Integrations because the name sounded newer.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">That name was a leftover. Use Connected Health.</p>
       </li></ul>
     </section>
       <div class="callout callout--buddy">
       <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
       <div>
         <strong>❤️ Encouragement</strong>
-        <p class="note" style="margin:0.25rem 0 0">Connect when you are ready. Your Foodiary habit still comes first — Health Integrations will meet you there.</p>
+        <p class="note" style="margin:0.25rem 0 0">Connect the watch or ring you already wear. Your Foodiary habit still comes first.</p>
       </div>
     </div>
       <p class="platform-deeplink" data-ext="deeplink">
@@ -139,8 +137,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtvk7s5d" data-page="help" data-lang="en" data-base="../" data-file="help/health-integrations.html" data-updated="2026-09-09" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtvr43x4" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtvr43x4" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtvr43x4" data-page="help" data-lang="en" data-base="../" data-file="help/health-integrations.html" data-updated="2026-09-09" defer></script>
   </body>
 </html>
