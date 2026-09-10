@@ -1,0 +1,88 @@
+{
+  "intro": "Health Integrations is where you connect Apple Health (and see what’s coming for Garmin, Withings, Oura, and more). Buddy stays the coach — Apple Health stays the hub. You own the data.",
+  "time": "5 min",
+  "buddyTip": "Apple Health Connect and Sync now run in the kcal iOS app (TestFlight). Safari cannot talk to HealthKit. After Connect, tap Sync now for the last 14 days.",
+  "mission": "On iPhone, open Connected Health / Health Sources, tap Connect on Apple Health, grant HealthKit, then Sync now.",
+  "why": [
+    "One place for health sources beats hunting through Menu and Connected Health separately.",
+    "Every permission explains why Buddy wants it — no blind “Allow all”.",
+    "Disconnect anytime. Sync now pulls HealthKit samples into Buddy — it does not happen from Safari.",
+    "Coming-soon cards (Garmin, Withings, WHOOP, Fitbit, Health Connect) stay Later until those bridges ship."
+  ],
+  "what": {
+    "lead": "What you will see.",
+    "points": [
+      "Settings → Health Integrations — open the page",
+      "Apple Health card — Connect when you are ready",
+      "Permission list — Weight, Sleep, Heart Rate, and more, each with a short why",
+      "Connected dashboard — status, permissions granted, data sources (foundation)",
+      "Coming soon — Garmin, Withings, Oura, Strava, Fitbit, Android Health Connect",
+      "Buddy placeholders — sleep / recovery / heart trends (not coaching yet)"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Connecting Apple Health on a Mac already syncs sleep and workouts into Buddy.",
+        "truth": "Connect and Sync now need the kcal iOS app. Safari / Mac cannot read HealthKit."
+      },
+      {
+        "myth": "I can finish the real HealthKit grant on a MacBook alone.",
+        "truth": "You can review the screens on beta web. Real Apple Health / HealthKit needs an iPhone."
+      }
+    ]
+  },
+  "how": {
+    "lead": "How to set it up (beta).",
+    "steps": [
+      "Update to the latest beta (web hard-refresh, or newest TestFlight).",
+      "Open Menu → Connected Health (Health Sources).",
+      "On iPhone TestFlight, tap Connect on Apple Health and grant HealthKit.",
+      "Tap Sync now for the last 14 days (weight, sleep, workouts, steps, heart, active kcal).",
+      "Return to Home and keep logging meals — Health Integrations supports Buddy; it does not replace Foodiary."
+    ],
+    "buddyHelps": "Buddy will coach from health context in later phases. Today, honest logging still teaches the most."
+  },
+  "sections": [
+    {
+      "title": "Where to find it",
+      "paras": [
+        "Path: Menu → Settings → Health Integrations → Open Health Integrations.",
+        "Direct path on your invite URL: …/#/u/YOUR_KEY/health-integrations (same page)."
+      ]
+    },
+    {
+      "title": "Permissions Buddy may ask for",
+      "paras": [
+        "Weight, body fat, lean mass, steps, walking distance, heart rate, resting heart rate, HRV, sleep, workouts, active energy, exercise minutes, VO2 max, hydration, nutrition, blood pressure, blood oxygen.",
+        "You choose which ones to grant. We do not request “everything” silently."
+      ]
+    },
+    {
+      "title": "Privacy",
+      "paras": [
+        "Health data never leaves the device without your explicit consent.",
+        "Phase 1 foundation connection is local. No dark patterns — disconnect anytime.",
+        "Existing Connected Health (Oura / Google / Strava OAuth) remains available under Connected Health for live cloud sources."
+      ]
+    },
+    {
+      "title": "What testers should report",
+      "paras": [
+        "Can you open Settings → Health Integrations on iPhone TestFlight?",
+        "Does Connect show the why-list before confirming?",
+        "Does Connected / Disconnect feel clear?",
+        "Anything confusing in the Coming soon cards?"
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "I connected Apple Health and expected sleep coaching the same day.",
+      "why": "Coaching and auto-sync are later phases. This release ships the foundation screen."
+    },
+    {
+      "quote": "I skipped the why text and allowed everything.",
+      "why": "Read the reasons. Granular choice is the point."
+    }
+  ],
+  "encouragement": "Connect when you are ready. Your Foodiary habit still comes first — Health Integrations will meet you there."
+}

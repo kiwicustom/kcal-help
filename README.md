@@ -13,7 +13,8 @@ Public static site for **help.kcal.lol** (alias **docs.kcal.lol**).
 ## Generate
 
 ```bash
-npm run help:platform
+npm run help:platform    # CHANGELOG → docs/release-notes.html
+npm run help:publish     # live help.kcal.lol
 ```
 
 Do not hand-edit generated HTML long-term — edit `content/catalog.json` and regenerate.

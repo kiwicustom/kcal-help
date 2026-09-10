@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.55" />
+    <meta name="kcal:app-version" content="0.8.63" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtt3tlnu" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtvk7s5d" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtt3tlnu" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtt3tlnu" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtt3tlnu" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtt3tlnu" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtvk7s5d" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtvk7s5d" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtvk7s5d" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtvk7s5d" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,70 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.63</strong> <span class="release-patch__date">2026-09-10</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Polar Flow — Health Sources Connect/Sync for Polar AccessLink (same pattern as Strava). Needs `POLAR_*` secrets.</li>
+              <li>Your burn on Home — Beginner: 5th row in Today's Health (tap any row for details). Standard/Power: compact gauge under Daily Energy Budget; tap ▾ for formula / observed / ground truth. Log daily for a couple of weeks to find burn for this lifestyle.</li>
+              <li>Compact log bar — one-row Foodiary toolbar on Home (mode chip · camera/photos/voice/water/weight · gear + expand).</li>
+              <li>Drinks category — Foodiary + compose/confirm chips get Drinks (coffee, tea, beer, wine, energy, protein, BCAA/EAA). Parser logs nutrition drinks there instead of Snack / clock meals. Mixed food + drink still follows the meal clock. Plain water stays hydration. **Drinks is always visible** on Home (Beginner Today's Health + Standard/Power cards), the Daily task list, and Foodiary columns — same as Breakfast / Lunch / Dinner / Snack. Not hidden behind an empty state.</li>
+              <li>Spaces Reimagined v3 — social layer of the HOS: Home · Wall · Challenges · Progress · People + Settings gear. Invitation-only. Sharing checklist + one-tap encouragement are local and honest until APIs exist.</li>
+              <li>Menu vs Settings — Menu is doors (Settings first, then Connected Health, Share, Spaces, Help). Explore / About &amp; legal stay A–Z. Settings cards are grouped: You · This phone · Health (both Connected Health and Health Integrations) · Data. Nothing removed.</li>
+              <li>Activity Cal Health gear — ⚙ on the calendar hint row (right). Today is centered on that same row; date range sits alone above.</li>
+              <li>Apple Health Connect on Health Sources — card is live (not Later). Connect / Sync now / Disconnect go through HealthKit in the kcal iOS app and persist CONNECTED on the server. Safari shows “open the iOS app”; no fake web grant. Beta User Dominik.</li>
+              <li>Your burn unit — Beginner Today's Health Now column shows kcal next to the number.</li>
+              <li>Weight updated — Home no longer treats a food-log copied `entries.weight` as a weigh-in. “Weight updated” only after the kg actually moved (or a first-ever weigh-in).</li>
+              <li>Confirm macros (Aki) — Raejuusto / Hüttenkäse look up **cottage cheese** in the Food Bank (USDA). Confirm fills kcal/protein/carbs/fat from the bank for the typed grams. No invented per-100g table. Beta User Aki.</li>
+              <li>Food Bank typeahead is not a fuzzy catalog dump — verified SKUs appear only for a barcode, a distinctive token from that brand’s own aliases, or an exact one-word SKU name. Stopwords (`with`, `cup`), diet tags (`milk-free`), and categories are not search keys. “Cup of coffee with milk” goes to USDA coffee, not trail pouches.</li>
+              <li>Compose text box — meal input is 3 lines (not 8). Header / day / meal chips sit tight above the field. Food Bank / Foodiary hits sit under the field and scroll in the space above the keyboard; Camera/Photo/Voice hide while the keyboard is up.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.62</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>TF-V voice vs Spotify — Capacitor iOS owns `AVAudioSession`: mic tap claims `playAndRecord` + `mixWithOthers`; sleep/end deactivates with `notifyOthersOnDeactivation` then restores ambient so Spotify can resume. Web Safari still best-effort only.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
+            <summary><strong>v0.8.61</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>TF batch 2026-09-09 — mustikka≠Tikka (word-boundary OCR); porkkana/carrot + Scheiben dunkles Brot macros; Twix/zero-macro named foods stay on Today; More sheet above FAB + DE/FI i18n; photo keeps meal chip; weight auto-save + weigh-in list chronological; Home compose uses `/food-search` (Food bank); water chips unified in dl; keyboard inset earlier; iOS ambient audio + no LiveKit prewarm on Capacitor so Spotify isn’t killed on launch.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.60</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Food parse rock-solid — chocolate / schoggi never falls through to Turmat muesli/curry (USDA offline included); AI identify prompt + guardrail; `90 percent` = cocoa %; bare chocolate prefers milk bar.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.59</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>“25g 90% schoggi” → Turmat — Verified search no longer matches cocoa % digits inside barcodes (…0190 → Asian Curry). `schoggi` maps to dark chocolate; leading grams peel; USDA wins for cocoa-% bars.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.58</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Apple Health Connect freeze — after Connect / reconnect the sheet could leave the UI stuck on busy (Cap HealthKit callbacks not resolved on main thread; server connect no longer blocks the button). Beta User Dominik.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.57</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Apple Health Phase 2 sync — Health Integrations Connected card has **Sync now** (last 14 days). iOS HealthKit bridge (`KcalHealthKitPlugin`) reads weight, sleep, workouts, heart, steps, active energy → `POST /integrations/apple-health/upload` → timeline (`source: apple_health`). Needs TestFlight / iPhone app rebuild with HealthKit entitlement.</li>
+              <li>Confirm food lookup uses Food Bank — `/buddy/resolve-food` searches Verified → library → USDA (same pipe as Foodiary). If the raw name misses (e.g. “bio honig”), AI only translates the name to English for the bank lookup — macros still come from the Food Bank, never invented. No hand-coded honey table.</li>
+              <li>“Mission ready” fake win — removed from Today ✓; it only meant a mission card existed, not that the day was done.</li>
+              <li>Text log + Confirm professionalism — gram order works either way (`150g chicken` / `chicken 150 g`); Input normalize no longer orphans trailing amounts (`BCAA leader, 10 g`); multi-line keeps Verified BCAA **and** water; Confirm shows carbs/fat/sugar + amino panel (Leu/Gln/Ile/Val).</li>
+            </ul>
+          </details>
+          <details class="release-patch">
+            <summary><strong>v0.8.56</strong> <span class="release-patch__date">2026-09-09</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Apple Health Foundation (Phase 1) — Settings → Health Integrations: Apple Health Connect with permission why-list, local Connected dashboard, Coming soon cards (Garmin · Withings · Oura · Strava · Fitbit · Health Connect). No cloud sync yet. Help: how to set it up.</li>
+              <li>Health Service scaffold — Buddy talks only to `frontend/src/Health/` (canonical model + providers); Apple Health is the reference adapter.</li>
+            </ul>
+          </details>
+          <details class="release-patch">
             <summary><strong>v0.8.55</strong> <span class="release-patch__date">2026-09-08</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Text log redesign — one question, one box: Log your meal sheet with Today + meal chips, large compose field, Camera/Photo/Voice chips, and full-width Add (no instruction walls).</li>
@@ -65,13 +129,13 @@
               <li>Snack meal chip — Log sheet meal row keeps Snack visible (equal four-column meal grid).</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.54</strong> <span class="release-patch__date">2026-09-08</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Beginner checklist empty meal — Lunch (or any meal) with nothing logged stays in Still to do; Done requires real Foodiary kcal/protein/fiber, not time of day or empty/hydration-only slots.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.53</strong> <span class="release-patch__date">2026-09-08</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Buddy Confirm save 404 — meal Save no longer depends on a separate `/buddy/foods-override` call (that was returning Draft not found and blocking breakfast/any meal). Portion edits apply atomically on `/buddy/confirm`; draft ownership matches by userId.</li>
@@ -567,8 +631,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtt3tlnu" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtt3tlnu" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtt3tlnu" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtvk7s5d" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtvk7s5d" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

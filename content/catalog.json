@@ -296,18 +296,18 @@
       "pillar": "help",
       "path": "help/spaces.html",
       "title": "Spaces",
-      "summary": "Collaborate with family, friends, and coaches.",
+      "summary": "Private invitation-only Spaces — Home, Wall, Challenges, Progress, People.",
       "kind": "feature",
       "why": "Health scales through belonging.",
       "what": [
-        "Join or create a Space",
-        "Share appropriate progress",
-        "Invite members"
+        "Home · Wall · Challenges · Progress · People",
+        "Settings gear for sharing",
+        "Invitation-only — never browse"
       ],
       "how": [
-        "Open Spaces tab",
-        "Accept invite or create",
-        "Keep personal logs honest"
+        "Menu → Spaces on spaces.kcal.lol",
+        "Create or join an invite",
+        "Show up in Foodiary; encourage friends"
       ],
       "next": {
         "id": "settings",
@@ -322,7 +322,7 @@
         "path": "/#/",
         "label": "Open Spaces"
       },
-      "updated": "2026-09-04",
+      "updated": "2026-09-09",
       "status": "ready",
       "bodyFile": "help-spaces.json"
     },
@@ -347,11 +347,12 @@
         "Confirm language/theme"
       ],
       "next": {
-        "id": "auth",
-        "label": "Authentication"
+        "id": "health-integrations",
+        "label": "Health Integrations"
       },
       "related": [
         "auth",
+        "health-integrations",
         "troubleshooting"
       ],
       "screenshots": [],
@@ -359,9 +360,47 @@
         "path": "/#/",
         "label": "Open Settings"
       },
-      "updated": "2026-09-04",
+      "updated": "2026-09-09",
       "status": "ready",
       "bodyFile": "help-settings.json"
+    },
+    {
+      "id": "health-integrations",
+      "pillar": "help",
+      "path": "help/health-integrations.html",
+      "title": "Health Integrations",
+      "summary": "Connect Apple Health — permissions with why, privacy first. Setup guide for beta testers.",
+      "kind": "feature",
+      "why": "Your health hub stays yours; Buddy is the coach.",
+      "what": [
+        "Settings → Health Integrations",
+        "Apple Health Connect",
+        "Permission why-list",
+        "Disconnect anytime"
+      ],
+      "how": [
+        "Open Settings",
+        "Open Health Integrations",
+        "Connect Apple Health",
+        "Choose permissions"
+      ],
+      "next": {
+        "id": "settings",
+        "label": "Settings"
+      },
+      "related": [
+        "settings",
+        "auth",
+        "troubleshooting"
+      ],
+      "screenshots": [],
+      "deepLink": {
+        "path": "/#/u/demo/health-integrations",
+        "label": "Open Health Integrations"
+      },
+      "updated": "2026-09-09",
+      "status": "ready",
+      "bodyFile": "help-health-integrations.json"
     },
     {
       "id": "auth",

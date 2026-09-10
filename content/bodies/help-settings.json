@@ -43,6 +43,12 @@
   },
   "sections": [
     {
+      "title": "Health Integrations (new)",
+      "paras": [
+        "Open Settings → Health Integrations for the permission why-list, or Connected Health for the live Apple Health card. Connect + Sync now need the kcal iOS app (TestFlight). Safari cannot talk to HealthKit."
+      ]
+    },
+    {
       "title": "Notifications that work",
       "paras": [
         "Prefer meal-time nudges you chose over constant streaks panic. If you mute everything, set a calendar reminder instead — rituals need a cue."
@@ -51,7 +57,7 @@
     {
       "title": "Integrations hygiene",
       "paras": [
-        "Revoke unused grants. Wearable burn is context, not automatic truth — keep logging food regardless."
+        "Revoke unused grants. Wearable burn is context, not automatic truth — keep logging food regardless. Connected Health (Oura / Google / Strava) remains under Menu → Connected Health for live cloud sources."
       ]
     },
     {

@@ -1,26 +1,27 @@
 {
-  "intro": "Spaces are how health scales beyond one person — family, friends, teams, and coaches improving together without Buddy owning your identity.",
-  "time": "8 min",
-  "buddyTip": "Keep personal logs honest even when sharing. Belonging helps adherence; performative logs help no one.",
-  "mission": "Open Spaces, review any invites, or note who you might invite when you’re ready — no pressure to create today.",
+  "intro": "Spaces are private invitation-only containers — family, friends, teams, coaches improving together. Buddy still coaches you. Your Foodiary stays yours.",
+  "time": "6 min",
+  "buddyTip": "Nothing is shared automatically. Friends see that you showed up — never your calories, weight, or Foodiary.",
+  "mission": "Open Spaces (on spaces.kcal.lol), open a Space you belong to, and walk Home · Wall · Challenges · Progress · People. Settings is the gear.",
   "why": [
-    "Humans rarely improve alone. Shared goals, accountability, and celebration keep people showing up when motivation dips. That is Scale Health Success in product form.",
-    "Spaces collaborate; they do not replace your personal Foodiary. Buddy still coaches you. Desks (when relevant) help professionals support Spaces without owning collaboration data.",
-    "Privacy and appropriateness matter. Share what helps the group; keep what should stay personal. Belonging should feel safe."
+    "Buddy helps you. Spaces help us. Coach Desk (later) helps many. Together that is the Health Operating System.",
+    "You never browse, search, or discover Spaces. You only see Spaces you belong to. Invitation-only.",
+    "Privacy is sacred. Share participation if you want. Calories, macros, weight, and Foodiary stay private."
   ],
   "what": {
-    "lead": "Spaces capabilities in plain language.",
+    "lead": "Five screens. One question each. Same in every Space.",
     "points": [
-      "Join or create a Space",
-      "Invite members who share a real context (household, team, coach group)",
-      "Share appropriate progress — not every private detail by default",
-      "Use encouragement and challenges without shame culture",
-      "Keep logging your own meals on Home regardless of Space activity"
+      "Home — What are WE doing today? Who’s here, Buddy, the challenge, Open Foodiary.",
+      "Wall — What happened today? Signal, not chat.",
+      "Challenges — What are we trying to achieve? Current, upcoming (coming soon), history.",
+      "Progress — How are WE improving? Consistency and show-up — never a calorie scoreboard.",
+      "People — Who is doing this together? Encourage with one tap.",
+      "Settings (gear) — What do I want to share? Invite lives here too."
     ],
     "misconceptions": [
       {
         "myth": "Spaces means public social media for my calories.",
-        "truth": "Spaces are intentional groups. You control context and membership."
+        "truth": "Spaces are intentional groups. You control context and membership. Calories never appear."
       },
       {
         "myth": "If I’m in a Space, I must be perfect for others.",
@@ -29,14 +30,14 @@
     ]
   },
   "how": {
-    "lead": "Start small — one trusted Space.",
+    "lead": "Start with people you would invite in real life.",
     "steps": [
-      "Open the Spaces tab",
-      "Accept an invite or create a Space with a clear purpose",
-      "Invite only people who match that purpose",
-      "Agree norms: what is shared, how feedback sounds",
-      "Continue personal logging; use Space for support and celebration",
-      "Leave or mute if a Space becomes judgmental — safety first"
+      "On spaces.kcal.lol, open Menu → Spaces",
+      "Create a Space or open an invite that says we want you with us",
+      "Invite only people you actually know — nobody browses in",
+      "Show up in Foodiary. Presence returns to the Space",
+      "Encourage a quiet friend from Home or People",
+      "Leave from Settings if a Space stops feeling safe"
     ],
     "buddyHelps": "Buddy remains your personal coach. Spaces add belonging. Together they support the Health Operating System’s social layer."
   },
@@ -44,14 +45,14 @@
     {
       "title": "Family Spaces",
       "paras": [
-        "Shared meal planning and gentle encouragement often work better than competitive leaderboards at home.",
+        "People first. Encourage each other. Never compete on weight or calories at home.",
         "Protect kids’ dignity — Spaces are not a venue for public calorie policing."
       ]
     },
     {
       "title": "Coach-supported Spaces",
       "paras": [
-        "Coaches support; they should not seize ownership of your ground truth. Share what’s useful for guidance; keep recovery credentials and private logs under your control."
+        "Coaches support the group. They do not own your Foodiary. Share participation; keep private logs under your control."
       ]
     }
   ],
