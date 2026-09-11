@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.71" />
+    <meta name="kcal:app-version" content="0.8.72" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtwnehr4" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtwti0qw" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtwnehr4" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtwnehr4" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtwnehr4" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtwnehr4" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtwti0qw" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtwti0qw" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtwti0qw" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtwti0qw" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,22 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.72</strong> <span class="release-patch__date">2026-09-11</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Power Home last-meal / fat-burn strip — Last meal · Now (digesting / burning fat / fasting) · Next. Power User PX only.</li>
+              <li>Fuel Gauge is Power User PX only — hidden for Beginner and Standard (Home, Foodiary, Progress, Today, desktop).</li>
+              <li>Power Home fuel mix — Last · Now · Next includes a Fuel Gauge mix bar (body fat / carbs / protein) from the food log. Estimate, not a lab reading.</li>
+              <li>Power Home fat-burn meter — leftover meal energy vs time, from gastric emptying of the last meal (size + clock). Fat-leaning rises as digestion winds down. Estimate, not a lab RER reading.</li>
+              <li>Drinks tile shows 0.0 L / 0 kcal — liquids get volume + energy, like Water’s litres. Empty is zeros, not a dash.</li>
+              <li>Power Home fat-burn copy — guess from last meal size + time; a full bar is HIGH!, not a fake 100% mix legend.</li>
+              <li>Hide Still digesting 0 kcal — empty tank is the fat-burn headline, not a leftover of zero.</li>
+              <li>Log meal followed Foodiary day — opening Add on Thursday no longer silently writes Lunch to Today. Composer follows the day on screen (Today / Yesterday / calendar are back).</li>
+              <li>Saved flash — shows the date it was saved to, kCal Buddy branding, and closes in 3 seconds.</li>
+              <li>Juomat + Add opens Buddy — milk coffee (`maitokahvi`) was hitting the blank kcal form and a “pick a known food name” warning. Same Buddy text path as meals so macros fill (Beta User Katja · TF-47).</li>
+              <li>Apple Health Connected then Not connected — HealthKit connect + sync worked (no OAuth tokens). Public `connected` required tokens, so the card flipped off after the Connected flash (Beta User Silke · TF-48).</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.71</strong> <span class="release-patch__date">2026-09-11</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Activity + Add closes on date change — tapping another day (or prev/next week) dismisses the add-training form instead of silently saving to the new date (Beta User Aki).</li>
@@ -70,7 +86,7 @@
               <li>Quick food macros — Add quick food can save carbs, fat, and fiber, not only protein (Beta User Aki).</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.69</strong> <span class="release-patch__date">2026-09-11</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Shopping list thumbs — higher-protein packs use kcal orange (not mint green) so Home stays readable.</li>
@@ -693,8 +709,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtwnehr4" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtwnehr4" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtwnehr4" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtwti0qw" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtwti0qw" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtwti0qw" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
