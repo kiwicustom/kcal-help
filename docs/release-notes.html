@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.72" />
+    <meta name="kcal:app-version" content="0.8.73" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtwti0qw" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mtwz1k4x" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtwti0qw" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtwti0qw" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtwti0qw" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtwti0qw" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mtwz1k4x" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mtwz1k4x" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mtwz1k4x" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mtwz1k4x" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,13 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.73</strong> <span class="release-patch__date">2026-09-11</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Hide invite Access key on phone — the full `kcl_…` key wrapped over Sign out on iPhone Home and looked like an error (Beta User Katja · TF-49).</li>
+              <li>Getting Started first meal sticks — any logged meal (not only today) checks step 2; server account state no longer drops that flag (Beta User Aki · TF-50).</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.72</strong> <span class="release-patch__date">2026-09-11</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Power Home last-meal / fat-burn strip — Last meal · Now (digesting / burning fat / fasting) · Next. Power User PX only.</li>
@@ -78,7 +85,7 @@
               <li>Apple Health permission timed out — Connect reached HealthKit, then JS killed the wait after 90s while Apple’s sheet was still open (or the WK reply was dropped). Connect now uses the native plugin and waits for Allow / Don’t Allow. Do not leave the Apple list until you tap Allow.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.70</strong> <span class="release-patch__date">2026-09-11</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Apple Health on TestFlight — Connect showed `&quot;KcalHealthKit&quot; plugin is not implemented on ios` (Beta User Silke, Katja, Dominic). Capacitor 7 never registered App-target plugins; a `{native:true}` stub also had no HealthKit methods. Next Archive registers `KcalHealthKit` **and** installs a WK `kcalHealthKit` bridge so Connect reaches the Apple Health sheet even if Capacitor export fails. Needs a new TestFlight — web refresh cannot fix this.</li>
@@ -709,8 +716,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mtwti0qw" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mtwti0qw" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mtwti0qw" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mtwz1k4x" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mtwz1k4x" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mtwz1k4x" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
