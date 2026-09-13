@@ -1,0 +1,114 @@
+{
+  "title": "Your Home screen (mobile)",
+  "lead": "Home is the daily desk. Same data in every Experience Mode — only how much you see changes. Tap PX in the bottom bar to try Beginner, Standard, or Power User. No data loss.",
+  "pxHint": "PX is beta presentation only. Your logs stay. Switch anytime.",
+  "modes": [
+    {
+      "id": "beginner",
+      "title": "Beginner",
+      "px": "PX Beg",
+      "lead": "Zero dashboard. Greeting, today’s health, a task list. Tap a row to log with Buddy.",
+      "nav": "Home · Foodiary · Progress · Menu",
+      "items": [
+        {
+          "n": 1,
+          "label": "Top bar",
+          "text": "kCal Buddy, language, theme, and Settings."
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "text": "Buddy says hello. One line. That’s the whole coach."
+        },
+        {
+          "n": 3,
+          "label": "Today’s Health",
+          "text": "Calories, protein, fiber, water, drinks, and your burn vs goal. Tap a row for details."
+        },
+        {
+          "n": 4,
+          "label": "Daily task list",
+          "text": "Breakfast · Lunch · Dinner · Snack · Drinks · Water. Tap a box → Buddy. It checks off only after you save."
+        },
+        {
+          "n": 5,
+          "label": "Bottom tabs",
+          "text": "Home · Foodiary · Progress · PX Beg · Menu. No Meal Plan, Activity, or Spaces here."
+        }
+      ]
+    },
+    {
+      "id": "standard",
+      "title": "Standard",
+      "px": "PX Std",
+      "lead": "Buddy is the host. Today’s Progress is the compass. Health cards sit under the budget.",
+      "nav": "Home · Meal Plan · Foodiary · Activity · Progress · Spaces · Menu",
+      "items": [
+        {
+          "n": 1,
+          "label": "Buddy host",
+          "text": "Larger Buddy and a short greeting. Language, theme, and Settings stay on the right."
+        },
+        {
+          "n": 2,
+          "label": "Toolbox",
+          "text": "Camera is the orange hero. Water, Weight, and Cart stay quiet (white chips, colored icons). Cart is last. Dashboard cards keep the strong colors."
+        },
+        {
+          "n": 3,
+          "label": "More",
+          "text": "Camera’s chevron: Camera, Photo, Receipt / File, Text input, Voice — A–Z. Text is how you type a meal."
+        },
+        {
+          "n": 4,
+          "label": "Today clock",
+          "text": "Date, time, sun timeline, weather. Context — not a log."
+        },
+        {
+          "n": 5,
+          "label": "Today’s Progress",
+          "text": "Daily energy budget: Food · Exercise · Remaining. No TEF in Standard."
+        },
+        {
+          "n": 6,
+          "label": "Health cards",
+          "text": "Protein · Fiber · Water · Drinks. Tap a card for details."
+        },
+        {
+          "n": 7,
+          "label": "Bottom tabs",
+          "text": "Home plus Meal Plan, Foodiary, Activity, Progress, Spaces, PX Std, Menu."
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Power User",
+      "px": "PX Pwr",
+      "lead": "Same Home as Standard, with TEF and leucine on the budget and protein card.",
+      "nav": "Same tabs as Standard · desktop can add Reports · Insights · Goals",
+      "items": [
+        {
+          "n": 1,
+          "label": "Buddy host",
+          "text": "Same toolbox as Standard: Camera · Water · Weight · Cart."
+        },
+        {
+          "n": 2,
+          "label": "Energy budget + TEF",
+          "text": "Food · TEF · Exercise · Remaining. TEF is the extra burn from eating — not a second meal."
+        },
+        {
+          "n": 3,
+          "label": "Protein + leucine",
+          "text": "Protein card shows a leucine estimate. Fiber, water, drinks stay as in Standard."
+        },
+        {
+          "n": 4,
+          "label": "Everything else",
+          "text": "Clock, tip, mission, Spaces glance — richer detail, same jobs. PX Pwr in the bottom bar."
+        }
+      ]
+    }
+  ]
+}

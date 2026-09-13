@@ -1,10 +1,11 @@
 {
-  "intro": "A photo is often faster than typing. Capture or pick from gallery, review what Buddy recognises, confirm the portion, and save to the diary.",
+  "intro": "A photo is often faster than typing. Point at a plate or a packaged food, review what Buddy recognises, then choose where it should go.",
   "time": "7 min",
-  "buddyTip": "Shoot from above with decent light; include the whole plate. Mention hidden oils on confirm if the photo can’t show them.",
-  "mission": "Log one meal with camera or gallery from Home and confirm the portion before save.",
+  "buddyTip": "For packs, hold the barcode, QR, or printed EAN in the frame. For plates, shoot from above with decent light and mention hidden oils on confirm.",
+  "mission": "Scan one packaged food and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list. Also log one plated meal from camera or gallery.",
   "why": [
     "Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.",
+    "Packaged foods already have an identity. One scan should be enough to eat, remember, stock, or buy — without hunting through four screens.",
     "Camera logging still requires human judgment. Recognition can miss sauces, oils, drinks beside the plate, or second helpings. Your confirmation protects honesty.",
     "Gallery helps when you forgot to log in the moment but still have a photo — better than reconstructing from memory alone.",
     "Mixed plates (buffets, shared tapas) need your portion story on confirm. The camera sees the table; you know your share."
@@ -13,15 +14,20 @@
     "lead": "Camera flow essentials.",
     "points": [
       "Use camera or gallery quick action on Home",
-      "Review recognised items and estimates",
-      "Adjust portions and missing fats/drinks",
-      "Save into Foodiary via Buddy",
+      "Pack barcode, QR, printed EAN, or label text open the same pack card",
+      "Choose Eat (Foodiary), Remember (Quick Food), Have (Stock), or Buy (shopping list)",
+      "Plate photos stay eat + retake — a bowl is not a barcode",
+      "Confirm portions and missing fats/drinks before saving a meal",
       "Edit later in Foodiary if you learn more"
     ],
     "misconceptions": [
       {
         "myth": "The photo alone is perfect nutrition truth.",
         "truth": "Vision estimates help; portions and hidden fats still need you."
+      },
+      {
+        "myth": "Scanning a pack logs it as eaten.",
+        "truth": "Nothing is written until you pick a destination. Eat, remember, have, and buy are different jobs."
       },
       {
         "myth": "Blurry photos are fine — AI will figure it out.",
@@ -32,15 +38,22 @@
   "how": {
     "lead": "Make photo logging a tidy habit.",
     "steps": [
-      "Frame the full meal; avoid extreme close-ups of one corner",
-      "Capture before you destroy the evidence (half-eaten chaos is harder)",
+      "Frame the full meal, or hold the pack’s barcode / QR / printed EAN in view",
+      "Wait for the pack card, or capture before you destroy a plated meal",
+      "Pick one destination for a pack — or confirm Buddy’s plate draft",
       "Add voice or text notes for oil, butter, dressings, beverages",
-      "Confirm Buddy’s suggestion; scale portions up/down",
       "Save; don’t double-log the same plate in Foodiary manually"
     ],
-    "buddyHelps": "Buddy uses recognition to draft the diary row quickly. You remain editor-in-chief at confirm."
+    "buddyHelps": "Buddy recognises the pack once, then the existing Foodiary, Quick Food, Stock, and shopping list do the work. For plates you remain editor-in-chief at confirm."
   },
   "sections": [
+    {
+      "title": "Packaged foods",
+      "paras": [
+        "Point at barcode bars, a product QR, or printed EAN / GTIN. Buddy looks the pack up once and shows the same card. Then choose exactly one: Save to Foodiary (you ate it), Save as Quick Food (you eat it often — nothing logged today), Add to Stock (you have it), or Add to shopping list (you will buy it). Scan next keeps the camera up.",
+        "If Buddy does not know the pack, photograph the label or continue. Do not invent a food. Receipt photos still use the receipt flow — Add to Stock there is the same Stock ledger as a cupboard barcode."
+      ]
+    },
     {
       "title": "Labels and receipts",
       "paras": [
@@ -72,7 +85,11 @@
     {
       "quote": "Recognition was wrong so I logged nothing.",
       "why": "Edit the draft or switch to voice/text. The meal still counts."
+    },
+    {
+      "quote": "I scanned a tin into Foodiary when I was unpacking shopping.",
+      "why": "Have ≠ eat. Use Add to Stock for the cupboard, Save to Foodiary when you open it."
     }
   ],
-  "encouragement": "Point, shoot, confirm, done. Camera logging exists to keep real life inside the diary — not to pass a photography exam."
+  "encouragement": "Point, recognise, choose. Camera logging exists to keep real life inside the right place — diary, shortcuts, cupboard, or list — not to pass a photography exam."
 }

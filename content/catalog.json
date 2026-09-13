@@ -17,9 +17,9 @@
       "pillar": "site",
       "path": "index.html",
       "title": "Help Platform",
-      "summary": "Help, Buddy Academy, and public Developer Documentation — same product as kCal Buddy.",
+      "summary": "Your mobile Home screen, explained for Beginner, Standard, and Power User — then Help, Academy, and docs.",
       "kind": "hub",
-      "updated": "2026-09-04",
+      "updated": "2026-09-13",
       "status": "ready"
     },
     {
@@ -78,17 +78,19 @@
       "pillar": "help",
       "path": "help/home.html",
       "title": "Home",
-      "summary": "Buddy Log, quick actions, and Today's Progress.",
+      "summary": "Log bar, Today’s Progress, and Experience Mode (Beginner / Standard / Power).",
       "kind": "feature",
       "why": "Home is the daily desk. Logging here fills Foodiary and Progress.",
       "what": [
         "Buddy Log / Talk food",
-        "Quick actions",
+        "Method picker + orange action",
+        "Shopping · Water · Weight",
         "Today's Progress",
-        "Bottom tabs"
+        "Bottom tabs + PX"
       ],
       "how": [
-        "Tap the orange Log control",
+        "Pick Camera / Photos / Text / Voice",
+        "Tap the orange action",
         "Confirm Buddy's estimate",
         "Glance at Progress after logging"
       ],
@@ -110,7 +112,7 @@
         "path": "/#/",
         "label": "Open Home"
       },
-      "updated": "2026-09-04",
+      "updated": "2026-09-13",
       "status": "ready",
       "bodyFile": "help-home.json"
     },
@@ -190,18 +192,19 @@
       "pillar": "help",
       "path": "help/camera.html",
       "title": "Camera",
-      "summary": "Photo capture for meals.",
+      "summary": "Photo capture for meals and packaged foods.",
       "kind": "feature",
-      "why": "A photo is often faster than typing.",
+      "why": "Point the camera at a plate or a pack. Buddy recognises it so you can eat, remember, stock, or buy.",
       "what": [
         "Capture or pick from gallery",
-        "Review recognition",
-        "Confirm portion and save"
+        "Pack barcode, QR, or printed EAN opens one pack card",
+        "Choose Eat, Remember, Have, or Buy",
+        "Confirm portion and save meals to Foodiary"
       ],
       "how": [
         "Use camera or gallery quick action on Home",
-        "Check Buddy's suggestion",
-        "Save"
+        "For packs, wait for the card and pick one destination",
+        "For plates, check Buddy's suggestion and save"
       ],
       "next": {
         "id": "meal-plan",
@@ -217,7 +220,7 @@
         "path": "/#/",
         "label": "Open Camera"
       },
-      "updated": "2026-09-04",
+      "updated": "2026-09-13",
       "status": "ready",
       "bodyFile": "help-camera.json"
     },

@@ -1,21 +1,22 @@
 {
-  "intro": "Home is your daily desk. Logging here fills Foodiary and Progress — start with the orange Log control, not a scavenger hunt through tabs.",
+  "intro": "Home is your daily desk. Buddy greets you, then his toolbox logs the day. Today’s Progress fills after you save. Beginner, Standard, and Power User are the same Home with more or less on screen — switch with PX in the bottom bar.",
   "time": "7 min",
-  "buddyTip": "If Progress looks empty, ask “did I log on Home with real kcal?” before assuming a bug.",
-  "mission": "Open Home, log one meal with Buddy, and watch Today’s Progress update.",
+  "buddyTip": "Camera is the food log. Water, Weight, and Cart sit beside it as quiet chips. Cart is last. The Camera chevron picks Camera, Photo, Receipt / File, Text input, or Voice (A–Z).",
+  "mission": "Open Home, tap Camera (or Water / Weight), confirm Buddy’s estimate, and watch Today’s Progress (or your Beginner task list) update after save.",
   "why": [
-    "Wrong-door logging is the most common frustration. People open Foodiary to invent a blank row, leave kcal empty, then wonder why Progress stays at zero. Home is built as the smart door into the ledger.",
-    "Home gathers the daily loop: Buddy Log / Talk food, quick actions (camera, mic, water), and Today’s Progress. That composition matches how successful days actually work.",
-    "Orientation saves willpower. When Home is the habit, the rest of the app becomes review and planning — not a maze."
+    "Wrong-door logging is the most common frustration. People open Foodiary to invent a blank row, leave kcal empty, then wonder why Progress stays at zero. Home is the smart door into the ledger.",
+    "The orange Camera button is Buddy’s main food log. Water, Weight, and Cart sit beside it. Text input is a Camera method, not a second Food button.",
+    "Experience Mode (PX) is presentation only. Beginner hides the dashboard. Standard shows the budget. Power adds TEF and leucine. Your logs do not change."
   ],
   "what": {
-    "lead": "What you should recognise on Home.",
+    "lead": "What you should recognise on Home (mobile).",
     "points": [
-      "Buddy Log / Talk food — the primary capture path",
-      "Quick actions — camera, gallery, mic, water",
-      "Today’s Progress — fills after logs with nutrition",
-      "Bottom tabs — Meal Plan, Foodiary, Progress, Spaces, Menu for other jobs",
-      "Deep coaching moments — confirm estimates before save when Buddy asks"
+      "Buddy host — greeting plus Camera, Water, Weight, Cart",
+      "Camera — tap to scan a pack or plate; chevron chooses Camera, Photo, Receipt / File, Text input, Voice",
+      "Water · Weight · Cart — run immediately",
+      "Today’s Progress (Standard / Power) or Today’s Health + task list (Beginner)",
+      "PX pill in the bottom bar — Beg / Std / Pwr",
+      "Bottom tabs — Beginner is Home · Foodiary · Progress · Menu; Standard and Power add Meal Plan, Activity, Spaces"
     ],
     "misconceptions": [
       {
@@ -23,28 +24,30 @@
         "truth": "Prefer Home for new meals. Foodiary is for review and corrections."
       },
       {
-        "myth": "I need to fill every widget before logging.",
-        "truth": "One honest log is enough. Ignore unused surfaces until you need them."
+        "myth": "Tapping Camera only chooses a method.",
+        "truth": "Camera logs immediately with the selected method. The chevron only chooses the method."
       }
     ]
   },
   "how": {
     "lead": "Make Home the reflex.",
     "steps": [
-      "Open the app to Home by default",
-      "Tap the orange Log / Talk food strip",
-      "Speak, type, or attach a photo of the meal",
+      "Open the app to Home",
+      "Tap Camera to scan, or pick Text input from the Camera chevron to type",
       "Confirm Buddy’s estimate; adjust grams if you know better",
-      "Glance at Today’s Progress — then return to life"
+      "Use Water, Weight, or Cart when that is the job",
+      "Glance at Today’s Progress or the task list — then return to life"
     ],
     "buddyHelps": "Buddy reduces friction and teaches while capturing. Progress on Home is immediate feedback that the loop worked."
   },
   "sections": [
     {
-      "title": "Quick actions",
+      "title": "Experience Mode (PX)",
       "paras": [
-        "Camera and gallery help when typing is slow. Mic helps when your hands are full. Water keeps hydration in the same ritual as meals.",
-        "Use the action that matches the moment — consistency beats loyalty to one input mode."
+        "Beginner: greeting, today’s health, daily task list. Tap a meal row to log. No camera bar, no Meal Plan / Activity / Spaces tabs.",
+        "Standard: log bar + energy budget (Food · Exercise · Remaining) + health cards.",
+        "Power User: same as Standard, plus TEF on the budget and leucine on protein.",
+        "PX is beta presentation. No data loss when you switch."
       ]
     },
     {
@@ -60,13 +63,13 @@
       "why": "Blank-kcal rows don’t teach Progress. Log via Buddy on Home or fill nutrition."
     },
     {
-      "quote": "I ignore Home because there are too many numbers.",
-      "why": "Use one control: Log. Numbers can wait until the habit sticks."
+      "quote": "I looked for a Food button next to Camera.",
+      "why": "Food logging is Camera. Type a meal with Text input in the Camera menu. Weight is the fourth chip."
     },
     {
       "quote": "I only open Progress tab, never Home.",
       "why": "Progress needs inputs. Capture on Home first."
     }
   ],
-  "encouragement": "Home is where honesty becomes easy. Tap Log, confirm, glance, go — that is a complete Buddy day starter."
+  "encouragement": "Home is where honesty becomes easy. Tap Camera or Weight, confirm, glance, go."
 }

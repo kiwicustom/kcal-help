@@ -901,3 +901,136 @@ a.card {
     transform: none;
   }
 }
+
+/* Home maps — each PX mode, numbered items */
+.px-tours {
+  margin: 0 0 2.25rem;
+}
+
+.px-tour-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.25rem;
+}
+
+.px-tour-tabs__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: var(--surface-card);
+  color: inherit;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.px-tour-tabs__link span {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--kcal-orange-700);
+}
+
+.px-tour {
+  margin: 0 0 1.75rem;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--border-soft);
+}
+
+.px-tour__head .lead {
+  margin-bottom: 0.35rem;
+}
+
+.px-tour__grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .px-tour__grid {
+    grid-template-columns: minmax(12rem, 16rem) 1fr;
+    align-items: start;
+  }
+}
+
+.px-phone {
+  margin: 0;
+  padding: 0.65rem;
+  list-style: none;
+  border-radius: 1.35rem;
+  border: 1.5px solid var(--border-soft);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.px-phone__row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.35rem;
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.px-phone__row:last-child {
+  border-bottom: 0;
+}
+
+.px-num {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 99px;
+  background: var(--kcal-orange-500, #ff7a00);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.px-tour__keys {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.px-tour__keys li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.55rem;
+  align-items: start;
+}
+
+.px-tour__keys strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.px-tour__keys p {
+  margin: 0.15rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.px-tour__shot {
+  margin: 0;
+}
+
+.px-tour__shot img {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  border-radius: 1.1rem;
+  border: 1px solid var(--border-soft);
+}
