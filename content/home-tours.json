@@ -1,6 +1,6 @@
 {
   "title": "Your Home screen (mobile)",
-  "lead": "Home is the daily desk. Same data in every Experience Mode — only how much you see changes. Tap PX in the bottom bar to try Beginner, Standard, or Power User. No data loss.",
+  "lead": "Home is the daily desk. Same data in every Experience Mode — only how much you see changes. Tap the ? in the top bar to label Home in waves. On-screen Click here to CONTINUE / Click here to go BACK, and Click here to CLOSE on the last wave — nothing auto-advances. Tap PX in the bottom bar to try Beginner, Standard, or Power User. No data loss.",
   "pxHint": "PX is beta presentation only. Your logs stay. Switch anytime.",
   "modes": [
     {
@@ -13,7 +13,7 @@
         {
           "n": 1,
           "label": "Top bar",
-          "text": "kCal Buddy, language, theme, and Settings."
+          "text": "kCal Buddy, language, theme, Settings, and a ? that labels Home in waves. Click here to CONTINUE / Click here to go BACK. Last wave: Click here to CLOSE."
         },
         {
           "n": 2,
