@@ -1,0 +1,79 @@
+{
+  "intro": "Ateriasuunnitelma pitää aikomuksen — ateriat, jotka aiot syödä. Se ei ole live-päiväkirja. Kirjaa se mitä oikeasti tapahtuu Kodissa, kun syöt.",
+  "time": "7 min",
+  "buddyTip": "Suunnittele realistisia illallisia, jotka ehdit kokata tiistaina. Osta sitten se lista — ei fantasiakeittokirjaa.",
+  "mission": "Lisää kaksi realistista illallista Ateriasuunnitelmaan tuleville päiville; kirjaa tämän päivän oikeat ateriat Kodissa kuten tavallisesti.",
+  "why": [
+    "Suunnittelu vähentää päätösväsymystä ja tukee proteiinin/kuidun johdonmukaisuutta. Ilman suunnitelmaa illat oletuksena päätyvät siihen mikä on nopeinta.",
+    "Sekoitus suunnitelman ja päiväkirjan välillä rikkoo Edistymisen. Jos vain “suunnittelet” etkä koskaan kirjaa saantia, trendit jäävät tyhjiksi. Jos kirjaat suunnitelman etkä totuutta, trendit valehtelevat.",
+    "Ostosapu (kun saatavilla) toimii parhaiten lyhyestä, rehellisestä suunnitelmasta — ei kahdestakymmenestä käyttämättömästä ohjeesta.",
+    "Suunnitelma suojaa myös proteiinia kiireisinä viikkoina: kun illallinen on päätetty etukäteen, ankkuri jää harvemmin väliin ja satunnainen napostelu myöhemmin vähenee."
+  ],
+  "what": {
+    "lead": "Mihin Ateriasuunnitelma on.",
+    "points": [
+      "Selaa ja lisää suunniteltuja aterioita",
+      "Pidä suunnitelmat kevyempinä kuin kunnianhimosi",
+      "Käytä ostosapua kun sitä tarjotaan",
+      "Kohtele suunnitelman muutoksia normaaleina",
+      "Kirjaa aina oikea saanti erikseen Kodissa"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Lisääminen Ateriasuunnitelmaan kirjaa ravinnon automaattisesti.",
+        "truth": "Aikomus ≠ saanti. Tallenna syöminen Kodissa / Foodiaryssa."
+      },
+      {
+        "myth": "Jos en noudattanut suunnitelmaa, minun ei pidä käyttää Ateriasuunnitelmaa.",
+        "truth": "Päivitä suunnitelma. Se on työkalu, ei sopimus jonka voi rikkoa."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Yhdistä suunnitelma → osta → kokkaa → kirjaa.",
+    "steps": [
+      "Avaa Ateriasuunnitelma-välilehti",
+      "Lisää muutama illallinen ja oletuslounasideä",
+      "Luo tai kirjoita ostoslista niistä aterioista",
+      "Kokkaa/syö",
+      "Kirjaa oikea lautanen Kodissa (ääni/kamera/teksti)",
+      "Säädä ensi viikon suunnitelmaa sen mukaan, mitä oikeasti toistit"
+    ],
+    "buddyHelps": "Ateriasuunnitelma vähentää arjen kaaosta. Buddyn kirjaaminen pitää Edistymisen kiinni todellisuudessa, jotta valmennus pysyy maassa."
+  },
+  "sections": [
+    {
+      "title": "Pidä suunnitelma ja päiväkirja erillään",
+      "paras": [
+        "Kysy: “Päätänkö tulevaa ruokaa vai tallennanko mennyttä?” Tuleva → Ateriasuunnitelma. Mennyt/nykyinen → Koti/Foodiary."
+      ]
+    },
+    {
+      "title": "Perhesuunnittelu",
+      "paras": [
+        "Suunnittele jaetut pohjat; räätälöi annokset henkilöittäin. Yksi suunnitelma voi tukea Scale Health Successia kotona."
+      ]
+    },
+    {
+      "title": "Suunnittele kevyesti, osta tiukasti",
+      "paras": [
+        "Jos aika on kortilla, suunnittele vain illalliset ja pidä aamiainen/lounas seisovina oletuksina. Ostoslistan kuuluu silti priorisoida proteiini ja kasvit noille oletuksille."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Täytin Ateriasuunnitelman ja ihmettelin, miksi Edistyminen oli nolla.",
+      "why": "Ei saantikirjauksia. Kirjaa ateriat kun ne syödään."
+    },
+    {
+      "quote": "Kopioin suunnitelman Foodiaryyn syömättä sitä.",
+      "why": "Se keksii mukana pysymisen. Kirjaa vain se mitä kulutit."
+    },
+    {
+      "quote": "Suunnitelmassani oli seitsemän uutta ohjetta; en kokannut yhtään.",
+      "why": "Kutista toistoihin. Uutuus on valinnaista."
+    }
+  ],
+  "encouragement": "Pieni suunnitelma, jota noudatat useimpina iltoina, voittaa kauniin suunnitelman, jota ihailet. Aikomus ensin, rehellisyys aina."
+}

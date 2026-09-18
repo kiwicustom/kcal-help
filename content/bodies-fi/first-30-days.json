@@ -1,0 +1,80 @@
+{
+  "intro": "Ensimmäinen kuukausi on oppimisjakso sinulle ja Buddylle — ei testi, jonka voi reputtaa. Rakenna tapakierto ennen kuin jahtaät kovia tavoitteita.",
+  "time": "9 min",
+  "buddyTip": "Jos päivä jää väliin, sano ääneen “jatkan tästä”. Älä rakenna täydellistä mennyttä viikkoa uudelleen.",
+  "mission": "Kirjaa tämän päivän ateriat Kodista ja valitse tälle viikolle yksi tasainen punnitusaika.",
+  "why": [
+    "Ensimmäiset kolmekymmentä päivää päättävät, tuleeko kCal Buddysta rituaali vai taas yksi hylätty lataus. Tallennuksen johdonmukaisuus merkitsee enemmän kuin täydelliset makrot. Buddy tarvitsee edustavia viikkoja — oikeita työpäiviä, viikonloppuja ja ravintoloita — oppiakseen oman kulutuksesi.",
+    "Geneeriset kaloritavoitteet tulevat useimmissa sovelluksissa liian aikaisin. Me odotamme, kunnes saanti ja painon trendi opettavat jotain hyödyllistä. Se kärsivällisyys tuntuu hitaalta päivänä kolme ja viisaalta päivänä kaksikymmentäyksi.",
+    "Juhli mukana pysymistä, ei esteettistä täydellisyyttä. Useimpien aterioiden kirjaaminen päiväputkissa, viikoittainen vilkaisu Edistymiseen ja yksi kevyt Ateriasuunnitelman säätö on jo onnistunut kuukausi."
+  ],
+  "what": {
+    "lead": "Virstanpylväät ovat oppaita, eivät pistetauluja.",
+    "points": [
+      "Päivä 1: täytä profiilin perusasiat, kirjaa ensimmäinen rehellinen ateria Kodissa, löydä Tämän päivän edistyminen",
+      "Viikko 1: kirjaa useimmat ateriat; valinnainen aamupunnitus; ohita vaa’an päivittäinen häly",
+      "Viikko 2: ala huomata proteiinipainotteisia aterioita; korjaa ilmeiset Foodiary-virheet",
+      "Viikko 3: viikoittainen vilkaisu Edistymiseen; yksi Ateriasuunnitelma-kokeilu illallisille",
+      "Viikko 4: tunnista, mitä hyvät päivät jakoivat; aseta yksi teema kuukaudelle kaksi",
+      "Juhli: rehellisyyden putket voittavat rajoittamisen putket"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos paino ei pudonnut viikossa yksi, Metodi epäonnistui.",
+        "truth": "Viikko yksi on vettä, glykogeenia ja oppimista. Suunta näkyy viikkojen mittaan, ei neljässäkymmenessäkahdeksassa tunnissa."
+      },
+      {
+        "myth": "Minun on osuttava tarkkaan kaloritavoitteeseen päivästä yksi.",
+        "truth": "Alkuviikot priorisoivat rehellisen havainnoinnin. Tavoitteet henkilöityvät, kun Buddyllä on selkeämpi kuva kulutuksesta."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Pidä jokainen päivä pienenä: yksi teko, yksi syy, yksi tsemppi.",
+    "steps": [
+      "Päivä 1 — Avaa Koti, käytä Kirjaa / Puhu ruoka kerran, vahvista Buddyn arvio, huomaa Edistymisen liike",
+      "Viikko 1 — Tavoittele “useimmat ateriat kirjattu”, ei täydellisyyttä; punnitse samaan aikaan, jos se auttaa",
+      "Viikko 2 — Lisää proteiinitietoisuus yhteen ateriaan; korjaa grammat Foodiaryssa, kun tiedät paremmin",
+      "Viikko 3 — Sunnuntai: avaa Edistyminen, skannaa Foodiaryn kuviot, suunnittele kaksi realistista illallista",
+      "Viikko 4 — Kirjoita yksi lause: mitä pidän ja mitä vaihdan ensi kuussa",
+      "Mikä tahansa miss — jatka seuraavasta ateriasta; älä odota maanantaita"
+    ],
+    "buddyHelps": "Koti pitää kirjaamisen kitkan pienenä. Foodiary pitää kirjanpidon. Edistyminen muuttaa hälyiset päivät viikoittaiseksi oppimiseksi. Buddyn muistutukset pysyvät valmennuksen muotoisina, ei rangaistuksen."
+  },
+  "sections": [
+    {
+      "title": "Päivän 1 tarkistuslista",
+      "paras": [
+        "Tarvitset vain sen verran profiilia, että pääset alkuun: tavoite, paino, pituus, ikä, tyypillinen aktiivisuus ja ohjausta muokkaavat mieltymykset.",
+        "Sitten yksi rehellinen kirjaus. Se yksi teko opettaa enemmän kuin kaikkien Academy-oppien lukeminen."
+      ],
+      "steps": [
+        "Varmista, että löydät Kodin, Foodiaryn ja Edistymisen",
+        "Kirjaa aamiainen tai seuraava ateria äänellä, kuvalla tai tekstillä",
+        "Jätä edistyneet integraatiot, kunnes kirjaamisen tapa tarttuu"
+      ]
+    },
+    {
+      "title": "Miltä “onnistuminen” näyttää päivänä 30",
+      "paras": [
+        "Avaat sovelluksen ilman kammoksuntaa. Tavallisen viikon useimmat ateriat ovat Foodiaryssa. Tunnet yhden tai kaksi proteiiniankkuria. Olet katsonut Edistymistä vähintään kolme kertaa.",
+        "Et ehkä vielä tunne kulutustasi suurella varmuudella — ja se on ok. Olet rakentanut kierron, joka tekee varmuuden mahdolliseksi."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Söin ulkona kolme kertaa, joten tämä viikko ei laske.",
+      "why": "Ravintolaviikot ovat oikeaa elämää. Kirjaa ne. Buddy tarvitsee ne päivät valmentaakseen matkaa ja seurustelusyömistä myöhemmin."
+    },
+    {
+      "quote": "Aloitan alusta ensi kuussa, kun työ on rauhallisempaa.",
+      "why": "Rauhallisemmat kuukaudet harvoin saapuvat. Rakenna rituaali oikeaan hälyyn — se on taito."
+    },
+    {
+      "quote": "Unohdin neljä päivää, joten poistin kaiken ja nollasin.",
+      "why": "Poisto heittää signaalin roskiin. Aukot ovat sallittuja. Jatka; kuviot nousevat silti esiin."
+    }
+  ],
+  "encouragement": "Kolmenkymmenen päivän päästä et muista jokaista ateriaa. Muistat, jatkoitko näyttäytymistä. Aloita tämän päivän seuraavasta ateriasta — se riittää Päivä 1 -energiaksi joka päivä."
+}

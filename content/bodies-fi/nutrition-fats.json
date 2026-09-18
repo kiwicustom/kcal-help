@@ -1,0 +1,73 @@
+{
+  "intro": "Ravinnon rasvat kantavat energiaa, auttavat vitamiinien imeytymisessä, tukevat hormoneja ja tekevät aterioista tyydyttäviä. Tavoite on tarkoitukselliset rasvat — ei pelkoa, ei vapaata öljyn kaatoa.",
+  "time": "8 min",
+  "buddyTip": "Mittaa paistoöljyt viikon ajan. Useimmat “mysteerikalorit” piilevät pannussa ja kastikepullossa.",
+  "mission": "Kirjaa tänään öljyt, voi, kastikkeet ja pähkinävoit huolella — myös se “vain loraus”.",
+  "why": [
+    "Rasva on energiatiheää: pienet tilavuudet kasvavat nopeasti. Siksi kotikokkaus voi jumittaa rasvanpudotuksen, vaikka lautaset “näyttävät siisteiltä”. Tietoisuus voittaa välttämisen.",
+    "Kaikki rasvat eivät käyttäydy samoin terveyskuviossa. Painota tyydyttymättömiä lähteitä (oliiviöljy, pähkinät, siemenet, rasvainen kala) ja jätä tilaa ruoille joista pidät — se on kestävämpää kuin jokaisen tyydyttyneen gramman karkottaminen yhdessä yössä.",
+    "Hyvin vähärasvaiset ruokavaliot voivat jättää ateriat tyydyttämättömiksi ja haitata mukana pysymistä. Erittäin runsasrasvaiset kuviot voivat syrjäyttää proteiinin ja kuidun. Tasapaino palvelee Health Operating Systemia paremmin kuin ideologia."
+  ],
+  "what": {
+    "lead": "Työskentele rasvojen kanssa työkaluina.",
+    "points": [
+      "Kirjaa öljyt, voi, kerma, juusto, pähkinät, siemenet ja kastikkeet — ne lasketaan",
+      "Käytä rasvoja parantamaan mukana pysymistä: mitattu loraus voi saada kasvikset tarttumaan",
+      "Rasvainen kala tarjoaa rasvoja plus proteiinia — vahvoja kaksoiskäyttöruokia",
+      "Pähkinät ovat ravitsevia ja helppoja syödä yli pussista — annostele ne",
+      "Ravintola-aterioissa on usein näkymättömiä rasvoja; arvioi rehellisesti"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Rasvattomat tuotteet ovat aina parempia painonpudotukseen.",
+        "truth": "Moni korvaa rasvan sokerilla tai jalostetulla tärkkeluksella ja jättää sinut nälkäisemmäksi. Tarkista koko ruoka."
+      },
+      {
+        "myth": "Jos se on oliiviöljyä, määrällä ei ole väliä.",
+        "truth": "Laatu auttaa terveyskuvioita; energia lasketaan silti. Mittaa kaato."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Ole tarkka kaksi viikkoa, pidä sitten taito.",
+    "steps": [
+      "Käytä teelusikallista tai suihketietoisuutta pannun öljylle",
+      "Annostele pähkinät ja juusto etukäteen sen sijaan, että syöt isoista pakkauksista",
+      "Rakenna lautaset proteiini + kuitu ensin, lisää sitten rasvaa tyydytykseksi",
+      "Ulkona syödessä oleta öljyä ja kirjaa reilu lisä nollan sijaan",
+      "Katso viikko: olivatko rasvat tarkoituksellisia vai vahinkoja?"
+    ],
+    "buddyHelps": "Buddyn arviot paranevat, kun mainitset öljyt ja kastikkeet äänessä tai vahvistat ne kuvan jälkeen. Foodiaryn muokkaukset nappaavat systemaattisen alikirjauksen."
+  },
+  "sections": [
+    {
+      "title": "Kylläisyyden rooli",
+      "paras": [
+        "Rasvat hidastavat ruoansulatusta ja parantavat aterian nautintoa. Ateria, jossa on vain vähärasvaista proteiinia ja kuivia kasviksia, voi olla “suunnitelmassa” ja silti kaatua, koska et voi toistaa sitä.",
+        "Löydä pienin tehokas rasva, joka pitää ateriat miellyttävinä energiabudjettisi sisällä."
+      ]
+    },
+    {
+      "title": "Sydänterveys arkikielellä",
+      "paras": [
+        "Kokonaiskuvio merkitsee: kasvit, kuitu, kala ja vähemmän ultraprosessoitua ruokaa merkitsevät yleensä enemmän kuin yhden voisannoksen kauhisteleminen.",
+        "Jos sinulla on sairaus, noudata lääkärin ohjausta — Buddy valmentaa tapoja, ei reseptejä."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Kokkasin “ilman öljyä” kiiltävässä pannussa — joten kirjasin nollan.",
+      "why": "Jäännösöljy ja kastikkeet lisäävät silti energiaa. Jos ruoka kiilsi, kirjaa jotain."
+    },
+    {
+      "quote": "Maapähkinävoi on terveellistä, joten söin kuusi lusikallista.",
+      "why": "Terveellinen ja energiatiheä voivat olla molemmat totta. Lusikat kasvavat nopeasti."
+    },
+    {
+      "quote": "Kielsin kaiken rasvan ja ahmin nyt noutoruokaa.",
+      "why": "Ylirajoitus kostautuu. Palauta mitatut rasvat mukana pysymiseen."
+    }
+  ],
+  "encouragement": "Kunnioita rasvan energiatiheyttä ja sen työtä maukkaissa, toistettavissa aterioissa. Mittaa, nauti, jatka."
+}

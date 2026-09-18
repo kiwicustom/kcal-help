@@ -1,0 +1,75 @@
+{
+  "intro": "Koti on päivän työpöytä. Buddy tervehtii, sitten työkalupakki kirjaa päivän. Tämän päivän edistyminen täyttyy tallennuksen jälkeen. Aloittelija, Perustaso ja Power-käyttäjä ovat sama Koti, enemmän tai vähemmän ruudulla — vaihda PX:llä alapalkissa.",
+  "time": "7 min",
+  "buddyTip": "Kamera on ruokakirjaus. Vesi, Paino ja Ostoskori istuvat sen vieressä rauhallisina nappuloina. Ostoskori on viimeisenä. Kameran chevron valitsee Kamera, Kuva, Kuitti / tiedosto, Tekstisyöttö tai Ääni (A–Ö).",
+  "mission": "Avaa Koti, napauta Kamera (tai Vesi / Paino), vahvista Buddyn arvio ja katso, että Tämän päivän edistyminen (tai Aloittelijan tehtävälista) päivittyy tallennuksen jälkeen.",
+  "why": [
+    "Väärän oven kirjaaminen on yleisin turhautuminen. Ihmiset avaavat Foodiaryn keksiäkseen tyhjän rivin, jättävät kcal:n tyhjäksi ja ihmettelevät, miksi Edistyminen pysyy nollassa. Koti on älykäs ovi kirjanpitoon.",
+    "Oranssi Kamera-nappi on Buddyn pääasiallinen ruokakirjaus. Vesi, Paino ja Ostoskori istuvat sen vieressä. Tekstisyöttö on Kameran menetelmä, ei toinen Ruoka-nappi.",
+    "Näkymä (PX) on vain esitystapa. Aloittelija piilottaa koontinäytön. Perustaso näyttää budjetin. Power lisää TEF:n ja leusiinin. Merkintäsi eivät muutu."
+  ],
+  "what": {
+    "lead": "Mitä Kodissa (mobiili) kannattaa tunnistaa.",
+    "points": [
+      "Buddy-isäntä — tervehdys plus Kamera, Vesi, Paino, Ostoskori",
+      "Kamera — napauta skannataksesi pakkauksen tai lautasen; chevron valitsee Kamera, Kuva, Kuitti / tiedosto, Tekstisyöttö, Ääni",
+      "Vesi · Paino · Ostoskori — käynnistyvät heti",
+      "Tämän päivän edistyminen (Perustaso / Power) tai Tämän päivän terveys + tehtävälista (Aloittelija)",
+      "PX-pilleri alapalkissa — Beg / Std / Pwr",
+      "Alapalkki — Aloittelijalla Koti · Foodiary · Edistyminen · Valikko; Perustaso ja Power lisäävät Ateriasuunnitelman, Aktiviteetin, Spacet"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Koti on vain koontinäyttö; oikea kirjaaminen tapahtuu Foodiaryssa.",
+        "truth": "Suosi Kotia uusille aterioille. Foodiary on katsaukseen ja korjauksiin."
+      },
+      {
+        "myth": "Kameran napautus vain valitsee menetelmän.",
+        "truth": "Kamera kirjaa heti valitulla menetelmällä. Chevron vain valitsee menetelmän."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Tee Kodista refleksi.",
+    "steps": [
+      "Avaa sovellus Kotiin",
+      "Napauta Kamera skannataksesi, tai valitse Tekstisyöttö Kameran chevronista kirjoittaaksesi",
+      "Vahvista Buddyn arvio; säädä grammat, jos tiedät paremmin",
+      "Käytä Vettä, Painoa tai Ostoskoria, kun se on työ",
+      "Vilkaise Tämän päivän edistymistä tai tehtävälistaa — palaa sitten elämään"
+    ],
+    "buddyHelps": "Buddy vähentää kitkaa ja opettaa tallentaessaan. Edistyminen Kodissa on heti palaute, että kierto toimi."
+  },
+  "sections": [
+    {
+      "title": "Näkymä (PX)",
+      "paras": [
+        "Aloittelija: tervehdys, tämän päivän terveys, päivän tehtävälista. Napauta ateriariviä kirjataaksesi. Ei kamerapalkkia, ei Ateriasuunnitelma / Aktiviteetti / Spaces -välilehtiä.",
+        "Perustaso: kirjauspalkki + energiabudjetti (Ruoka · Liikunta · Jäljellä) + terveyskortit.",
+        "Power-käyttäjä: sama kuin Perustaso, plus TEF budjetissa ja leusiini proteiinissa.",
+        "PX on betan esitystapa. Tietoja ei katoa, kun vaihdat."
+      ]
+    },
+    {
+      "title": "Tämän päivän edistyminen",
+      "paras": [
+        "Kohtele sitä kompassina, ei oikeussalina. Jos se ei liiku, tarkista että tallennetulla rivillä on energia-arvot ja että katsot tätä päivää."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Lisäsin Foodiary-rivin ilman kcal:aa ja luulin Kodin olevan rikki.",
+      "why": "Tyhjät kcal-rivit eivät opeta Edistymistä. Kirjaa Buddyllä Kodissa tai täytä ravinto."
+    },
+    {
+      "quote": "Etsin Ruoka-nappia Kameran vierestä.",
+      "why": "Ruokakirjaus on Kamera. Kirjoita ateria Tekstisyötöllä Kameran valikossa. Paino on neljäs chip."
+    },
+    {
+      "quote": "Avaan vain Edistyminen-välilehden, en koskaan Kotia.",
+      "why": "Edistyminen tarvitsee syötteitä. Tallenna ensin Kodissa."
+    }
+  ],
+  "encouragement": "Koti on paikka, jossa rehellisyydestä tulee helppoa. Napauta Kamera tai Paino, vahvista, vilkaise, jatka."
+}

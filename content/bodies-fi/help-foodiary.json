@@ -1,0 +1,78 @@
+{
+  "intro": "Foodiary on päiväkirja — kirjanpito, jota Edistyminen lukee. Buddy on älykäs ovi sisään; Foodiaryssa katsot ja korjaat.",
+  "time": "8 min",
+  "buddyTip": "Suosi Kotia uusille aterioille. Avaa Foodiary, kun tarvitset muokata grammoja, aikaa tai täyttää tunnetun manuaalisen rivin.",
+  "mission": "Avaa tämän päivän Foodiary sen jälkeen kun kirjasit Kodissa; korjaa yksi annos, jonka tiedät olevan pielessä.",
+  "why": [
+    "Töiden erottaminen estää turhautumista. Jos käytät Foodiarya ainoana tallennustyökaluna, menetät Buddyn arviot ja opetuksen. Jos et koskaan avaa Foodiarya, pienet virheet kasaantuvat.",
+    "Edistyminen luottaa päiväkirjaan. Tyhjät kcal-rivit, väärät päivät ja tupla-ateriat näkyvät hämmentävinä trendeinä. Siistit kirjat tekevät rauhallista valmennusta.",
+    "Manuaaliset rivit ovat ok, kun tiedät jo luvut (etiketit, punnitut ateriat). Ne eivät ole nopein polku sotkuisille oikeille lautaisille — se on Buddy.",
+    "Illan silmäilyt nappaavat myös tuplakirjaukset äänen tai kameran uudelleenyrityksistä. Yksi siisti rivi voittaa kolme päällekkäistä arvausta."
+  ],
+  "what": {
+    "lead": "Foodiaryn vastuut.",
+    "points": [
+      "Katso valitun päivän ateriat",
+      "Muokkaa grammoja, rivejä ja aikaa",
+      "Nappaa puuttuvat välipalat ja öljyt",
+      "Vältä tyhjiä kcal-rivejä, jos välität Edistymisestä",
+      "Siirry päivissä huolella — eilisen muokkaus ei korjaa tämän päivän Edistymistä"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Buddy ja Foodiary kilpailevat päiväkirjoina.",
+        "truth": "Sama kirjanpito. Buddy kirjoittaa fiksusti; Foodiaryssa oikoluet."
+      },
+      {
+        "myth": "Minun pitäisi rakentaa koko päivä alusta Foodiaryssa joka ilta.",
+        "truth": "Silmäile ja korjaa. Lähellä ateriaa tehdyt Koti-kirjaukset tekivät jo kovan työn."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä kahden minuutin illan silmäilyä.",
+    "steps": [
+      "Varmista, että valittu päivämäärä on oikein",
+      "Skannaa puuttuvat ateriat tai juomat",
+      "Muokkaa ilmeiset annosvirheet",
+      "Poista oikeat tuplat; pidä rehelliset välipalat",
+      "Jätä syvä analyysi viikoittaiseen Edistyminen-katsaukseen"
+    ],
+    "buddyHelps": "Buddyn kautta luoduilla riveillä on jo arvioita, joita voit tarkentaa. Foodiary on korjauspinta, joka pitää totuuden luotettavana."
+  },
+  "sections": [
+    {
+      "title": "Väärän päivän ongelmat",
+      "paras": [
+        "Myöhäisillan kirjaukset voivat päätyä väärälle kalenteripäivälle ajoituksesta riippuen. Jos Edistyminen näyttää tyhjältä, tarkista Foodiaryn valittu päivä ennen bugin ilmoittamista."
+      ]
+    },
+    {
+      "title": "Manuaalisen rivin tapa",
+      "paras": [
+        "Kun kirjoitat manuaalisia rivejä, lisää energia ja proteiini jos sinulla on ne. Pelkkä nimirivi on tarralappu, ei ravintodataa."
+      ]
+    },
+    {
+      "title": "Buddy vs Foodiary yhdellä rivillä",
+      "paras": [
+        "Buddy tallentaa älyllä. Foodiary oikolukee. Edistyminen uskoo kirjanpitoon. Käytä kutakin ovea omaan työhönsä, niin viikko pysyy rauhallisena."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Tein tyhjiä rivejä paikanpitäjiksi ja unohdin ne.",
+      "why": "Paikanpitäjät sekoittavat Edistymisen. Kirjaa oikeat arviot tai poista tyhjät."
+    },
+    {
+      "quote": "Muokkasin eilistä samalla kun katsoin tämän päivän Edistymistä.",
+      "why": "Päivä ei täsmää. Kohdista päiväkirjan päivä siihen Edistymisen päivään, jota arvioit."
+    },
+    {
+      "quote": "En koskaan korjaa Buddya, vaikka punnitsin ruoan.",
+      "why": "Korjaukset opettavat parempia tulevia arvioita ja pitävät kirjanpidon rehellisenä."
+    }
+  ],
+  "encouragement": "Ajattele kirjastonhoitajaa, et oikeussalia. Pidä päiväkirja tarpeeksi siistinä, jotta siitä voi oppia — täydellisyys valinnainen, rehellisyys pakollinen."
+}

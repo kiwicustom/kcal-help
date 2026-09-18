@@ -1,0 +1,73 @@
+{
+  "intro": "Joustavat ateriat suunnitellaan tahallaan. “Herkkuateriat” muuttuvat haitallisiksi, kun ne tarkoittavat salailua, ahminta–rajoitus-kiertoa tai moraalista lupaa — ei kun ne tarkoittavat rakastamasi ruoan nauttimista rehellisen viikon sisällä.",
+  "time": "8 min",
+  "buddyTip": "Nimeä idea uudelleen: kutsu sitä suunnitelluksi nautintoateriaksi. Laita se kalenteriin, kirjaa se ja pidä seuraava ateria tavallisena.",
+  "mission": "Jos haluat erityisen aterian tällä viikolla, laita se kalenteriin, päätä runko ja sitoudu kirjaamaan se ilman rangaistusta.",
+  "why": [
+    "Kaikki-tai-ei-mitään-ajattelu luo maanalaista syömistä. Rehellisyys ennen häpeää tarkoittaa, että erityiset ateriat pysyvät päiväkirjassa, jossa Buddy voi valmentaa viikkoa — ei fantasiaviikkoa.",
+    "Energiatasapaino välittää keskiarvoista. Suunniteltu korkeakalorisempi ateria muuten johdonmukaisessa viikossa sopii usein tavoitteisiin. Suunnittelematon viikonlopun kierre plus maanantain nälkä yleensä ei.",
+    "Psykologisesti kielletyt ruoat saavat valtaa. Suunniteltu sisällytys vähentää ahminnan magneettia monilla."
+  ],
+  "what": {
+    "lead": "Terveessä joustossa on lempeyden sääntöjä.",
+    "points": [
+      "Suunnittele tiheys, joka sopii tavoitteisiisi — usein yksi ateria, ei rajaton “herkkupäivä”",
+      "Pidä proteiiniankkurit samana päivänä kun voit",
+      "Kirjaa ateria kokonaan — juomat mukaan lukien",
+      "Ei katumuksen paastoa huomenna",
+      "Katso miltä tuntui: tyytyväinen vs hallitsematon — säädä suunnitelmaa"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Herkkupäivä tarkoittaa, että koko päivä on vapaalla ja kirjaamatta.",
+        "truth": "Rajattomat herkkupäivät pyyhkivät oppimisen. Suosi rajattua ateriaa tallennuksella."
+      },
+      {
+        "myth": "Jos olen tosissani, en syö jälkiruokaa enää koskaan.",
+        "truth": "Tosissaan tarkoittaa kestävää. Sisällyttämisen taito on osa mestaruutta."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä yksinkertaista protokollaa.",
+    "steps": [
+      "Valitse ateria ja karkeasti mitä tilaat tai kokkaat",
+      "Syö tavallisesti aiemmin — saavu nälkäisenä, et nälkiintyneenä",
+      "Nauti ilman kommenttia, joka häpäisee sinut tai muut",
+      "Kirjaa Buddyllä samana päivänä",
+      "Seuraava ateria: palaa oletuksiin (proteiini + kasvit)",
+      "Viikkokatsaus: auttoiko jousto mukana pysymistä vai laukaisiko kierteitä?"
+    ],
+    "buddyHelps": "Buddy ei tarvitse täydellistä viikkoa. Rehelliset erityisateriat parantavat valmennuksen laatua. Edistyminen näyttää viikkotason vaikutuksen moralisoimatta kakkupalaa."
+  },
+  "sections": [
+    {
+      "title": "Kun jousto ei riitä",
+      "paras": [
+        "Jos suunnitellut ateriat muuttuvat säännöllisesti ahminnaksi, kiristä rakennetta, nosta päivän proteiinia/kuitua, nuku enemmän ja harkitse ammattilaisapua häiriintyneisiin kuvioihin.",
+        "Buddy Academy valmentaa tapoja; kliiniset syömishäiriöt tarvitsevat kliinikoita."
+      ]
+    },
+    {
+      "title": "Kielellä on väliä",
+      "paras": [
+        "“Huijaus” vihjaa rikokseen. Kokeile “suunniteltu ateria,” “juhla-ateria” tai “joustoateria.” Kieli muovaa, piilotatko vai opitko."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Ansaitin tämän herkun, koska olin täydellinen kuusi päivää.",
+      "why": "Moraalinen lupa lisää ääripäitä. Suunnittele nautinto ilman täydellisyysvelkaa."
+    },
+    {
+      "quote": "En kirjaa sitä, joten sitä ei tapahtunut.",
+      "why": "Se tapahtui kehollesi. Anna päiväkirjan pysyä rehellisenä."
+    },
+    {
+      "quote": "Herkun jälkeen teen 1000 kcal:n päivän hyvitykseksi.",
+      "why": "Rangaistus ajaa seuraavaan ahmintaan. Palaa tapojen ylläpitoon sen sijaan."
+    }
+  ],
+  "encouragement": "Saat nauttia ruoasta ja olla silti johdonmukainen. Suunnittele, kirjaa, jatka — se on Edistyminen ennen täydellisyyttä jälkiruoka mukaan lukien."
+}

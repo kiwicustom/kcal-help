@@ -1,0 +1,73 @@
+{
+  "intro": "Ravintolat kuuluvat tavalliseen elämään. Taito on rehellinen kirjaaminen ja muutama oletus — ei jokaisen kutsun välttäminen.",
+  "time": "8 min",
+  "buddyTip": "Päätä proteiinitilaus ensin, rakenna sitten lisukkeet. Näkymättömät öljyt ovat odotettavissa — arvioi ne sen sijaan, että kirjaat fantasian “vain grillattua” -lautasta.",
+  "mission": "Seuraavalla ravintola-aterialla valitse proteiinipainotteinen pääruoka, nauti siitä ja kirjaa se samana päivänä reilulla rasva-arviolla.",
+  "why": [
+    "Seurusteluateriat pitävät suhteita — ja suhteet pitävät tapoja. Suunnitelma, joka kieltää ravintolat, kaatuu yleensä ensimmäiseen synttäri-illalliseen.",
+    "Ravintolakalorit ovat epävarmoja. Valmennus tähtää suunnan rehellisyyteen: proteiininlähde, karkeat hiilarit ja nollasta poikkeava rasvaoletus voittavat tarkan fiktion.",
+    "Yksi ravintola-ateria harvoin rikkoo viikon. Kirjaamaton viikonlopun juhla plus maanantain rangaistus saattaa."
+  ],
+  "what": {
+    "lead": "Käytännön ravintolataktiikkaa.",
+    "points": [
+      "Skannaa menu selkeän proteiinikeskuksen varalta",
+      "Pyydä kastikkeet sivulle, kun se auttaa",
+      "Jaa isot lisukkeet tai pakkaa puolet, jos annokset ovat jättimäisiä",
+      "Alkoholi lasketaan — kirjaa se",
+      "Äänikirjaa pöydässä tai heti jälkeen: “lohta, perunoita, voikastiketta, viiniä”"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos en tiedä tarkkoja grammoja, minun ei pidä kirjata.",
+        "truth": "Reilu arvio pitää Edistymisen käyttökelpoisena. Hiljaisuus luo isompia virheitä."
+      },
+      {
+        "myth": "Salaatti on aina matalakalorinen valinta.",
+        "truth": "Juusto, karamellisoidut pähkinät ja kermainen kastike voivat ylittää yksinkertaisen lämpimän proteiinilautasen."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä lyhyt ennakko, nauti sitten ihmisistä.",
+    "steps": [
+      "Esikatso menu jos voit; valitse oletusproteiiniruokakategoria",
+      "Syö tavallinen proteiinitietoinen päivä aterian ympärillä — älä “säästä” kaikkia kaloreita ja saavu susinälkäisenä",
+      "Tilaa tarkoituksella; jätä syyllisyyspuhe pöydässä",
+      "Kirjaa Buddyllä (ääni on ideaali) öljyt/kastikkeet/juomat mukaan lukien",
+      "Palaa tavalliseen suunnitelmaan seuraavalla aterialla — ei hyvitysnälkää"
+    ],
+    "buddyHelps": "Ääni ja kamera tallentavat sotkuiset arjen ateriat nopeasti. Foodiaryssa tarkennat myöhemmin, jos opit ruoasta lisää."
+  },
+  "sections": [
+    {
+      "title": "Keittiökohtaiset oletukset",
+      "paras": [
+        "Grilli/kalapaikat: proteiini + peruna + kasvis, seuraa voikastikkeita.",
+        "Pitsa: lisää proteiininen lisukesalaatti, päätä siivumäärä etukäteen, kirjaa öljyinen totuus.",
+        "Noutopöydät: yhden lautasen strategia — proteiini ja kasvit ensin."
+      ]
+    },
+    {
+      "title": "Työlounaat",
+      "paras": [
+        "Oletuksena vesi tai yksi juoma; pidä iltapäivän työ mielessä. Kirjaaminen jälkeen päin merkitsee enemmän kuin rajoittamisen esittäminen kollegoiden edessä."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Kirjasin grillatun kananfileen nollaöljyllä, koska kaavin kastikkeen.",
+      "why": "Paistorasva jää. Lisää vaatimaton öljyarvio."
+    },
+    {
+      "quote": "Skippasin kirjauksen, etten näkisi vahinkoa.",
+      "why": "Välttely estää oppimisen. Rehelliset rumat kirjaukset ovat rohkeita ja hyödyllisiä."
+    },
+    {
+      "quote": "Rangaistin eilisen illallisen olemalla syömättä kello 18 asti.",
+      "why": "Hyvitys lisää seuraavaa ylisyöntiä. Palaa tavalliseen rakenteeseen."
+    }
+  ],
+  "encouragement": "Kuuluminen ja ruoka voivat elää rinnakkain. Tilaa kuin aikuinen, kirjaa kuin tutkija ja liity rutiiniin seuraavalla aterialla."
+}

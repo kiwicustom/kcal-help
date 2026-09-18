@@ -1,0 +1,73 @@
+{
+  "intro": "Olet jo kokeillut sovelluksia, jotka laskevat kaloreita — ja jäit silti arvailemaan. kCal Buddy on olemassa siksi, että pelkkä laskeminen ei rakenna terveyttä. Ymmärrys omasta arjesta rakentaa.",
+  "time": "8 min",
+  "buddyTip": "Rakenna ensin rehellisen kirjaamisen tapa. Ero muihin merkitsee vasta, kun Buddyllä on jotain totta, josta oppia.",
+  "mission": "Avaa Koti ja kirjaa yksi oikea ateria ilman “siistimistä”. Huomaa, miltä se tuntuu.",
+  "why": [
+    "Useimmat terveysovellukset ratkaisevat kapean ongelman: syötä ruoka, näytä luku, toivo että tahdonvoima hoitaa loput. Malli kaatuu, kun arki on sekavaa — matkat, perheillalliset, stressi, vesipaino ja epätarkat arviot. Ihmiset lopettavat, koska sovellus ei koskaan opettanut, mitä luvut merkitsevät omalle keholle. Ei siksi, että kuri puuttuisi.",
+    "kCal Buddy tekee toista työtä. Autamme sinua näkemään, mitä oikeasti syöt ja teet, ymmärtämään miten paino ja energia vastaavat viikkojen mittaan, ja parantamaan yhtä kestävää asiaa kerrallaan. Se kierto — ei tiukempi päivätaulu — tekee uudesta terveysovelluksesta avaamisen arvoisen.",
+    "Kohtelemme terveyttä myös sosiaalisena. Tavat pysyvät, kun perhe, ystävät, tiimit ja valmentajat ovat mukana. Se on Scale Health Success: terveen toiminnan kuuluu levitä, ei jäädä yhteen yksinäiseen koontinäyttöön."
+  ],
+  "what": {
+    "lead": "Ongelma ei ole “lisää seurantaa”. Ongelma on selkeämmät päätökset oikeasta datasta.",
+    "points": [
+      "Älä arvaa kulutusta pelkän geneerisen laskurin varassa — opi saannista ja painon trendistä ajan mittaan",
+      "Kirjaa pienemmällä kitkalla (ääni, kuva, teksti), jotta rehellisyys voittaa hylätyt päivät",
+      "Näe proteiini, kuitu, energia ja palautuminen yhteydessä — ei erillisinä pistetauluina",
+      "Käytä Buddya valmentajana, joka selittää — ei tuomarina, joka häpäisee vajaita päiviä",
+      "Kasva omasta totuudesta Spaceihin, joissa ihmiset paranevat yhdessä"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos minulla on jo kalorisovellus, toinen on turha.",
+        "truth": "Kalorisovellukset jakavat luvun. Health Operating System yhdistää ravinnon, liikkeen, palautumisen, painon, tavat ja ihmiset — ja oppii kuviosi, sen sijaan että olettaa kaavan."
+      },
+      {
+        "myth": "Eri tarkoittaa enemmän ominaisuuksia ensimmäisenä päivänä.",
+        "truth": "Eri tarkoittaa selkeämpää kiertoa: Havainnoi → Ymmärrä → Paranna → Toista. Ominaisuudet tulevat, kun ne auttavat kiertoa — eivät koristamaan ruutua."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Kohtele ensimmäisiä viikkoja oppimisena, ei suoritusdieettinä.",
+    "steps": [
+      "Kirjaa ateriat Kodista — äänellä, kameralla tai tekstillä — kun ne tapahtuvat",
+      "Punnitse tasaisella rytmillä, jos paino on tavoitteessasi; ohita yhden päivän häly",
+      "Vilkaise Tämän päivän edistymistä kirjaamisen jälkeen; avaa Foodiary vain korjauksiin",
+      "Kerran viikossa avaa Edistyminen ja kysy, mitä hyvät päivät jakoivat — vaihda yksi asia",
+      "Kun olet valmis, liity Spaceen tai luo Space, jotta tuki on sisäänrakennettu, ei valinnainen"
+    ],
+    "buddyHelps": "Buddy on älykäs ovi Foodiaryyn. Arviot, vahvistukset ja Edistyminen ovat olemassa siksi, että energia menee päätöksiin — ei datan syöttöteatteriin."
+  },
+  "sections": [
+    {
+      "title": "Health Operating System",
+      "paras": [
+        "Health Operating System on hiljainen kerros, joka pitää ravinnon, liikkeen, unen, nesteytyksen, painon ja tavat yhdessä kuvassa. Sinä teet valinnat; Buddy pitää kuvan rehellisenä ja käyttökelpoisena.",
+        "Ajattele sitä terveyden omana käyttöjärjestelmänä: kirjaaminen on syöte, Edistyminen palaute, Ateriasuunnitelma aikomus, Spacet yhteistyö. Yksikään ruutu ei ole tuote — järjestelmä on."
+      ]
+    },
+    {
+      "title": "Scale Health Success",
+      "paras": [
+        "Terveys, joka jää vain sinulle, on hauras. Kun puoliso, lapset, tiimi tai valmentaja voi jakaa sopivaa edistymistä ja tsemppiä, näyttäytyminen helpottuu.",
+        "Scale Health Success on usko siihen, että hyvät tavat liikkuvat sinusta → perheeseen → ystäviin → tiimeihin → yhteisöihin. Spacet ja valmennus on rakennettu sen leviämisen ympärille — ei sen ympärille, että joku omistaa identiteettisi omalle koontinäytölleen."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Vaihdan sovellusta, kun makroni ovat ensin täydelliset muualla.",
+      "why": "Täydellisen datan odottaminen lykkää ainoaa asiaa, josta Buddy oppii: oikeita viikkojasi. Aloita sotkuisesti; tarkenna annoksia myöhemmin."
+    },
+    {
+      "quote": "Jos tämä on Health OS, tarvitsen kaikki anturit kytkettyinä päivästä yksi.",
+      "why": "Anturit ovat kontekstia. Rehelliset ruokamerkinnät ja tasainen punnitustapa opettavat ensimmäisessä kuussa enemmän kuin täysi integraatiolista."
+    },
+    {
+      "quote": "Käytän Buddya yksin ikuisesti — yhteisöt eivät ole minua varten.",
+      "why": "Yksin käyttäminen on ok. Scale Health Success tarkoittaa vain, että ovi pysyy auki, kun kuuluminen auttaisi sinua pysymään johdonmukaisena."
+    }
+  ],
+  "encouragement": "Et tarvitse toista sovellusta, joka huutaa vajaille päiville. Tarvitset rauhallisen järjestelmän, joka oppii kanssasi. Kirjaa tämä päivä sellaisenaan — siinä on jo kCalin ero."
+}

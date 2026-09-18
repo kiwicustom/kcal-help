@@ -1,8 +1,7 @@
 /**
  * Shared Help Platform chrome — header + footer + theme + language.
  * Brand must match beta.kcal.lol.
- * EN/DE share the same IA; chrome language persists via localStorage when
- * browsing EN content pages after choosing DE (translations still incomplete).
+ * EN / DE / FI share the same IA. Chrome language persists via localStorage.
  */
 (function () {
   const root = document.documentElement;
@@ -10,6 +9,7 @@
   const page = (script && script.getAttribute("data-page")) || "site";
   const base = (script && script.getAttribute("data-base")) || "";
   const pageUpdated = (script && script.getAttribute("data-updated")) || "";
+  const pageFile = (script && script.getAttribute("data-file")) || "";
 
   const THEME_KEY = "kcal.help.colorMode";
   const LANG_KEY = "kcal.help.lang";
@@ -17,14 +17,21 @@
   const assetVer =
     document.querySelector('meta[name="kcal:asset-ver"]')?.getAttribute("content") || "";
 
+  function restPath() {
+    const file = pageFile || "index.html";
+    return file.replace(/^(de|fi)\//, "") || "index.html";
+  }
+
   function resolveLang() {
+    const pathFi = /\/fi(\/|$)/i.test(location.pathname);
     const pathDe = /\/de(\/|$)/i.test(location.pathname);
     const attr = (script && script.getAttribute("data-lang")) || "";
     const stored = localStorage.getItem(LANG_KEY) || "";
     let lang = "en";
-    if (pathDe) lang = "de";
-    else if (attr === "de" || attr === "en") lang = attr;
-    else if (stored === "de" || stored === "en") lang = stored;
+    if (pathFi || attr === "fi") lang = "fi";
+    else if (pathDe || attr === "de") lang = "de";
+    else if (attr === "en") lang = "en";
+    else if (stored === "fi" || stored === "de" || stored === "en") lang = stored;
     try {
       localStorage.setItem(LANG_KEY, lang);
     } catch (_) {}
@@ -33,6 +40,7 @@
 
   const lang = resolveLang();
   const de = lang === "de";
+  const fi = lang === "fi";
 
   function resolveTheme() {
     const stored = localStorage.getItem(THEME_KEY);
@@ -59,12 +67,42 @@
     return url;
   }
 
-  const homePath = de ? "de/index.html" : "index.html";
-  const helpPath = "help/index.html";
-  const academyPath = "academy/index.html";
+  const homePath = fi ? "fi/index.html" : de ? "de/index.html" : "index.html";
+  const helpPath = fi ? "fi/help/index.html" : "help/index.html";
+  const academyPath = fi ? "fi/academy/index.html" : "academy/index.html";
   const releaseNotesPath = "docs/release-notes.html";
 
-  const labels = de
+  const labels = fi
+    ? {
+        help: "Ohje",
+        academy: "Academy",
+        docs: "Docs",
+        docsTitle: "Kehittäjädokumentaatio — tulossa pian",
+        releaseNotes: "Julkaisutiedot",
+        learn: "Opi",
+        academyLink: "Buddy Academy",
+        helpLink: "Ohje",
+        docsLink: "Kehittäjädokumentaatio",
+        docsSoon: "Tulossa pian",
+        legal: "Juridiset",
+        privacy: "Tietosuoja",
+        terms: "Ehdot",
+        contact: "Yhteys",
+        product: "Tuote",
+        beta: "Beta vain kutsulla",
+        feedback: "Palaute",
+        version: "Versio",
+        docsVersion: "Dokumentaation versio",
+        updated: "Päivitetty",
+        subHelp: "Ohje",
+        subAcademy: "Academy",
+        subDocs: "Docs",
+        subRelease: "Julkaisutiedot",
+        subSite: "Ohjesivusto",
+        searchSoon: "Haku (tulossa pian)",
+        tagline: "Autamme rakentamaan terveellisempiä tapoja joka päivä.",
+      }
+    : de
     ? {
         help: "Hilfe",
         academy: "Academy",
@@ -131,11 +169,28 @@
     <span class="help-nav__soon" title="${labels.docsTitle}" aria-disabled="true">${labels.docs}</span>
   `;
 
+  function counterpart(targetLang) {
+    const rest = restPath();
+    if (targetLang === "en") return rest;
+    if (targetLang === "fi") return "fi/" + rest;
+    const deMap = {
+      "index.html": "de/index.html",
+      "help/home.html": "de/home.html",
+      "help/foodiary.html": "de/foodiary.html",
+      "help/cheatsheet.html": "de/cheatsheet.html",
+      "help/nav.html": "de/nav.html",
+      "docs/index.html": "de/documentation.html",
+      "docs/release-notes.html": "de/whats-new.html",
+      "help/index.html": "de/index.html",
+    };
+    return deMap[rest] || "de/index.html";
+  }
+
   const langSwitch = `
     <div class="help-lang-switch" role="group" aria-label="Language">
-      <a class="help-lang" href="${href("index.html")}" data-set-lang="en" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
-      <a class="help-lang" href="${href("de/index.html")}" data-set-lang="de" ${lang === "de" ? 'aria-current="true"' : ""}>DE</a>
-      <span class="help-lang help-lang--soon" title="Suomi — coming soon" aria-disabled="true">FI</span>
+      <a class="help-lang" href="${href(counterpart("en"))}" data-set-lang="en" ${lang === "en" ? 'aria-current="true"' : ""}>EN</a>
+      <a class="help-lang" href="${href(counterpart("de"))}" data-set-lang="de" ${lang === "de" ? 'aria-current="true"' : ""}>DE</a>
+      <a class="help-lang" href="${href(counterpart("fi"))}" data-set-lang="fi" ${lang === "fi" ? 'aria-current="true"' : ""}>FI</a>
     </div>`;
 
   const sub =

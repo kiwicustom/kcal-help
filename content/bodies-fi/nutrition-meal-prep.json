@@ -1,0 +1,73 @@
+{
+  "intro": "Aterioiden ennakkovalmistelu on tulevien päätösten eräajoa. Muutama rasia proteiinia, kasveja ja fiksua hiilaria muuttaa kaoottiset arjet automaattisiksi voitoiksi.",
+  "time": "9 min",
+  "buddyTip": "Valmista komponentteja, ei seitsemäätoista uniikkia valmista lautasta — sekoita ja yhdistele, niin kyllästyminen pysyy loitolla.",
+  "mission": "Kokkaa yksi proteiinierä ja yksi kuitulisuke, joita voit käyttää kahteen lounaaseen; kirjaa tämän päivän annos tarkasti öljy mukaan lukien.",
+  "why": [
+    "Valmistelu iskee samaan ongelmaan kuin ateriasuunnittelu: tyhjän jääkaapin illat. Se on erityisen vahva työlounaisiin, joissa oletukset muuten muuttuvat leivonnaisiksi ja arvailuksi.",
+    "Valmistelu kaatuu, kun se on liian kunnianhimoista tai kun ruoan laatu kuolee päivään kolme. Aloita pienestä: yksi proteiini, yksi hiilari, kaksi kasvista — 60–90 minuuttia kerran tai kahdesti viikossa.",
+    "Valmistetun ruoan kirjaaminen merkitsee silti. Kotitekoinen ei ole automaattisesti seurattu. Punnitse edustava annos kerran, jotta Buddyn arviot vastaavat rasioitasi."
+  ],
+  "what": {
+    "lead": "Valmistelu, joka selviää oikeista viikoista.",
+    "points": [
+      "Komponenttivalmistelu > monipäiväiset maistelumenut",
+      "Jäähdytä turvallisesti; laita jääkaappiin nopeasti; pakasta ylimääräiset",
+      "Kastikkeet erilleen, jotta ei tule vetisyyttä",
+      "Merkitse rasioihin karkeat grammat, jos se auttaa",
+      "Jätä yksi joustava illallinen valmistamatta tuoreuden ja seurustelun takia"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Ennakkovalmistelu vaatii täydellisen sunnuntain ja identtiset ateriat joka päivä.",
+        "truth": "Lyhyet keskiviikon täydennyskokkaukset lasketaan myös. Vaihtelu voi tulla mausteista ja lisukkeista."
+      },
+      {
+        "myth": "Jos teen ennakkovalmistelua, minun ei tarvitse kirjata.",
+        "truth": "Kirjaat silti annokset. Valmistelu tekee annoksista helpompia — se ei korvaa Foodiarya."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Pidä pienin toimiva valmistelusessio.",
+    "steps": [
+      "Valitse proteiini (kana, jauheliha, tofu, munat, linssit) ja kokkaa erä",
+      "Paahda tai höyrytä kaksi kasvista; kokkaa hiilariperusta",
+      "Annostele rasioihin oikean nälkäsi kokoisina — ei ihanepikkulaatikoina",
+      "Mittaa kokkauksessa käytetty öljy ja jaa se annoksille kirjatessa",
+      "Aikatauluta 20 minuutin keskiviikon täydennys jos tarvitset",
+      "Syöntipäivinä: laita lautaselle, kirjaa, jatka"
+    ],
+    "buddyHelps": "Toistokirjaukset nopeutuvat, kun ateriamalli on olemassa. Ateriasuunnitelma voi peilata valmistelun aikomusta; Koti tallentaa, kun syöt rasian."
+  },
+  "sections": [
+    {
+      "title": "Turvallisuus ja laatu",
+      "paras": [
+        "Käytä matalia rasioita, laita jääkaappiin kahden tunnin sisällä ja noudata järkeviä tähdeaikoja. Kun olet epävarma, pakasta.",
+        "Kuumenna kunnolla. Tekstuuriongelmia? Pidä rapeat lisät (tuore kasvis, jogurtti) päivälle."
+      ]
+    },
+    {
+      "title": "Perhevalmistelu",
+      "paras": [
+        "Kokkaa jaettu pohja; räätälöi lasten tai puolison lautaset lopussa. Yksi keittiösessio, monta tulosta — Scale Health Success eväsrasiassa."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Valmistelin viisi identtistä kuivaa kanarasiaa ja lopetin keskiviikkona.",
+      "why": "Kyllästyminen on ennustettavaa. Komponentit + kastikkeet + kierto korjaavat tämän."
+    },
+    {
+      "quote": "Arvasin öljyn nollaksi, koska se oli ennakkovalmistelua.",
+      "why": "Eräöljy päätyy silti jokaiseen rasiaan. Jaa se."
+    },
+    {
+      "quote": "Käytin viisi tuntia valmisteluun ja paloin loppuun.",
+      "why": "Ylirakentaminen tappaa tavan. Kutista sessio, kunnes se tuntuu helpolta."
+    }
+  ],
+  "encouragement": "Yksi proteiinierä jääkaapissa on ystävällisyys keskiviikon sinulle. Aloita siitä — erinomaisuus on valinnaista; toistettavuus ei."
+}

@@ -1,0 +1,73 @@
+{
+  "intro": "Matka rikkoo rutiinit — kentät, hotellit, vieraat kaupat. Onnistuminen tarkoittaa kevyempää rituaalia, jota voit pitää, ei täydellistä kotikloonia.",
+  "time": "8 min",
+  "buddyTip": "Pakkaa proteiinivara (kuivaliha, rahka, tonnikalapussit, proteiinijogurtti, etukäteen lasketut pähkinät), jotta viivästykset eivät pakota kaaosta.",
+  "mission": "Seuraavalle matkapäivälle kirjoita etukäteen: aamiaisen oletus, proteiinivara ja “kirjaa jokainen ateria samana päivänä.”",
+  "why": [
+    "Matkaviikot opettavat Buddylle oikeasta elämästäsi. Niiden piilottaminen luo väärän lähtötason. Kirjaaminen tiellä on ammattitaito pitkän ajan terveyteen.",
+    "Rajoitteet muuttuvat: minijääkaapit, noutopöytäaamiaiset, asiakasillalliset, kaupunkikävelyn askeleet, univaje. Säädä odotuksia — pidä tallennus.",
+    "Scale Health Success sisältää perheet lomalla. Jaetut yksinkertaiset oletukset voittavat yksilölliset romahdusdieetit, jotka pilaavat reissun."
+  ],
+  "what": {
+    "lead": "Matkan perusasiat.",
+    "points": [
+      "Saman päivän kirjaaminen voittaa reissun lopun jälleenrakennuksen",
+      "Hotelliaamiainen: rakenna proteiinilautanen ensin",
+      "Askeleet usein nousevat — älä silti kohtele puettavan laitteen kulutusta rajattomana ilmaisruokana",
+      "Nesteytys putoaa koneessa — juo ja kirjaa vesi",
+      "Yksi joustava ravintolasääntö estää kaikki-tai-ei-mitään-kierteet"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Matkaviikot eivät laske — aloitan maanantaina kotona.",
+        "truth": "Elämään kuuluu matka. Harjoittele kevyttä rituaalia nyt, jotta maanantai ei ole myytti."
+      },
+      {
+        "myth": "Minun on löydettävä täysi keittiö tai olen epäonnistunut.",
+        "truth": "Proteiini-oletukset + rehelliset arviot + kävely riittävät moniin reissuihin."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Valmista matkakortti muistiinpanoihin ennen lähtöä.",
+    "steps": [
+      "Listaa proteiinivarat, jotka läpäisevät turvatarkastuksen / sopivat määränpäähän",
+      "Tunnista kauppa hotellin lähellä jogurtille, hedelmille, valmiille kasviksille",
+      "Aseta kirjaushälytys, jos aikavyöhykkeet sekoittavat illat",
+      "Käytä äänikirjausta, kun kirjoittaminen on kömpelöä junassa",
+      "Pidä punnitukset valinnaisina, jos hotellin vaaka on hölynpölyä — jatka kotona",
+      "Viikkokatsaus matkan jälkeen: mikä toimi mallina ensi kerralla?"
+    ],
+    "buddyHelps": "Ääni ja kamera sopivat matkalle luontevasti. Koti pysyy työpöytänä myös toisessa kaupungissa. Edistyminen näyttää viikon vaatimatta täydellisyyttä."
+  },
+  "sections": [
+    {
+      "title": "Noutopöydät ja konferenssit",
+      "paras": [
+        "Yksi lautanen, proteiini ja kasvit ensin, sitten suunniteltu herkku jos haluat. Kahvitauot lasketaan — kirjaa leivonnaiset.",
+        "Seisovat noutopöydät kannustavat laiduntamaan; istu valmiin lautasen kanssa, jotta tulee loppumerkki."
+      ]
+    },
+    {
+      "title": "Treeni tiellä",
+      "paras": [
+        "Lyhyet kehonpaino- tai hotellitreenit pitävät identiteetin. Sovi hiilarit siihen mitä oikeasti teet — ei loman fantasiatreeniin."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Muistan kaiken ja kirjaan kun olen kotona.",
+      "why": "Et muista. Annokset ja välipalat katoavat muistista. Kirjaa samana päivänä."
+    },
+    {
+      "quote": "Kävelin 20k askelta, joten kaloreilla ei ollut väliä.",
+      "why": "Askeleet auttavat; nestemäiset kalorit ja ravintolaöljyt kasvavat silti. Pidä karkea rehellisyys."
+    },
+    {
+      "quote": "Rajoitin kovasti matkalla ja söin illalla yli.",
+      "why": "Ruoki matkapäivät maltillisesti. Äärimmäinen säästäminen kostautuu."
+    }
+  ],
+  "encouragement": "Reissu epätäydellisillä kirjauksilla opettaa Buddylle silti. Ota kevyt rituaali mukaan — se on Johdonmukaisuus ennen intensiteettiä liikkeessä."
+}

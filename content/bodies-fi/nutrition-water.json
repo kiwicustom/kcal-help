@@ -1,0 +1,72 @@
+{
+  "intro": "Vesi on palautumistyötä. Nesteytys tukee energiaa, ruoansulatusta, treeniä ja selkeämpää ajattelua — ja se on yksi helpoimmista päivän voitoista kirjata.",
+  "time": "7 min",
+  "buddyTip": "Ota lasi aamulla etupainotteisesti ja parita vesi jokaiseen ateriaan, jotta et kuro kiinni kello 21.",
+  "mission": "Kirjaa vesi Kodissa aterioiden kanssa tänään — tähtää tasaisiin siemauksiin, ei myöhäiseen hörppyyn.",
+  "why": [
+    "Lievä kuivuminen tuntuu usein väsymykseltä, päänsäryltä tai napostelunälältä. Ihmiset tarttuvat ruokaan, kun lasillinen vettä ja tauko olisi auttanut. Nesteytys ei korvaa unta tai proteiinia — mutta se poistaa yleisen väärän signaalin.",
+    "Kuitu tarvitsee nestettä. Treeni tarvitsee nestettä. Helteet ja lentomatkat nostavat tarvetta. Kiinteä “kahdeksan lasia” -myytti on vähemmän hyödyllinen kuin joustava juominen plus vaalea oljenkeltainen virtsa karkeana oppaina (lääkkeet ja vitamiinit voivat muuttaa väriä).",
+    "Veden kirjaaminen rakentaa samaa rehellisyyslihasta kuin ruoan kirjaaminen. Se on matalan panoksen tapa pitää päivän rituaali elossa."
+  ],
+  "what": {
+    "lead": "Nesteytyksen perusasiat ilman hyvinvointiteatteria.",
+    "points": [
+      "Juo päivän mittaan; jättimäiset myöhäisbolukset tarkoittavat lähinnä yöllisiä vessareissuja",
+      "Jano, ilmasto, hiki ja ruokavalio (suolainen/runsas kuitu) muuttavat tarvetta",
+      "Tee ja kahvi tuovat nestettä useimmille; alkoholi kuivattaa suhteessa",
+      "Elektrolyytit merkitsevät enemmän kovassa hikoilussa tai pitkässä kestävyydessä — ei joka toimistopäivä",
+      "Veden kirjaaminen on tapanäyttö, ei kilpailu"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos olen nälkäinen, olen aina oikeasti janoinen.",
+        "truth": "Joskus totta, ei aina. Tarkista vesi, sitten proteiinin/kuidun ajoitus — molemmat merkitsevät."
+      },
+      {
+        "myth": "Vain pelkkä vesi lasketaan.",
+        "truth": "Makeuttamaton tee/kahvi lasketaan yleensä nesteeseen. Sokerijuomat lisäävät energiaa, joka kuuluu kirjata saantina."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Kiinnitä vesi olemassa oleviin rutiineihin.",
+    "steps": [
+      "Lasi herätessä; vesi näkyvillä työpöydällä tai kassissa",
+      "Juo jokaisen kirjatun aterian kanssa",
+      "Käytä Kodin veden pikatoimintoa, jotta nesteytys pysyy samalla päivän työpöydällä",
+      "Treenipäivinä juo ennen kuin olo on loppu — ei vain jälkeen",
+      "Jos illat ovat kuivsuiset, siirrä saantia aiemmaksi sen sijaan että hörpit sängyssä"
+    ],
+    "buddyHelps": "Kodin vesitoiminnot pitävät nesteytyksen aterioiden kirjaamisen vieressä. Palautumismielinen valmennus kohtelee vettä osana Health Operating Systemia, ei jälkiajatuksena."
+  },
+  "sections": [
+    {
+      "title": "Vaa’an paino ja vesi",
+      "paras": [
+        "Korkeamman hiilarin tai suolan päivät pidättävät enemmän vettä. Se ei ole hetkellistä rasvaa. Nesteytyksen tila myös siirtää aamupainoa.",
+        "Käytä viikketrendejä rasvanpudotuspäätöksiin; käytä päivän vettä siihen, miltä sinusta tuntuu."
+      ]
+    },
+    {
+      "title": "Matka ja helle",
+      "paras": [
+        "Koneet ja helle nostavat tarvetta hiljaa. Kanna pulloa ja tilaa vesi ulkona syödessä — tylsää, tehokasta."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Join kaksi litraa kerralla “kuroakseni kiinni”.",
+      "why": "Bolukset ovat epämukavia ja huonosti ajoitettuja. Tasainen saanti voittaa."
+    },
+    {
+      "quote": "Korvasin ateriat vedellä laihtuakseni nopeammin.",
+      "why": "Se on rajoittamista, ei nesteytysstrategiaa. Se haittaa treeniä ja kutsuu vastaiskun."
+    },
+    {
+      "quote": "Ohitan veden, koska se ei ole makro.",
+      "why": "Palautumisen ravinteisiin kuuluu neste. Parempi olo parantaa kaiken muun noudattamista."
+    }
+  ],
+  "encouragement": "Siemaise päivän mittaan ja kirjaa ilman draamaa. Nesteytys on yksi lempeimmistä tavoista, jotka voit automatisoida."
+}

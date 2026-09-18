@@ -1,0 +1,71 @@
+{
+  "intro": "Proteiini on ravintoaine, joka tukee luotettavimmin lihasta, palautumista ja kylläisyyttä. Tee siitä päivittäinen tapa, ei viikonlopun sankariateria.",
+  "time": "8 min",
+  "buddyTip": "Ankkuroi jokainen pääateria selkeään proteiininlähteeseen ennen kuin lisäät muun lautasen.",
+  "mission": "Tee tänään proteiinipainotteinen lounas ja kirjaa se — huomaa iltapäivän nälkä sen jälkeen.",
+  "why": [
+    "Riittävä proteiini auttaa säilyttämään rasvatonta massaa kalorivajeessa ja tukee korjausta kun treenaat. Se myös yleensä lisää kylläisyyttä, mikä tekee energiabudjetista helpomman elää.",
+    "Moni “syö terveellisesti” ja silti lipuu matalalle proteiinissa, koska aamiaiset ovat leipäpainotteisia, lounaat pelkkää salaattia ja illallinen kantaa suurimman osan päivän proteiinista liian myöhään auttaakseen nälkää aiemmin.",
+    "Proteiinin laatu ja jakautuminen merkitsevät. Proteiinin hajauttaminen aterioille voittaa yleensä yhden jätti-illan iskun mukavuudessa ja lihasproteiinisynteesin signaaleissa — etenkin kun mukana on leusiinipitoisia lähteitä."
+  ],
+  "what": {
+    "lead": "Käytännön proteiinilukutaito.",
+    "points": [
+      "Ajattele ankkureina: munat, maitotuotteet/rahka, kala, siipikarja, vähärasvainen liha, tofu/tempeh, palkokasvit + täydentävät ruoat",
+      "Ateriakohtaiset taulut voittavat usein “kuroan illalla kiinni”",
+      "Kasvipohjaiset kuviot toimivat — suunnittele yhdistäminen ja kokonaismäärä huolella",
+      "Proteiiniruoissa on silti kaloreita; ne eivät ole ilmaisia",
+      "Johdonmukaisuus viikon yli merkitsee enemmän kuin yksi täydellinen päivä"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Enemmän proteiinia on aina parempi — syön 300 g.",
+        "truth": "Ääripäät syrjäyttävät kuidun ja mikroravinteet ja ovat vaikeita pitää. Tähtää riittävään, hajautettuun ja nautittavaan."
+      },
+      {
+        "myth": "Jos nostelen, proteiinijauhe on pakollinen.",
+        "truth": "Jauhe on kätevä työkalu. Ruoka ensin toimii; jauhe auttaa, kun arki on kiireinen."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Suunnittele oletuksia, ei tahdonvoimahetkiä.",
+    "steps": [
+      "Valitse oletusproteiini aamiaiselle (munat, skyr/rahka, proteiinijogurtti, tofuskramble)",
+      "Rakenna lounaat kämmenen kokoisen proteiiniannoksen ympärille, jonka voit toistaa",
+      "Osta viikon proteiinilista ennen välipaloja",
+      "Kirjaa proteiinia sisältävät ruoat huolella — Buddyn arviot paranevat, kun vahvistat annokset",
+      "Katso Edistymistä viikoittain proteiinin johdonmukaisuuden, ei vain kalorien takia"
+    ],
+    "buddyHelps": "Buddy ja Foodiary nostavat proteiinin energian rinnalle, jotta voit valmentaa lautasta, ei vain summaa. Edistymisen trendit näyttävät, tarttuvatko ankkurit."
+  },
+  "sections": [
+    {
+      "title": "Nälkä ja mukana pysyminen",
+      "paras": [
+        "Jos olet “hyvä kaloreissa” mutta susinälkäinen, tarkista proteiini ja kuitu ennen lisäleikkausta. Aliruokitut, matalan proteiinin päivät tuntuvat luonteen epäonnistumiselta, kun ne ovat usein lautasen suunnittelun epäonnistumista."
+      ]
+    },
+    {
+      "title": "Treenipäivät",
+      "paras": [
+        "Parita treeni proteiinia sisältäviin aterioihin sessioiden ympärillä kun voit. Et tarvitse täydellisyyttä — tarvitset toistettavia kuvioita."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Salaatti ja muutama katkarapu oli korkean proteiinin lounaani.",
+      "why": "Koristeproteiini ei ole annos. Punnitse tai arvioi varsinainen proteiiniruoka."
+    },
+    {
+      "quote": "Säästin kaiken proteiinin jättipihviin illalla.",
+      "why": "Jakautuminen auttaa päivän nälkää ja treeniä. Jaa aterioille kun voit."
+    },
+    {
+      "quote": "Kasviproteiini ei laske.",
+      "why": "Se laskee. Suunnittele kokonaismäärät ja täydentävät lähteet; älä sivuuta sitä äläkä oleta, että pienet annokset riittävät."
+    }
+  ],
+  "encouragement": "Yksi proteiiniankkuri ateriaa kohden on hiljainen supervoima. Toista, kunnes Buddyn viikkonäkymä näyttää rauhallisen vihreältä useammin kuin ei."
+}

@@ -58,7 +58,7 @@ Generator looks up `help-site/content/bodies/{id}.json` by catalog page `id` (He
 
 - Coach voice: short paragraphs, plain language, science-based without jargon walls
 - Actionable — every lesson should leave one clear next action
-- English only (FI/DE product context still ships English Academy bodies in Phase 2)
+- English plus Finnish (`content/bodies-fi/`) and German hub pages. Enable FI in `js/shell.js`.
 - No marketing buzzwords; no shame language
 - Target ~400–900 words equivalent across all fields per lesson
 - Align with product beliefs: Progress over Perfection, Knowledge over Guessing, Honesty over Shame, Health Operating System, Scale Health Success

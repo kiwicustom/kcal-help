@@ -1,0 +1,74 @@
+{
+  "intro": "Spacet ovat yksityisiä, vain kutsulla toimivia säiliöitä — perhe, ystävät, tiimit, valmentajat paranevat yhdessä. Buddy valmentaa silti sinua. Foodiarysi pysyy sinun.",
+  "time": "6 min",
+  "buddyTip": "Mitään ei jaeta automaattisesti. Kaverit näkevät, että näyttäydyit — eivät koskaan kaloreitasi, painoasi tai Foodiarya.",
+  "mission": "Avaa Spaces osoitteessa beta.kcal.lol, liity Beta Testers vol 1.0:aan tai Spaceen johon kuulut, ja käy Koti · Seinä · Haasteet · Edistyminen · Ihmiset. Asetukset on hammasratas.",
+  "why": [
+    "Buddy auttaa sinua. Spacet auttavat meitä. Coach Desk (myöhemmin) auttaa monia. Yhdessä se on Health Operating System.",
+    "Et koskaan selaa, hae tai löydä Spaceja. Näet vain Spacet, joihin kuulut. Vain kutsu.",
+    "Yksityisyys on pyhä. Jaa osallistuminen jos haluat. Kalorit, makrot, paino ja Foodiary pysyvät yksityisinä."
+  ],
+  "what": {
+    "lead": "Viisi ruutua. Yksi kysymys kussakin. Sama jokaisessa Spacessa.",
+    "points": [
+      "Koti — Mitä ME teemme tänään? Pääkuva, tiimin kasvot, haaste, Buddy (yksi lause), Avaa Foodiary, Tsemppaa ❤️.",
+      "Seinä — Mitä tänään tapahtui? Oikeat kirjautumiset, liittymiset ja tsemppi. Ei chatti. Ei keksittyjä tarinoita.",
+      "Haasteet — Mitä yritämme saavuttaa? Nykyinen missio, sitten helpot 5 päivän portaat (Seinä, Kludos, näyttäytyminen, vesi, kävely) oikeista postauksista. Historia kun jakso päättyy.",
+      "Edistyminen — Miten ME parannumme? Johdonmukaisuus, osallistuminen, haaste — ei koskaan kaloripistetaulu.",
+      "Ihmiset — Kuka tekee tätä yhdessä? Kasvot, nimi, tänään, viimeisin oikea saavutus, Tsemppaa ❤️.",
+      "Asetukset (hammasratas) — Mitä haluan jakaa? Kutsu asuu täällä myös."
+    ],
+    "misconceptions": [
+      {
+        "myth": "Spacet tarkoittavat julkista somea kaloreilleni.",
+        "truth": "Spacet ovat tahallisia ryhmiä. Sinä hallitset kontekstin ja jäsenyyden. Kaloreita ei näy koskaan."
+      },
+      {
+        "myth": "Jos olen Spacessa, minun on oltava täydellinen muille.",
+        "truth": "Rehellisyys ennen häpeää pätee yhä. Oikeat kaverit suosivat totuutta teatterin sijaan."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Aloita ihmisistä, jotka kutsuisit oikeassa elämässä.",
+    "steps": [
+      "beta.kcal.lol:ssa avaa Valikko → Spaces",
+      "Liity Beta Testers vol 1.0:aan (avoin porukka) tai luo yksi Space — Julkinen tai Yksityinen",
+      "Kutsu vain ihmisiä, jotka oikeasti tunnet — kukaan ei selaa sisään",
+      "Näyttäydy Foodiaryssa. Läsnäolo palaa Spaceen",
+      "Tsemppaa hiljaista kaveria Kodista tai Ihmisistä",
+      "Poistu Asetuksista, jos Space lakkaa tuntumasta turvalliselta"
+    ],
+    "buddyHelps": "Buddy pysyy henkilökohtaisena valmentajana. Spacet lisäävät kuulumista. Yhdessä ne tukevat Health Operating Systemin sosiaalista kerrosta."
+  },
+  "sections": [
+    {
+      "title": "Perhe-Spacet",
+      "paras": [
+        "Ihmiset ensin. Tsempatkaa toisianne. Älkää kilpailko painosta tai kaloreista kotona.",
+        "Suojaa lasten arvokkuus — Spacet eivät ole paikka julkiselle kaloripoliisille."
+      ]
+    },
+    {
+      "title": "Valmentajan tukemat Spacet",
+      "paras": [
+        "Valmentajat tukevat ryhmää samasta Space-moottorista. Coach Desk (ketä tarvitset nyt) ei ole vielä julkaistu. He eivät omista Foodiaryasi. Jaa osallistuminen; pidä yksityiset kirjaukset hallinnassasi."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Puhalsin kirjauksiani, jotta ryhmä vaikuttuisi.",
+      "why": "Se rikkoo Edistymisesi ja ryhmän luottamuksen. Rehellisyys skaalautuu paremmin."
+    },
+    {
+      "quote": "Liityin kymmeneen Spaceen enkä sitoutunut yhteenkään.",
+      "why": "Kuuluminen tarvitsee fokuksen. Yksi aktiivinen Space voittaa kymmenen merkkiä."
+    },
+    {
+      "quote": "Joku häpäisi viikonloppuni — joten lopetin kirjaamisen.",
+      "why": "Väärä kulttuuri. Puhu normeista tai poistu. Älä hylkää päiväkirjaasi."
+    }
+  ],
+  "encouragement": "Terveyden kuuluu levitä. Aloita ihmisistä, joiden kanssa näyttäytyminen on helpompaa — se on jo Scale Health Success."
+}

@@ -1,0 +1,73 @@
+{
+  "intro": "Leusiini on aminohappo, joka auttaa käynnistämään lihasproteiinisynteesiä. Sinun ei tarvitse vatvoa milligrammoja — tarvitset aterioita, jotka tuovat luontevasti tarpeeksi laadukasta proteiinia.",
+  "time": "8 min",
+  "buddyTip": "Kun valitset proteiinia, kysy: “Onko tämä oikea annos leusiinipitoista ruokaa — vai ripaus?”",
+  "mission": "Rakenna yksi ateria leusiinipitoisen proteiinin ympärille (maitotuote, munat, kala, liha tai hyvin suunniteltu soijavaihtoehto) ja kirjaa annos.",
+  "why": [
+    "Lihakselle ei riitä, että “jotain proteiinia” ilmestyi tänään. Riittävä ateriakohtainen annos välttämättömiä aminohappoja — leusiini niiden joukossa — auttaa signaloimaan korjausta ja kasvua, etenkin treenin ja ikääntymisen rinnalla.",
+    "Siksi 5 g proteiinia sisältävä jogurtti ja 30 g proteiinia sisältävä rahkakulho eivät ole vaihdettavaa valmennusneuvoa. Jälkimmäinen ylittää todennäköisemmin käytännön leusiinikynnyksen sillä aterialla.",
+    "kCal Buddy puhuu leusiinista, koska ruoan laatu on osa totuutta. Samat kalorit ja jopa samankaltaiset proteiinin grammat voivat erota aminohappoprofiilissa ja arjen vaikutuksessa."
+  ],
+  "what": {
+    "lead": "Leusiinilukutaito ilman lisäravinnehypeä.",
+    "points": [
+      "Eläinproteiinit ja maitotuotteet ovat tyypillisesti leusiinitiheitä kaloria kohden",
+      "Soija voi olla vahva kasvivaihtoehto; monet muut kasvit tarvitsevat isompia annoksia tai yhdistämistä",
+      "Ateriakohtaiset proteiinitaulut hoitavat yleensä leusiinin ilman suoraa seurantaa",
+      "3–4 proteiinia sisältävää ateriaa hajautettuna voittaa yhden myöhäisen piikin useimmilla",
+      "Lisäravinteet ovat valinnaisia työkaluja — ruokakuviot tulevat ensin"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Minun on ostettava leusiinipillereitä edistyäkseni.",
+        "truth": "Useimmat täyttävät tarpeen syömällä riittäviä laadukkaita proteiiniannoksia. Pillerit ovat erikoistapaus, eivät edellytys."
+      },
+      {
+        "myth": "Mikä tahansa “25 g proteiinia” -patukka on automaattisesti leusiinioptimaalinen.",
+        "truth": "Tarkista proteiinin oikea laatu ja miltä sinusta tuntuu. Osa patukoista on karkkia proteiiniväitteellä — ok joskus, ei päivittäinen strategia."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä leusiinia linssinä aterian suunnitteluun, ei uutena taulukkokolumnina.",
+    "steps": [
+      "Valitse proteiiniruoat, joista pidät ja joita voit toistaa",
+      "Tähtää tyydyttävään proteiiniannokseen aamiaisella ja lounaalla — ei vain illallisella",
+      "Kasvipainotteisina päivinä kasvata annosta tai lisää soijaa/maitotuotetta, jos kuviosi sallii",
+      "Treenin ympärillä pidä tavallinen proteiinipitoinen ateria tai välipala rutiinissasi",
+      "Kirjaa rehellisesti, jotta viikon Edistyminen heijastaa oikeaa proteiinin johdonmukaisuutta"
+    ],
+    "buddyHelps": "Buddy painottaa proteiinipainotteisia aterioita ja opettaa ruoan laatua. Sinä valmennat lautasia; Buddy pitää päiväkirjan ja trendit rehellisinä."
+  },
+  "sections": [
+    {
+      "title": "Ikääntyminen ja treeni",
+      "paras": [
+        "Vanhemmat aikuiset tarvitsevat usein tietoisempaa ateriakohtaista proteiinia lihasproteiinisynteesin virittämiseen. Leusiinitietoinen ateriasuunnittelu on käytännön pitkäikäisyystyötä.",
+        "Nostelijat hyötyvät myös — mutta palautuminen, kokonaisenergia ja uni merkitsevät yhä. Leusiini on yksi signaali, ei taikakytkin."
+      ]
+    },
+    {
+      "title": "Yksinkertaisia ruokaesimerkkejä",
+      "paras": [
+        "Munat, skyr/rahka, raejuusto, maitopohjaiset proteiinit, kala, siipikarja, vähärasvaiset lihat ja tofu/tempeh ovat tavallisia palikoita.",
+        "Rakenna ateria sen palikan ympärille, lisää sitten kuitupitoisia kasviksia ja fiksut hiilarit/rasvat budjetin loppuun."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Ripottelin juustoa salaattiin leusiinin takia.",
+      "why": "Ripaukset harvoin osuvat hyödylliseen ateriakohtaiseen annokseen. Käytä kunnollista proteiiniannosta."
+    },
+    {
+      "quote": "Otan jättiannoksen heraa illalla ja syön vähän proteiinia koko päivän.",
+      "why": "Yksi piikki ei korvaa hajautettuja aterioita nälässä tai toistuvissa lihasproteiinisynteesin signaaleissa."
+    },
+    {
+      "quote": "Leusiini tarkoittaa, että voin ohittaa kokonaiskalorit.",
+      "why": "Aminohappojen laatu istuu energiatasapainon päälle — se ei korvaa sitä."
+    }
+  ],
+  "encouragement": "Et tarvitse laboratoriovihkoa. Tarvitset tyydyttäviä proteiiniannoksia useimpiin aterioihin. Se on leusiinistrategia arjessa."
+}

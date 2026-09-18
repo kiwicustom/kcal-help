@@ -1,0 +1,95 @@
+{
+  "intro": "Kuva on usein nopeampi kuin kirjoittaminen. Osoita lautasta tai pakattua ruokaa, katso mitä Buddy tunnistaa, valitse sitten minne se menee.",
+  "time": "7 min",
+  "buddyTip": "Pakkauksissa pidä viivakoodi, QR tai painettu EAN kehyksessä. Lautasilla kuvaa ylhäältä kelvollisessa valossa ja mainitse piilossa olevat öljyt vahvistaessa.",
+  "mission": "Skannaa yksi pakattu ruoka ja lähetä se tasan yhteen paikkaan: Foodiaryyn, Pikaruokaan, varastoon tai ostoslistalle. Kirjaa myös yksi lautasateria kamerasta tai galleriasta.",
+  "why": [
+    "Monimutkaisia lautasia on vaikea kirjoittaa. Kuva antaa Buddylle jotain konkreettista arvioitavaksi, kun jatkat syömistä, vanhemmuutta tai työmatkaa.",
+    "Pakatuilla ruoilla on jo identiteetti. Yhden skannauksen pitäisi riittää syömiseen, muistamiseen, varastoon tai ostamiseen — ilman neljän ruudun etsintää.",
+    "Kamerakirjaus vaatii silti ihmisen arvion. Tunnistus voi missata kastikkeet, öljyt, juomat lautasen vieressä tai toiset annokset. Vahvistuksesi suojaa rehellisyyttä.",
+    "Galleria auttaa, kun unohdit kirjata hetkessä mutta sinulla on vielä kuva — parempi kuin pelkkä muistin jälleenrakennus.",
+    "Sekoitetut lautaset (noutopöydät, jaetut tapakset) tarvitsevat annostarinasi vahvistaessa. Kamera näkee pöydän; sinä tiedät osuutesi."
+  ],
+  "what": {
+    "lead": "Kameravirran perusasiat.",
+    "points": [
+      "Käytä kameran tai gallerian pikatoimintoa Kodissa",
+      "Pakkauksen viivakoodi, QR, painettu EAN tai etikettiteksti avaavat saman pakkauskortin",
+      "Valitse Syö (Foodiary), Muista (Pikaruoka), Kaapissa (varasto) tai Osta (ostoslista)",
+      "Lautaskuvat jäävät syö + ota uudelleen -polulle — kulho ei ole viivakoodi",
+      "Vahvista annokset ja puuttuvat rasvat/juomat ennen aterian tallennusta",
+      "Muokkaa myöhemmin Foodiaryssa, jos opit lisää"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Pelkkä kuva on täydellinen ravintototuus.",
+        "truth": "Näköarviot auttavat; annokset ja piilorasvat tarvitsevat silti sinua."
+      },
+      {
+        "myth": "Pakkauksen skannaus kirjaa sen syödyksi.",
+        "truth": "Mitään ei kirjoiteta, ennen kuin valitset määränpään. Syö, muista, kaapissa ja osta ovat eri töitä."
+      },
+      {
+        "myth": "Sumeat kuvat riittävät — tekoäly selvittää.",
+        "truth": "Selkeät lautaset tuottavat parempia ehdotuksia. Ota uudelleen kun voit."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Tee kuvakirjaamisesta siisti tapa.",
+    "steps": [
+      "Rajaa koko ateria, tai pidä pakkauksen viivakoodi / QR / painettu EAN näkyvissä",
+      "Odota pakkauskorttia, tai kuvaa ennen kuin tuhoat lautasaterian",
+      "Valitse pakkaukselle yksi määränpää — tai vahvista Buddyn lautashahmotelma",
+      "Lisää ääni- tai tekstimuistiinpanot öljylle, voille, kastikkeille, juomille",
+      "Tallenna; älä tuplakirjaa samaa lautasta Foodiaryyn käsin"
+    ],
+    "buddyHelps": "Buddy tunnistaa pakkauksen kerran, sitten olemassa oleva Foodiary, Pikaruoka, varasto ja ostoslista tekevät työn. Lautasilla olet päätoimittaja vahvistaessa."
+  },
+  "sections": [
+    {
+      "title": "Pakattu ruoka",
+      "paras": [
+        "Osoita viivakoodin palkkeja, tuotteen QR:ää tai painettua EAN / GTIN-koodia. Buddy hakee pakkauksen kerran ja näyttää saman kortin. Valitse sitten tasan yksi: Tallenna Foodiaryyn (söit sen), Tallenna Quick Foodiksi (syöt sitä usein — tänään ei kirjata mitään), Lisää varastoon (sinulla on se) tai Ostoslistalle (ostat sen). Skannaa seuraava pitää kameran ylhäällä.",
+        "Jos Buddy ei tunne pakkausta, kuvaa merkintä tai jatka. Älä keksi ruokaa. Kuitikuvat käyttävät yhä kuittivirtaa — Lisää varastoon siellä on sama varastokirjanpito kuin kaapin viivakoodissa."
+      ]
+    },
+    {
+      "title": "Merkinnät ja kuitit",
+      "paras": [
+        "Pakattu ruoka ja kuitit voivat olla selkeämpiä kuin lautasateriat. Kun Buddy lukee merkinnän, tarkista silti annoskoko suhteessa siihen mitä söit."
+      ]
+    },
+    {
+      "title": "Yksityisyys ja jakaminen",
+      "paras": [
+        "Vältä muiden kasvojen tai asiakirjojen kuvaamista. Ateriakuva on valmennuskiertoasi varten."
+      ]
+    },
+    {
+      "title": "Milloin suosia toista tapaa",
+      "paras": [
+        "Pimeät ravintolat ja pikkumerkinnät turhauttavat näköä. Vaihda ääneen: nimeä ruoka ja reilu annos. Tavoite on tallennettu rehellinen rivi, ei täydellinen valokuva."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Kuvasin salaatin ja ohitin kastikeveneen.",
+      "why": "Kastike voi hallita energiaa. Kirjaa se selvästi."
+    },
+    {
+      "quote": "Napsautin kuvan syötyäni ja Buddy näki tyhjän lautasen.",
+      "why": "Tallenna ennen tai kuvaile tähteet. Tyhjä astiasto opettaa vähän."
+    },
+    {
+      "quote": "Tunnistus oli väärä, joten en kirjannut mitään.",
+      "why": "Muokkaa hahmotelmaa tai vaihda ääneen/tekstiin. Ateria lasketaan silti."
+    },
+    {
+      "quote": "Skannasin tölkin Foodiaryyn, kun purin ostoksia.",
+      "why": "Kaapissa ≠ syö. Käytä Lisää varastoon kaapille, Tallenna Foodiaryyn kun avaat sen."
+    }
+  ],
+  "encouragement": "Osoita, tunnista, valitse. Kamerakirjaus on olemassa, jotta oikea elämä päätyy oikeaan paikkaan — päiväkirjaan, pikavalintoihin, kaappiin tai listalle — ei valokuvakoetta varten."
+}

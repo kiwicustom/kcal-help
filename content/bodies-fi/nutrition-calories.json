@@ -1,0 +1,73 @@
+{
+  "intro": "Kalorit ovat fysiikkaa: energia sisään vastaan energia ulos muokkaa kehon energiavarastoja. Ne ovat välttämättömiä — ja vajaat — kunnes paritat ne ruoan laatuun ja oikeaan kulutukseesi.",
+  "time": "9 min",
+  "buddyTip": "Kohtele päivän kaloreita budjettialueena, ei moraalisena pisteenä. Viikkokeskiarvot opettavat enemmän kuin yksikään päivä.",
+  "mission": "Kirjaa tänään jokainen energiaa sisältävä asia — myös öljyt, juomat ja “pienet maistiaiset” — ilman tarinan siistimistä.",
+  "why": [
+    "Energiatasapainolla on yhä väliä. Jos saanti pysyy kulutusta korkeampana tarpeeksi kauan, varastot nousevat; jos alempana, ne yleensä laskevat. Kalorien kieltäminen ei tee valmennuksesta terveempää — se tekee siitä hämmentynyttä.",
+    "Samat kalorit eivät ole samoja kokemuksia. 1000 kcal sokerijuomista ja 1000 kcal proteiini- ja kuitupitoisista aterioista osuvat nälkään, palautumiseen ja lihaksen korjaukseen eri tavalla. Kalorit mittaavat energiaa; ne eivät täysin kuvaa ruoan tietoa.",
+    "Geneeriset laskurit arvaavat. Painon trendisi plus rehellinen saanti opettaa Buddylle oman kulutuksesi oikeassa elämässä — työ, kävely, treeni, stressi — mikä on hyödyllisempää kuin oppikirjakaava yksin."
+  ],
+  "what": {
+    "lead": "Mitä kannattaa pitää mielessä kaloreiden kanssa.",
+    "points": [
+      "Kalorit arvioivat hyödynnettävää energiaa — hyödyllisiä, likimääräisiä ja herkkiä annosvirheelle",
+      "Päivittäinen paino on lähinnä veden ja glykogeenin hälyä; rasvan muutos on hitaampaa",
+      "Alikirjaus (öljyt, juomat, maistiaiset) on yleisin “mysteerijumi”",
+      "Puettavan laitteen kalorikulutus on kontekstia, ei automaattista totuutta",
+      "Proteiini, kuitu ja ateriarytmi muuttavat, miltä kaloribudjetti tuntuu elää"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos osun kaloreihin tasan, koostumuksella ei ole väliä.",
+        "truth": "Koostumus muuttaa kylläisyyttä, treenin laatua ja mukana pysymistä. Energiatasapaino ja ruoan laatu toimivat yhdessä."
+      },
+      {
+        "myth": "Kellon treenikalorit tarkoittavat, että ansaitsin vastaavan juhla-aterian.",
+        "truth": "Puettavat laitteet yliarvioivat usein. Suosi trendipohjaisia säätöjä sen sijaan, että täsmäisit jokaisen treenikalorin."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä kaloreita ohjauspyöränä, ei oikeussalina.",
+    "steps": [
+      "Kirjaa ateriat lähellä syöntihetkeä, jotta annokset pysyvät realistisina",
+      "Ota mukaan paistorasvat, kastikkeet, alkoholi ja maitoisat juomat",
+      "Tähtää johdonmukaiseen viikkokeskiarvoon täydellisten päiväosumien sijaan",
+      "Vertaa usean viikon painon trendiä saantiin ennen isoja tavoitemuutoksia",
+      "Kun olet nälkäinen “oikeana” kaloripäivänä, tarkista ensin proteiini, kuitu, uni ja askeleet"
+    ],
+    "buddyHelps": "Buddyn arviot auttavat tallentamaan energian nopeasti; Foodiaryssa tarkennat grammat. Edistyminen näyttää, vastaako budjetti todellisuutta ajan mittaan."
+  },
+  "sections": [
+    {
+      "title": "Budjetit ja haarukat",
+      "paras": [
+        "Haarukka (esimerkiksi kaista tavoitteen ympärillä) vähentää ahdistusta ja vastaa oikeaa annosten epävarmuutta. Pakkomielteinen tarkkuus lisää usein ahmintariskiä.",
+        "Oppimisviikkoina priorisoi täydet kirjaukset kovan vajeen sijaan, jotta Buddy näkee oikean lähtötason."
+      ]
+    },
+    {
+      "title": "Kun luvut ovat eri mieltä vaa’an kanssa",
+      "paras": [
+        "Tarkista ensin kirjausaukot ja natrium/hiilari-heilahdukset. Sitten tarkista, kuinka kauan olet pysynyt mukana. Vasta sitten säädä budjettia.",
+        "Kärsivällisyys on taito. Kolme hälyistä päivää ei ole uusi aineenvaihdunta."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Säästin kaloreita jättämällä aterioita väliin ja söin illalla yli.",
+      "why": "Kova rajoitus ajaa vastaiskuun. Jaa saanti ja proteiini päivän yli."
+    },
+    {
+      "quote": "Etiketissä luki 200 kcal, joten en punninnut annosta.",
+      "why": "Etiketit olettavat annoskoon. Kaatosi tai siivusi voi olla tuplat — grammat voittavat fiiliksen."
+    },
+    {
+      "quote": "Kalorit ovat myrkyllistä ajattelua — syön vain “puhtaasti”.",
+      "why": "Energian ohittaminen puhtaan ruoan jahtaamisen aikana voi silti jumittaa rasvanpudotuksen tai aliruokkia treenin. Molemmat linssit auttavat."
+    }
+  ],
+  "encouragement": "Kaloreita ei tarvitse pelätä. Ne pitää ymmärtää tarpeeksi hyvin, jotta arvailu loppuu — ja tarpeeksi lempeästi, jotta kirjaat myös huomenna."
+}

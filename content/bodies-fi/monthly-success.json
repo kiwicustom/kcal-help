@@ -1,0 +1,74 @@
+{
+  "intro": "Kuukaudet näyttävät suunnan. Päivät näyttävät hälyn. Kuukauden onnistuminen on paikka, jossa kunnioitat edistymistä, säädät tavoitteita ja valitset seuraavan teeman.",
+  "time": "8 min",
+  "buddyTip": "Arkistoi voitot kirjoittamalla — “kirjasin 24/30 päivää,” “proteiini lounaalla tarttui.” Muisti aliarvioi sinut.",
+  "mission": "Avaa Edistyminen viimeiseltä 30 päivältä ja kirjoita yksi pidä / yksi vaihda / yksi juhli.",
+  "why": [
+    "Ilman kuukausittaista zoomia ihmiset joko panikoivat tasanteilla tai ohittavat oikean ajautumisen. Kuukausi on tarpeeksi pitkä, jotta näet kehon muutokset, tapojen voiman ja sen, sopivatko tavoitteet vielä elämään.",
+    "Kehon muutos on enemmän kuin vaa’an luku: energia, treeniteho, vaatteiden istuvuus, nälkäkuviot, uni. Kuukausikatsaus pitää tilaa noille signaaleille, jotta luku yksin ei kiusaa tarinaa.",
+    "Tavoitteet vanhenevat. Matkakaudet, uudet työt, vammat ja perheen rytmit tarvitsevat päivitetyt taulut. Säätäminen on kypsyyttä — ei luovuttamista."
+  ],
+  "what": {
+    "lead": "Täydellinen kuukausikierros kattaa viisi aluetta.",
+    "points": [
+      "Edistymisen katsaus — mukana pysyminen, painon trendi, proteiini/kuitu-teemat",
+      "Kehon muutokset — vaaka, kuvat jos käytät niitä, miltä treeni tuntuu",
+      "Tavat — mitkä rituaalit tarttuivat (kirjaaminen, vesi, kävelyt) ja mitkä eivät",
+      "Säädä tavoitteita — energia, proteiini, treenikuorma tai fokusteema",
+      "Juhli — nimeä se vaikea asia, jota teit johdonmukaisesti"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Ei muutosta vaa’assa tarkoittaa, että kuukausi epäonnistui.",
+        "truth": "Koostumuksen muutos, parempi mukana pysyminen ja taidon rakentaminen lasketaan. Tarkista useita signaaleja ennen epäonnistumisen julistamista."
+      },
+      {
+        "myth": "Minun pitäisi uudistaa kaikki “uutta alkua” varten.",
+        "truth": "Pidä se mikä toimi. Vaihda yksi vipu. Uuden alun teatteri yleensä poistaa kovan työn tavat."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Varaa 30–40 minuuttia kerran kuussa — sama kalenterirituaali kuin laskuille tai suunnittelulle.",
+    "steps": [
+      "Katso Edistymisen trendit ja Foodiaryn karkea täydellisyys",
+      "Merkitse kehon ja energian muutokset arkikielellä",
+      "Listaa tavat, jotka kulkivat itsestään vs tavat, jotka vaativat voimaa",
+      "Päivitä yksi tavoite ensi kuulle; parkkeeraa loput",
+      "Juhli selvästi — viesti Space-kaverille tai kirjoita muistiin",
+      "Aseta yksi kuukauden teema: “proteiinin johdonmukaisuus,” “aikaisemmat illalliset,” “kävely lounaan jälkeen”"
+    ],
+    "buddyHelps": "Edistyminen on rakennettu zoomia varten. Spacet tekevät juhlinnasta jaettua. Buddyn valmennus pysyy hyödyllisenä, kun tavoitteet heijastavat tätä kuukautta — ei viime vuoden fantasiaa."
+  },
+  "sections": [
+    {
+      "title": "Milloin säätää energiatavoitteita",
+      "paras": [
+        "Jos painon trendi ja rehelliset kirjaukset ovat eri mieltä tavoitteesi kanssa useita viikkoja, säädä rauhallisesti. Isot heilahdukset sekoittavat sekä sinut että Buddyn oppimisen.",
+        "Jos elämä kävi raskaammaksi (matka, stressi, vamma), priorisoi tilapäisesti mukana pysyminen ja proteiini kovan vajeen sijaan."
+      ]
+    },
+    {
+      "title": "Juhliminen on ylläpitoa",
+      "paras": [
+        "Juhliminen vahvistaa identiteettiä: “olen ihminen, joka kirjaa ja oppii.” Juhlimisen väliin jättäminen tekee seuraavasta raskaasta viikosta turhan tuntuisen.",
+        "Pidä juhlat yhteensopivina tavoitteidesi kanssa — kuuluminen ja lepo merkitsevät enemmän kuin hyvitysrajoittaminen."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Tuomitsen koko kuukauden kolmen viimeisen päivän perusteella.",
+      "why": "Kuun lopun häly (juhlat, sairaus) ei ole kuukausi. Katso koko trendi."
+    },
+    {
+      "quote": "Tavat eivät tarttuneet, joten en ole “terveysihminen”.",
+      "why": "Tarttumattomat tavat tarvitsevat yleensä pienemmän muotoilun, ei uutta identiteettiä. Kutista rituaali ja kokeile uudelleen."
+    },
+    {
+      "quote": "Osasin tavoitteeseen aikaisin, joten voin hylätä rakenteen.",
+      "why": "Rakenne on tapa pitää tulokset. Kevytä intensiteettiä jos haluat — pidä kirjaamisen kierto."
+    }
+  ],
+  "encouragement": "Saat olla ylpeä epätäydellisistä kuukausista. Suunta plus rehellisyys on jo Scale Health Success, joka alkaa sinusta."
+}

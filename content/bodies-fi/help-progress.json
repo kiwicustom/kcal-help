@@ -1,0 +1,79 @@
+{
+  "intro": "Edistyminen muuttaa rehelliset kirjaukset trendeiksi. Päivät ovat hälyisiä; viikot ja kuukaudet näyttävät suunnan — proteiini, paino ja mukana pysyminen mukana.",
+  "time": "8 min",
+  "buddyTip": "Avaa Edistyminen viikoittain yhdellä kysymyksellä: “Mitä hyvät päivät jakoivat?” Vaihda yksi muuttuja sen jälkeen.",
+  "mission": "Avaa Edistyminen, skannaa viime viikko ja kirjoita yksi pidä / yksi vaihda -muistiinpano.",
+  "why": [
+    "Ilman Edistymistä Foodiary on kasa kuitteja. Trendit paljastavat, toimivatko energiabudjetti, proteiiniankkurit ja tavat oikeassa elämässä.",
+    "Päivittäinen pakkomielle yhteen punnitukseen luo vääriä hätätiloja. Edistyminen on olemassa zoomausta varten, jotta voit valmentaa rauhallisesti.",
+    "Edistyminen toimii vain, jos kirjaukset ovat rehellisiä ja tarpeeksi täydellisiä. Tallenna Kodissa; korjaa Foodiaryssa; opi täällä.",
+    "Edistyminen on myös paikka, jossa huomaat taitovoitot: vähemmän tyhjiä päiviä, paremmat ravintola-arviot, tasaisempi proteiini. Ne voitot ansaitsevat yhtä paljon huomiota vaa’an rinnalla."
+  ],
+  "what": {
+    "lead": "Mitä etsiä.",
+    "points": [
+      "Viikko- ja kuukausinäkymät",
+      "Painon trendi vs päivittäiset piikit",
+      "Proteiinin johdonmukaisuuden kuviot",
+      "Linkit takaisin Foodiaryyn syyn etsintään",
+      "Yhden muuttujan kokeilut jokaisen katsauksen jälkeen"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Edistyminen nollassa tarkoittaa, että sovellus on rikki.",
+        "truth": "Usein puuttuva kcal riveillä, väärä päivä valittuna tai kirjaaminen vain tyhjiin Foodiary-paikanpitäjiin. Tarkista Pikaoppaan polku."
+      },
+      {
+        "myth": "Minun pitäisi vaihtaa viisi tavoitetta aina kun Edistyminen näyttää sotkuiselta.",
+        "truth": "Monen muutoksen viikot eivät opeta mitään. Säädä yhtä vipua."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Tee Edistymisestä viikoittainen tapaaminen.",
+    "steps": [
+      "Varmista, että viikossa on tarpeeksi Koti-kirjauksia ravinnolla",
+      "Avaa Edistyminen; merkitse suunta, ei draamaa",
+      "Napauta outoihin päiviin Foodiaryn kontekstin kautta",
+      "Juhli mukana pysymistä ennen keskiarvojen arvostelua",
+      "Aseta yksi teema ensi viikolle",
+      "Palaa päivän rituaaliin — älä asu kaavioissa"
+    ],
+    "buddyHelps": "Buddyn tallennus ruokkii Edistymistä. Valmennuksen laatu nousee, kun trendit heijastavat oikeita ravintoloita, matkoja ja treeniä — ei kuratoituja kohokohtia."
+  },
+  "sections": [
+    {
+      "title": "Painon lukeminen",
+      "paras": [
+        "Suosi usean päivän tai viikon trendejä. Natrium, hiilarit ja hormonit liikuttavat vettä. Rasvan muutos on hitaampaa."
+      ]
+    },
+    {
+      "title": "Proteiinin lukeminen",
+      "paras": [
+        "Laske, kuinka usein ankkurit ilmestyivät. Kaksi sankariproteiinipäivää eivät kumoa viittä matalaa siinä, miltä viikko tuntui."
+      ]
+    },
+    {
+      "title": "Kuukauden zoomi",
+      "paras": [
+        "Kerran kuussa levennä ikkunaa. Kysy, sopivatko tavoitteet vielä elämään, vaihda sitten enintään yksi taulu. Arkistoi voitto kirjoittamalla, jotta muisti ei pyyhi sitä."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Tuomitsin koko ohjelmani tämän aamun punnituksella.",
+      "why": "Käytä Edistymisen trendejä. Yksi aamu on sää, ei ilmasto."
+    },
+    {
+      "quote": "Edistyminen näytti pahalta, joten poistin vanhat kirjaukset.",
+      "why": "Poisto pyyhkii oppimisen. Pidä rehellisyys; säädä eteenpäin."
+    },
+    {
+      "quote": "Tarkistan Edistymisen vain kun tunnen syyllisyyttä.",
+      "why": "Aikataulutetut rauhalliset katsaukset voittavat häpeästä laukeavat kaaviokierteet."
+    }
+  ],
+  "encouragement": "Edistyminen on peili kuvioille, ei tuomio arvostasi. Kirjaa rehellisesti, katso viikoittain, paranna kerran — toista."
+}

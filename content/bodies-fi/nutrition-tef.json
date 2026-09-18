@@ -1,0 +1,73 @@
+{
+  "intro": "TEF — ruoan terminen vaikutus — on energia, jota kehosi käyttää sulattaakseen ja käsitelläkseen sen mitä syöt. Se on yksi syy, miksi samat kalorit eri ruoista eivät tunnu tai toimi samoin.",
+  "time": "8 min",
+  "buddyTip": "Käytä TEF:ää syynä suosia proteiinipitoisia, kokonaisia aterioita — ei porsaanreikänä syödä loputtomasti, koska “sulatus polttaa sen”.",
+  "mission": "Vaihda yksi jalostettu välipala proteiini-plus-kuitu-miniatieriaan ja huomaa kylläisyys kahden tunnin päästä.",
+  "why": [
+    "Proteiinin sulattaminen maksaa tyypillisesti enemmän energiaa kuin rasvan tai jalostetun hiilarin. Runsasproteiiniset kuviot palauttavat siksi hieman pienemmän nettoenergian — hyödyllistä, mutta ei taikaa.",
+    "Kokonaiset, kuitua sisältävät ruoat vievät yleensä enemmän työtä käsitellä ja parantavat kylläisyyttä. Ultraprosessoidut, jalostetut yhdistelmät tuovat usein energiaa vähemmällä pureskelulla, vähemmällä kylläisyydellä ja helpommalla ylisyömisellä.",
+    "kCal Buddy opettaa TEF:ää, jotta lakkaisit kohtelemasta kaikkia kaloreita samoina kokemuksina. Fysiikka lasketaan silti; ruoan tieto muuttaa elettyä tulosta."
+  ],
+  "what": {
+    "lead": "TEF valmennuskielellä.",
+    "points": [
+      "Proteiinilla on keskimäärin korkeampi terminen vaikutus kuin rasvalla tai jalostetuilla hiilareilla",
+      "TEF on tuuppaus, ei vapaa kortti ohittaa annokset",
+      "Aterian koko ja koostumus vaikuttavat molemmat sulatuksen hintaan ja kylläisyyteen",
+      "Nestemäiset kalorit tuottavat usein vähemmän kylläisyyttä kcal:aa kohden kuin kiinteät ateriat",
+      "Yhdistä TEF-ajattelu proteiiniin, kuituun ja energiabudjettiin — ei koskaan TEF yksin"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Tulinen ruoka tai kylmä vesi “nostaa aineenvaihduntaa” tarpeeksi, jotta ruokavalion voi ohittaa.",
+        "truth": "Ne vaikutukset ovat pieniä kokonaissaannin, proteiinikuvion ja liikkeen rinnalla."
+      },
+      {
+        "myth": "TEF:n takia voin syödä rajattomasti vähärasvaista proteiinia.",
+        "truth": "Proteiinissa on silti energiaa. Rajaton mikä tahansa yleensä rikkoo budjetin."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Anna TEF:n muovata oletuksia, ei taulukoita.",
+    "steps": [
+      "Rakenna ateriat proteiinin ja kasvien ympärille ensin",
+      "Suosi kiinteitä aterioita jalostettujen välipalojen laiduntamisen sijaan, kun nälkä on aito",
+      "Pidä ultraprosessoidut helppousruoat tarkoituksellisina, ei vahinko-oletuksina",
+      "Kirjaa rehellisesti — TEF ei pyyhi kirjaamattomia öljyjä ja juomia",
+      "Tuomitse onnistuminen mukana pysymisellä ja viikketrendeillä, ei kuvittelemalla poltettuja sulatuskaloreita"
+    ],
+    "buddyHelps": "Buddyn ruoan laadun opetus (proteiini, kuitu, leusiini) on TEF-tietoista valmennusta ilman, että lasket prosentteja jokaisen suupalan jälkeen."
+  },
+  "sections": [
+    {
+      "title": "Mihin TEF sopii energiankulutuksessa",
+      "paras": [
+        "Päivän kokonaiskulutus sisältää perusaineenvaihdunnan, liikkeen ja TEF:n. Liike ja kehon koko yleensä peittoavat TEF:n — joten kävele ja treenaa myös.",
+        "Silti korkeamman TEF:n ja kylläisyyden ateriat tekevät kaloribudjetista helpomman pitää. Helppous on oikea etu."
+      ]
+    },
+    {
+      "title": "Coca-Cola vs oikea ruoka -esimerkki",
+      "paras": [
+        "Samat kalorit sokerijuomista vastaan proteiini- ja kuitupitoisesta lautasesta eroavat nälässä, palautumisessa ja siinä, kuinka todennäköisesti jatkat syömistä.",
+        "Se ero on ruoan tietoa — TEF on yksi pala siitä."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Join proteiinijuoman ja oletin, että TEF nollasi kalorit.",
+      "why": "TEF pienentää nettotuottoa hieman; se ei nollaa juomaa."
+    },
+    {
+      "quote": "Jahtaan aineenvaihdustemppuja sen sijaan, että kirjaan illallisen.",
+      "why": "Tallennus voittaa temput. TEF auttaa vain rehellisen päiväkirjan sisällä."
+    },
+    {
+      "quote": "Jos TEF merkitsee, syön kuusi pientä ateriaa oli tilanne mikä tahansa.",
+      "why": "Aterioiden tiheys on mieltymys. Kokonaiskoostumus ja energia merkitsevät enemmän kuin pakotettu laiduntaminen."
+    }
+  ],
+  "encouragement": "Muista TEF, kun rakennat lautasia: proteiini ja kasvit ansaitsevat paikkansa. Palaa sitten yksinkertaiseen kiertoon — kirjaa, opi, säädä."
+}

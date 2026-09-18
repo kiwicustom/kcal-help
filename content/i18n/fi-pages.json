@@ -1,0 +1,733 @@
+{
+  "site-home": {
+    "title": "Ohjesivusto",
+    "summary": "Kotinäkymä aloittelijalle, perustasolle ja power-käyttäjälle — sitten Ohje, Academy ja dokumentaatio."
+  },
+  "help-hub": {
+    "title": "Ohje",
+    "summary": "Miten tätä ominaisuutta käytetään? Ominaisuusohjeet kuvakaappauksin."
+  },
+  "cheatsheet": {
+    "title": "Pikaopas",
+    "summary": "MITÄ? MIKSI? MITEN? — päivän kierto kuvakaappauksin.",
+    "why": "Edistyminen liikkuu vain, kun ateriat kirjataan oikealla ravinnolla. Buddy tekee seuraavasta päätöksestä helpomman.",
+    "what": [
+      "Avaa Koti — päivän työpöytäsi",
+      "Kirjaa ateria Buddyllä (teksti, kamera, mikki)",
+      "Vahvista, jos Buddy kysyy",
+      "Katso Tämän päivän edistyminen",
+      "Korjaa grammat/aika Foodiaryssa kun tarvitset"
+    ],
+    "how": [
+      "Käytä Kodin oranssia Kirjaa / Puhu ruoka -kaistaa — älä Foodiary-ensin",
+      "Kamera tai galleria lautaisille; mikki puhutuille aterioille; vesi nesteytykseen",
+      "Katso Tämän päivän edistymisen täyttyvän, kun kirjauksessa on kcal"
+    ],
+    "next": {
+      "id": "home",
+      "label": "Kotinäkymän ohje"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "home": {
+    "title": "Koti",
+    "summary": "Kirjauspalkki, Tämän päivän edistyminen ja Näkymä (Aloittelija / Perustaso / Power).",
+    "why": "Koti on päivän työpöytä. Kirjaaminen täällä täyttää Foodiaryn ja Edistymisen.",
+    "what": [
+      "Buddy Kirjaa / Puhu ruoka",
+      "Menetelmän valitsin + oranssi toiminto",
+      "Ostoskori · Vesi · Paino",
+      "Tämän päivän edistyminen",
+      "Alapalkki + PX"
+    ],
+    "how": [
+      "Valitse Kamera / Kuva / Tekstisyöttö / Ääni",
+      "Napauta oranssia toimintoa",
+      "Vahvista Buddyn arvio",
+      "Vilkaise Edistymistä kirjaamisen jälkeen"
+    ],
+    "next": {
+      "id": "foodiary",
+      "label": "Buddy ja Foodiary"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Koti"
+    }
+  },
+  "foodiary": {
+    "title": "Foodiary",
+    "summary": "Päiväkirja ja korjaukset — sama kirjanpito, jota Edistyminen lukee.",
+    "why": "Foodiary on kirjanpito. Buddy on älykäs ovi siihen.",
+    "what": [
+      "Katso ateriat",
+      "Muokkaa grammoja ja aikaa",
+      "Manuaaliset rivit, kun luvut ovat tiedossa"
+    ],
+    "how": [
+      "Suosi Kodin kirjausta uusille aterioille",
+      "Avaa Foodiary korjataksesi yksityiskohdat",
+      "Vältä tyhjiä kcal-rivejä, jos välität Edistymisestä"
+    ],
+    "next": {
+      "id": "voice",
+      "label": "Äänikirjaus"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Foodiary"
+    }
+  },
+  "voice": {
+    "title": "Ääni",
+    "summary": "Puhu ateriat Buddylle.",
+    "why": "Ääni poistaa kitkaa, jotta rehellinen kirjaaminen tapahtuu.",
+    "what": [
+      "Aloita ääni Kodista",
+      "Katso litteraatti ja arvio",
+      "Tallenna Foodiaryyn"
+    ],
+    "how": [
+      "Napauta mikkiä / Puhu ruoka",
+      "Puhu selvästi",
+      "Vahvista ennen tallennusta"
+    ],
+    "next": {
+      "id": "camera",
+      "label": "Kamera"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Ääni"
+    }
+  },
+  "camera": {
+    "title": "Kamera",
+    "summary": "Kuvan otto aterioille ja pakatuille ruoille.",
+    "why": "Osoita kamera lautaseen tai pakkaukseen. Buddy tunnistaa sen, jotta voit syödä, muistaa, pitää varastossa tai ostaa.",
+    "what": [
+      "Kuvaa tai valitse galleriasta",
+      "Pakkauksen viivakoodi, QR tai painettu EAN avaa yhden pakkauskortin",
+      "Valitse Syö, Muista, Kaapissa tai Osta",
+      "Vahvista annos ja tallenna ateriat Foodiaryyn"
+    ],
+    "how": [
+      "Käytä kameran tai gallerian pikatoimintoa Kodissa",
+      "Pakkauksissa odota korttia ja valitse yksi määränpää",
+      "Lautasilla tarkista Buddyn ehdotus ja tallenna"
+    ],
+    "next": {
+      "id": "meal-plan",
+      "label": "Ateriasuunnitelma"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Kamera"
+    }
+  },
+  "meal-plan": {
+    "title": "Ateriasuunnitelma",
+    "summary": "Suunnittele ateriat etukäteen — ei live-päiväkirja.",
+    "why": "Suunnittelu vähentää päätösväsymystä.",
+    "what": [
+      "Selaa suunnitelmaa",
+      "Lisää suunniteltuja aterioita",
+      "Käytä ostosapua kun saatavilla"
+    ],
+    "how": [
+      "Avaa Ateriasuunnitelma-välilehti",
+      "Lisää realistisia illallisia",
+      "Kirjaa oikea saanti Kodissa kun syöt"
+    ],
+    "next": {
+      "id": "progress",
+      "label": "Edistyminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Ateriasuunnitelma"
+    }
+  },
+  "progress": {
+    "title": "Edistyminen",
+    "summary": "Trendit rehellisistä kirjauksista.",
+    "why": "Trendit voittavat päivittäisen hälyn.",
+    "what": [
+      "Viikko- ja kuukausinäkymät",
+      "Proteiinin ja painon trendit",
+      "Linkki takaisin Foodiaryyn"
+    ],
+    "how": [
+      "Kirjaa johdonmukaisesti Kodissa",
+      "Avaa Edistyminen viikoittain",
+      "Vaihda yksi muuttuja kerrallaan"
+    ],
+    "next": {
+      "id": "spaces",
+      "label": "Spaces"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Edistyminen"
+    }
+  },
+  "spaces": {
+    "title": "Spaces",
+    "summary": "Yksityiset, vain kutsulla toimivat Spacet — Koti, Seinä, Haasteet, Edistyminen, Ihmiset.",
+    "why": "Terveys skaalautuu kuulumisen kautta.",
+    "what": [
+      "Koti · Seinä · Haasteet · Edistyminen · Ihmiset",
+      "Asetusten hammasratas jakamiseen",
+      "Vain kutsu — älä koskaan selaa"
+    ],
+    "how": [
+      "Valikko → Spaces osoitteessa beta.kcal.lol",
+      "Liity Beta Testers vol 1.0:aan tai luo yksi Space",
+      "Näyttäydy Foodiaryssa; tsemppaa kavereita"
+    ],
+    "next": {
+      "id": "settings",
+      "label": "Asetukset"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Spaces"
+    }
+  },
+  "settings": {
+    "title": "Asetukset",
+    "summary": "Profiili, teema, kieli, ilmoitukset, integraatiot.",
+    "why": "Oletusten kuuluu vastata elämääsi.",
+    "what": [
+      "Profiili",
+      "Teema",
+      "Kieli",
+      "Ilmoitukset",
+      "Integraatiot"
+    ],
+    "how": [
+      "Avaa Valikko",
+      "Säädä yksi asetus kerrallaan",
+      "Vahvista kieli/teema"
+    ],
+    "next": {
+      "id": "health-integrations",
+      "label": "Terveyslähteet"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Asetukset"
+    }
+  },
+  "health-integrations": {
+    "title": "Terveyslähteet",
+    "summary": "Yhdistä Apple Health — luvat miksi-listalla, yksityisyys ensin. Asennusopas betatestaajille.",
+    "why": "Terveyskeskuksesi pysyy sinun; Buddy on valmentaja.",
+    "what": [
+      "Asetukset → Terveyslähteet",
+      "Apple Health Yhdistä",
+      "Lupien miksi-lista",
+      "Katkaise milloin tahansa"
+    ],
+    "how": [
+      "Avaa Asetukset",
+      "Avaa Terveyslähteet",
+      "Yhdistä Apple Health",
+      "Valitse luvat"
+    ],
+    "next": {
+      "id": "settings",
+      "label": "Asetukset"
+    },
+    "deepLink": {
+      "path": "/#/u/demo/health-integrations",
+      "label": "Avaa Terveyslähteet"
+    }
+  },
+  "auth": {
+    "title": "Kirjautuminen",
+    "summary": "Sisäänkirjautuminen, laitteet, PIN, palautus.",
+    "why": "Terveysdatasi pysyy sinun.",
+    "what": [
+      "Tervetuloa",
+      "Laitteen paritus",
+      "PIN",
+      "Luotetut laitteet",
+      "Palautus"
+    ],
+    "how": [
+      "Seuraa aloituksen kehotteita",
+      "Pidä palautustiedot turvassa",
+      "Käytä luotettuja laitteita"
+    ],
+    "next": {
+      "id": "troubleshooting",
+      "label": "Vianetsintä"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa sovellus"
+    }
+  },
+  "nav": {
+    "title": "Alapalkki",
+    "summary": "Mihin kukin välilehti on.",
+    "why": "Suuntautuminen estää väärän oven kirjaamisen.",
+    "what": [
+      "Koti",
+      "Ateriasuunnitelma",
+      "Foodiary",
+      "Aktiviteetti",
+      "Edistyminen",
+      "Spaces",
+      "Valikko"
+    ],
+    "how": [
+      "Kirjaa Kodissa",
+      "Muokkaa Foodiaryssa",
+      "Katso Edistymisessä"
+    ],
+    "next": {
+      "id": "troubleshooting",
+      "label": "Vianetsintä"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa sovellus"
+    }
+  },
+  "troubleshooting": {
+    "title": "Vianetsintä",
+    "summary": "Edistyminen nollassa, väärä päivä, tyhjä kcal, synkkaongelmat.",
+    "why": "Useimmat “bugit” ovat polun tai päivän epäsuhtia.",
+    "what": [
+      "Tarkista kirjauspolku (Koti vs Foodiary)",
+      "Tarkista valittu päivä",
+      "Tarkista kcal riveillä"
+    ],
+    "how": [
+      "Kirjaa kerran Kodissa kcal:lla",
+      "Avaa Foodiary sille päivälle",
+      "Sähköposti hello@kcal.lol jos jumiudut"
+    ],
+    "next": {
+      "id": "cheatsheet",
+      "label": "Pikaopas"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa sovellus"
+    }
+  },
+  "academy-hub": {
+    "title": "Buddy Academy",
+    "summary": "Opi onnistumaan — Buddyn olemassaolosta päivittäisiin tapoihin ja Ravitsemusakatemiaan."
+  },
+  "philosophy": {
+    "title": "kCal-filosofia",
+    "summary": "Miksi kCal Buddy on olemassa — kaiken rakentamamme perusta.",
+    "next": {
+      "id": "first-30-days",
+      "label": "Ensimmäiset 30 päivää"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "first-30-days": {
+    "title": "Ensimmäiset 30 päivää",
+    "summary": "Rakenna tapakierto ensimmäisessä kuussa.",
+    "why": "Ensimmäinen kuukausi rakentaa tapakierron. Johdonmukaisuus voittaa täydellisyyden.",
+    "what": [
+      "Kirjaa useimmat ateriat päiväputkissa",
+      "Valinnainen tasainen punnitus",
+      "Viikoittainen vilkaisu Edistymiseen",
+      "Kevyt Ateriasuunnitelma"
+    ],
+    "how": [
+      "Aloita tänään yhdellä rehellisellä kirjauksella",
+      "Jatka seuraavasta ateriasta, jos jää väliin",
+      "Älä odota täydellistä viikkoa"
+    ],
+    "next": {
+      "id": "daily-success",
+      "label": "Päivän onnistuminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "daily-success": {
+    "title": "Päivän onnistuminen",
+    "summary": "Pieni toistettava rituaali voittaa motivaation.",
+    "why": "Rituaalit voittavat motivaation.",
+    "what": [
+      "Aamun tarkistus Kodissa",
+      "Kirjaa jokainen ateria",
+      "Illan Foodiary-silmäily",
+      "Valinnainen vesi/olo"
+    ],
+    "how": [
+      "Sama aikaikkuna päivittäin",
+      "Yksi oranssi nappi riittää",
+      "Korjaa yksi asia illalla jos tarvitset"
+    ],
+    "next": {
+      "id": "weekly-success",
+      "label": "Viikon onnistuminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Koti"
+    }
+  },
+  "weekly-success": {
+    "title": "Viikon onnistuminen",
+    "summary": "Muuta raa’at kirjaukset oppimiseksi ilman päivittäistä pakkomiellettä.",
+    "why": "Viikkokatsaus muuttaa kirjaukset oppimiseksi.",
+    "what": [
+      "Avaa viikon Edistyminen",
+      "Skannaa Foodiaryn kuviot",
+      "Yksi Ateriasuunnitelman säätö",
+      "Juhli mukana pysymistä"
+    ],
+    "how": [
+      "Kysy, mitä hyvät päivät jakoivat",
+      "Vaihda yksi muuttuja",
+      "Vältä romahdusnollauksia"
+    ],
+    "next": {
+      "id": "monthly-success",
+      "label": "Kuukauden onnistuminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Edistyminen"
+    }
+  },
+  "monthly-success": {
+    "title": "Kuukauden onnistuminen",
+    "summary": "Kuukaudet näyttävät suunnan. Päivät näyttävät hälyn.",
+    "why": "Zoomaa kuukausittain nähdäksesi suunnan.",
+    "what": [
+      "Vertaa mukana pysymistä",
+      "Päivitä tavoitteet, jos elämä muuttui",
+      "Arkistoi voitot",
+      "Aseta yksi teema"
+    ],
+    "how": [
+      "Katso Edistymisen trendit",
+      "Säädä proteiini/kuitu-teemoja",
+      "Aloita pienestä uudelleen, jos on sotkuista"
+    ],
+    "next": {
+      "id": "nutrition-calories",
+      "label": "Kalorit"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Edistyminen"
+    }
+  },
+  "nutrition": {
+    "title": "Ravitsemus",
+    "summary": "Proteiini, kuitu, energia — tietoa arvailun sijaan.",
+    "why": "Ymmärrys miksi luo kestäviä tapoja.",
+    "what": [
+      "Proteiinitavoitteet",
+      "Kuidulla on väliä",
+      "Energiabudjetin perusasiat"
+    ],
+    "how": [
+      "Kirjaa rehellisesti",
+      "Suosi proteiinipainotteisia aterioita",
+      "Käytä Buddyn arvioita ja tarkenna sitten"
+    ],
+    "next": {
+      "id": "exercise",
+      "label": "Liikunta"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "exercise": {
+    "title": "Liikunta",
+    "summary": "Liike osana Health Operating Systemia.",
+    "why": "Liike tukee palautumista, mieltä ja pitkän ajan terveyttä.",
+    "what": [
+      "Aktiivisuuden kirjaaminen",
+      "Treenin konteksti",
+      "Tasapaino palautumisen kanssa"
+    ],
+    "how": [
+      "Kirjaa aktiivisuus kun se on relevanttia",
+      "Älä rangaise ruokapäiviä",
+      "Parita proteiiniin ja uneen"
+    ],
+    "next": {
+      "id": "recovery",
+      "label": "Palautuminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa Aktiviteetti"
+    }
+  },
+  "recovery": {
+    "title": "Palautuminen",
+    "summary": "Uni, nesteytys ja lepo ovat terveyttä — eivät valinnaisia.",
+    "why": "Palautuminen merkitsee yhtä paljon kuin treeni ja ruokavalio.",
+    "what": [
+      "Uni",
+      "Nesteytys",
+      "Lepopäivät"
+    ],
+    "how": [
+      "Kirjaa vesi Kodissa",
+      "Suojaa unen ikkunat",
+      "Kohtele lepoa suunniteltuna"
+    ],
+    "next": {
+      "id": "challenges",
+      "label": "Haasteet"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "challenges": {
+    "title": "Haasteet",
+    "summary": "Jäsennellyt putket ja tavoitteet — tsemppiä, ei häpeää.",
+    "why": "Haasteet luovat jaettua vauhtia.",
+    "what": [
+      "Valitse realistinen haaste",
+      "Seuraa mukana pysymistä",
+      "Juhli valmistumista"
+    ],
+    "how": [
+      "Aloita pienestä",
+      "Kirjaa rehellisesti",
+      "Nollaa ilman häpeää"
+    ],
+    "next": {
+      "id": "faq",
+      "label": "UKK"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "faq": {
+    "title": "UKK",
+    "summary": "Yleisiä kysymyksiä Buddysta, Foodiarysta ja Edistymisestä.",
+    "why": "Selkeät vastaukset vähentävät turhautumista.",
+    "what": [
+      "Buddy vs Foodiary",
+      "Miksi Edistyminen on nolla",
+      "Ääni ja kamera",
+      "Spaces"
+    ],
+    "how": [
+      "Lue Pikaopas ensin",
+      "Tarkista Vianetsintä",
+      "Ota yhteyttä hello@kcal.lol"
+    ],
+    "next": {
+      "id": "cheatsheet",
+      "label": "Pikaopas"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "why-kcal-buddy": {
+    "title": "Miksi kCal Buddy?",
+    "summary": "Miksi toinen terveysovellus on olemassa — ja mikä tekee Buddysta erilaisen.",
+    "next": {
+      "id": "philosophy",
+      "label": "kCal-filosofia"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-calories": {
+    "title": "Kalorit",
+    "summary": "Energia on fysiikkaa — tulokset ovat ruoan laatua.",
+    "next": {
+      "id": "nutrition-protein",
+      "label": "Proteiini"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-protein": {
+    "title": "Proteiini",
+    "summary": "Lihas, palautuminen ja kylläisyys.",
+    "next": {
+      "id": "nutrition-leucine",
+      "label": "Leusiini"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-leucine": {
+    "title": "Leusiini",
+    "summary": "Aminohappo, joka auttaa käynnistämään lihaksen rakentamista.",
+    "next": {
+      "id": "nutrition-fiber",
+      "label": "Kuitu"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-fiber": {
+    "title": "Kuitu",
+    "summary": "Ruoansulatus, kylläisyys, pitkän ajan terveys.",
+    "next": {
+      "id": "nutrition-water",
+      "label": "Vesi"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-water": {
+    "title": "Vesi",
+    "summary": "Nesteytys päivittäisenä tapana.",
+    "next": {
+      "id": "nutrition-fats",
+      "label": "Hyvät rasvat"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-fats": {
+    "title": "Hyvät rasvat",
+    "summary": "Rasvat, jotka tukevat hormoneja ja aterioita.",
+    "next": {
+      "id": "nutrition-carbs",
+      "label": "Hiilihydraatit"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-carbs": {
+    "title": "Hiilihydraatit",
+    "summary": "Polttoainetta — ilman pelkoa.",
+    "next": {
+      "id": "nutrition-tef",
+      "label": "TEF"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-tef": {
+    "title": "TEF",
+    "summary": "Ruoan terminen vaikutus — miksi proteiinin sulattaminen maksaa energiaa.",
+    "next": {
+      "id": "nutrition-meal-planning",
+      "label": "Ateriasuunnittelu"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-meal-planning": {
+    "title": "Ateriasuunnittelu",
+    "summary": "Suunnittele ateriat, joita oikeasti syöt.",
+    "next": {
+      "id": "nutrition-budget",
+      "label": "Ravinto budjetilla"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-budget": {
+    "title": "Ravinto budjetilla",
+    "summary": "Terveellinen syöminen ilman kalliita ostoksia.",
+    "next": {
+      "id": "nutrition-restaurant",
+      "label": "Ravintolassa syöminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-restaurant": {
+    "title": "Ravintolassa syöminen",
+    "summary": "Selviä menuista hylkäämättä suunnitelmaa.",
+    "next": {
+      "id": "nutrition-travel",
+      "label": "Matkalla"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-travel": {
+    "title": "Matkalla",
+    "summary": "Pysy johdonmukaisena tiellä.",
+    "next": {
+      "id": "nutrition-cheat-meals",
+      "label": "Herkkuateriat"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-cheat-meals": {
+    "title": "Herkkuateriat",
+    "summary": "Joustoa ilman häpeäkierteitä.",
+    "next": {
+      "id": "nutrition-meal-prep",
+      "label": "Aterioiden ennakkovalmistelu"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  },
+  "nutrition-meal-prep": {
+    "title": "Aterioiden ennakkovalmistelu",
+    "summary": "Kokkaa kerran, syö hyvin koko viikko.",
+    "next": {
+      "id": "daily-success",
+      "label": "Päivän onnistuminen"
+    },
+    "deepLink": {
+      "path": "/#/",
+      "label": "Avaa kCal Buddy"
+    }
+  }
+}

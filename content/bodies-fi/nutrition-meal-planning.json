@@ -1,0 +1,74 @@
+{
+  "intro": "Ateriasuunnittelu vähentää päätösväsymystä. Päätät kerran, kun on rauha — toteutat sitten kiireisinä päivinä, kun tahdonvoima on väsynyt.",
+  "time": "9 min",
+  "buddyTip": "Suunnittele vähemmän aterioita kuin luulet. Kaksi luotettavaa illallista ja oletuslounas voittavat värikkään aikataulun, jonka hylkäät.",
+  "mission": "Kirjoita huomisen lounas ja illallinen ennen nukkumaanmenoa — realistisia ruokia, jotka ovat jo kotona tai huomisen ostosreitillä.",
+  "why": [
+    "Suunnittelemattomat illat oletuksena päätyvät helpoimpaan ruokalähetykseen. Se ei ole luonteen vika; se on tyhjä jääkaappi plus väsymys. Suunnittelu on ympäristön muotoilua.",
+    "Suunnitelmat ovat aikomus — eivät live-päiväkirja. Kirjaat silti sen mitä oikeasti syöt Kodissa. Jos suunnitelma muuttuu, kirjaus kertoo totuuden; suunnitelma vain teki hyvän oletuksen saataville.",
+    "Suunnittelu tukee myös proteiinin ja kuidun johdonmukaisuutta. Kun ankkurit on päätetty etukäteen, lounas ei “jotenkin” muutu runsasproteiiniseksi."
+  ],
+  "what": {
+    "lead": "Mitä hyvä suunnitelma sisältää — ja jättää pois.",
+    "points": [
+      "Lyhyt lista illallisia, jotka ehdit kokata oikeassa aikabudjetissasi",
+      "Oletusaamiainen ja -lounas arkeen",
+      "Proteiini ja kuitu nimettyinä selvästi",
+      "Yksi joustava paikka ravintoloille tai tähteille",
+      "Ostoslista, joka vastaa suunnitelmaa — ei ihannekokkausohjeita, joita et koskaan tee"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos poikkean suunnitelmasta, epäonnistuin.",
+        "truth": "Suunnitelmat ohjaavat. Kirjaukset tallentavat. Poikkeama on dataa — päivitä ensi viikon suunnitelma."
+      },
+      {
+        "myth": "Ateriasuunnitelma korvaa Foodiaryn.",
+        "truth": "Ateriasuunnitelma katsoo eteenpäin. Foodiary/Koti tallentavat sen mitä tapahtui. Molemmat merkitsevät."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Pidä viikoittainen 15 minuutin suunnittelurituaali.",
+    "steps": [
+      "Tarkista kalenteri: myöhäiset illat, treeni, matka, seurusteluateriat",
+      "Valitse 2–4 illallista; toista suosikkeja tahallaan",
+      "Anna proteiiniankkurit aamun/lounaan oletuksille",
+      "Kirjoita ostoslista vain suunnitelmasta",
+      "Kirjaa aikomus Ateriasuunnitelmaan, jos käytät sitä; kirjaa totuus Kodissa kun syöt",
+      "Sunnuntain katsaus: mitkä suunnitellut ateriat oikeasti tapahtuivat?"
+    ],
+    "buddyHelps": "Ateriasuunnitelma pitää aikomuksen ja voi tukea ostosapua. Kodin kirjaaminen pitää Edistymisen rehellisenä, kun elämä muokkaa suunnitelmaa."
+  },
+  "sections": [
+    {
+      "title": "Mallit uutuuden sijaan",
+      "paras": [
+        "Kierto voittaa uutuuden mukana pysymisessä. Pidä henkilökohtainen “suurimmat hitit” -lista 8–10 ateriasta.",
+        "Ota mukaan enintään yksi uusi ohje viikossa, kun tavat vielä muodostuvat."
+      ]
+    },
+    {
+      "title": "Perhe ja Spacet",
+      "paras": [
+        "Jos kokkaat muille, suunnittele jaetut pohjat (proteiini + hiilari + kasvis) valinnaisilla kastikkeilla, jotta yksi keittiö palvelee monia makuja.",
+        "Scale Health Success alkaa ruokapöydästä — suunnittelu tekee terveestä pienimmän vastuksen polun useammalle kuin yhdelle."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Suunnittelin seitsemän gourmet-illallista ja tilasin pitsaa tiistaina.",
+      "why": "Yliambitiöiset suunnitelmat kaatuvat. Sovi kokkaustaito ja aika."
+    },
+    {
+      "quote": "Suunnittelin mutta en koskaan shoppaillut.",
+      "why": "Suunnitelma ilman listaa on toive. Osta samana päivänä kun suunnittelet, kun voit."
+    },
+    {
+      "quote": "Kirjasin suunnitelman sen sijaan, mitä söin.",
+      "why": "Se turmelee Edistymisen. Kirjaa totuus; pidä suunnitelma oppaana."
+    }
+  ],
+  "encouragement": "Nöyrä suunnitelma, jota noudatat useimpina päivinä, voittaa täydellisen menun, jota ihailet. Päätä tämän illan oletus — tuleva sinä kiittää."
+}

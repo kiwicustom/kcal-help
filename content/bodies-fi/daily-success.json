@@ -1,0 +1,79 @@
+{
+  "intro": "Päivän onnistuminen on pieni rituaali, ei sankaripäivä. Aamun vilkaisu, rehelliset ateriat, illan silmäily — sitten lopeta vatvominen.",
+  "time": "8 min",
+  "buddyTip": "Ankkuroi kirjaaminen olemassa oleviin hetkiin: kun istut lautasen ääreen, ei “kun muistan illalla”.",
+  "mission": "Tee tämän päivän kierto: aamutarkistus → kirjaa jokainen ateria → illan Foodiary-silmäily.",
+  "why": [
+    "Motivaatioon ei voi luottaa. Rituaalit selviävät kiireisistä viikoista. Päivittäinen kierto pitää Foodiaryn tarpeeksi täytenä, jotta Edistyminen merkitsee jotain — ilman että terveydestä tulee toinen työ.",
+    "Useimmat “epäonnistumiset” ovat puuttuvaa tallennusta, ei puuttuvaa tahdonvoimaa. Kun aamiainen jää kirjaamatta, lounasarviot lipuvat ja illallisesta tulee arvailua keskiyöllä. Tallennus lähellä ateriaa suojaa rehellisyyttä.",
+    "Päivän voitot ovat tahallaan tylsiä: proteiinia yhdessä ateriassa, vesi kirjattu, Edistyminen vilkaistu. Tylsyys on ominaisuus — se tarkoittaa, että järjestelmästä on tulossa automaattinen."
+  ],
+  "what": {
+    "lead": "Täydessä onnistuneessa päivässä on viisi hiljaista iskua.",
+    "points": [
+      "Aamu — avaa Koti; huomaa budjetti / Edistyminen; valinnainen punnitus ja vesi",
+      "Aamiainen — kirjaa Buddyn kanssa; suosi proteiinipainotteista aloitusta kun voit",
+      "Lounas — kirjaa taas; jos on kiire, ääni tai kuva voittaa väliin jättämisen",
+      "Illallinen — kirjaa se mitä oikeasti söit; korjaa grammat myöhemmin jos tarvitset",
+      "Illan katsaus — kahden minuutin Foodiary-silmäily; korjaa tyhjät kcal-rivit; yksi voittolause"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos en osunut jokaiseen tavoitteeseen, päivä meni hukkaan.",
+        "truth": "Kirjattu epätäydellinen päivä opettaa Buddyä. Kirjaamaton “täydellinen” päivä ei opeta mitään."
+      },
+      {
+        "myth": "Illan katsaus tarkoittaa makrojen analysointia tunnin ajan.",
+        "truth": "Silmäile puuttuvat ateriat ja ilmeiset virheet. Syvä analyysi kuuluu viikkokatsaukseen."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Pidä samat aikaikkunat, jotta aivot lopettavat neuvottelun.",
+    "steps": [
+      "Aamu: 60 sekuntia Kodissa — punnitse jos se on tapasi, kirjaa vesi, merkitse päivän tyyppi (matka, treeni, lepo)",
+      "Jokainen ateria: käytä Kodin oranssia Kirjaa / Puhu ruoka -ohjainta — älä Foodiary-ensin",
+      "Vahvista Buddyn arvio; säädä vain kun tiedät paremmin",
+      "Ilta: avaa tämän päivän Foodiary; täytä aukot; älä keksi tarkkoja grammoja, joita et nähnyt",
+      "Kirjoita yksi päivän voitto: “proteiinia lounaalla,” “kävelin,” “kirjasin ravintolan rehellisesti”"
+    ],
+    "buddyHelps": "Koti on päivän työpöytä. Pikatoiminnot (kamera, mikki, vesi) vähentävät kitkaa. Tämän päivän edistyminen täyttyy, kun kirjauksissa on oikeaa ravintoa — se on palautesilmukka."
+  },
+  "sections": [
+    {
+      "title": "Aamu",
+      "paras": [
+        "Pidä aamut kevyinä. Työ on suuntautumista, ei optimointia. Jos punnitukset stressaavat, punnitse harvemmin — menetelmän johdonmukaisuus voittaa päivittäisen draaman."
+      ]
+    },
+    {
+      "title": "Ateriat",
+      "paras": [
+        "Aamiainen, lounas ja illallinen ovat päiväkirjassa tasavertaisia. Välipalat lasketaan myös. Jos kirjaat vain “siistejä” aterioita, Edistyminen valehtelee optimistisesti.",
+        "Kun annokset ovat epäselviä, reilu arvio kirjattuna nyt voittaa täydellisen arvion, jota ei koskaan syötetä."
+      ]
+    },
+    {
+      "title": "Illan katsaus ja päivän voitot",
+      "paras": [
+        "Kysy: Tallensinko päivän? Mikä yksi asia toimi? Mitä kokeilen huomenna?",
+        "Sulje sitten sovellus. Uni on palautumistyötä — jätä taulukkoaivot oven taakse."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Kirjaan kaiken kello 23 muistista.",
+      "why": "Muisti aliraportoi välipalat ja öljyt. Lähellä ateriaa kirjaaminen on rehellisempää ja vähemmän stressaavaa."
+    },
+    {
+      "quote": "Kirjaan vain hyvinä päivinä, jotta keskiarvo näyttää siistiltä.",
+      "why": "Valikoiva kirjaaminen keksii kuvitteellisen ihmisen. Buddy valmentaa oikeaa."
+    },
+    {
+      "quote": "Päivän onnistuminen tarkoittaa valtavaa vajeen murskaamista joka päivä.",
+      "why": "Valtavat päivävajeet kimpoavat usein takaisin. Päivän onnistuminen on rituaali + proteiini/kuitu-tietoisuus + kestävä energia."
+    }
+  ],
+  "encouragement": "Jos kirjasit päivän ja opit yhden pienen asian, voitit. Toista huomenna — siinä koko peli."
+}

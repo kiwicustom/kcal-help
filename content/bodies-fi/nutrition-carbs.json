@@ -1,0 +1,73 @@
+{
+  "intro": "Hiilihydraatit ruokkivat treeniä, arjen liikettä ja aivotyötä. Ne myös vaikuttavat nälkään, salitehoon ja päivittäiseen vaa’an painoon glykogeenin ja veden kautta — siksi hiilaripelko luo niin paljon sekaannusta.",
+  "time": "8 min",
+  "buddyTip": "Sijoita suurin osa hiilareista aterioihin ja treeneihin, joissa tarvitset energiaa — ja pidä kuitupitoiset lähteet oletuksena.",
+  "mission": "Valitse yksi hiilarinlähde josta pidät (kaura, perunat, riisi, hedelmä, leipä josta oikeasti pidät) ja annostele se tahallaan yhdessä ateriassa.",
+  "why": [
+    "Hiilarit eivät ole roistoja. Kalorikontrolloidussa, proteiiniltaan riittävässä kuviossa hiilarien määrä on työkalu tehoon ja makuun. Niiden demonisointi johtaa usein juuri kiellettyjen ruokien vastaiskuun.",
+    "Korkeamman hiilarin päivät voivat nostaa vaa’an painoa glykogeenin ja veden kautta, vaikka rasva ei muuttuisi. Sen tietäminen suojaa paniikilta pastayön jälkeen.",
+    "Hiilarien laatu merkitsee silti kylläisyyttä ja terveyskuvioita: kuitua sisältävät hiilarit auttavat yleensä enemmän kuin sokeroidut juomat samalla energialla."
+  ],
+  "what": {
+    "lead": "Käytä hiilareita tarkoituksella.",
+    "points": [
+      "Sovita hiilarien saanti aktiivisuuteen: kovemmat treenipäivät ansaitsevat usein enemmän polttoainetta",
+      "Suosi perunoita, kauraa, täysjyviä, hedelmiä ja palkokasveja, kun ne sopivat kulttuuriisi ja makuusi",
+      "Nestemäinen sokeri on helppo juoda yli ja alikirjata",
+      "Vähähiilihydraattinen voi toimia joillekin; se ei ole pakollinen rasvanpudotukseen",
+      "Illan hiilarit eivät automaattisesti varastoidu rasvaksi — kokonaismäärät ja viikkotasapaino merkitsevät enemmän"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Hiilarien syöminen kello 18 jälkeen estää rasvanpudotuksen.",
+        "truth": "Ajoitusmyytit vievät huomion energiatasapainosta, proteiinista ja unesta. Valitse aikataulu, jota voit pitää."
+      },
+      {
+        "myth": "Hedelmät ovat sokeria, joten jätä ne väliin.",
+        "truth": "Hedelmät tuovat kuitua ja mikroravinteita. Annokset merkitsevät; pelko on turhaa useimmille."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Rakenna henkilökohtainen hiilarikartta viikolle.",
+    "steps": [
+      "Listaa treenipäiväsi ja anna niihin hieman korkeampia hiilariaterioita",
+      "Pidä oletushiilarilisuke, jonka osaat kokata puoliunessa",
+      "Kirjaa kastikkeet ja makeat juomat, jotka kulkevat “yksinkertaisten aterioiden” kyydissä",
+      "Jos paino pomppaa korkean hiilarin päivän jälkeen, odota viikon trendiä ennen kaiken vaihtamista",
+      "Jos energia romahtaa matalilla hiilareilla, lisää mitattu annos takaisin ja arvioi uudelleen"
+    ],
+    "buddyHelps": "Foodiary tallentaa hiilareita sisältävät ruoat, jotta Edistyminen voi näyttää kuvioita treeniviikkojen yli. Buddyn valmennuksen kuuluu suojata polttoaine koviin päiviin, ei kehua alisyömistä."
+  },
+  "sections": [
+    {
+      "title": "Suorituskyky",
+      "paras": [
+        "Kovat sessiot ilman hiilareita tuntuvat sankarillisilta kerran ja tyhmiltä viikkoon kolme mennessä. Ruoki työ, jota pyydät keholtasi.",
+        "Jos rasvanpudotus on tavoite, luo vaje viikon keskiarvosta — ei nälkiinnyttämällä jokaista treeniä."
+      ]
+    },
+    {
+      "title": "Kulttuuriset ruoat",
+      "paras": [
+        "Leipä, riisi, perunat ja pasta eivät ole moraalisia kategorioita. Ne ovat ruokia, jotka annostelet budjettisi ja kuitutavoitteidesi sisällä.",
+        "Kestävät suunnitelmat pitävät kulttuuriset perusruoat; ne eivät korvaa keittiötäsi jonkun toisen ostoslistalla."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Leikkasin kaikki hiilarit ja ihmettelin, miksi nostot romahtivat.",
+      "why": "Suorituspolttoaine putosi. Palauta hiilarit treenin ympärille ja pidä proteiini korkealla."
+    },
+    {
+      "quote": "Vaaka oli 1,5 kg ylhäällä riisipäivän jälkeen, joten panikoin.",
+      "why": "Glykogeeni/vesi selittää suuren osan siitä. Katso viikko."
+    },
+    {
+      "quote": "Syön vain “puhtaita hiilareita” ja ahmin sitten makeaa.",
+      "why": "Jäykät puhtaussäännöt lisäävät ahmintariskiä. Sisällytä suunniteltuja, nautittavia hiilareita."
+    }
+  ],
+  "encouragement": "Hiilarit ovat nuppi, ei demoni. Käännä ne treeniin ja nälkään sopiviksi — anna sitten viikon Edistymisen kertoa, onko nuppi oikein."
+}

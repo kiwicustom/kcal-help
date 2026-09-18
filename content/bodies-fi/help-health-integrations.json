@@ -1,0 +1,86 @@
+{
+  "intro": "Connected Health (Terveyslähteet) on ainoa paikka yhdistää puettavat laitteet. Live tänään: Oura, Strava, Polar Flow, Google Fit ja Apple Health (iPhone-sovellus). Garmin, WHOOP, Withings, Fitbit ja Android Health Connect pysyvät Later-tilassa, kunnes nuo sillat julkaistaan.",
+  "time": "5 min",
+  "buddyTip": "Avaa Valikko → Connected Health. Polar, Oura, Strava ja Google Fit käyttävät Yhdistä-toimintoa selaimessa. Apple Health Yhdistä ja Synkronoi nyt toimivat kcalin iOS-sovelluksessa (TestFlight) — Safari ei voi puhua HealthKitille.",
+  "mission": "Avaa Valikko → Connected Health, yhdistä lähde jota oikeasti käytät, sitten Synkronoi nyt. iPhonessa Apple Health tarvitsee kcal-sovelluksen, ei Safaria.",
+  "why": [
+    "Yksi lista. Asetukset avasivat ennen jäännössivun, joka sanoi Ouran ja Stravan olevan Coming soon, vaikka ne olivat jo live.",
+    "Jokainen lupa selittää, miksi Buddy haluaa sen — ei sokeaa “Salli kaikki”.",
+    "Katkaise milloin tahansa. Pilvilähteet synkkaavat, kun napautat Synkronoi nyt. Apple HealthKit ei synkkaa Safarista.",
+    "Later-kortit (Garmin, WHOOP, Withings, Fitbit, Health Connect) pysyvät Later-tilassa, kunnes nuo sillat julkaistaan — ne eivät ole vale-live."
+  ],
+  "what": {
+    "lead": "Mitä näet.",
+    "points": [
+      "Valikko → Connected Health (Terveyslähteet) — tai Asetukset → Avaa Connected Health",
+      "Live: Oura Ring, Strava, Polar Flow, Google Fit, Apple Health",
+      "Later: Garmin, WHOOP, Withings, Fitbit, Android Health Connect",
+      "Yhdistä / Katkaise / Synkronoi nyt live-korteilla",
+      "Apple Health — Yhdistä ja Synkronoi nyt vain iPhone-sovelluksessa"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Asetukset → Health Integrations on eri, uudempi terveys-sivu.",
+        "truth": "Se jäännössivu on poissa. Samat lähteet kuin Connected Health. Kirjanmerkit polkuun /health-integrations avaavat oikean listan."
+      },
+      {
+        "myth": "Apple Healthin yhdistäminen Macissa synkkaa jo unen ja treenit Buddyyn.",
+        "truth": "Yhdistä ja Synkronoi nyt tarvitsevat kcalin iOS-sovelluksen. Safari / Mac ei voi lukea HealthKitiä."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Näin se laitetaan (beta).",
+    "steps": [
+      "Päivitä uusimpaan betaan (webin kova uudelleenlataus tai uusin TestFlight).",
+      "Avaa Valikko → Connected Health (Terveyslähteet).",
+      "Napauta Yhdistä Ourassa, Stravassa, Polar Flow’ssa tai Google Fitissä ja viimeistele palvelun kirjautuminen.",
+      "iPhonen TestFlightissa napauta Yhdistä Apple Healthissa ja anna HealthKit, sitten Synkronoi nyt.",
+      "Palaa Kotiin ja jatka aterioiden kirjaamista — terveyslähteet tukevat Buddya; ne eivät korvaa Foodiarya."
+    ],
+    "buddyHelps": "Buddy valmentaa siitä mitä kirjaat. Puettavan laitteen data täyttää aktiivisuutta ja palautumista — se ei ohita Foodiarya."
+  },
+  "sections": [
+    {
+      "title": "Mistä se löytyy",
+      "paras": [
+        "Polku: Valikko → Connected Health.",
+        "Asetukset → Avaa Connected Health vie samalle sivulle.",
+        "Suora polku kutsulinkissäsi: …/#/u/YOUR_KEY/connections"
+      ]
+    },
+    {
+      "title": "Live vs Later",
+      "paras": [
+        "Live tarkoittaa, että Yhdistä toimii tänään (Polar tarvitsee Polar Flow AccessLinkin; Apple Health tarvitsee iPhone-sovelluksen).",
+        "Later tarkoittaa, ettemme teeskentele. Garmin tarvitsee heidän kehittäjäohjelmansa. WHOOP, Withings, Fitbit ja Android Health Connect eivät ole vielä kytkettyjä."
+      ]
+    },
+    {
+      "title": "Yksityisyys",
+      "paras": [
+        "Terveysdata lähtee laitteesta tai palvelusta vain kun yhdistät ja synkkaat.",
+        "Katkaise milloin tahansa. Ei pimeitä kuvioita."
+      ]
+    },
+    {
+      "title": "Mitä testaajien kannattaa raportoida",
+      "paras": [
+        "Näyttääkö Valikko → Connected Health Polar Flow’n livessä (ei Coming soon)?",
+        "Avaavatko Asetukset saman listan — ei toista vain-Apple-sivua?",
+        "Toimiiko Yhdistä lähteessä, jota käytät?"
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Yhdistin Apple Healthin ja odotin univalmennusta samana päivänä.",
+      "why": "Synkronoi nyt tuo näytteet. Buddy valmentaa silti Foodiarysta ensin."
+    },
+    {
+      "quote": "Avasin Health Integrations, koska nimi kuulosti uudemmalta.",
+      "why": "Se nimi oli jäänne. Käytä Connected Healthia."
+    }
+  ],
+  "encouragement": "Yhdistä kello tai sormus, jota jo käytät. Foodiary-tapasi tulee silti ensin."
+}

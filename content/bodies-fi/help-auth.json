@@ -1,0 +1,76 @@
+{
+  "intro": "Kirjautuminen suojaa terveysdataasi: tervetuloa, laitteen paritus, PIN, luotetut laitteet ja palautus. Turvallisuuden kuuluu tuntua rauhalliselta — ei tentiltä, jonka pelkäät reputtavasi.",
+  "time": "8 min",
+  "buddyTip": "Säilytä palautustiedot paikassa, jonka vain sinä löydät. Luotettu laite plus muistettu PIN kattaa useimmat päivät.",
+  "mission": "Varmista, että tiedät miten kirjaudut tällä laitteella ja missä palautuspolkusi asuu — päivitä jos se on hatara.",
+  "why": [
+    "Ruoka, paino ja treenidata ovat henkilökohtaisia. Istunnot, laitteen luottamus ja PIN ovat olemassa, jotta satunnainen pääsy pysyy vaikeana ja arjen käyttö sujuvana.",
+    "Usein kirjautumiskipu on unohtunut PIN, uusi puhelin tai ohitettu palautuksen asetus. Korjaa ne kerran; kirjaaminen pysyy katkeamattomana.",
+    "Vain kutsulla toimiva beta tarkoittaa, että pääsy on tahallista. Seuraa aloituksen kehotteita sen sijaan, että keksit kiertoteitä, jotka heikentävät luottamusta."
+  ],
+  "what": {
+    "lead": "Kirjautumisen palikat.",
+    "points": [
+      "Tervetuloa / aloituksen sisäänkäynti",
+      "Laitteen paritus tilisi pääsyyn",
+      "PIN nopeaan paikalliseen suojaan",
+      "Luotetut laitteet sujuvampiin paluukäynteihin",
+      "Palautuspolut, kun laite katoaa"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Palautuksen ohittaminen säästää aikaa.",
+        "truth": "Se maksaa kriisin myöhemmin. Aseta palautus kun on rauha."
+      },
+      {
+        "myth": "PIN-koodin jakaminen puolison kanssa on ok, jos jaamme tavoitteet.",
+        "truth": "Suosi erillisiä pääsytapoja. Jaetut PIN-koodit sumentavat vastuuta ja turvallisuutta."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Kohtele kirjautumista kuin hampaiden harjausta — lyhyt, säännöllinen, ei-dramaattinen.",
+    "steps": [
+      "Tee aloituksen kehotteet loppuun hoputtamatta palautuksen ohi",
+      "Aseta PIN, jonka muistat matkastressissä",
+      "Merkitse tämä puhelin luotetuksi, jos tarjotaan ja se on vain sinun",
+      "Kun saat uuden laitteen, parita tahallaan; peru vanha jos tarvitset",
+      "Jos jäät ulos, käytä virallista palautusta — vältä epävirallista “nollaus”kansanperinnettä",
+      "Lähetä sähköposti hello@kcal.lol vasta kun olet kokeillut sovelluksen palautuspolkua"
+    ],
+    "buddyHelps": "Kirjautuminen pitää Buddyn päiväkirjan sinun. Tuote olettaa, että yksityisyys on osa valmennusluottamusta — ei jälkiajatus."
+  },
+  "sections": [
+    {
+      "title": "Uuden puhelimen tarkistuslista",
+      "paras": [
+        "Asenna → kirjaudu / parita → vahvista PIN → varmista että tuore Foodiary-päivä synkkaa → peru luottamus vanhasta laitteesta, jos se lähtee hallinnastasi."
+      ],
+      "steps": [
+        "Älä tehdasnollaa vanhaa puhelinta, ennen kuin uusi näyttää datasi",
+        "Pidä palautusaineisto käsillä vaihdon aikana"
+      ]
+    },
+    {
+      "title": "Jaetut kodit",
+      "paras": [
+        "Käytä Spaceja yhteistyöhön. Älä tee yhdestä kirjautumisesta kotitaloustiliä — totuus sumentuu ja turvallisuus heikkenee."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Kirjoitin PIN-koodini valokuva-albumiin nimeltä Salasanat.",
+      "why": "Liian helppo vuotaa. Käytä kunnollista salasananhallintaa tai paperille suljettua muistiinpanoa."
+    },
+    {
+      "quote": "Ohitin palautuksen, koska aloitus tuntui pitkältä.",
+      "why": "Palautus on laskuvarjo. Viisi minuuttia nyt estää huonon viikon myöhemmin."
+    },
+    {
+      "quote": "Asennan uudelleen “korjatakseni” kirjautumisongelmia.",
+      "why": "Uudelleenasennukset ilman palautussuunnitelmaa voivat jättää sinut jumiin. Seuraa Vianetsintää ja kirjautumiskehotteita."
+    }
+  ],
+  "encouragement": "Tarpeeksi turvallinen suojatakseen sinua, tarpeeksi yksinkertainen jotta avaat Kodin myös huomenna — se on kirjautumisen tavoite. Aseta kerran, kirjaa sitten lounas."
+}

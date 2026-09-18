@@ -1,0 +1,73 @@
+{
+  "intro": "Kuitu tukee ruoansulatusta, kylläisyyttä, verensokerin tasaisuutta ja pitkän ajan terveyttä. Se on päivittäinen rakennuspalikka, ei rangaistava “puhdistuskuuri”-lisä.",
+  "time": "8 min",
+  "buddyTip": "Lisää kuitua aterioihin, joita syöt jo — marjoja jogurttiin, papuja keittoon, kasviksia proteiinilautaselle — ennen erikoistuotteiden ostamista.",
+  "mission": "Ota tänään yksi kuitupitoinen kasvisruoka lounaalle ja illalliselle; kirjaa ne.",
+  "why": [
+    "Kuitupitoiset ruoat hidastavat ruoansulatusta, auttavat tuntemaan olon kylläiseksi annetulla kaloribudjetilla ja ruokkivat terveempää suolistoympäristöä. Ihmiset, jotka “syövät tarpeeksi proteiinia” mutta napostelevat silti loputtomiin, jäävät usein ilman kasvien kuitua ja tilavuutta.",
+    "Äkilliset kuitupiikit aiheuttavat turvotusta. Valmennussiirto on asteittainen nosto veden kanssa — ei viikonlopun lesesankaruutta matalan kuidun kuukauden jälkeen.",
+    "Kuitu on osa syytä, miksi samat kalorit eivät ole samoja tuloksia. Kalorivastaava ateria kasviksilla, palkokasveilla ja täysjyväillä käyttäytyy yleensä toisin kuin vähäkuituinen, jalostettu lautanen."
+  ],
+  "what": {
+    "lead": "Tunne käytännön lähteet ja tahti.",
+    "points": [
+      "Kasvikset, hedelmät, palkokasvit, kaura, täysjyvät, pähkinät ja siemenet kantavat kuitua",
+      "Sekä liukeneva että liukenematon kuitu auttavat — monipuolisuus voittaa yhden taikaruuan",
+      "Nosta hitaasti, jos lähtötaso on matala; parita veteen",
+      "Kuitulisät voivat täyttää aukkoja, mutta niiden ei kuulu korvata kasveja",
+      "Seuraa kuitua sisältävien aterioiden johdonmukaisuutta, ei vain täydellistä grammamäärää"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Mehupaastot ovat kuitustrategia.",
+        "truth": "Mehustus usein poistaa kuidun. Syö hedelmä ja kasvikset kun voit."
+      },
+      {
+        "myth": "Vähähiilihydraattinen tarkoittaa nollakuitua.",
+        "truth": "Tärkkelysköyhät kasvikset, siemenet ja osa marjoista sopivat moniin matalamman hiilarin kuvioihin."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Tee kuidusta automaattinen viikon ostoksissa.",
+    "steps": [
+      "Laita jokaiseen ostoslistaan kaksi kasvista, yksi hedelmä ja yksi palkokasvi tai täysjyväperusta",
+      "Lisää kasvinen lisuke proteiiniankkuriin lounaalla ja illallisella",
+      "Vaihda yksi jalostettu vilja kuituisampaan vaihtoehtoon, josta oikeasti pidät",
+      "Nosta kuitua 1–2 viikon yli, jos suolisto valittaa",
+      "Katso viikko: monenako päivänä oli selviä kuidun lähteitä kahdessa ateriassa?"
+    ],
+    "buddyHelps": "Kasvien ja palkokasvien kirjaaminen opettaa Edistymiselle, miltä “kuitupäivät” näyttävät. Buddy voi valmentaa lautasen tasapainoa, kun Foodiary näyttää proteiinia ilman kasveja."
+  },
+  "sections": [
+    {
+      "title": "Kylläisyys budjetilla",
+      "paras": [
+        "Kuitupitoiset ruoat lisäävät pureskelua, tilavuutta ja hitaampaa ruoansulatusta — hyödyllistä kun kalorit ovat rajalliset. Parita proteiiniin parhaan kylläisyyspinon saamiseksi.",
+        "Jos illat ovat napostelupainotteisia, auditoi lounaan kuitu ja proteiini ennen tahdonvoiman syyttämistä."
+      ]
+    },
+    {
+      "title": "Mukavuus ja matka",
+      "paras": [
+        "Matkalla kuitu usein putoaa. Pakkaa kannettavia vaihtoehtoja (hedelmä, kasvistikkuja, paahdettuja palkokasveja) tai valitse kasvisten lisukkeita ulkona syödessä.",
+        "Palaa lähtötasoon asteittain vähäkuituisten reissujen jälkeen, jotta vatsa ei tee draamaa."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Lisäsin 40 g kuitua yhdessä yössä jauheella.",
+      "why": "Nopeat hypyt aiheuttavat epämukavuutta ja pelottavat kuidusta. Nosta asteittain."
+    },
+    {
+      "quote": "Ketsuppi ja yksi salaatinlehti kattoivat kasvikseni.",
+      "why": "Symboliset kasvit eivät toimita kuitua. Tähtää näkyviin annoksiin."
+    },
+    {
+      "quote": "Kuitu lihottaa, joten vältän sitä.",
+      "why": "Varhaiset vaa’an pomput voivat olla suoliston sisältöä ja vettä. Rasvan kertyminen ei ole tavallinen tarina — anna trendeille aikaa."
+    }
+  ],
+  "encouragement": "Kuitu on hiljaista terveysinfrastruktuuria. Lisää kasveja joista pidät, kunnes kylläisyys tuntuu helpommalta — se on voitto."
+}

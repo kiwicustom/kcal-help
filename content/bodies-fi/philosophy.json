@@ -1,0 +1,92 @@
+{
+  "intro": "kCal Buddy ei ole putkien kerääjä. Se on filosofia pienistä, rehellisistä parannuksista — Buddyn opettamana, dataasi nojaavana, ja rakennettuna leviämään ihmisten kautta.",
+  "time": "10 min",
+  "buddyTip": "Kun tunnet olevasi jäljessä, palaa kiertoon: Havainnoi → Ymmärrä → Paranna → Toista. Jätä häpeä. Ota seuraava ateria.",
+  "mission": "Valitse yksi uskomus alta ja harjoittele sitä nukkumaanmenoon asti — esimerkiksi Rehellisyys ennen häpeää jokaisessa kirjauksessa.",
+  "why": [
+    "Sovellukset kaatuvat, kun ne optimoivat täydellisiä viikkoja. Oikea terveys syntyy tuhansista tavallisista päätöksistä epätäydellisissä oloissa. Filosofiamme pitää tuotteen, valmennuksen ja ominaisuudet siinä todellisuudessa.",
+    "Uskomukset eivät ole iskulauseita. Ne päättävät, mitä rakennamme: opettamista arvailun sijaan, johdonmukaisuutta intensiteetin sijaan, proteiinia ja kuitua ensiluokkaisina signaaleina, palautumista terveystyönä, tekoälyä joka valmentaa tuomitsematta, ja Spaceja jotta terveys voi levitä.",
+    "Kun ymmärrät filosofian, jokainen ruutu selkiytyy. Koti on tallennusta varten. Foodiary on kirjanpito. Edistyminen on oppimista. Ateriasuunnitelma on aikomus. Spacet ovat kuulumista. Buddyn työ on tehdä seuraavasta päätöksestä hieman helpompi."
+  ],
+  "what": {
+    "lead": "Nämä uskomukset ovat kaiken rakentamamme perusta.",
+    "points": [
+      "Edistyminen ennen täydellisyyttä — toistetut pienet parannukset voittavat lyhyet täydellisyyden purkaukset",
+      "Tieto ennen arvailua — miksi-kysymys luo kestäviä tapoja; Buddyn kuuluu opettaa, ei vain laskea",
+      "Johdonmukaisuus ennen intensiteettiä — terveet rutiinit voittavat kestämättömät ääripäät",
+      "Rehellisyys ennen häpeää — huonoja päiviä ei ole; rehelliset kirjaukset auttavat Buddyä valmentamaan paremmin",
+      "Proteiinilla on väliä — proteiini tukee lihasta, palautumista ja kylläisyyttä",
+      "Kuidulla on väliä — kuitu tukee ruoansulatusta, kylläisyyttä ja pitkän ajan terveyttä",
+      "Palautumisella on väliä — uni, nesteytys ja lepo ovat välttämättömiä, eivät valinnaisia",
+      "Tekoälyn kuuluu valmentaa — vähentää stressiä ja antaa voimaa; ei tuomita",
+      "Terveyden kuuluu levitä — tapojen kuuluu siirtyä perheille, ystäville, työpaikoille, valmentajille ja yhteisöille"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Filosofia on pehmeää — tarvitsen vain kaloritavoitteen.",
+        "truth": "Tavoitteet ilman uskomuksia tuottavat romahdusnollauksia. Filosofia pitää Metodin inhimillisenä: opi ensin, säädä sitten, varmista aina."
+      },
+      {
+        "myth": "Jos jätän päivän väliin, rikoin järjestelmän.",
+        "truth": "Järjestelmä odottaa aukkoja. Jatka seuraavasta ateriasta. Buddy oppii kuvioista, ei täydellisistä putkista."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Harjoittele kCal-tapaa viikkorytminä, ei luentona.",
+    "steps": [
+      "Havainnoi — kirjaa ruoka, liike, unen konteksti ja olo ilman tarinan siistimistä",
+      "Ymmärrä — kysy miksi paino tai nälkä liikkui; käytä Edistymistä ja viikkokatsausta, ei yhtä punnitusta",
+      "Paranna — valitse yksi muutos, jota Buddy voi valmentaa (proteiinia lounaalla, vesi, aikaisempi illallinen)",
+      "Toista — suojaa kirjaamisen rituaali, jotta oivallus muuttuu identiteetiksi"
+    ],
+    "buddyHelps": "Buddy pitää tallennuksen helppona, selittää arviot ja nostaa Edistymisen esiin, jotta kierto pysyy näkyvissä. Spacet kantavat Scale Health Successia, kun haluat seuraa."
+  },
+  "sections": [
+    {
+      "title": "kCal-tapa",
+      "paras": [
+        "Havainnoi: näe mitä syöt, liikut, nukut ja tunnet — ilman tuomiota.",
+        "Ymmärrä: opi miksi luvut liikkuvat — vesi, natrium, treeni, alikirjaus tai oikea energiavaje.",
+        "Paranna: yksi rehellinen muutos, jota Buddy voi valmentaa tällä viikolla.",
+        "Toista: johdonmukaisuus tekee oivalluksesta sen kuka olet, ei tilapäistä dieettiä."
+      ]
+    },
+    {
+      "title": "Health Operating System",
+      "paras": [
+        "kCal Buddy on henkilökohtainen Health Operating System: ravinto, liike, palautuminen, uni, nesteytys, paino, tavat, ystävät, valmentajat, yhteisöt ja tekoäly yhdessä kuvassa.",
+        "Se ei ole “lisää kaavioita”. Se on yksi paikka, jossa totuus ja valmennus kohtaavat, jotta päätökset yksinkertaistuvat ajan mittaan."
+      ]
+    },
+    {
+      "title": "Scale Health Success",
+      "paras": [
+        "Terveiden tapojen ei kuulu jäädä yhdelle ihmiselle. Terveyden kuuluu levitä: Sinä → Perhe → Ystävät → Tiimit → Yhteisöt → laajempi maailma.",
+        "Spacet ja valmennus on rakennettu tämän filosofian ympärille. Kuuluminen pitää ihmiset mukana, kun motivaatio notkahtaa."
+      ]
+    },
+    {
+      "title": "Buddyn viesti",
+      "paras": [
+        "“Työni ei ole tehdä sinusta täydellistä. Työni on auttaa sinua olemaan vähän terveempi joka ikinen päivä.”",
+        "Tuo lause on tuotesopimus. Jos ominaisuus työntää täydellisyysteatteria rehellisen edistymisen ohi, se ei kuulu tänne."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Noudatan filosofiaa, kun olen ensin pudottanut ensimmäiset viisi kiloa.",
+      "why": "Filosofia on tapa pudottaa ne kestävästi. Aloita rehellisillä kirjauksilla ja yhdellä parannuksella — ei tilapäisellä ääripäällä."
+    },
+    {
+      "quote": "Proteiinilla ja kuidulla on väliä, joten ohitan kalorit kokonaan.",
+      "why": "Ruoan laatu ja energiatasapaino merkitsevät molemmat. Kalorit ovat fysiikkaa; proteiini, leusiini, kuitu ja TEF selittävät, miksi samat kalorit tuntuvat ja toimivat eri tavalla."
+    },
+    {
+      "quote": "Tekoälyvalmennus tarkoittaa, että Buddyn kuuluu nuhdella, kun lipsun.",
+      "why": "Tuomio lisää piilottelua. Rehelliset kirjaukset tarvitsevat turvaa. Buddy valmentaa seuraavaa tekoa, ei luonnettasi."
+    }
+  ],
+  "encouragement": "Sinun ei tarvitse uskoa jokaista uskomusta päivänä yksi. Harjoittele Edistymistä ennen täydellisyyttä, kunnes se tuntuu normaalilta — loput filosofiasta kohtaa sinut siellä."
+}

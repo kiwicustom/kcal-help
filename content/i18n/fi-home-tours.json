@@ -1,0 +1,114 @@
+{
+  "title": "Kotinäkymä (mobiili)",
+  "lead": "Koti on päivän työpöytä. Sama data jokaisessa näkymätilassa — vain se muuttuu, kuinka paljon näet. Napauta yläpalkin ?-merkkiä, niin Koti selitetään aaltoina. Ruudulla: Click here to CONTINUE / Click here to go BACK, ja viimeisessä aallossa Click here to CLOSE — mikään ei etene itsestään. Napauta alapalkin Näkymä-valintaa (Beg / Std / Pwr). Tiedot eivät katoa.",
+  "pxHint": "Näkymätila on betan esitystapa. Merkintäsi säilyvät. Voit vaihtaa milloin tahansa.",
+  "modes": [
+    {
+      "id": "beginner",
+      "title": "Aloittelija",
+      "px": "PX Beg",
+      "lead": "Ei koontinäyttöä. Tervehdys, tämän päivän terveys, tehtävälista. Napauta riviä, niin Buddy kirjaa.",
+      "nav": "Koti · Foodiary · Edistyminen · Valikko",
+      "items": [
+        {
+          "n": 1,
+          "label": "Yläpalkki",
+          "text": "kCal Buddy, kieli, teema, Asetukset ja ? joka selittää Kodin aaltoina. Click here to CONTINUE / Click here to go BACK. Viimeinen aalto: Click here to CLOSE."
+        },
+        {
+          "n": 2,
+          "label": "Tervehdys",
+          "text": "Buddy tervehtii. Yksi rivi. Siinä koko valmentaja."
+        },
+        {
+          "n": 3,
+          "label": "Tämän päivän terveys",
+          "text": "Kalorit, proteiini, kuitu, vesi, juomat ja kulutus vs tavoite. Napauta riviä nähdäksesi lisät."
+        },
+        {
+          "n": 4,
+          "label": "Päivän tehtävälista",
+          "text": "Aamiainen · Lounas · Illallinen · Välipala · Juomat · Vesi. Napauta ruutua → Buddy. Ruksi tulee vasta tallennuksen jälkeen."
+        },
+        {
+          "n": 5,
+          "label": "Alapalkki",
+          "text": "Koti · Foodiary · Edistyminen · PX Beg · Valikko. Ei Ateriasuunnitelmaa, Aktiviteettia eikä Spaceja."
+        }
+      ]
+    },
+    {
+      "id": "standard",
+      "title": "Perustaso",
+      "px": "PX Std",
+      "lead": "Buddy on isäntä. Tämän päivän edistyminen on kompassi. Terveyskortit ovat budjetin alla.",
+      "nav": "Koti · Ateriasuunnitelma · Foodiary · Aktiviteetti · Edistyminen · Spaces · Valikko",
+      "items": [
+        {
+          "n": 1,
+          "label": "Buddy-isäntä",
+          "text": "Isompi Buddy ja lyhyt tervehdys. Kieli, teema ja Asetukset pysyvät oikealla."
+        },
+        {
+          "n": 2,
+          "label": "Työkalupakki",
+          "text": "Kamera on oranssi pääpainike. Vesi, Paino ja Ostoskori pysyvät rauhallisina (valkoiset chipit, värilliset kuvakkeet). Ostoskori on viimeisenä. Koontikortit pitävät vahvat värit."
+        },
+        {
+          "n": 3,
+          "label": "Lisää",
+          "text": "Kameran chevron: Kamera, Kuva, Kuitti / tiedosto, Tekstisyöttö, Ääni — A–Ö. Tekstillä kirjoitat aterian."
+        },
+        {
+          "n": 4,
+          "label": "Päivän kello",
+          "text": "Päivä, kellonaika, aurinkojana, sää. Konteksti — ei kirjaus."
+        },
+        {
+          "n": 5,
+          "label": "Tämän päivän edistyminen",
+          "text": "Päivän energiabudjetti: Ruoka · Liikunta · Jäljellä. Perustasolla ei TEF:ää."
+        },
+        {
+          "n": 6,
+          "label": "Terveyskortit",
+          "text": "Proteiini · Kuitu · Vesi · Juomat. Napauta korttia nähdäksesi lisät."
+        },
+        {
+          "n": 7,
+          "label": "Alapalkki",
+          "text": "Koti plus Ateriasuunnitelma, Foodiary, Aktiviteetti, Edistyminen, Spaces, PX Std, Valikko."
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Power-käyttäjä",
+      "px": "PX Pwr",
+      "lead": "Sama Koti kuin perustasolla, plus TEF ja leusiini budjetissa ja proteiinikortissa.",
+      "nav": "Samat välilehdet kuin perustasolla · työpöydällä voi tulla Raportit · Näkemykset · Tavoitteet",
+      "items": [
+        {
+          "n": 1,
+          "label": "Buddy-isäntä",
+          "text": "Sama työkalupakki kuin perustasolla: Kamera · Vesi · Paino · Ostoskori."
+        },
+        {
+          "n": 2,
+          "label": "Energiabudjetti + TEF",
+          "text": "Ruoka · TEF · Liikunta · Jäljellä. TEF on syömisen aiheuttama lisäkulutus — ei toinen ateria."
+        },
+        {
+          "n": 3,
+          "label": "Proteiini + leusiini",
+          "text": "Proteiinikortti näyttää leusiiniarvion. Kuitu, vesi ja juomat pysyvät kuten perustasolla."
+        },
+        {
+          "n": 4,
+          "label": "Kaikki muu",
+          "text": "Kello, vinkki, tehtävä, Spaces-vilkaisu — enemmän yksityiskohtia, samat työt. PX Pwr alapalkissa."
+        }
+      ]
+    }
+  ]
+}

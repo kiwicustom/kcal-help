@@ -1,0 +1,73 @@
+{
+  "intro": "Terveellinen syöminen budjetilla on suunnittelutaito. Proteiini, kuitu ja energiatietoisuus eivät vaadi luksustavaroita — ne vaativat toistettavan korin.",
+  "time": "8 min",
+  "buddyTip": "Osta proteiinia muodoissa, joita oikeasti kokkaat: munat, maitotuotteet, pakastekala, palkokasvit, tarjouskana — ei somevaikuttajien raaka-aineita.",
+  "mission": "Rakenna kolmen päivän budjettimenu ruoista, jotka on jo hinnoiteltu tavallisessa kaupassasi; kirjaa yksi niistä aterioista tänään.",
+  "why": [
+    "Ihmiset hylkäävät ravintotavoitteet, kun ruoan hinta nousee tai kokkausaika räjähtää. Budjettivalmennus pitää Scale Health Successin realistisena perheille ja opiskelijoille — ei vain kalliiden ateriasettien käyttäjille.",
+    "Hinta proteiingrammaa ja tyydyttävää ateriaa kohden merkitsee enemmän kuin luomumerkit. Munat, kaura, pavut, pakastekasvikset, perunat, jogurtti/rahka ja kaupan merkkien perusraaka-aineet tekevät kovaa työtä.",
+    "Hävikki on piilotettu budjetintappaja. Tähteiden suunnittelu ja ylimääräisen pakastaminen on terveysinfrastruktuuria."
+  ],
+  "what": {
+    "lead": "Budjettiystävällinen kuvio osuu silti kCalin prioriteetteihin.",
+    "points": [
+      "Priorisoi tarjouksessa olevat proteiiniperustat; pakasta annoksia",
+      "Käytä palkokasveja ja maitotuotteita/munia edullisina ankkureina",
+      "Pakastekasvikset vastaavat tuoreita useimmissa kuitutavoitteissa",
+      "Kokkaa kerran, syö kahdesti — tahalliset tähteet",
+      "Rajoita erikoisia “terveys”tuotteita, jotka maksavat enemmän kuin auttavat"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Terveellinen ruoka on aina kalliimpaa.",
+        "truth": "Ultraprosessoitu helppous ja tiheä kotiinkuljetus maksavat usein enemmän kuin yksinkertaiset kotiperustat."
+      },
+      {
+        "myth": "Budjetti tarkoittaa matalaa proteiinia.",
+        "truth": "Budjetti tarkoittaa halvempien proteiinimuotojen valitsemista ja niiden hyvää kokkaamista — ei proteiinin väliin jättämistä."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Osta proteiini-ja-kasvit-listalla, ei hyllyinspiraatiolla.",
+    "steps": [
+      "Aseta viikon ruokasumma ennen kuin menet kauppaan tai appiin",
+      "Listaa proteiiniankkurit ensin, sitten kuitulisukkeet, sitten hiilarit/rasvat",
+      "Vertaa yksikköhintoja; suosi perhepakkauksia, jotka voit pakastaa",
+      "Suunnittele kaksi tähteillä toimivaa lounasta",
+      "Kirjaa kotiruoat — kotitekoinen ei tarkoita “arvioi öljy nollaksi”",
+      "Katso kuukausittain: mitkä halvat ateriat toistit mielelläsi?"
+    ],
+    "buddyHelps": "Ateriasuunnitelma ja toistettavat Foodiary-rivit tekevät budjettikuvioista näkyviä. Buddyn arviot tarvitsevat silti rehelliset öljyt ja annokset."
+  },
+  "sections": [
+    {
+      "title": "Korkean arvon korin esimerkkejä",
+      "paras": [
+        "Munat + pakastekasvikset + perunat; kaurapuuro + rahka; linssikeitto + leipä; tonnikala/papusalaatit; kanan eräkypsennys riisillä ja porkkanoilla.",
+        "Sovita suomalaisiin/saksalaisiin kaupan realiteetteihin: käytä sitä mikä on tarjouksessa paikallisesti — kuvio merkitsee enemmän kuin merkki."
+      ]
+    },
+    {
+      "title": "Aika on rahaa",
+      "paras": [
+        "Jos kotiinkuljetus pelastaa kriisi-illan joskus, kirjaa ja jatka. Jos kotiinkuljetus on joka ilta, budjetti ja ravinto molemmat rapautuvat — korjaa ensin suunnitelma ja pakastin."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Ostin kalliita ihmeruokia ja jätin silti proteiinin väliin.",
+      "why": "Väärin allokoitu budjetti. Rahoita ankkurit ennen asusteita."
+    },
+    {
+      "quote": "Ostan vain tuoreita salaatinlehtiä, jotka nuutuvat keskiviikkoon.",
+      "why": "Hävikki verottaa budjettia. Käytä kestäviä kasviksia ja pakastevaroja."
+    },
+    {
+      "quote": "Budjettiviikot eivät laske Edistymiseen.",
+      "why": "Ne ovat oikeaa elämää. Kirjaa ne — Buddyn kuuluu oppia oikea kuviosi."
+    }
+  ],
+  "encouragement": "Rajoite voi terävöittää taitoja. Yksinkertainen, proteiinipainotteinen kori toistettuna viikoittain on eliittikäytöstä tavallisissa vaatteissa."
+}

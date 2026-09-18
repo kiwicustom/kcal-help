@@ -1,0 +1,85 @@
+{
+  "intro": "Asetukset saavat sovelluksen vastaamaan elämääsi — profiili, teema, kieli, ilmoitukset ja integraatiot. Vaihda yksi asia kerrallaan, jotta tiedät mikä auttoi.",
+  "time": "7 min",
+  "buddyTip": "Korjaa kieli ja ilmoitukset aikaisin; jätä eksoottiset integraatiot, kunnes kirjaaminen on tapa.",
+  "mission": "Avaa Valikko → Asetukset; varmista, että kieli ja ilmoitustoiveet vastaavat sitä, miten oikeasti elät.",
+  "why": [
+    "Oletukset, jotka taistelevat rutiiniasi vastaan, luovat hiljaista poistumaa. Väärä kieli, meluisat hälytykset tai tumman teeman silmärasitus kaikki vähentävät kirjaamista — ainoaa tapaa, joka ruokkii kaikkea muuta.",
+    "Profiilin perusasiat (paino, tavoitteet, mieltymykset) muovaavat valmennuksen osuvuutta. Pidä ne ajan tasalla, kun elämä muuttuu, etenkin kuukausikatsauksessa.",
+    "Integraatiot ovat valinnaista kontekstia. Niiden ei kuulu viedä huomiota Foodiaryn rehellisyydestä ensimmäisessä kuussa.",
+    "Teema ja tekstikoko (kun saatavilla) vaikuttavat siihen, avaatko sovelluksen illalla. Mukavuus on mukana pysymisen infrastruktuuria."
+  ],
+  "what": {
+    "lead": "Tavallisia Asetusten alueita.",
+    "points": [
+      "Profiili — kehon mittaukset, tavoitteet, ruokavaliotoiveet",
+      "Teema — visuaalinen mukavuus",
+      "Kieli — EN / DE / FI ja mitä sovellus tarjoaa",
+      "Ilmoitukset — muistutukset, jotka valmentavat, eivät nalkuta",
+      "Integraatiot — terveyslähteet kun olet valmis"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Enemmän integraatioita tekee Edistymisestä heti fiksumman.",
+        "truth": "Rehelliset ateriat ja punnitukset opettavat enemmän alussa. Lisää lähteitä, kun ne vähentävät kitkaa."
+      },
+      {
+        "myth": "Minun pitäisi rakentaa profiili uudelleen joka viikko.",
+        "truth": "Päivitä kun totuus muuttuu — ei lykkäysrituaalina."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Rauhallinen Asetukset-kierros.",
+    "steps": [
+      "Avaa Valikko → Asetukset",
+      "Varmista, että profiilin tavoite vastaa vielä tämän kuun teemaa",
+      "Aseta kieli ja teema",
+      "Ota käyttöön vain ilmoitukset, joita kunnioitat",
+      "Yhdistä enintään yksi integraatio jos tarvitset; varmista synkronointi",
+      "Palaa Kotiin ja kirjaa — Asetukset ovat tuki, eivät tuote"
+    ],
+    "buddyHelps": "Asetukset säätävät Buddyn ympäristöä, jotta valmennus tuntuu henkilökohtaiselta. Päiväkirja ja Edistyminen tekevät silti raskaan oppimisen."
+  },
+  "sections": [
+    {
+      "title": "Terveyslähteet (uusi)",
+      "paras": [
+        "Avaa Asetukset → Terveyslähteet lupien miksi-listaan, tai Connected Health live-Apple Health -korttiin. Yhdistä + Synkronoi nyt tarvitsevat kcalin iOS-sovelluksen (TestFlight). Safari ei voi puhua HealthKitille."
+      ]
+    },
+    {
+      "title": "Ilmoitukset, jotka toimivat",
+      "paras": [
+        "Suosi itse valitsemiasi ateria-ajan tuuppauksia jatkuvan putkipaniikin sijaan. Jos mykistät kaiken, aseta kalenterimuistutus tilalle — rituaalit tarvitsevat vihjeen."
+      ]
+    },
+    {
+      "title": "Integraatioiden hygienia",
+      "paras": [
+        "Peru käyttämättömät luvat. Puettavan laitteen kulutus on kontekstia, ei automaattista totuutta — jatka ruoan kirjaamista silti. Connected Health (Oura / Google / Strava) pysyy Valikko → Connected Health live-pilvilähteille."
+      ]
+    },
+    {
+      "title": "Elämänmuutoksen jälkeen",
+      "paras": [
+        "Uudet työajat, uusi tavoite, raskaus, vamma tai pitkä reissu: päivitä profiilin muistiinpanot ja ilmoitusten ajoitus. Palaa sitten kirjaamisen rituaaliin — asetukset tukevat tapaa, eivät korvaa sitä."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Käytin tunnin Asetuksissa ja kirjasin nolla ateriaa.",
+      "why": "Konfigurointiteatteri. Kirjaa ensin; säädä myöhemmin."
+    },
+    {
+      "quote": "Laitoin kaikki ilmoitukset päälle ja sammutin ne sitten ärsyyntyneenä.",
+      "why": "Aloita yhdellä hyödyllisellä muistutuksella. Laajenna varovasti."
+    },
+    {
+      "quote": "Väärä kieli sai minut luulemaan, että ominaisuuksia puuttuu.",
+      "why": "Vahvista kieli aikaisin. Nimet eroavat; työt pysyvät samoina."
+    }
+  ],
+  "encouragement": "Tee sovelluksesta mukava, unohda sitten Asetukset hetkeksi. Seuraava voittosi on Kodissa."
+}

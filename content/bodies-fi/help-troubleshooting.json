@@ -1,0 +1,83 @@
+{
+  "intro": "Useimmat “bugit” ovat polun tai päivän epäsuhtia: kirjattu väärään paikkaan, katsottu väärää päivää tai tallennettu rivejä ilman kcal:aa. Käy tarkistuslista ennen kuin menetät viikon kärsivällisyyttä.",
+  "time": "9 min",
+  "buddyTip": "Toista kerran Kodissa yksinkertaisella aterialla, jossa on selkeät kcal. Jos Edistyminen liikkuu, järjestelmä toimii — korjaa polku, ei motivaatiotasi.",
+  "mission": "Jos jokin tuntuu rikki, aja kolme tarkistusta: Kodin kirjauspolku, valittu päivä, kcal rivillä.",
+  "why": [
+    "Vianetsintätaito suojaa Johdonmukaisuutta ennen intensiteettiä. Ihmiset lopettavat, kun he luulevat tuotteen ohittaneen ponnistelun — usein ponnistus päätyi tyhjään riviin tai toiselle päivälle.",
+    "Synkkaviiveet, verkottomat hetket ja vahvistamatta jääneet äänihahmotelmat myös sekoittavat. Lyhyt rituaali löytää syyn ilman häpeää.",
+    "Kun se on oikeasti jumissa, hello@kcal.lol auttaa nopeammin, jos osaat sanoa mitä kokeilit: laite, päivä, Koti vai Foodiary, ja kuvakaappaus jos mahdollista."
+  ],
+  "what": {
+    "lead": "Yleisimmät ongelmat.",
+    "points": [
+      "Edistyminen nollassa — tyhjä kcal, paikanpitäjät tai ei Koti-kirjausta",
+      "Väärä päivä — myöhäiset kirjaukset / valitun päivän epäsuhta",
+      "Ääni/kamera-hahmotelma ei tallentunut — vahvistus ohitettu",
+      "Ateriasuunnitelma vs päiväkirja -sekoitus — aikomus kirjattu saantina (tai saantia ei kirjattu koskaan)",
+      "Synkan / uudelleenasennuksen yllätykset — kirjautumisen ja palautuksen aukot"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos Edistyminen on nolla, datani on kadonnut.",
+        "truth": "Usein data on Foodiaryssa toisena päivänä tai ilman energiakenttiä. Tutki ennen paniikkia."
+      },
+      {
+        "myth": "Uudelleenasennus korjaa aina.",
+        "truth": "Uudelleenasennus ilman selvää kirjautumis/palautussuunnitelmaa voi pahentaa. Selvitä syy ensin."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä tätä järjestystä joka kerta.",
+    "steps": [
+      "Kirjaa yksi tunnettu ateria Kodissa Buddyllä; vahvista tallennus",
+      "Avaa tämän päivän Foodiary — näe rivi ja sen kcal/proteiini",
+      "Avaa Edistyminen — varmista että se vastaa",
+      "Jos tyhjä: tarkista valittu päivä; korjaa tyhjät kcal-rivit; vältä tuplia tyhjiä manuaalisia",
+      "Äänelle/kameralle: yritä uudelleen ja vahvista selvästi",
+      "Yhä jumissa: merkitse laite + aika + mitä napautit; sähköposti hello@kcal.lol"
+    ],
+    "buddyHelps": "Pikaopas (MITÄ / MIKSI / MITEN) vastaa tätä polkua. Buddyn tallennus ravinnolla on nopein todiste, että kierto elää."
+  },
+  "sections": [
+    {
+      "title": "Edistyminen nollassa",
+      "paras": [
+        "Tyhjät kcal-rivit Foodiaryssa eivät ruoki Edistymistä. Suosi Buddy-kirjauksia Kodista. Muokkaa riveihin energia tai poista hyödytömät paikanpitäjät."
+      ],
+      "steps": [
+        "Koti → Kirjaa → vahvista",
+        "Foodiary → varmista luvut",
+        "Edistyminen → päivitä näkymä / palaa tähän päivään"
+      ]
+    },
+    {
+      "title": "Väärä päivä",
+      "paras": [
+        "Tarkista päivämäärän ohjain Foodiaryssa. Myöhäisillan rivit voivat istua eilisessä tai huomisessa suhteessa ajatteluusi nähden. Kohdista päivä, jota arvioit Edistymisessä."
+      ]
+    },
+    {
+      "title": "Synkka ja kirjautuminen",
+      "paras": [
+        "Varmista, että olet luotetulla/paritetulla laitteella ja verkossa tarpeeksi kauan synkkaan. Jos vaihdoit puhelinta, viimeistele paritus ennen kuin julistat datan kadonneeksi."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Lisäsin viisi tyhjää Foodiary-riviä “pakottaakseni” Edistymisen.",
+      "why": "Tyhjät rivit lisäävät hälyä. Yksi täydellinen Buddy-kirjaus opettaa enemmän."
+    },
+    {
+      "quote": "Lähetin tukeen vain “se ei toimi.”",
+      "why": "Polku, päivä ja kuvakaappaus leikkaavat ratkaisuajan dramaattisesti."
+    },
+    {
+      "quote": "Lopetin kirjaamisen viikoksi, kunnes se on korjattu.",
+      "why": "Kokeile ensin Kodin todistuskirjausta. Usein jumi aukeaa kahdessa minuutissa — ja aukot haittaavat oppimista."
+    }
+  ],
+  "encouragement": "Et ole reputtamassa sovellusta. Kävele Koti → Foodiary → Edistyminen kerran oikealla aterialla. Useimmat mysteerit päättyvät siihen — ja Buddy odottaa seuraavassa kirjauksessa."
+}

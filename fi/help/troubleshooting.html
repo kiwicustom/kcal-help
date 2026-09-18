@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Vianetsintä — kCal Buddy</title>
+    <meta name="description" content="Edistyminen nollassa, väärä päivä, tyhjä kcal, synkkaongelmat." />
+    <link rel="canonical" href="https://help.kcal.lol/fi/help/troubleshooting.html" />
+    <meta name="theme-color" content="#FF7A00" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="kCal Buddy" />
+    <meta property="og:title" content="Vianetsintä — kCal Buddy" />
+    <meta property="og:description" content="Edistyminen nollassa, väärä päivä, tyhjä kcal, synkkaongelmat." />
+    <meta property="og:url" content="https://help.kcal.lol/fi/help/troubleshooting.html" />
+    <meta property="og:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Vianetsintä — kCal Buddy" />
+    <meta name="twitter:description" content="Edistyminen nollassa, väärä päivä, tyhjä kcal, synkkaongelmat." />
+    <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
+    <meta name="kcal:docs-version" content="1.1.0-phase2" />
+    <meta name="kcal:app-version" content="0.8.101" />
+    <meta name="kcal:updated" content="2026-09-04" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mu716nfp" />
+    <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link rel="icon" href="../../assets/brand/kcal-mark-64.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/tokens.css?v=1.1.0-phase2-mu716nfp" />
+    <link rel="stylesheet" href="../../css/shell.css?v=1.1.0-phase2-mu716nfp" />
+    <link rel="stylesheet" href="../../css/help.css?v=1.1.0-phase2-mu716nfp" />
+    <link rel="stylesheet" href="../../css/academy.css?v=1.1.0-phase2-mu716nfp" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Koti","item":"https://help.kcal.lol/fi/index.html"},{"@type":"ListItem","position":2,"name":"Ohje","item":"https://help.kcal.lol/fi/help/index.html"},{"@type":"ListItem","position":3,"name":"Vianetsintä","item":"https://help.kcal.lol/fi/help/troubleshooting.html"}]},{"@type":"Article","headline":"Vianetsintä","description":"Edistyminen nollassa, väärä päivä, tyhjä kcal, synkkaongelmat.","dateModified":"2026-09-04","author":{"@id":"https://help.kcal.lol/#org"},"mainEntityOfPage":"https://help.kcal.lol/fi/help/troubleshooting.html"}]}</script>
+  </head>
+  <body data-pillar="help" data-page-id="troubleshooting">
+    <div id="help-shell-header"></div>
+    <main class="help-main" id="main">
+      <nav class="crumb" aria-label="Murupolku"><ol class="crumb-list"><li><a href="../../fi/index.html">Koti</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><a href="../../fi/help/index.html">Ohje</a></li><li class="crumb-sep" aria-hidden="true">·</li><li><span aria-current="page">Vianetsintä</span></li></ol></nav>
+      
+      
+      <header class="page-hero">
+      <p class="page-hero__eyebrow">Ohje</p>
+      <h1 class="page-hero__title">Vianetsintä</h1>
+      <p class="page-hero__sub">Useimmat “bugit” ovat polun tai päivän epäsuhtia: kirjattu väärään paikkaan, katsottu väärää päivää tai tallennettu rivejä ilman kcal:aa. Käy tarkistuslista ennen kuin menetät viikon kärsivällisyyttä.</p>
+      <div class="page-hero__meta" aria-label="Artikkelin tiedot">
+        <span class="page-hero__chip">⏱ 9 min</span>
+        <span class="page-hero__chip">Beginner</span>
+      </div>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>💬 Buddyn vinkki</strong>
+        <p class="note" style="margin:0.25rem 0 0">Toista kerran Kodissa yksinkertaisella aterialla, jossa on selkeät kcal. Jos Edistyminen liikkuu, järjestelmä toimii — korjaa polku, ei motivaatiotasi.</p>
+      </div>
+    </div>
+    </header>
+      
+      <div class="card" style="margin:1rem 0">
+      <div class="tag">🎯 Tämän päivän tehtävä</div>
+      <p style="margin:0.35rem 0 0">Jos jokin tuntuu rikki, aja kolme tarkistusta: Kodin kirjauspolku, valittu päivä, kcal rivillä.</p>
+    </div>
+      <section class="cheat-block" id="why">
+        <header class="cheat-block__head"><span class="cheat-block__kicker">MIKSI?</span><h2>Miksi tällä on väliä</h2></header>
+        <p>Vianetsintätaito suojaa Johdonmukaisuutta ennen intensiteettiä. Ihmiset lopettavat, kun he luulevat tuotteen ohittaneen ponnistelun — usein ponnistus päätyi tyhjään riviin tai toiselle päivälle.</p>
+<p>Synkkaviiveet, verkottomat hetket ja vahvistamatta jääneet äänihahmotelmat myös sekoittavat. Lyhyt rituaali löytää syyn ilman häpeää.</p>
+<p>Kun se on oikeasti jumissa, hello@kcal.lol auttaa nopeammin, jos osaat sanoa mitä kokeilit: laite, päivä, Koti vai Foodiary, ja kuvakaappaus jos mahdollista.</p>
+      </section>
+      <section class="cheat-block" id="what">
+        <header class="cheat-block__head"><span class="cheat-block__kicker">MITÄ?</span><h2>Mitä kannattaa ymmärtää</h2></header>
+        <p class="cheat-block__lead">Yleisimmät ongelmat.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Edistyminen nollassa — tyhjä kcal, paikanpitäjät tai ei Koti-kirjausta</p></div></li>
+<li><span class="num">2</span><div><p>Väärä päivä — myöhäiset kirjaukset / valitun päivän epäsuhta</p></div></li>
+<li><span class="num">3</span><div><p>Ääni/kamera-hahmotelma ei tallentunut — vahvistus ohitettu</p></div></li>
+<li><span class="num">4</span><div><p>Ateriasuunnitelma vs päiväkirja -sekoitus — aikomus kirjattu saantina (tai saantia ei kirjattu koskaan)</p></div></li>
+<li><span class="num">5</span><div><p>Synkan / uudelleenasennuksen yllätykset — kirjautumisen ja palautuksen aukot</p></div></li></ol>
+        <div class="grid-2" style="margin-top:0.75rem"><div class="card"><div class="tag">Myytti</div><strong>Jos Edistyminen on nolla, datani on kadonnut.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Totta:</strong> Usein data on Foodiaryssa toisena päivänä tai ilman energiakenttiä. Tutki ennen paniikkia.</p></div><div class="card"><div class="tag">Myytti</div><strong>Uudelleenasennus korjaa aina.</strong>
+        <p class="note" style="margin:0.35rem 0 0"><strong>Totta:</strong> Uudelleenasennus ilman selvää kirjautumis/palautussuunnitelmaa voi pahentaa. Selvitä syy ensin.</p></div></div>
+      </section>
+      <section class="cheat-block" id="how">
+        <header class="cheat-block__head"><span class="cheat-block__kicker">MITEN?</span><h2>Miten tämä tehdään arjessa</h2></header>
+        <p class="cheat-block__lead">Käytä tätä järjestystä joka kerta.</p>
+        <ol class="steps"><li><span class="num">1</span><div><p>Kirjaa yksi tunnettu ateria Kodissa Buddyllä; vahvista tallennus</p></div></li>
+<li><span class="num">2</span><div><p>Avaa tämän päivän Foodiary — näe rivi ja sen kcal/proteiini</p></div></li>
+<li><span class="num">3</span><div><p>Avaa Edistyminen — varmista että se vastaa</p></div></li>
+<li><span class="num">4</span><div><p>Jos tyhjä: tarkista valittu päivä; korjaa tyhjät kcal-rivit; vältä tuplia tyhjiä manuaalisia</p></div></li>
+<li><span class="num">5</span><div><p>Äänelle/kameralle: yritä uudelleen ja vahvista selvästi</p></div></li>
+<li><span class="num">6</span><div><p>Yhä jumissa: merkitse laite + aika + mitä napautit; sähköposti hello@kcal.lol</p></div></li></ol>
+        <div class="callout callout--buddy" style="margin-top:0.75rem"><img class="callout__icon" src="../../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" /><div><strong>Miten Buddy auttaa</strong><p class="note" style="margin:0.25rem 0 0">Pikaopas (MITÄ / MIKSI / MITEN) vastaa tätä polkua. Buddyn tallennus ravinnolla on nopein todiste, että kierto elää.</p></div></div>
+        
+      </section>
+      <section class="cheat-block"><h2>Edistyminen nollassa</h2><p>Tyhjät kcal-rivit Foodiaryssa eivät ruoki Edistymistä. Suosi Buddy-kirjauksia Kodista. Muokkaa riveihin energia tai poista hyödytömät paikanpitäjät.</p><ol class="steps"><li><span class="num">1</span><div><p>Koti → Kirjaa → vahvista</p></div></li>
+<li><span class="num">2</span><div><p>Foodiary → varmista luvut</p></div></li>
+<li><span class="num">3</span><div><p>Edistyminen → päivitä näkymä / palaa tähän päivään</p></div></li></ol></section>
+<section class="cheat-block"><h2>Väärä päivä</h2><p>Tarkista päivämäärän ohjain Foodiaryssa. Myöhäisillan rivit voivat istua eilisessä tai huomisessa suhteessa ajatteluusi nähden. Kohdista päivä, jota arvioit Edistymisessä.</p></section>
+<section class="cheat-block"><h2>Synkka ja kirjautuminen</h2><p>Varmista, että olet luotetulla/paritetulla laitteella ja verkossa tarpeeksi kauan synkkaan. Jos vaihdoit puhelinta, viimeistele paritus ennen kuin julistat datan kadonneeksi.</p></section>
+      <section class="cheat-block" id="mistakes">
+        <header class="cheat-block__head"><span class="cheat-block__kicker">⚠ Tyypilliset virheet</span><h2>Tyypilliset virheet</h2></header>
+      <ul class="steps" style="list-style:none;padding:0"><li class="card" style="list-style:none">
+        <strong>“Lisäsin viisi tyhjää Foodiary-riviä “pakottaakseni” Edistymisen.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Tyhjät rivit lisäävät hälyä. Yksi täydellinen Buddy-kirjaus opettaa enemmän.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“Lähetin tukeen vain “se ei toimi.””</strong>
+        <p class="note" style="margin:0.35rem 0 0">Polku, päivä ja kuvakaappaus leikkaavat ratkaisuajan dramaattisesti.</p>
+      </li>
+<li class="card" style="list-style:none">
+        <strong>“Lopetin kirjaamisen viikoksi, kunnes se on korjattu.”</strong>
+        <p class="note" style="margin:0.35rem 0 0">Kokeile ensin Kodin todistuskirjausta. Usein jumi aukeaa kahdessa minuutissa — ja aukot haittaavat oppimista.</p>
+      </li></ul>
+    </section>
+      <div class="callout callout--buddy">
+      <img class="callout__icon" src="../../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+      <div>
+        <strong>❤️ Tsemppi</strong>
+        <p class="note" style="margin:0.25rem 0 0">Et ole reputtamassa sovellusta. Kävele Koti → Foodiary → Edistyminen kerran oikealla aterialla. Useimmat mysteerit päättyvät siihen — ja Buddy odottaa seuraavassa kirjauksessa.</p>
+      </div>
+    </div>
+      <p class="platform-deeplink" data-ext="deeplink">
+      <a class="btn-deeplink" href="https://beta.kcal.lol/#/" rel="noopener">Avaa sovellus</a>
+      <span class="note"> Tuote on vain kutsulla.</span>
+    </p>
+      <nav class="page-pager" aria-label="Jatka oppimista">
+      <a class="page-pager__link page-pager__prev" href="../../fi/help/nav.html"><span class="page-pager__dir">Edellinen</span><span class="page-pager__title">Alapalkki</span></a>
+      <a class="page-pager__link page-pager__next" href="../../fi/help/cheatsheet.html"><span class="page-pager__dir">Seuraava</span><span class="page-pager__title">Pikaopas</span></a>
+    </nav>
+      <section class="platform-related" data-ext="related">
+      <h2>Aiheeseen liittyvää</h2>
+      <ul class="academy-related"><li><a href="../../fi/help/home.html">Koti</a></li><li><a href="../../fi/help/foodiary.html">Foodiary</a></li><li><a href="../../fi/help/cheatsheet.html">Pikaopas</a></li></ul>
+    </section>
+      <aside class="platform-feedback" data-ext="ratings" hidden>
+        <!-- Phase C: page ratings mount point -->
+      </aside>
+      <aside class="platform-analytics" data-ext="analytics" hidden>
+        <!-- Phase C: analytics mount point -->
+      </aside>
+    </main>
+    <div id="help-shell-footer"></div>
+    <script src="../../js/extensions.js?v=1.1.0-phase2-mu716nfp" defer></script>
+    <script src="../../js/version-update.js?v=1.1.0-phase2-mu716nfp" defer></script>
+    <script src="../../js/shell.js?v=1.1.0-phase2-mu716nfp" data-page="help" data-lang="fi" data-base="../../" data-file="fi/help/troubleshooting.html" data-updated="2026-09-04" defer></script>
+  </body>
+</html>

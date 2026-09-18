@@ -1,0 +1,76 @@
+{
+  "intro": "Viikon onnistuminen muuttaa raa’at kirjaukset oppimiseksi. Zoomaa ulos kerran viikossa, jotta päivittäinen häly ei johda päätöksiä.",
+  "time": "9 min",
+  "buddyTip": "Vaihda vain yksi muuttuja jokaisen viikkokatsauksen jälkeen — proteiinin johdonmukaisuus, kuitu, askeleet tai illallisen ajankohta — ei viittä kerralla.",
+  "mission": "Varaa 20 minuutin viikkokatsaus. Avaa Edistyminen, kirjoita sitten yksi muutos ensi viikolle.",
+  "why": [
+    "Päivittäinen paino ja nälkä heilahtelevat syistä, joilla ei ole tekemistä rasvan muutoksen kanssa: natrium, hiilarit, treeni, hormonit, uni. Viikkokatsauksessa kuviot tulevat näkyviin ja romahdusnollaukset käyvät tarpeettomiksi.",
+    "Hyvä viikko ei ole täydellinen makrokeskiarvo. Se on tarpeeksi rehellisiä päiviä, proteiinia ja kuitua usein, treeniä joka sopii palautumiseen, ja ostos/ateriasuunnitelma joka teki arjen päätöksistä helpompia.",
+    "Ostokset ja ateriasuunnittelu kuuluvat viikkokiertoon, koska tahdonvoima on huono kauppastrategia. Päätä kerran; toteuta monta kertaa."
+  ],
+  "what": {
+    "lead": "Käy nämä teemat läpi joka viikko — kevyesti.",
+    "points": [
+      "Viikkokatsaus — Edistymisen trendit + Foodiaryn kuvioiden skannaus",
+      "Ostokset — proteiiniankkurit, kuidun lähteet, budjettiin sopivat perusraaka-aineet",
+      "Ateriasuunnittelu — muutama realistinen illallinen, ei fantasiamenu",
+      "Paino — trendi viikon yli; älä kruunaa yhtä aamua kuninkaaksi",
+      "Proteiinin / kuidun johdonmukaisuus — monenako päivänä “tarpeeksi hyvä”, ei täydellisyys",
+      "Treeni — tehdyt sessiot vs tuntunut palautuminen",
+      "Tavoitteet — pidä, säädä tai tauota yksi tavoite ensi viikolle"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos keskimääräiset kalorit olivat korkeat, minun on leikattava kovaa ensi viikolla.",
+        "truth": "Etsi syy: alikirjatut päivät, viikonlopun kasautuminen, matalan proteiinin nälkä. Korjaa syy; vältä paniikkivajeita."
+      },
+      {
+        "myth": "Ateriasuunnittelu tarkoittaa jokaisen lounaan kokkaamista.",
+        "truth": "Suunnittelu voi tarkoittaa kahta toistuvaa illallista, oletuslounasta ja ravintolasääntöä. Yksinkertaisuus skaalautuu."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Käytä samaa sunnuntai- (tai keskiviikko)käsikirjoitusta, jotta katsaus pysyy lyhyenä.",
+    "steps": [
+      "Avaa viikon Edistyminen — merkitse painon suunta ja proteiinissa pysyminen",
+      "Skannaa Foodiary: mitkä ateriat puuttuivat, mitkä päivät tuntuivat helpoilta",
+      "Kysy: mitä hyvät päivät jakoivat? (proteiiniaamiaiset, eväslounas, aikaisempi illallinen)",
+      "Kirjoita lyhyt ostoslista ensi viikon ateriasuunnitelmasta — suosi toistettavia proteiineja ja kuitua",
+      "Aikatauluta treeni uneen sopivaksi, ei toisin päin",
+      "Aseta yksi viikkotavoitelause; juhli mukana pysymistä ennen keskiarvojen arvostelua"
+    ],
+    "buddyHelps": "Edistyminen näyttää trendit, joista Foodiary ei voi huutaa päivittäin. Ateriasuunnitelma pitää aikomuksen; Koti on edelleen paikka, jossa oikea saanti kirjataan kun syöt."
+  },
+  "sections": [
+    {
+      "title": "Paino ilman draamaa",
+      "paras": [
+        "Vertaa viikkokeskiarvoja tai usean päivän trendejä. Yksi raskas aamu suolaisen illallisen jälkeen kertoo vedestä, ei moraalisesta epäonnistumisesta.",
+        "Jos trendi jumittaa useita viikkoja rehellisillä kirjauksilla, säädä energiaa tai aktiivisuutta harkiten — silti yksi muuttuja kerrallaan."
+      ]
+    },
+    {
+      "title": "Proteiini, kuitu, treeni",
+      "paras": [
+        "Laske johdonmukaisuutta: päivät, joissa on selvä proteiiniankkuri ja kuitua sisältäviä kasviksia, voittavat täydellisen grammamäärän jahtaamisen kahtena sankaripäivänä.",
+        "Treenin onnistumiseen kuuluu palautuminen. Väliin jäänyt sessio huonon unen jälkeen voi olla viisasta — kirjaa totuus ja säädä suunnitelmaa."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Minulla oli yksi huono viikonloppu, joten teen mehupaaston hyvitykseksi.",
+      "why": "Hyvityksen ääripäät opettavat ahminta–rajoitus-kiertoa. Palaa tavalliseen viikkosuunnitelmaan."
+    },
+    {
+      "quote": "Suunnittelen neljätoista uniikkia gourmet-illallista.",
+      "why": "Ylisuunnittelu kaatuu keskiviikkoon mennessä. Kolme luotettavaa illallista voittaa seitsemän hylättyä."
+    },
+    {
+      "quote": "Viikkokatsaus on vain vaa’an katsomista.",
+      "why": "Vaaka ilman Foodiaryn kontekstia johtaa harhaan. Parita paino saannin rehellisyyteen, proteiiniin ja elämän tapahtumiin."
+    }
+  ],
+  "encouragement": "Rauhallinen viikkokatsaus on tapa, jolla harrastajasta tulee johdonmukainen. Suojaa se aika — tuleva sinä arvaa vähemmän."
+}

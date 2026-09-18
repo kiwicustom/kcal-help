@@ -1,0 +1,71 @@
+{
+  "intro": "Ääni poistaa kitkaa, jotta rehellinen kirjaaminen tapahtuu. Puhu ateria, katso litteraatti ja arvio, tallenna sitten — erityisen vahva, kun kädet ovat täynnä.",
+  "time": "7 min",
+  "buddyTip": "Sano proteiini ensin, sitten lisukkeet, sitten öljyt ja juomat: “kanaa, riisiä, parsakaalia, oliiviöljyä, kivennäisvettä.”",
+  "mission": "Kirjaa seuraava ateria äänellä Kodista ja vahvista ennen tallennusta.",
+  "why": [
+    "Jokaisen raaka-aineen kirjoittaminen kaatuu kiireisinä päivinä. Ääni pitää tallennuksen lähellä lautasta, mikä parantaa rehellisyyttä keskiyön jälleenrakennukseen verrattuna.",
+    "Puhutut kirjaukset kannustavat myös täydellisyyteen: kun puhut, muistat kastikkeet ja toisen sämpylän useammin kuin kun napautat kolme geneeristä riviä.",
+    "Ääni ei ole taikaa — aksentit, meteli ja epämääräiset fraasit tarvitsevat vahvistuksesi. Vahvistusaskel on valmennushetki, ei harmi."
+  ],
+  "what": {
+    "lead": "Mitä äänikirjaus sisältää.",
+    "points": [
+      "Aloita Kodin mikistä / Puhu ruoka",
+      "Puhu selvästi; ota mukaan öljyt, juomat ja likimääräiset annokset",
+      "Katso litteraatti ja Buddyn arvio",
+      "Säädä ennen tallennusta, kun jokin on väärin",
+      "Löydä ateria jälkeenpäin Foodiarysta hienosäätöön"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Jos litteraatti ei ole täydellinen, kirjaus on hyödytön.",
+        "truth": "Korjaa avainruoat ja annokset vahvistaessa. Suunnan rehellisyys voittaa hiljaisuuden."
+      },
+      {
+        "myth": "Ääni tarkoittaa, etten saisi käyttää kameraa tai tekstiä.",
+        "truth": "Sekoita tapoja. Ääni nopeuteen; kamera monimutkaisille lautaisille; teksti etiketille."
+      }
+    ]
+  },
+  "how": {
+    "lead": "Rakenna puhumisen malli.",
+    "steps": [
+      "Napauta mikkiä Kodissa",
+      "Listaa ruoat karkeilla määrillä (“kaksi munaa,” “kourallinen riisiä,” “teelusikallinen öljyä”)",
+      "Mainitse valmistustapa, jos se muuttaa rasvaa (“paistettu,” “grillattu,” “kermaisella kastikkeella”)",
+      "Tauko; katso mitä Buddy kuuli ja arvioi",
+      "Vahvista tallennus; silmäile Foodiarya myöhemmin vain jos tarvitset"
+    ],
+    "buddyHelps": "Buddy muuttaa puheen rakenteellisiksi päiväkirjariveiksi arvioineen. Vahvistus pitää sinut ohjaksissa ja silti liikkeessä."
+  },
+  "sections": [
+    {
+      "title": "Meluisat ympäristöt",
+      "paras": [
+        "Kupista käsi, käänny huoneesta pois tai astu sivuun. Jos tunnistus epäonnistuu kahdesti, vaihda kuvaan tai tekstiin — älä hylkää kirjausta."
+      ]
+    },
+    {
+      "title": "Yksityisyys",
+      "paras": [
+        "Ole tarkkana hiljaisissa toimistoissa tai jaetuissa tiloissa. Lyhyet fraasit riittävät; sinun ei tarvitse kertoa elämäntarinaasi."
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "quote": "Sanoin “lounas” ja odotin Buddyn keksivän lautasen.",
+      "why": "Ääni tarvitsee sisältöä. Nimeä ruoat ja annokset."
+    },
+    {
+      "quote": "Tallensin lukematta arviota ja suutuin myöhemmin.",
+      "why": "Vahvistus on osa virtaa. Kymmenen sekuntia estää huonot kirjanpitorivit."
+    },
+    {
+      "quote": "Mikki epäonnistui kerran, joten lopetin kirjaamisen siksi päiväksi.",
+      "why": "Vaihda syöttötapaa. Ateria ansaitsee silti päiväkirjarivin."
+    }
+  ],
+  "encouragement": "Puhu ruoka kuin kertoisit kaverille mitä söit. Buddy kuuntelee, arvioi ja pitää päivän rehellisenä — sinä päätät vahvistaessa."
+}
