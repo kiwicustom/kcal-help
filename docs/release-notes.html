@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.100" />
+    <meta name="kcal:app-version" content="0.8.101" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mu6ywzxk" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mu6zxd8o" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mu6ywzxk" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mu6ywzxk" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mu6ywzxk" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mu6ywzxk" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mu6zxd8o" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mu6zxd8o" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mu6zxd8o" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mu6zxd8o" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,12 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.101</strong> <span class="release-patch__date">2026-09-18</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Foodiary Move items target (Sam) — destination is meal-name chips (Breakfast / Dinner), not Android’s native picker that painted giant Buddy on orange. Move items is a visible chip on every meal that has food, including Beginner (was Power-only, so desktop mobile sim often hid it).</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.100</strong> <span class="release-patch__date">2026-09-18</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Confirm + Add food from Scan (Sam) — scanning after Confirm + Add food returns to Confirm with both foods, not the type box. Same path as typing. Photo from that button does the same.</li>
@@ -71,7 +77,7 @@
               <li>Home ? help on iPhone (Beta User Katja · TF-62) — BACK / CONTINUE and tip labels stay below the status bar so they are not hidden under the clock.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.98</strong> <span class="release-patch__date">2026-09-17</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Google Fit 400 on Home — Activity daily sync no longer POSTs /integrations/google/sync when the Google grant is ERROR / expired / connecting (not live). That was a red console 400; Home food logging does not talk to Google.</li>
@@ -877,8 +883,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mu6ywzxk" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mu6ywzxk" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mu6ywzxk" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mu6zxd8o" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mu6zxd8o" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mu6zxd8o" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
