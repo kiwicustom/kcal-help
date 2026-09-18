@@ -283,6 +283,39 @@ a.card {
   text-decoration: none;
 }
 
+.btn-deeplink--primary {
+  background: var(--kcal-orange-500);
+  border-color: var(--kcal-orange-500);
+  color: #fff;
+}
+
+.btn-deeplink--primary:hover {
+  background: var(--kcal-orange-700);
+  border-color: var(--kcal-orange-700);
+  color: #fff;
+}
+
+.join-os {
+  display: none;
+}
+
+html[data-phone="android"] .join-os--android,
+html[data-phone="ios"] .join-os--ios,
+html[data-phone="other"] .join-os--other,
+html:not([data-phone]) .join-os--other {
+  display: block;
+}
+
+.join-os__recommend {
+  font-weight: 800;
+  color: var(--kcal-orange-700);
+  margin: 0.35rem 0 0.75rem;
+}
+
+[data-color-mode="dark"] .join-os__recommend {
+  color: var(--kcal-orange-400);
+}
+
 [data-color-mode="dark"] .btn-deeplink {
   color: var(--kcal-orange-400);
 }

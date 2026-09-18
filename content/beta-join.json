@@ -1,32 +1,101 @@
 {
+  "apkHref": "https://github.com/kiwicustom/kcal-android-beta/releases/latest/download/kcal-buddy-beta.apk",
+  "getAppHref": "https://beta.kcal.lol/download",
+  "ctaHref": "https://kcal.lol",
   "en": {
     "kicker": "Invitation only",
     "title": "How to join the beta",
     "lead": "kCal Buddy is not a public app store download. You request access, we send an invite, then you log food with Buddy.",
-    "steps": [
-      "Open kcal.lol — tap Request access.",
-      "Type your name, then the email we should use for the invite.",
-      "Send request. Watch that inbox (and spam) for the invite email.",
-      "Open the invite link with the same email address. Create a PIN — that is your account.",
-      "On a phone, open Buddy Menu → Get the App. Android installs the APK; iPhone uses TestFlight (send Sam your Apple Account email)."
-    ],
     "foot": "There is no public signup. One invite email = one account. Do not share the invite link.",
     "cta": "Request access on kcal.lol",
-    "ctaHref": "https://kcal.lol"
+    "android": {
+      "kicker": "Android · invitation only",
+      "title": "How to join the beta",
+      "lead": "On Android, install the app first. Then request access or open the invite inside kCal Buddy.",
+      "recommend": "Highly recommended: install the Android app as step 1 — tap Download Android Beta.",
+      "apkCta": "Download Android Beta",
+      "apkNote": "GitHub serves the APK — no kcal.lol login. Android may ask to allow installs from this browser. That is expected.",
+      "steps": [
+        "Tap Download Android Beta above. Install kCal Buddy, then open the orange app.",
+        "In the app, tap Request access — or open the invite email if Sam already sent one.",
+        "Use the same email. Create a PIN — that is your account."
+      ],
+      "cta": "Request access on kcal.lol"
+    },
+    "ios": {
+      "kicker": "iPhone · invitation only",
+      "title": "How to join the beta",
+      "lead": "On iPhone the app comes through TestFlight first. There is no APK and no App Store listing yet.",
+      "getAppCta": "Open the iPhone TestFlight steps",
+      "steps": [
+        "Open kcal.lol — tap Request access.",
+        "Type your name, then the email we should use for the kcal invite.",
+        "Send Sam your Apple Account email (the one you use for the App Store) so he can add you in TestFlight.",
+        "Accept Apple’s TestFlight invitation, then install kCal Buddy from TestFlight.",
+        "Open the kcal invite with the same email. Create a PIN — that is your account."
+      ],
+      "cta": "Request access on kcal.lol"
+    },
+    "other": {
+      "kicker": "Invitation only",
+      "title": "How to join the beta",
+      "lead": "kCal Buddy is not a public app store download. The first step depends on the phone.",
+      "apkCta": "Download Android Beta",
+      "getAppCta": "iPhone: TestFlight steps",
+      "steps": [
+        "Android: install the app first (Download Android Beta above), then request access in kCal Buddy.",
+        "iPhone: request access, send Sam your Apple Account email, then install from TestFlight.",
+        "Open the invite with the same email. Create a PIN — that is your account."
+      ],
+      "cta": "Request access on kcal.lol"
+    }
   },
   "fi": {
     "kicker": "Vain kutsulla",
     "title": "Näin pääset betaan",
     "lead": "kCal Buddy ei ole julkinen sovelluskaupan lataus. Pyydät käyttöoikeutta, me lähetämme kutsun, ja sen jälkeen kirjaat ruoat Buddylle.",
-    "steps": [
-      "Avaa kcal.lol — napauta Pyydä käyttöoikeutta.",
-      "Kirjoita nimesi ja sähköposti, johon kutsu lähetetään.",
-      "Lähetä pyyntö. Seuraa sitä postilaatikkoa (ja roskapostia) kutsun varalta.",
-      "Avaa kutsulinkki samalla sähköpostiosoitteella. Luo PIN — se on tilisi.",
-      "Puhelimessa avaa Buddy-valikko → Hae sovellus. Android asentaa APK:n; iPhone käyttää TestFlightia (lähetä Samulle Apple-tilin sähköposti)."
-    ],
     "foot": "Julkista rekisteröitymistä ei ole. Yksi kutsusähköposti = yksi tili. Älä jaa kutsulinkkiä.",
     "cta": "Pyydä käyttöoikeutta kcal.lolissa",
-    "ctaHref": "https://kcal.lol"
+    "android": {
+      "kicker": "Android · vain kutsulla",
+      "title": "Näin pääset betaan",
+      "lead": "Androidilla asenna sovellus ensin. Pyydä sitten käyttöoikeutta tai avaa kutsu kCal Buddy -sovelluksessa.",
+      "recommend": "Erittäin suositeltavaa: asenna Android-sovellus ensimmäisenä — napauta Lataa Android-beta.",
+      "apkCta": "Lataa Android-beta",
+      "apkNote": "GitHub toimittaa APK:n — kcal.lol-kirjautumista ei tarvita. Android voi kysyä lupaa asentaa tästä selaimesta. Se on odotettua.",
+      "steps": [
+        "Napauta Lataa Android-beta yllä. Asenna kCal Buddy ja avaa oranssi sovellus.",
+        "Sovelluksessa napauta Pyydä käyttöoikeutta — tai avaa kutsusähköposti, jos Sam on jo lähettänyt sen.",
+        "Käytä samaa sähköpostia. Luo PIN — se on tilisi."
+      ],
+      "cta": "Pyydä käyttöoikeutta kcal.lolissa"
+    },
+    "ios": {
+      "kicker": "iPhone · vain kutsulla",
+      "title": "Näin pääset betaan",
+      "lead": "iPhonella sovellus tulee ensin TestFlightin kautta. APK:ta ei ole, eikä App Store -listasta vielä.",
+      "getAppCta": "Avaa iPhonen TestFlight-ohjeet",
+      "steps": [
+        "Avaa kcal.lol — napauta Pyydä käyttöoikeutta.",
+        "Kirjoita nimesi ja sähköposti, johon kcal-kutsu lähetetään.",
+        "Lähetä Samulle Apple-tilin sähköposti (sama kuin App Storessa), jotta hän voi lisätä sinut TestFlightiin.",
+        "Hyväksy Applen TestFlight-kutsu ja asenna kCal Buddy TestFlightista.",
+        "Avaa kcal-kutsu samalla sähköpostilla. Luo PIN — se on tilisi."
+      ],
+      "cta": "Pyydä käyttöoikeutta kcal.lolissa"
+    },
+    "other": {
+      "kicker": "Vain kutsulla",
+      "title": "Näin pääset betaan",
+      "lead": "kCal Buddy ei ole julkinen sovelluskaupan lataus. Ensimmäinen askel riippuu puhelimesta.",
+      "apkCta": "Lataa Android-beta",
+      "getAppCta": "iPhone: TestFlight-ohjeet",
+      "steps": [
+        "Android: asenna sovellus ensin (Lataa Android-beta yllä), sitten pyydä käyttöoikeutta kCal Buddy -sovelluksessa.",
+        "iPhone: pyydä käyttöoikeutta, lähetä Samulle Apple-tilin sähköposti, sitten asenna TestFlightista.",
+        "Avaa kutsu samalla sähköpostilla. Luo PIN — se on tilisi."
+      ],
+      "cta": "Pyydä käyttöoikeutta kcal.lolissa"
+    }
   }
 }

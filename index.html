@@ -20,17 +20,17 @@
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
     <meta name="kcal:app-version" content="0.8.101" />
     <meta name="kcal:updated" content="2026-09-13" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mu716nfp" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mu737dl4" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/tokens.css?v=1.1.0-phase2-mu716nfp" />
-    <link rel="stylesheet" href="css/shell.css?v=1.1.0-phase2-mu716nfp" />
-    <link rel="stylesheet" href="css/help.css?v=1.1.0-phase2-mu716nfp" />
-    <link rel="stylesheet" href="css/academy.css?v=1.1.0-phase2-mu716nfp" />
+    <link rel="stylesheet" href="css/tokens.css?v=1.1.0-phase2-mu737dl4" />
+    <link rel="stylesheet" href="css/shell.css?v=1.1.0-phase2-mu737dl4" />
+    <link rel="stylesheet" href="css/help.css?v=1.1.0-phase2-mu737dl4" />
+    <link rel="stylesheet" href="css/academy.css?v=1.1.0-phase2-mu737dl4" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"}]}]}</script>
   </head>
   <body data-pillar="site" data-page-id="site-home">
@@ -39,15 +39,48 @@
       <nav class="crumb" aria-label="Breadcrumb"><ol class="crumb-list"><li><span aria-current="page">Home</span></li></ol></nav>
       
       <section class="cheat-block" id="join-beta">
-      <header class="cheat-block__head"><span class="cheat-block__kicker">Invitation only</span><h1>How to join the beta</h1></header>
-      <p class="lead">kCal Buddy is not a public app store download. You request access, we send an invite, then you log food with Buddy.</p>
-      <ol class="steps"><li><span class="num">1</span><div><p>Open kcal.lol — tap Request access.</p></div></li>
-<li><span class="num">2</span><div><p>Type your name, then the email we should use for the invite.</p></div></li>
-<li><span class="num">3</span><div><p>Send request. Watch that inbox (and spam) for the invite email.</p></div></li>
-<li><span class="num">4</span><div><p>Open the invite link with the same email address. Create a PIN — that is your account.</p></div></li>
-<li><span class="num">5</span><div><p>On a phone, open Buddy Menu → Get the App. Android installs the APK; iPhone uses TestFlight (send Sam your Apple Account email).</p></div></li></ol>
+      <script>(function(){var ua=navigator.userAgent||"";var p=/Android/i.test(ua)?"android":(/iPhone|iPod/.test(ua)||/iPad/i.test(ua)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1))?"ios":"other";document.documentElement.setAttribute("data-phone",p);})();</script>
+      <article class="join-os join-os--android">
+      <header class="cheat-block__head"><span class="cheat-block__kicker">Android · invitation only</span><h1>How to join the beta</h1></header>
+      <p class="lead">On Android, install the app first. Then request access or open the invite inside kCal Buddy.</p>
+      <p class="join-os__recommend">Highly recommended: install the Android app as step 1 — tap Download Android Beta.</p>
+      <p class="platform-deeplink"><a class="btn-deeplink btn-deeplink--primary" href="https://github.com/kiwicustom/kcal-android-beta/releases/latest/download/kcal-buddy-beta.apk">Download Android Beta</a></p>
+      <p class="note">GitHub serves the APK — no kcal.lol login. Android may ask to allow installs from this browser. That is expected.</p>
+      <ol class="steps"><li><span class="num">1</span><div><p>Tap Download Android Beta above. Install kCal Buddy, then open the orange app.</p></div></li>
+<li><span class="num">2</span><div><p>In the app, tap Request access — or open the invite email if Sam already sent one.</p></div></li>
+<li><span class="num">3</span><div><p>Use the same email. Create a PIN — that is your account.</p></div></li></ol>
+      
       <p class="note">There is no public signup. One invite email = one account. Do not share the invite link.</p>
       <p class="platform-deeplink"><a class="btn-deeplink" href="https://kcal.lol">Request access on kcal.lol</a></p>
+    </article>
+      <article class="join-os join-os--ios">
+      <header class="cheat-block__head"><span class="cheat-block__kicker">iPhone · invitation only</span><h1>How to join the beta</h1></header>
+      <p class="lead">On iPhone the app comes through TestFlight first. There is no APK and no App Store listing yet.</p>
+      
+      
+      
+      <ol class="steps"><li><span class="num">1</span><div><p>Open kcal.lol — tap Request access.</p></div></li>
+<li><span class="num">2</span><div><p>Type your name, then the email we should use for the kcal invite.</p></div></li>
+<li><span class="num">3</span><div><p>Send Sam your Apple Account email (the one you use for the App Store) so he can add you in TestFlight.</p></div></li>
+<li><span class="num">4</span><div><p>Accept Apple’s TestFlight invitation, then install kCal Buddy from TestFlight.</p></div></li>
+<li><span class="num">5</span><div><p>Open the kcal invite with the same email. Create a PIN — that is your account.</p></div></li></ol>
+      <p class="platform-deeplink"><a class="btn-deeplink" href="https://beta.kcal.lol/download">Open the iPhone TestFlight steps</a></p>
+      <p class="note">There is no public signup. One invite email = one account. Do not share the invite link.</p>
+      <p class="platform-deeplink"><a class="btn-deeplink" href="https://kcal.lol">Request access on kcal.lol</a></p>
+    </article>
+      <article class="join-os join-os--other">
+      <header class="cheat-block__head"><span class="cheat-block__kicker">Invitation only</span><h1>How to join the beta</h1></header>
+      <p class="lead">kCal Buddy is not a public app store download. The first step depends on the phone.</p>
+      
+      <p class="platform-deeplink"><a class="btn-deeplink btn-deeplink--primary" href="https://github.com/kiwicustom/kcal-android-beta/releases/latest/download/kcal-buddy-beta.apk">Download Android Beta</a></p>
+      
+      <ol class="steps"><li><span class="num">1</span><div><p>Android: install the app first (Download Android Beta above), then request access in kCal Buddy.</p></div></li>
+<li><span class="num">2</span><div><p>iPhone: request access, send Sam your Apple Account email, then install from TestFlight.</p></div></li>
+<li><span class="num">3</span><div><p>Open the invite with the same email. Create a PIN — that is your account.</p></div></li></ol>
+      <p class="platform-deeplink"><a class="btn-deeplink" href="https://beta.kcal.lol/download">iPhone: TestFlight steps</a></p>
+      <p class="note">There is no public signup. One invite email = one account. Do not share the invite link.</p>
+      <p class="platform-deeplink"><a class="btn-deeplink" href="https://kcal.lol">Request access on kcal.lol</a></p>
+    </article>
     </section>
       <section class="px-tours" aria-labelledby="px-tours-title">
       <h1 id="px-tours-title">Your Home screen (mobile)</h1>
@@ -112,8 +145,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="js/extensions.js?v=1.1.0-phase2-mu716nfp" defer></script>
-    <script src="js/version-update.js?v=1.1.0-phase2-mu716nfp" defer></script>
-    <script src="js/shell.js?v=1.1.0-phase2-mu716nfp" data-page="site" data-lang="en" data-base="" data-file="index.html" data-updated="2026-09-13" defer></script>
+    <script src="js/extensions.js?v=1.1.0-phase2-mu737dl4" defer></script>
+    <script src="js/version-update.js?v=1.1.0-phase2-mu737dl4" defer></script>
+    <script src="js/shell.js?v=1.1.0-phase2-mu737dl4" data-page="site" data-lang="en" data-base="" data-file="index.html" data-updated="2026-09-13" defer></script>
   </body>
 </html>
