@@ -1,8 +1,8 @@
 {
   "intro": "Kuva on usein nopeampi kuin kirjoittaminen. Osoita lautasta tai pakattua ruokaa, katso mitä Buddy tunnistaa, valitse sitten minne se menee.",
   "time": "7 min",
-  "buddyTip": "Pakkauksissa pidä viivakoodi, QR tai painettu EAN kehyksessä. Lautasilla kuvaa ylhäältä kelvollisessa valossa ja mainitse piilossa olevat öljyt vahvistaessa.",
-  "mission": "Skannaa yksi pakattu ruoka ja lähetä se tasan yhteen paikkaan: Foodiaryyn, Pikaruokaan, varastoon tai ostoslistalle. Kirjaa myös yksi lautasateria kamerasta tai galleriasta.",
+  "buddyTip": "Kodin kamera on lautasia varten — napauta suljinta kun kuva on valmis. Ostoslistan kamera lukee viivakoodit automaattisesti. Pakkaus Kodista: pidä viivakoodi kehyksessä ja napauta.",
+  "mission": "Kirjaa yksi lautasateria Kodin kamerasta (suljin). Skannaa yksi pakattu ruoka ostoslistan kamerasta ja lähetä se tasan yhteen paikkaan: Foodiaryyn, Pikaruokaan, varastoon tai ostoslistalle.",
   "why": [
     "Monimutkaisia lautasia on vaikea kirjoittaa. Kuva antaa Buddylle jotain konkreettista arvioitavaksi, kun jatkat syömistä, vanhemmuutta tai työmatkaa.",
     "Pakatuilla ruoilla on jo identiteetti. Yhden skannauksen pitäisi riittää syömiseen, muistamiseen, varastoon tai ostamiseen — ilman neljän ruudun etsintää.",
@@ -13,8 +13,9 @@
   "what": {
     "lead": "Kameravirran perusasiat.",
     "points": [
-      "Käytä kameran tai gallerian pikatoimintoa Kodissa",
-      "Pakkauksen viivakoodi, QR, painettu EAN tai etikettiteksti avaavat saman pakkauskortin",
+      "Käytä Kodin kameraa lautasiin — napauta suljinta (ei automaattista lukitusta)",
+      "Ostoslistan kamera lukee pakkauksen viivakoodit, QR:t ja painetut EAN:it automaattisesti",
+      "Kodista viivakoodi kehyksessä + suljin avaa silti pakkauskortin",
       "Valitse Syö (Foodiary), Muista (Pikaruoka), Kaapissa (varasto) tai Osta (ostoslista)",
       "Lautaskuvat jäävät syö + ota uudelleen -polulle — kulho ei ole viivakoodi",
       "Vahvista annokset ja puuttuvat rasvat/juomat ennen aterian tallennusta",
@@ -38,7 +39,7 @@
   "how": {
     "lead": "Tee kuvakirjaamisesta siisti tapa.",
     "steps": [
-      "Rajaa koko ateria, tai pidä pakkauksen viivakoodi / QR / painettu EAN näkyvissä",
+      "Rajaa koko ateria Kodissa ja napauta suljinta — tai avaa ostoslistan kamera pakkauksille",
       "Odota pakkauskorttia, tai kuvaa ennen kuin tuhoat lautasaterian",
       "Valitse pakkaukselle yksi määränpää — tai vahvista Buddyn lautashahmotelma",
       "Lisää ääni- tai tekstimuistiinpanot öljylle, voille, kastikkeille, juomille",

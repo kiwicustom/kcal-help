@@ -1,8 +1,8 @@
 {
   "intro": "A photo is often faster than typing. Point at a plate or a packaged food, review what Buddy recognises, then choose where it should go.",
   "time": "7 min",
-  "buddyTip": "For packs, hold the barcode, QR, or printed EAN in the frame. For plates, shoot from above with decent light and mention hidden oils on confirm.",
-  "mission": "Scan one packaged food and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list. Also log one plated meal from camera or gallery.",
+  "buddyTip": "Home camera is for plates — tap the shutter when ready. Shopping list camera auto-reads barcodes. For a pack from Home, hold the barcode in frame and tap.",
+  "mission": "Log one plated meal from the Home camera (shutter). Scan one packaged food from the shopping list camera and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list.",
   "why": [
     "Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.",
     "Packaged foods already have an identity. One scan should be enough to eat, remember, stock, or buy — without hunting through four screens.",
@@ -13,8 +13,9 @@
   "what": {
     "lead": "Camera flow essentials.",
     "points": [
-      "Use camera or gallery quick action on Home",
-      "Pack barcode, QR, printed EAN, or label text open the same pack card",
+      "Use camera or gallery on Home for plates — tap the shutter (no auto-lock)",
+      "Shopping list camera auto-reads pack barcodes, QR, and printed EAN",
+      "From Home, a barcode in frame + shutter still opens the pack card",
       "Choose Eat (Foodiary), Remember (Quick Food), Have (Stock), or Buy (shopping list)",
       "Plate photos stay eat + retake — a bowl is not a barcode",
       "Confirm portions and missing fats/drinks before saving a meal",
@@ -38,7 +39,7 @@
   "how": {
     "lead": "Make photo logging a tidy habit.",
     "steps": [
-      "Frame the full meal, or hold the pack’s barcode / QR / printed EAN in view",
+      "Frame the full meal on Home and tap shutter — or open Shopping list camera for packs",
       "Wait for the pack card, or capture before you destroy a plated meal",
       "Pick one destination for a pack — or confirm Buddy’s plate draft",
       "Add voice or text notes for oil, butter, dressings, beverages",
