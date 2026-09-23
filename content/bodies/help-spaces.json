@@ -54,6 +54,14 @@
       "paras": [
         "Coaches support the group from the same Space engine. Coach Desk (caseload, who needs you) is not shipped. They do not own your Foodiary. Share participation; keep private logs under your control."
       ]
+    },
+    {
+      "title": "Beta — known limitations",
+      "paras": [
+        "Invitation-only by default. Optional Public Spaces are listed on this host only — not a social network.",
+        "Kludos and Wall posts save on your device first, then sync when the connection works. Challenges stay simple (shared mission + short rungs from real posts).",
+        "Sharing is intentionally private: first names and what you tick — never Foodiary, calories, or weight. Coach Desk is not available yet."
+      ]
     }
   ],
   "mistakes": [

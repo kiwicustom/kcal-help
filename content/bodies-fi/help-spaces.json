@@ -54,6 +54,14 @@
       "paras": [
         "Valmentajat tukevat ryhmää samasta Space-moottorista. Coach Desk (ketä tarvitset nyt) ei ole vielä julkaistu. He eivät omista Foodiaryasi. Jaa osallistuminen; pidä yksityiset kirjaukset hallinnassasi."
       ]
+    },
+    {
+      "title": "Beta — tunnetut rajoitteet",
+      "paras": [
+        "Oletuksena vain kutsu. Valinnainen Julkinen Space listataan vain tällä hostilla — ei someverkostoa.",
+        "Kludos ja Seinän julkaisut tallentuvat ensin laitteellesi ja synkronoituvat kun yhteys toimii. Haasteet pysyvät yksinkertaisina (yhteinen missio + lyhyet portaat oikeista postauksista).",
+        "Jakaminen on tahallaan yksityistä: etunimet ja rastittamasi asiat — ei koskaan Foodiarya, kaloreita tai painoa. Coach Desk ei ole vielä saatavilla."
+      ]
     }
   ],
   "mistakes": [
