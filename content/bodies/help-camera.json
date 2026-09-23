@@ -1,8 +1,8 @@
 {
   "intro": "A photo is often faster than typing. Point at a plate or a packaged food, review what Buddy recognises, then choose where it should go.",
   "time": "7 min",
-  "buddyTip": "Home camera is for plates — tap the shutter when ready. Shopping list camera auto-reads barcodes. For a pack from Home, hold the barcode in frame and tap.",
-  "mission": "Log one plated meal from the Home camera (shutter). Scan one packaged food from the shopping list camera and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list.",
+  "buddyTip": "Live camera has Auto · Tap chips for barcodes and QR. Auto freezes when a code is recognized; Tap waits for your shutter. Shopping defaults Auto; Home meal camera defaults Tap. Plates always need the shutter.",
+  "mission": "Log one plated meal from the Home camera (shutter). Scan one packaged food — try Auto once, then Tap if you prefer control — and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list.",
   "why": [
     "Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.",
     "Packaged foods already have an identity. One scan should be enough to eat, remember, stock, or buy — without hunting through four screens.",
@@ -13,9 +13,10 @@
   "what": {
     "lead": "Camera flow essentials.",
     "points": [
-      "Use camera or gallery on Home for plates — tap the shutter (no auto-lock)",
-      "Shopping list camera auto-reads pack barcodes, QR, and printed EAN",
-      "From Home, a barcode in frame + shutter still opens the pack card",
+      "Use camera or gallery on Home for plates — tap the shutter",
+      "Auto · Tap chips control barcode/QR snap (choice is remembered)",
+      "Shopping defaults Auto; meal camera defaults Tap — flip anytime on the live view",
+      "From Home with Tap, a barcode in frame + shutter still opens the pack card",
       "Choose Eat (Foodiary), Remember (Quick Food), Have (Stock), or Buy (shopping list)",
       "Plate photos stay eat + retake — a bowl is not a barcode",
       "Confirm portions and missing fats/drinks before saving a meal",
@@ -51,7 +52,7 @@
     {
       "title": "Packaged foods",
       "paras": [
-        "Point at barcode bars, a product QR, or printed EAN / GTIN. Buddy looks the pack up once and shows the same card. Then choose exactly one: Save to Foodiary (you ate it), Save as Quick Food (you eat it often — nothing logged today), Add to Stock (you have it), or Add to shopping list (you will buy it). Scan next keeps the camera up.",
+        "Point at barcode bars, a product QR, or printed EAN / GTIN. Use Auto to snap when recognized, or Tap to freeze with the shutter. Buddy looks the pack up once and shows the same card. Then choose exactly one: Save to Foodiary (you ate it), Save as Quick Food (you eat it often — nothing logged today), Add to Stock (you have it), or Add to shopping list (you will buy it). Scan next keeps the camera up.",
         "If Buddy does not know the pack, photograph the label or continue. Do not invent a food. Receipt photos still use the receipt flow — Add to Stock there is the same Stock ledger as a cupboard barcode."
       ]
     },

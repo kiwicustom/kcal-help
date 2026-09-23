@@ -197,12 +197,14 @@
       "why": "Point the camera at a plate or a pack. Buddy recognises it so you can eat, remember, stock, or buy.",
       "what": [
         "Capture or pick from gallery",
+        "Auto · Tap chips for barcode/QR snap (remembered)",
         "Pack barcode, QR, or printed EAN opens one pack card",
         "Choose Eat, Remember, Have, or Buy",
         "Confirm portion and save meals to Foodiary"
       ],
       "how": [
         "Use camera or gallery quick action on Home",
+        "Flip Auto/Tap on the live view for packs",
         "For packs, wait for the card and pick one destination",
         "For plates, check Buddy's suggestion and save"
       ],
@@ -220,7 +222,7 @@
         "path": "/#/",
         "label": "Open Camera"
       },
-      "updated": "2026-09-13",
+      "updated": "2026-09-23",
       "status": "ready",
       "bodyFile": "help-camera.json"
     },

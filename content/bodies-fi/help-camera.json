@@ -1,8 +1,8 @@
 {
   "intro": "Kuva on usein nopeampi kuin kirjoittaminen. Osoita lautasta tai pakattua ruokaa, katso mitä Buddy tunnistaa, valitse sitten minne se menee.",
   "time": "7 min",
-  "buddyTip": "Kodin kamera on lautasia varten — napauta suljinta kun kuva on valmis. Ostoslistan kamera lukee viivakoodit automaattisesti. Pakkaus Kodista: pidä viivakoodi kehyksessä ja napauta.",
-  "mission": "Kirjaa yksi lautasateria Kodin kamerasta (suljin). Skannaa yksi pakattu ruoka ostoslistan kamerasta ja lähetä se tasan yhteen paikkaan: Foodiaryyn, Pikaruokaan, varastoon tai ostoslistalle.",
+  "buddyTip": "Live-kamerassa on Auto · Napauta -valitsimet viivakoodeille ja QR:ille. Auto napsaa kun koodi tunnistetaan; Napauta odottaa suljinta. Ostoslista olettaa Auton; Kodin ateriakamera Napauta. Lautaset tarvitsevat aina sulkimen.",
+  "mission": "Kirjaa yksi lautasateria Kodin kamerasta (suljin). Skannaa yksi pakattu ruoka — kokeile Autoa, vaihda Napauta jos haluat hallita — ja lähetä se tasan yhteen paikkaan: Foodiaryyn, Pikaruokaan, varastoon tai ostoslistalle.",
   "why": [
     "Monimutkaisia lautasia on vaikea kirjoittaa. Kuva antaa Buddylle jotain konkreettista arvioitavaksi, kun jatkat syömistä, vanhemmuutta tai työmatkaa.",
     "Pakatuilla ruoilla on jo identiteetti. Yhden skannauksen pitäisi riittää syömiseen, muistamiseen, varastoon tai ostamiseen — ilman neljän ruudun etsintää.",
@@ -13,9 +13,10 @@
   "what": {
     "lead": "Kameravirran perusasiat.",
     "points": [
-      "Käytä Kodin kameraa lautasiin — napauta suljinta (ei automaattista lukitusta)",
-      "Ostoslistan kamera lukee pakkauksen viivakoodit, QR:t ja painetut EAN:it automaattisesti",
-      "Kodista viivakoodi kehyksessä + suljin avaa silti pakkauskortin",
+      "Käytä Kodin kameraa lautasiin — napauta suljinta",
+      "Auto · Napauta -valitsimet ohjaavat viivakoodi/QR-nappausta (valinta muistetaan)",
+      "Ostoslista olettaa Auton; ateriakamera Napauta — vaihda live-näkymässä milloin tahansa",
+      "Kodissa Napauta-tilassa viivakoodi kehyksessä + suljin avaa silti pakkauskortin",
       "Valitse Syö (Foodiary), Muista (Pikaruoka), Kaapissa (varasto) tai Osta (ostoslista)",
       "Lautaskuvat jäävät syö + ota uudelleen -polulle — kulho ei ole viivakoodi",
       "Vahvista annokset ja puuttuvat rasvat/juomat ennen aterian tallennusta",
@@ -51,7 +52,7 @@
     {
       "title": "Pakattu ruoka",
       "paras": [
-        "Osoita viivakoodin palkkeja, tuotteen QR:ää tai painettua EAN / GTIN-koodia. Buddy hakee pakkauksen kerran ja näyttää saman kortin. Valitse sitten tasan yksi: Tallenna Foodiaryyn (söit sen), Tallenna Quick Foodiksi (syöt sitä usein — tänään ei kirjata mitään), Lisää varastoon (sinulla on se) tai Ostoslistalle (ostat sen). Skannaa seuraava pitää kameran ylhäällä.",
+        "Osoita viivakoodin palkkeja, tuotteen QR:ää tai painettua EAN / GTIN-koodia. Käytä Autoa napataksesi tunnistuksesta, tai Napauta sulkimella. Buddy hakee pakkauksen kerran ja näyttää saman kortin. Valitse sitten tasan yksi: Tallenna Foodiaryyn (söit sen), Tallenna Quick Foodiksi (syöt sitä usein — tänään ei kirjata mitään), Lisää varastoon (sinulla on se) tai Ostoslistalle (ostat sen). Skannaa seuraava pitää kameran ylhäällä.",
         "Jos Buddy ei tunne pakkausta, kuvaa merkintä tai jatka. Älä keksi ruokaa. Kuitikuvat käyttävät yhä kuittivirtaa — Lisää varastoon siellä on sama varastokirjanpito kuin kaapin viivakoodissa."
       ]
     },
