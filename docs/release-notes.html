@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.109" />
+    <meta name="kcal:app-version" content="0.8.110" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-muem7ou5" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mufe4yhm" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-muem7ou5" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-muem7ou5" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-muem7ou5" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-muem7ou5" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mufe4yhm" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mufe4yhm" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mufe4yhm" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mufe4yhm" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,23 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.110</strong> <span class="release-patch__date">2026-09-24</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Receipt scanner (CH-DE SPAR / ALDI / COOP) — product-ledger area first; soft OCR row grammar (3-decimal prices, ALDI PLU/VAT noise, COOP column mush); deterministic OCR cleanup. Live JPEG fixtures score 100% on parse checks.</li>
+              <li>Magerquark / magequark macros — curated lean Aldi-style macros beat Food Bank / diary poison on Confirm and save (preferOverBank); implausible kcal/fat/sugar&gt;carbs rows re-resolve.</li>
+              <li>Confirm meal-frame guidance — outer meal background follows overall protein/fiber vs sugar/fat ratio (green / slate / orange); each food keeps its own border tone.</li>
+              <li>Confirm food-frame tone — each food row border signals good (protein/fiber) vs watch (sugar/fat) via a simple ratio; green / slate / orange borders.</li>
+              <li>Confirm chrome — full-bleed Confirm (no floating gutters); food+details block highlighted; fewer colors (orange primary, quiet secondary — no green Add food / pink Cancel stack).</li>
+              <li>Confirm + footer chrome — rounded corners only on action buttons (Save / Add food / Cancel / Remove / +). Confirm card, fields, meal chips, and bottom nav are square; Confirm + footer use the screen width with a small side inset.</li>
+              <li>Confirm + Add food forgot / mashed the previous food — keep prior Confirm rows as structured edits; parse only the newly typed/scanned food and append. No more re-serializing macros into text (e.g. “magequark…raspberries 100 g”).</li>
+              <li>Local npm run dev — rebuild better-sqlite3 when Node ABI mismatches; single API supervisor lock (no more kill-loop on :3041); metrics optional locally (KCAL_METRICS_PORT=0).</li>
+              <li>Buddy voice console spam on Home load — boot only HTTP-prewarms the agent; LiveKit/AudioContext wait for mic/gesture (stops Chrome NotAllowedError / AudioContext autoplay noise).</li>
+              <li>Create Quick Food Meal (Foodiary) — one CTA above the day: pick Breakfast / Lunch / Dinner / Snack / Drink / Whole day, name it, save to My meals (Quick Food). Single-meal scope also captures a meal template.</li>
+              <li>Quick Food from Confirm / meal totals — save celebrate flash; Lunch (and other meals) can create a Quick Food meal from logged rows.</li>
+              <li>Quick Food from repeating Foodiary combos (helpers) — fingerprint meal slots (e.g. quark+berries+EAA) and detect ≥3-day repeats for a “save as Quick Food” suggestion. UI wiring next on this branch.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.109</strong> <span class="release-patch__date">2026-09-23</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Instant Startup (native RC) — kCal Buddy boots from bundled APK/IPA assets (no server.url download). Latest local SQLite data paints Home immediately; auth · Outbox push · delta Pull · health · Spaces · OTA run after first paint. Poor network no longer delays cold start. Known limits: OTA applies on the next launch; first install still needs the store download; background sync still needs connectivity.</li>
@@ -68,7 +85,7 @@
               <li>CI — Buddy diary Hydrate credentials assertion — regression test only checks diary Hydrate fetches for credentials:include (background sync may call fetch without an init). Unblocks Spaces beta image build after v0.8.107.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.107</strong> <span class="release-patch__date">2026-09-23</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Spaces → beta (release candidate) — Ship Spaces on beta for family invite · join · Wall · Kludos · return. Honest known limits (local-first Kludos/Wall sync, private sharing, invitation-only, no Coach Desk). Beta instructions + verification: [docs/product/SPACES-RELEASE-CANDIDATE.md](./docs/product/SPACES-RELEASE-CANDIDATE.md). Help Spaces page lists beta limitations. No new features.</li>
@@ -953,8 +970,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-muem7ou5" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-muem7ou5" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-muem7ou5" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mufe4yhm" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mufe4yhm" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mufe4yhm" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
