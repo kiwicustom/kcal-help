@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.129" />
+    <meta name="kcal:app-version" content="0.8.130" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-muhicvqd" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mui5vdol" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-muhicvqd" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-muhicvqd" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-muhicvqd" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-muhicvqd" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mui5vdol" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mui5vdol" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mui5vdol" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mui5vdol" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,12 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.130</strong> <span class="release-patch__date">2026-09-26</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Progress → My Body (Body Composition Slice 0) — Metric cards for weight, body fat %, body water, bone mass, lean mass (when present), and BMR inside Progress (not a standalone hub). Tap opens detail with Today/Week/Month/Year/Since Start, sparkline, highest/lowest/average, all readings kept, and provenance on every value. Home +Weight deep-links to Progress → My Body. Newest reading is the hero (presentation only); measurements stay immutable. Health Connect sync attaches origin/device when Metadata provides them.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.129</strong> <span class="release-patch__date">2026-09-25</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Android Health Connect → Progress weight — CapHttp for /api (no more HTML-as-JSON); after HC Sync, timeline hydrate + Progress/summary forceNetwork so Classic Progress shows scale weight (e.g. 113.4 kg) without restart. HC permission rationale category corrected; weight read always requested.</li>
@@ -67,7 +73,7 @@
               <li>Ship scale-weight fix to beta — Home LAST Weight prefers Connected Health scale (incl. Google Fit); Activity prefs test matches GF default-on.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.127</strong> <span class="release-patch__date">2026-09-25</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Home LAST Weight prefers scale — Connected Health hub weight (Google Fit / Health Connect / Apple Health) wins over diary carry-forward. Google Fit WEIGHT also feeds My Body; GF on by default on Activity.</li>
@@ -1096,8 +1102,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-muhicvqd" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-muhicvqd" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-muhicvqd" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mui5vdol" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mui5vdol" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mui5vdol" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
