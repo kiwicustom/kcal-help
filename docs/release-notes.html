@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.135" />
+    <meta name="kcal:app-version" content="0.8.136" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-muip4ha9" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-muipgzxr" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-muip4ha9" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-muip4ha9" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-muip4ha9" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-muip4ha9" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-muipgzxr" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-muipgzxr" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-muipgzxr" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-muipgzxr" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,12 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.136</strong> <span class="release-patch__date">2026-09-26</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Receipt chip → live camera with receipt OCR — Receipt no longer opens a file picker only; live shutter keeps source=receipt (live capture no longer overwrites Receipt/Barcode source back to meal).</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.135</strong> <span class="release-patch__date">2026-09-26</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Progress time range menu restored — 7D / 14D / 30D / 1Y (+ custom) sits on Progress again (not buried inside collapsed My Body). My Body detail scopes are Today / Week / Month / Year / Since Start and stay visible even with one reading.</li>
@@ -67,7 +73,7 @@
               <li>Meal camera receipt → pack passport — ALDI/COOP PLU crumbs and tall slip photos now force the receipt OCR pipeline (multi-line items) instead of meal vision inventing a single “Bio Quark” pack. Overlay copy says receipt lines when ≥2 foods.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.133</strong> <span class="release-patch__date">2026-09-26</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Android photo scan CapHttp multipart — FormData → native dataType: formData + base64File (fixes 400 image file required from String(FormData), and 200 HTML → Invalid server response from WebView/html5mode bypass).</li>
@@ -1132,8 +1138,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-muip4ha9" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-muip4ha9" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-muip4ha9" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-muipgzxr" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-muipgzxr" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-muipgzxr" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
