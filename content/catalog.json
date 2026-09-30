@@ -49,7 +49,7 @@
       ],
       "how": [
         "Use the orange Log / Talk food strip on Home — not Foodiary-first",
-        "Camera or gallery for plates; mic for spoken meals; water for hydration",
+        "Photo, Library, Scan, or Receipt for pictures; Voice or Text for words; Water for a drink",
         "Watch Today's Progress fill after a log with kcal"
       ],
       "next": {
@@ -196,14 +196,14 @@
       "kind": "feature",
       "why": "Point the camera at a plate or a pack. Buddy recognises it so you can eat, remember, stock, or buy.",
       "what": [
-        "Capture or pick from gallery",
+        "Voice, Photo, Library, Scan, Text, Receipt — each button is a different job",
         "Auto · Tap chips for barcode/QR snap (remembered)",
         "Pack barcode, QR, or printed EAN opens one pack card",
         "Choose Eat, Remember, Have, or Buy",
         "Confirm portion and save meals to Foodiary"
       ],
       "how": [
-        "Use camera or gallery quick action on Home",
+        "On Home tap Photo, Library, Scan, or Receipt",
         "Flip Auto/Tap on the live view for packs",
         "For packs, wait for the card and pick one destination",
         "For plates, check Buddy's suggestion and save"

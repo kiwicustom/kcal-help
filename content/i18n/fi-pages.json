@@ -20,7 +20,7 @@
     ],
     "how": [
       "Käytä Kodin oranssia Kirjaa / Puhu ruoka -kaistaa — älä Foodiary-ensin",
-      "Kamera tai galleria lautaisille; mikki puhutuille aterioille; vesi nesteytykseen",
+      "Kuva, Kuvat, Skannaa tai Kuitti kuville; Ääni tai Teksti sanoille; Vesi juomalle",
       "Katso Tämän päivän edistymisen täyttyvän, kun kirjauksessa on kcal"
     ],
     "next": {
@@ -109,13 +109,13 @@
     "summary": "Kuvan otto aterioille ja pakatuille ruoille.",
     "why": "Osoita kamera lautaseen tai pakkaukseen. Buddy tunnistaa sen, jotta voit syödä, muistaa, pitää varastossa tai ostaa.",
     "what": [
-      "Kuvaa tai valitse galleriasta",
+      "Ääni, Kuva, Kuvat, Skannaa, Teksti, Kuitti — jokainen nappi on eri työ",
       "Pakkauksen viivakoodi, QR tai painettu EAN avaa yhden pakkauskortin",
       "Valitse Syö, Muista, Kaapissa tai Osta",
       "Vahvista annos ja tallenna ateriat Foodiaryyn"
     ],
     "how": [
-      "Käytä kameran tai gallerian pikatoimintoa Kodissa",
+      "Napauta Kodissa Kuva, Kuvat, Skannaa tai Kuitti",
       "Pakkauksissa odota korttia ja valitse yksi määränpää",
       "Lautasilla tarkista Buddyn ehdotus ja tallenna"
     ],

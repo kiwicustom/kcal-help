@@ -7,13 +7,13 @@
     "Monimutkaisia lautasia on vaikea kirjoittaa. Kuva antaa Buddylle jotain konkreettista arvioitavaksi, kun jatkat syömistä, vanhemmuutta tai työmatkaa.",
     "Pakatuilla ruoilla on jo identiteetti. Yhden skannauksen pitäisi riittää syömiseen, muistamiseen, varastoon tai ostamiseen — ilman neljän ruudun etsintää.",
     "Kamerakirjaus vaatii silti ihmisen arvion. Tunnistus voi missata kastikkeet, öljyt, juomat lautasen vieressä tai toiset annokset. Vahvistuksesi suojaa rehellisyyttä.",
-    "Galleria auttaa, kun unohdit kirjata hetkessä mutta sinulla on vielä kuva — parempi kuin pelkkä muistin jälleenrakennus.",
+    "Kuvat-nappi on kuvalle, joka on jo puhelimessa — kun unohdit kirjata hetkessä mutta kuva on tallessa.",
     "Sekoitetut lautaset (noutopöydät, jaetut tapakset) tarvitsevat annostarinasi vahvistaessa. Kamera näkee pöydän; sinä tiedät osuutesi."
   ],
   "what": {
     "lead": "Kameravirran perusasiat.",
     "points": [
-      "Käytä Kodin kameraa lautasiin — napauta suljinta",
+      "Koti: Voice puhuu aterian. Kuva on kamera lautaselle. Kuvat on kuva, joka on jo puhelimessa. Skannaa on viivakoodi tai pakkaus. Teksti on kirjoittamista. Kuitti on ostoskuitti.",
       "Auto · Napauta -valitsimet ohjaavat viivakoodi/QR-nappausta (valinta muistetaan)",
       "Ostoslista olettaa Auton; ateriakamera Napauta — vaihda live-näkymässä milloin tahansa",
       "Kodissa Napauta-tilassa viivakoodi kehyksessä + suljin avaa silti pakkauskortin",
@@ -40,7 +40,7 @@
   "how": {
     "lead": "Tee kuvakirjaamisesta siisti tapa.",
     "steps": [
-      "Rajaa koko ateria Kodissa ja napauta suljinta — tai avaa ostoslistan kamera pakkauksille",
+      "Napauta Kodissa nappia, joka vastaa työtä: Kuva, Kuvat, Skannaa tai Kuitti",
       "Odota pakkauskorttia, tai kuvaa ennen kuin tuhoat lautasaterian",
       "Valitse pakkaukselle yksi määränpää — tai vahvista Buddyn lautashahmotelma",
       "Lisää ääni- tai tekstimuistiinpanot öljylle, voille, kastikkeille, juomille",
