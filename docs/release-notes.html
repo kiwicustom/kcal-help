@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.160" />
+    <meta name="kcal:app-version" content="0.8.161" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mveyrwr8" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvjqyz8e" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mveyrwr8" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mveyrwr8" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mveyrwr8" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mveyrwr8" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvjqyz8e" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvjqyz8e" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvjqyz8e" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvjqyz8e" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,6 +56,21 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.161</strong> <span class="release-patch__date">2026-10-22</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>Camera — One native camera for every state. Food / Receipt / Barcode / Label stay in a reserved dock for live, review, loading, success and miss. Barcode auto-reads; other modes wait for the shutter. Flash is independent. Review is a real crop (drag, resize, rotate, reset) on the full-resolution still. Pack discovery stays in the same camera: front, then label, then barcode. An unknown barcode says it is not a food match, not that Buddy “doesn't know this pack yet”. Home Scan opens Barcode, not Food. A complete barcode table (verified or Open Food Facts) can Save to Foodiary after Confirm. A pack result dock lets the pack show through, with a darker band under the destinations.</li>
+              <li>Home — Your daily burn is an estimate, in Buddy's voice. The old Ground Truth label is gone.</li>
+              <li>Recognition — Receipt, barcode, label and food no longer fall into each other. A Coop till extracts merchant, items, quantities and prices, and never invents calories. Unrecognized lines stay on review; nothing is added to Foodiary until you confirm. A REAL Turmat barcode keeps the label serving (528 kcal, 18 g protein, 420 g prepared) instead of dry weight with 0 g protein. Printed EAN OCR that quotes or inserts a digit still identifies 7036480060183. Meal vision of a pack front keeps missing protein unknown instead of 0 g. A cropped nutrition table without energy row labels does not invent kcal. The 598 kcal/100 g miss was Tesseract reading 528 as 598 next to a correct 2209 kJ (2209 kJ = 528 kcal). kJ and kcal must agree; a two-column table with only one trusted energy stays unknown; dry weight is not the prepared serving. Unreadable label fields stay null with needsReview — they are never filled from the barcode catalog.</li>
+              <li>Foodiary — Missing nutrition stays unknown. A till name is not a verified pack. Incomplete Open Food Facts rows stay on review. Zero calories only save when they are real (water, a verified BCAA). Every write path checks this, including the API.</li>
+              <li>Camera — A missed read stays in the camera. Retake reopens the live view without closing first. The miss line is the real error (including a face that is not food). Android back leaves review or the camera, not the app.</li>
+              <li>Camera — Live preview is snappier. The shutter keeps the full photo; orange corners are a guide, not an automatic crop. Review, retake, or crop before analysis. Alignment is red / orange / green from real sharpness, light, fill and barcode reads — not a timer.</li>
+              <li>Receipts — Compact Coop lines (name + price, including pack grams) are recognized. Bought food is never logged to Foodiary until you confirm. Long slips can add a second page before analysis.</li>
+              <li>Receipts — Line prices are checked against printed TOTAL CHF. A mismatch stays on review and is never accepted as the slip total. The Android Coop Basel soup till is three lines at CHF 10.30; the drinks slip at CHF 19.50 is a different receipt.</li>
+              <li>Receipts — A Coop till whose logo OCR is unreadable is still Coop when “Für mich und dich” is on the slip. Garbled Menge keeps the name and line total. Wrong OCR prices stay on review.</li>
+              <li>Foodiary — New rows store nutrition source, review state, verified product identity and serving basis. Older rows stay empty. Nothing is invented for history.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.160</strong> <span class="release-patch__date">2026-10-19</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Meal photo — A line named only &quot;fat&quot; is dropped. A solid food at 0 kcal is no longer called high confidence. (Beta User Katja)</li>
@@ -68,7 +83,7 @@
               <li>Beginner Foodiary — Details stay the numbers. Today's verdict and Advanced stay off. Quick Food names wrap inside the tile. (Beta User Katja)</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.158</strong> <span class="release-patch__date">2026-10-18</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Beginner — Phone bar is Home · Foodiary · + · Progress · More. Today and Activity desks are gone. The day lives on Home. Connected Health sits at the top of Progress. (Beta User Katja)</li>
@@ -1310,8 +1325,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mveyrwr8" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mveyrwr8" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mveyrwr8" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mvjqyz8e" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mvjqyz8e" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mvjqyz8e" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>

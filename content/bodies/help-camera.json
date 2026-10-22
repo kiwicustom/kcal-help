@@ -1,8 +1,8 @@
 {
   "intro": "A photo is often faster than typing. Point at a plate or a packaged food, review what Buddy recognises, then choose where it should go.",
   "time": "7 min",
-  "buddyTip": "Live camera has Auto · Tap chips for barcodes and QR. Auto freezes when a code is recognized; Tap waits for your shutter. Shopping defaults Auto; Home meal camera defaults Tap. Plates always need the shutter.",
-  "mission": "Log one plated meal from the Home camera (shutter). Scan one packaged food — try Auto once, then Tap if you prefer control — and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list.",
+  "buddyTip": "Home Scan opens Barcode and auto-reads. Photo is for a plate — tap the shutter when ready. Receipt and Label also wait for the shutter. Flash is independent.",
+  "mission": "Log one plated meal from Home Photo (shutter). Scan one packaged food from Home Scan (barcode auto-reads) and send it to exactly one place: Foodiary, Quick Food, Stock, or the shopping list.",
   "why": [
     "Complex plates are hard to type. A picture gives Buddy something concrete to estimate while you keep eating or parenting or commuting.",
     "Packaged foods already have an identity. One scan should be enough to eat, remember, stock, or buy — without hunting through four screens.",
@@ -13,10 +13,10 @@
   "what": {
     "lead": "Camera flow essentials.",
     "points": [
-      "Home: Voice speaks a meal. Photo is the camera for a plate. Library is a photo already on the phone. Scan is a barcode or pack. Text is typing. Receipt is a grocery slip.",
-      "Auto · Tap chips control barcode/QR snap (choice is remembered)",
-      "Shopping defaults Auto; meal camera defaults Tap — flip anytime on the live view",
-      "From Home with Tap, a barcode in frame + shutter still opens the pack card",
+      "Home: Voice speaks a meal. Photo is the camera for a plate. Library is a photo already on the phone. Scan opens Barcode and auto-reads. Text is typing. Receipt is a grocery slip.",
+      "Food / Receipt / Label wait for the shutter. Barcode auto-reads.",
+      "Flash is independent of the mode.",
+      "Review is a real crop — drag, resize, rotate, reset — on the full-resolution still.",
       "Choose Eat (Foodiary), Remember (Quick Food), Have (Stock), or Buy (shopping list)",
       "Plate photos stay eat + retake — a bowl is not a barcode",
       "Confirm portions and missing fats/drinks before saving a meal",
@@ -52,8 +52,8 @@
     {
       "title": "Packaged foods",
       "paras": [
-        "Point at barcode bars, a product QR, or printed EAN / GTIN. Use Auto to snap when recognized, or Tap to freeze with the shutter. Buddy looks the pack up once and shows the same card. Then choose exactly one: Save to Foodiary (you ate it), Save as Quick Food (you eat it often — nothing logged today), Add to Stock (you have it), or Add to shopping list (you will buy it). Scan next keeps the camera up.",
-        "If Buddy does not know the pack, photograph the label or continue. Do not invent a food. Receipt photos still use the receipt flow — Add to Stock there is the same Stock ledger as a cupboard barcode."
+        "Point at barcode bars, a product QR, or printed EAN / GTIN. Barcode mode auto-reads. Buddy looks the pack up once and shows the same card. Then choose exactly one: Save to Foodiary (you ate it), Save as Quick Food (you eat it often — nothing logged today), Add to Stock (you have it), or Add to shopping list (you will buy it). Scan next keeps the camera up.",
+        "If there is no food match for this barcode, photograph the nutrition label or keep scanning. Do not invent a food. Unreadable label numbers stay unknown until you confirm. Receipt photos still use the receipt flow — Add to Stock there is the same Stock ledger as a cupboard barcode."
       ]
     },
     {
