@@ -18,19 +18,19 @@
     <meta name="twitter:description" content="What shipped recently in kCal Buddy — public highlights." />
     <meta name="twitter:image" content="https://help.kcal.lol/assets/brand/kcal-buddy-192.png" />
     <meta name="kcal:docs-version" content="1.1.0-phase2" />
-    <meta name="kcal:app-version" content="0.8.174" />
+    <meta name="kcal:app-version" content="0.8.175" />
     <meta name="kcal:updated" content="2026-09-04" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvth3fma" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvu1dlps" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvth3fma" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvth3fma" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvth3fma" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvth3fma" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvu1dlps" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvu1dlps" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvu1dlps" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvu1dlps" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://help.kcal.lol/#website","name":"kCal Buddy Help Platform","url":"https://help.kcal.lol","publisher":{"@id":"https://help.kcal.lol/#org"},"potentialAction":{"@type":"SearchAction","target":"https://help.kcal.lol/help/index.html?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://help.kcal.lol/#org","name":"kiwicustom GmbH","url":"https://kcal.lol","logo":"https://help.kcal.lol/assets/brand/kcal-mark-64.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://help.kcal.lol/index.html"},{"@type":"ListItem","position":2,"name":"Release Notes","item":"https://help.kcal.lol/docs/release-notes.html"}]}]}</script>
   </head>
   <body data-pillar="docs" data-page-id="release-notes">
@@ -56,11 +56,27 @@
         <p class="release-card__detail-label">Patch notes (this era)</p>
         <div class="release-patches">
           <details class="release-patch" open>
+            <summary><strong>v0.8.175</strong> <span class="release-patch__date">2026-10-29</span></summary>
+            <ul class="release-card__list release-card__list--patch">
+              <li>kCal Assistant mobile review — phone-first full-screen Setup → Overview → Discovery → Proof → Next Move → Direction → Earlier Reviews → Feedback. Period-aware titles: Know your day / week / month, and Know your progress for custom dates. One focused daily chart with labelled axes, saved-target and previous-period references. Insufficient data uses a short path instead of eight empty screens. Owned Foodiary photos stay on-device and are not sent to the review LLM. Five stars plus a separate 0 · Not useful, saved only after acknowledgement. Receipts say “No KLC charged” or “No AI call” from the live billing contract.</li>
+              <li>Menu → AI activity — personal history of AI tasks and provider attempts from existing operator_api_spend, with tokens, provider USD (sub-cent visible), KLC from the wallet ledger (not a price list), correlated retries only when a logical task id exists, and a link from the Assistant receipt. Reconciles with Admin → API spend. Does not change A7 pricing. Voice STT/TTS is listed when the worker reports attributable usage for the access-key owner; duplicate posts keep one attempt; missing usage stays unknown and older sessions are not backfilled.</li>
+              <li>Context-aware reviews — logged energy versus a saved kcal target is arithmetic only. Hockey/season context changes the next move even when completed sessions are missing. Missing activity is not inactivity. A partial week with a weekly plan is not “limited training”. Prompt personal_progress_review.v7, calculation version 3. Saved reports stay immutable.</li>
+              <li>Grounded next moves — weak slogans such as “increase protein” or “review activity plans” are dropped one by one; useful calculated steps stay. Overview leads with a personal headline, a compact evidence chart, and owned meal photos when they exist.</li>
+              <li>Help Progress covers the mobile Assistant review, Know your… period titles, owned photos, credit receipts, and Menu → AI activity. Admin activity center for all APIs is backlog.</li>
+              <li>Live v7 week review recorded on Android debug and reopened on iPhone 17 Simulator (loopback API) with zero extra provider calls. Physical iPhone was not connected. Additive operator_api_spend columns verified on local SQLite and a disposable Postgres 14 instance — not on beta.</li>
+              <li>Foodiary vs Home — client-only Buddy saves live in IndexedDB. Home and Foodiary now share that visible source, so a meal with an owned photo no longer disappears from Foodiary after refresh. An empty local day stays empty; replica rows are not a silent fallback for Sam keys.</li>
+              <li>Assistant ratings on local-first Sam — 0–5 review scores save for client-diary keys (they are operator feedback, not a server diary write). Earlier Reviews stays on the forward path after Direction.</li>
+              <li>AI activity accounting — adjacent same-person calls are not guessed as retries. Task outcome stays distinct from a single provider attempt. Pagination totals use database aggregates instead of a truncated 2,000-row slice.</li>
+              <li>Assistant findings — Discovery, strengths, attention and summary now need the same evidence and context eligibility as next moves. “Limited training” is rejected on a partial week or missing activity; a count of completed sessions can stay.</li>
+              <li>Feedback keyboard — the review panel shrinks by the IME inset so comment and Save stay reachable; Android system Back hides the keyboard before leaving Feedback.</li>
+            </ul>
+          </details>
+          <details class="release-patch" open>
             <summary><strong>v0.8.174</strong> <span class="release-patch__date">2026-10-29</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>kCal Assistant beta — Analyze my trend stays on the same Intelligence Engine. Assistant reviews your visible diary: coverage, provenance, a specific discovery, ranked next moves, and saved reviews that reopen without another AI call. Optional 0–5 ratings (0 is not unrated) persist to Admin → Feedback. Female/male appearance uses the supplied portraits.</li>
               <li>Analyze my trend — product SSOT (docs/product/ANALYZE-MY-TREND.md): diary → snapshot → prompt → result → earlier reviews. Help Progress covers the Assistant review.</li>
-              <li>Analyze my trend boot — existing SQLite databases gain the Feedback feature index after column ALTERs, so local API start no longer crashes on no such column: feature.</li>
+              <li>Analyze my trend boot — existing SQLite and PostgreSQL databases gain the Feedback feature index after column ALTERs, so API start no longer crashes on a missing feature column.</li>
               <li>Assistant copy — stripped unit phrases such as “up by kcal” fall back to complete calculated sentences (personal_progress_review.v3).</li>
               <li>+ shortcuts — My Shortcuts is Analyze my trend (optional: Activity, Foodiary). Fasting stays on Home day-mode. Duplicate meal stays in Foodiary ⋯.</li>
             </ul>
@@ -72,7 +88,7 @@
               <li>Analyze my trend — Sam’s on-device Foodiary is the analysis source (never an empty server copy). Invite keys merge the local replica. An empty week does not spend AI. Percentages such as 88.2% stay intact. Back returns to the previous sheet.</li>
             </ul>
           </details>
-          <details class="release-patch" open>
+          <details class="release-patch">
             <summary><strong>v0.8.172</strong> <span class="release-patch__date">2026-10-28</span></summary>
             <ul class="release-card__list release-card__list--patch">
               <li>Confirm (meal photo) — Name + kcal + protein is enough to Save. Camera UNRESOLVED no longer greys Save after the numbers are on the card. Food names skip iOS red spellcheck dots. On phone, Save stays above the tab bar and Home + hides while Confirm is open. “kCal Buddy” ellipsizes so the ladybug stays tappable. (Beta User Katja)</li>
@@ -1416,8 +1432,8 @@
       </aside>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/extensions.js?v=1.1.0-phase2-mvth3fma" defer></script>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mvth3fma" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mvth3fma" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
+    <script src="../js/extensions.js?v=1.1.0-phase2-mvu1dlps" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mvu1dlps" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mvu1dlps" data-page="release" data-lang="en" data-base="../" data-file="docs/release-notes.html" data-updated="2026-09-04" defer></script>
   </body>
 </html>
