@@ -1,79 +1,79 @@
 {
-  "intro": "Progress turns honest logs into trends. Days are noisy; weeks and months show direction — protein, weight, and adherence included.",
+  "intro": "Your Balance (KCAL Analytics) turns honest logs into a personal energy picture: what is working, what the records support, and what is still unknown. kCal Assistant writes the review; kCal Buddy stays your everyday food companion.",
   "time": "8 min",
-  "buddyTip": "Open Progress weekly with one question: “What did good days share?” Change one variable afterward.",
-  "mission": "Open Progress, scan the last week, and write one keep / one change note.",
+  "buddyTip": "Open Your Balance from Home → Log → My Shortcuts when you want the connected picture — food, movement and recovery — not a verdict on a single morning weigh-in.",
+  "mission": "Open Your Balance, save or skip the starting-point questions, and leave with one routine to keep or one small next step.",
   "why": [
-    "Without Progress, Foodiary is a pile of receipts. Trends reveal whether your energy budget, protein anchors, and habits are working under real life.",
-    "Daily obsession with a single weigh-in creates false emergencies. Progress exists to zoom out so you can coach calmly.",
-    "Progress only works if logs are honest and complete enough. Capture on Home; correct in Foodiary; learn here.",
-    "Progress is also where you notice skill gains: fewer blank days, better restaurant estimates, steadier protein. Those wins deserve equal attention beside the scale."
+    "Without a connected review, Foodiary is a pile of receipts. Your Balance shows whether energy, protein, movement and sleep are working under real life.",
+    "A saved calorie target is not proof that a different number is excessive. Estimated burn, the saved target and any proposed plan stay separate.",
+    "Incomplete logging cannot establish actual intake or inactivity. Missing a dinner label does not prove an incomplete day.",
+    "Successful routines deserve to be kept. The review will not invent a harder goal just to fill a report."
   ],
   "what": {
     "lead": "What to look for.",
     "points": [
-      "Weekly and monthly views",
-      "Weight trend versus day-to-day spikes",
-      "Protein consistency patterns",
-      "Links back to Foodiary for cause-finding",
-      "One-variable experiments after each review"
+      "Your Balance card in My Shortcuts (Home → Log). It is not a second Home tile.",
+      "Starting-point questions you can skip or edit later",
+      "Your energy — readiness, windows and provenance",
+      "Your patterns — descriptive evidence, not causes",
+      "Your next step — one primary action or a routine to keep"
     ],
     "misconceptions": [
       {
-        "myth": "Progress at 0 means the app is broken.",
-        "truth": "Often missing kcal on rows, wrong day selected, or logging only in empty Foodiary placeholders. Check the Quick Guide path."
+        "myth": "Opening Your Balance spends AI credits.",
+        "truth": "Opening Your Balance only reaches setup. Generation is a later explicit action with a real receipt."
       },
       {
-        "myth": "I should change five targets every time Progress looks messy.",
-        "truth": "Multi-change weeks teach nothing. Adjust one lever."
+        "myth": "Fourteen weigh-in rows always mean two weeks.",
+        "truth": "Row count is not calendar duration. Your Balance labels both the review window and the longer baseline evidence window."
       }
     ]
   },
   "how": {
-    "lead": "Make Progress a weekly appointment.",
+    "lead": "Make Your Balance a calm appointment.",
     "steps": [
-      "Ensure the week has enough Home logs with nutrition",
-      "Open Progress; note direction, not drama",
-      "Tap into odd days via Foodiary context",
-      "Celebrate adherence before criticising averages",
-      "Set one theme for next week",
-      "Return to daily ritual — don’t live inside charts"
+      "Keep ordinary meals and weigh-ins on Home",
+      "Open Home → Log → My Shortcuts → Your Balance",
+      "Answer how the routine feels, or skip",
+      "Read Your energy before changing a target",
+      "Keep a working routine when the records agree",
+      "Rate whether the review was useful — that is not a health outcome"
     ],
-    "buddyHelps": "Buddy capture feeds Progress. Coaching quality rises when trends reflect real restaurants, travel, and training — not curated highlights."
+    "buddyHelps": "Buddy capture feeds the diary that Your Balance reads. Coaching quality rises when trends reflect real restaurants, travel, and training — not curated highlights."
   },
   "sections": [
     {
-      "title": "Reading weight",
+      "title": "Your energy",
       "paras": [
-        "Prefer multi-day or weekly trends. Sodium, carbs, and hormones move water. Fat change is slower."
+        "Readiness is owned by the existing Method gate: food days, weigh-ins on different days, and the calendar span of those records. Copy shows have/need and either Requirement met or remaining days — never a duplicated unit. Reaching a count does not guarantee a stable personal calibration. A saved review stays frozen; session complete/incomplete marks are not written into that report."
       ]
     },
     {
-      "title": "Reading protein",
+      "title": "Your patterns",
       "paras": [
-        "Count how often anchors appeared. Two heroic protein days don’t cancel five low ones for how the week felt."
+        "Findings stay descriptive. Planned training is not completed training. Missing movement is not proven inactivity. General mood is not timed fatigue."
       ]
     },
     {
-      "title": "Monthly zoom",
+      "title": "Applying a target",
       "paras": [
-        "Once a month, widen the window. Ask whether goals still fit life, then change at most one target. Archive a win in writing so memory does not erase it."
+        "A proposed number is not applied until you edit the existing goal. Hockey season does not add calories automatically."
       ]
     }
   ],
   "mistakes": [
     {
       "quote": "I judged my whole program on this morning’s weigh-in.",
-      "why": "Use Progress trends. One morning is weather, not climate."
+      "why": "Use the review window. One morning is weather, not climate."
     },
     {
       "quote": "Progress looked bad so I deleted old logs.",
       "why": "Deleting erases learning. Keep honesty; adjust forward."
     },
     {
-      "quote": "I only check Progress when I feel guilty.",
+      "quote": "I only open this when I feel guilty.",
       "why": "Scheduled calm reviews beat shame-triggered chart spirals."
     }
   ],
-  "encouragement": "Progress is a mirror for patterns, not a verdict on your worth. Log honestly, review weekly, improve once — repeat."
+  "encouragement": "Your Balance is a mirror for patterns, not a verdict on your worth. Log honestly, review when you want the connected picture, keep what works."
 }

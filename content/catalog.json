@@ -266,18 +266,18 @@
       "pillar": "help",
       "path": "help/progress.html",
       "title": "Progress",
-      "summary": "Trends from honest logs.",
+      "summary": "Your Balance connects food, movement and recovery.",
       "kind": "feature",
-      "why": "Trends beat day-to-day noise.",
+      "why": "Learn your maintenance burn, choose a direction, and know what to keep.",
       "what": [
-        "Weekly/monthly views",
-        "Protein and weight trends",
-        "Link back to Foodiary"
+        "Your Balance in My Shortcuts (Home → Log)",
+        "Your energy, patterns and next step",
+        "Weekly/monthly views with honest gaps"
       ],
       "how": [
-        "Log consistently on Home",
-        "Open Progress weekly",
-        "Change one variable at a time"
+        "Open Your Balance from Home → Log → My Shortcuts",
+        "Answer or skip the starting-point questions",
+        "Review energy evidence before changing a target"
       ],
       "next": {
         "id": "spaces",
@@ -287,12 +287,14 @@
         "home",
         "weekly-success"
       ],
-      "screenshots": [],
+      "screenshots": [
+        "home-your-balance.png"
+      ],
       "deepLink": {
         "path": "/#/",
-        "label": "Open Progress"
+        "label": "Open Your Balance"
       },
-      "updated": "2026-09-04",
+      "updated": "2026-10-30",
       "status": "ready",
       "bodyFile": "help-progress.json"
     },

@@ -1,79 +1,79 @@
 {
-  "intro": "Edistyminen muuttaa rehelliset kirjaukset trendeiksi. Päivät ovat hälyisiä; viikot ja kuukaudet näyttävät suunnan — proteiini, paino ja mukana pysyminen mukana.",
+  "intro": "Tasapainosi (KCAL Analytics) yhdistää rehelliset kirjaukset henkilökohtaiseksi energian kuvaksi: mikä toimii, mitä kirjaukset tukevat ja mikä on vielä auki. kCal Assistant kirjoittaa katsauksen; kCal Buddy pysyy arjen ruokakaverina.",
   "time": "8 min",
-  "buddyTip": "Avaa Edistyminen viikoittain yhdellä kysymyksellä: “Mitä hyvät päivät jakoivat?” Vaihda yksi muuttuja sen jälkeen.",
-  "mission": "Avaa Edistyminen, skannaa viime viikko ja kirjoita yksi pidä / yksi vaihda -muistiinpano.",
+  "buddyTip": "Avaa Tasapainosi: Koti → Kirjaa → Omat pikakuvakkeet, kun haluat yhdistetyn kuvan — ruoka, liike ja palautuminen — et yhden aamuisen punnituksen tuomiota.",
+  "mission": "Avaa Tasapainosi, tallenna tai ohita aloituskysymykset, ja lähde yhdellä rutiinilla pidettäväksi tai yhdellä pienellä seuraavalla askeleella.",
   "why": [
-    "Ilman Edistymistä Foodiary on kasa kuitteja. Trendit paljastavat, toimivatko energiabudjetti, proteiiniankkurit ja tavat oikeassa elämässä.",
-    "Päivittäinen pakkomielle yhteen punnitukseen luo vääriä hätätiloja. Edistyminen on olemassa zoomausta varten, jotta voit valmentaa rauhallisesti.",
-    "Edistyminen toimii vain, jos kirjaukset ovat rehellisiä ja tarpeeksi täydellisiä. Tallenna Kodissa; korjaa Foodiaryssa; opi täällä.",
-    "Edistyminen on myös paikka, jossa huomaat taitovoitot: vähemmän tyhjiä päiviä, paremmat ravintola-arviot, tasaisempi proteiini. Ne voitot ansaitsevat yhtä paljon huomiota vaa’an rinnalla."
+    "Ilman yhdistettyä katsausta Foodiary on kasa kuitteja. Tasapainosi näyttää, toimivatko energia, proteiini, liike ja uni oikeassa elämässä.",
+    "Tallennettu kaloritavoite ei todista, että toinen luku on liikaa. Arvioitu kulutus, tallennettu tavoite ja ehdotettu suunnitelma pysyvät erillään.",
+    "Puutteellinen kirjaus ei todista todellista syöntiä tai liikkumattomuutta. Puuttuva illallinen ei todista vajavaista päivää.",
+    "Toimiva rutiini ansaitsee säilyä. Katsaus ei keksi kovempaa tavoitetta raportin täytteeksi."
   ],
   "what": {
     "lead": "Mitä etsiä.",
     "points": [
-      "Viikko- ja kuukausinäkymät",
-      "Painon trendi vs päivittäiset piikit",
-      "Proteiinin johdonmukaisuuden kuviot",
-      "Linkit takaisin Foodiaryyn syyn etsintään",
-      "Yhden muuttujan kokeilut jokaisen katsauksen jälkeen"
+      "Tasapainosi-kortti Omissa pikakuvakkeissa (Koti → Kirjaa). Se ei ole toinen Koti-ruutu.",
+      "Aloituskysymykset, jotka voi ohittaa tai muokata myöhemmin",
+      "Energiasi — valmius, ikkunat ja alkuperä",
+      "Kaavasi — kuvaileva näyttö, ei syitä",
+      "Seuraava askeleesi — yksi päätoimi tai rutiini pidettäväksi"
     ],
     "misconceptions": [
       {
-        "myth": "Edistyminen nollassa tarkoittaa, että sovellus on rikki.",
-        "truth": "Usein puuttuva kcal riveillä, väärä päivä valittuna tai kirjaaminen vain tyhjiin Foodiary-paikanpitäjiin. Tarkista Pikaoppaan polku."
+        "myth": "Kortin avaaminen veloittaa tekoälyä.",
+        "truth": "Tasapainosi avaa vain aloituksen. Generointi on myöhempi erillinen toimi aidolla kuitilla."
       },
       {
-        "myth": "Minun pitäisi vaihtaa viisi tavoitetta aina kun Edistyminen näyttää sotkuiselta.",
-        "truth": "Monen muutoksen viikot eivät opeta mitään. Säädä yhtä vipua."
+        "myth": "Neljätoista punnitusriviä on aina kaksi viikkoa.",
+        "truth": "Rivimäärä ei ole kalenterikesto. Tasapainosi nimeää sekä katsausikkunan että pidemmän perusviivan."
       }
     ]
   },
   "how": {
-    "lead": "Tee Edistymisestä viikoittainen tapaaminen.",
+    "lead": "Tee Tasapainosista rauhallinen tapaaminen.",
     "steps": [
-      "Varmista, että viikossa on tarpeeksi Koti-kirjauksia ravinnolla",
-      "Avaa Edistyminen; merkitse suunta, ei draamaa",
-      "Napauta outoihin päiviin Foodiaryn kontekstin kautta",
-      "Juhli mukana pysymistä ennen keskiarvojen arvostelua",
-      "Aseta yksi teema ensi viikolle",
-      "Palaa päivän rituaaliin — älä asu kaavioissa"
+      "Pidä tavalliset ateriat ja punnitukset Kodissa",
+      "Avaa Koti → Kirjaa → Omat pikakuvakkeet → Tasapainosi",
+      "Kerro miltä rutiini tuntuu, tai ohita",
+      "Lue Energiasi ennen tavoitteen vaihtoa",
+      "Pidä toimiva rutiini, kun kirjaukset ovat samaa mieltä",
+      "Arvioi oliko katsaus hyödyllinen — se ei ole terveystulos"
     ],
-    "buddyHelps": "Buddyn tallennus ruokkii Edistymistä. Valmennuksen laatu nousee, kun trendit heijastavat oikeita ravintoloita, matkoja ja treeniä — ei kuratoituja kohokohtia."
+    "buddyHelps": "Buddyn kirjaukset ruokkivat päiväkirjaa, jota Tasapainosi lukee."
   },
   "sections": [
     {
-      "title": "Painon lukeminen",
+      "title": "Energiasi",
       "paras": [
-        "Suosi usean päivän tai viikon trendejä. Natrium, hiilarit ja hormonit liikuttavat vettä. Rasvan muutos on hitaampaa."
+        "Valmius tulee olemassa olevasta Method-kynnyksestä: ruokapäivät, punnitukset eri päivinä ja niiden kalenterijänne. Teksti näyttää have/need ja joko Vaatimus täyttyy tai jäljellä olevat päivät. Lukumäärän täyttyminen ei takaa vakaata henkilökohtaista kalibrointia. Tallennettu katsaus pysyy ennallaan; istunnon täysi/vajaa-valinnat eivät kirjoitu siihen."
       ]
     },
     {
-      "title": "Proteiinin lukeminen",
+      "title": "Kaavasi",
       "paras": [
-        "Laske, kuinka usein ankkurit ilmestyivät. Kaksi sankariproteiinipäivää eivät kumoa viittä matalaa siinä, miltä viikko tuntui."
+        "Havainnot pysyvät kuvailevina. Suunniteltu treeni ei ole tehty treeni. Puuttuva liike ei ole todistettu liikkumattomuus."
       ]
     },
     {
-      "title": "Kuukauden zoomi",
+      "title": "Tavoitteen käyttö",
       "paras": [
-        "Kerran kuussa levennä ikkunaa. Kysy, sopivatko tavoitteet vielä elämään, vaihda sitten enintään yksi taulu. Arkistoi voitto kirjoittamalla, jotta muisti ei pyyhi sitä."
+        "Ehdotettu luku ei siirry käyttöön ennen kuin muokkaat olemassa olevaa tavoitetta."
       ]
     }
   ],
   "mistakes": [
     {
-      "quote": "Tuomitsin koko ohjelmani tämän aamun punnituksella.",
-      "why": "Käytä Edistymisen trendejä. Yksi aamu on sää, ei ilmasto."
+      "quote": "Tuomitsin koko ohjelman tämän aamun punnituksella.",
+      "why": "Käytä katsausikkunaa. Yksi aamu on säätä, ei ilmastoa."
     },
     {
-      "quote": "Edistyminen näytti pahalta, joten poistin vanhat kirjaukset.",
-      "why": "Poisto pyyhkii oppimisen. Pidä rehellisyys; säädä eteenpäin."
+      "quote": "Edistyminen näytti pahalta, joten poistin vanhat lokit.",
+      "why": "Poistaminen pyyhkii oppimisen. Pidä rehellisyys; säädä eteenpäin."
     },
     {
-      "quote": "Tarkistan Edistymisen vain kun tunnen syyllisyyttä.",
-      "why": "Aikataulutetut rauhalliset katsaukset voittavat häpeästä laukeavat kaaviokierteet."
+      "quote": "Avaan tämän vain kun tunnen syyllisyyttä.",
+      "why": "Rauhallinen aikataulu voittaa häpeästä syttyvät kaaviokierteet."
     }
   ],
-  "encouragement": "Edistyminen on peili kuvioille, ei tuomio arvostasi. Kirjaa rehellisesti, katso viikoittain, paranna kerran — toista."
+  "encouragement": "Tasapainosi on peili kaavoille, ei tuomio arvostasi. Kirjaa rehellisesti, katso yhdistetty kuva, pidä se mikä toimii."
 }
