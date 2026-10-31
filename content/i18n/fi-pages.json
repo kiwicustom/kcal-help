@@ -34,7 +34,11 @@
   },
   "home": {
     "title": "Koti",
-    "summary": "Kirjauspalkki, Tämän päivän edistyminen ja Näkymä (Aloittelija / Perustaso / Power).",
+    "summary": "Tasapainopisteet ja historia, päivän kirjaukset sekä Näkymä (Aloittelija / Perustaso / Power).",
+    "screenshotCaptions": {
+      "home-balance-calculation.png": "Example Sam — tasapainoluvun laskenta. Näytettävät tiedot riippuvat kirjauksista; arvona voi olla N/A.",
+      "home-balance-history.png": "Example Sam — uudelleen laskettu tasapainohistoria. Näytettävät päivät riippuvat kirjauksista; aukkoja tai N/A-arvoja voi esiintyä."
+    },
     "why": "Koti on päivän työpöytä. Kirjaaminen täällä täyttää Foodiaryn ja Edistymisen.",
     "what": [
       "Buddy Kirjaa / Puhu ruoka",

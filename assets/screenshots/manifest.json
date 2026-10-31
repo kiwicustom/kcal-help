@@ -4,7 +4,9 @@
   "required": [
     "home-overview.png",
     "home-budget.png",
-    "home-quick-actions.png"
+    "home-quick-actions.png",
+    "home-balance-calculation.png",
+    "home-balance-history.png"
   ],
   "catalog": [
     "home-overview.png",
@@ -12,6 +14,8 @@
     "home-buddy-panel.png",
     "home-quick-actions.png",
     "home-your-balance.png",
+    "home-balance-calculation.png",
+    "home-balance-history.png",
     "home-beginner.png",
     "home-standard.png",
     "home-power.png",

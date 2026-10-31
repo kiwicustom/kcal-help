@@ -1,5 +1,5 @@
 {
-  "intro": "Home is your daily desk. Buddy greets you, then his toolbox logs the day. Today’s Progress fills after you save. Beginner, Standard, and Power User are the same Home with more or less on screen — switch with PX in the bottom bar.",
+  "intro": "Home is your daily desk. Your Balance shows the signals that can be assessed from your records. Buddy helps you log the day, and Today’s Progress updates after you save. Beginner, Standard, and Power User show the same records with more or less detail — switch with PX in the bottom bar.",
   "time": "7 min",
   "buddyTip": "Camera is the food log. Water, Weight, and Cart sit beside it as quiet chips. Cart is last. The Camera chevron picks Camera, Photo, Receipt / File, Text input, or Voice (A–Z).",
   "mission": "Open Home, tap Camera (or Water / Weight), confirm Buddy’s estimate, and watch Today’s Progress (or your Beginner task list) update after save.",
@@ -11,6 +11,7 @@
   "what": {
     "lead": "What you should recognise on Home (mobile).",
     "points": [
+      "Your Balance — current points, scored-area coverage, and recent history; tap the number for the calculation",
       "Buddy host — greeting plus Camera, Water, Weight, Cart",
       "Camera — tap to scan a pack or plate; chevron chooses Camera, Photo, Receipt / File, Text input, Voice",
       "Water · Weight · Cart — run immediately",
@@ -42,9 +43,31 @@
   },
   "sections": [
     {
+      "title": "Your Balance: points from available signals",
+      "paras": [
+        "Your Balance is available in Beginner, Standard and Power. Its 0–100 number combines eligible recent Oura sleep, readiness and activity assessments with recorded progress toward your saved protein, water and weekly training targets. Each scored area has equal weight; protein and water are averaged within Nutrition’s one contribution. Goal progress stops at 100 points.",
+        "These are index points, not a percentage of health or a verdict on diet quality. Protein and water describe what you have logged so far. Training uses confirmed completed sessions over seven inclusive calendar days. A low progress value can reflect an unfinished day or incomplete logging; it does not establish poor health or inactivity.",
+        "The coverage tells you how many of the six possible areas are scored. Missing areas are excluded, not counted as zero. A connected source or a visible observation does not automatically qualify for scoring. Weight, intake and estimated burn remain available inside Energy balance, which has no comparable scoring rule in this version. You can still get a number from other eligible areas."
+      ]
+    },
+    {
+      "title": "Open the number and check the evidence",
+      "paras": [
+        "Tap the Balance number to see each area’s points or missing-score reason, its observation date and source, and the recorded amounts and saved targets used in the calculation. Tap an area to inspect its evidence. A planned or ambiguous workout is not confirmed completion. Water contributes only when a hydration record and a saved water target are present; an absent water record is not an observed zero.",
+        "If no area qualifies, the number shows N/A or Not scored with an explanation. Records may still be loading, missing, too old, unreadable, or unavailable after a connection expires or is revoked. An observation may also lack a supported provider score or an eligible saved target. Check the area’s reason before adding more records or changing a goal."
+      ]
+    },
+    {
+      "title": "Read the 3, 7, 14 and 30-day history",
+      "paras": [
+        "Open Recent direction below Your Balance; in Beginner, expand the row first. Choose 3, 7, 14 or 30 days, then select a recorded day to see its score and area evidence. History is recomputed from your currently visible records using your current saved goals. It is not a saved record of which goals you had on each past date.",
+        "Only days with eligible recorded evidence get points. Gaps stay visible, and changing scored areas or comparison rules can prevent a direct point-change comparison. Today is still in progress and is kept separate from completed-day comparisons. A completed calendar day does not prove that every meal or activity was logged."
+      ]
+    },
+    {
       "title": "Experience Mode (PX)",
       "paras": [
-        "Beginner: greeting, today’s health, daily task list. Tap a meal row to log. No camera bar, no Meal Plan / Activity / Spaces tabs.",
+        "Beginner: greeting, compact Your Balance, today’s health, daily task list. Tap a meal row to log. No camera bar, no Meal Plan / Activity / Spaces tabs.",
         "Standard: log bar + energy budget (Food · Exercise · Remaining) + health cards.",
         "Power User: same as Standard, plus TEF on the budget and leucine on protein.",
         "PX is beta presentation. No data loss when you switch."

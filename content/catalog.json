@@ -78,7 +78,7 @@
       "pillar": "help",
       "path": "help/home.html",
       "title": "Home",
-      "summary": "Log bar, Today’s Progress, and Experience Mode (Beginner / Standard / Power).",
+      "summary": "Your Balance points and history, daily logging, and Experience Mode (Beginner / Standard / Power).",
       "kind": "feature",
       "why": "Home is the daily desk. Logging here fills Foodiary and Progress.",
       "what": [
@@ -106,13 +106,19 @@
       "screenshots": [
         "home-overview.png",
         "home-quick-actions.png",
-        "home-budget.png"
+        "home-budget.png",
+        "home-balance-calculation.png",
+        "home-balance-history.png"
       ],
+      "screenshotCaptions": {
+        "home-balance-calculation.png": "Example Sam — Balance calculation. Availability depends on recorded evidence; values may show N/A.",
+        "home-balance-history.png": "Example Sam — recomputed Balance history. Available days depend on recorded evidence; gaps or N/A may appear."
+      },
       "deepLink": {
         "path": "/#/",
         "label": "Open Home"
       },
-      "updated": "2026-09-13",
+      "updated": "2026-10-31",
       "status": "ready",
       "bodyFile": "help-home.json"
     },

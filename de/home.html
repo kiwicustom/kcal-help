@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Home — Hilfe · kCal Buddy</title>
     <meta name="theme-color" content="#FF7A00" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvwg5iwb" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvwk5shq" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvwg5iwb" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvwg5iwb" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvwg5iwb" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvwg5iwb" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvwk5shq" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvwk5shq" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvwk5shq" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvwk5shq" />
   </head>
   <body>
     <div id="help-shell-header"></div>
@@ -20,6 +20,31 @@
       <p class="crumb"><a href="index.html">Hilfe</a> · Home</p>
       <h1>Home — Bild-Guide</h1>
       <p class="lead">Playwright-Screenshots aus der App.</p>
+      <section id="your-balance">
+        <h2>Deine Balance: Punkte aus verfügbaren Signalen</h2>
+        <p>Deine Balance ist in Anfänger, Standard und Power verfügbar. Die Zahl von 0 bis 100 verbindet geeignete aktuelle Oura-Bewertungen für Schlaf, Bereitschaft und Aktivität mit dem erfassten Fortschritt gegenüber deinen gespeicherten Protein-, Wasser- und wöchentlichen Trainingszielen. Jeder bewertete Bereich hat das gleiche Gewicht. Protein und Wasser werden innerhalb des einen Ernährungsbeitrags gemittelt. Zielfortschritt bringt höchstens 100 Punkte.</p>
+        <p>Das sind Indexpunkte, kein Gesundheitsprozentsatz und kein Urteil über die Ernährungsqualität. Protein und Wasser beschreiben die bisher erfassten Mengen. Training berücksichtigt bestätigte abgeschlossene Einheiten aus sieben Kalendertagen einschließlich des Bewertungstags. Ein niedriger Fortschritt kann einen noch laufenden Tag oder unvollständige Einträge widerspiegeln. Er belegt weder schlechte Gesundheit noch Bewegungsmangel.</p>
+        <p>Die Abdeckung zeigt, wie viele der sechs möglichen Bereiche bewertet werden. Fehlende Bereiche bleiben außen vor und zählen nicht als null. Eine verbundene Quelle oder eine sichtbare Beobachtung wird nicht automatisch bewertet. Gewicht, Energieaufnahme und geschätzter Verbrauch bleiben unter Energiebilanz sichtbar; dafür gibt es in dieser Version keine vergleichbare Bewertungsregel. Andere geeignete Bereiche können trotzdem eine Zahl ergeben.</p>
+      </section>
+      <section id="balance-evidence">
+        <h2>Zahl öffnen und Belege prüfen</h2>
+        <p>Tippe auf die Balance-Zahl, um für jeden Bereich die Punkte oder den Grund für fehlende Punkte, Beobachtungsdatum und Quelle sowie die verwendeten Mengen und gespeicherten Ziele zu sehen. Tippe auf einen Bereich, um seine Belege zu prüfen. Eine geplante oder nicht eindeutig abgeschlossene Einheit gilt nicht als bestätigtes Training. Wasser zählt nur mit einem Wassereintrag und einem gespeicherten Wasserziel. Ein fehlender Wassereintrag ist keine beobachtete Null.</p>
+        <p>Wenn kein Bereich geeignet ist, zeigt die Zahl N/A oder Nicht bewertet mit einer Erklärung. Einträge können noch laden, fehlen, zu alt oder nicht lesbar sein. Eine Verbindung kann abgelaufen oder ihre Berechtigung widerrufen worden sein. Einer Beobachtung kann auch ein unterstützter Anbieterwert oder ein geeignetes gespeichertes Ziel fehlen. Prüfe den Grund des Bereichs, bevor du mehr einträgst oder ein Ziel änderst.</p>
+      </section>
+      <section id="balance-history">
+        <h2>Verlauf über 3, 7, 14 und 30 Tage lesen</h2>
+        <p>Öffne Letzte Richtung unter Deine Balance; klappe in der Anfängeransicht zuerst die Details auf. Wähle 3, 7, 14 oder 30 Tage und dann einen erfassten Tag, um seine Punkte und Bereichsbelege zu sehen. Der Verlauf wird aus deinen aktuell sichtbaren Einträgen mit deinen aktuell gespeicherten Zielen neu berechnet. Er ist keine gespeicherte Aufzeichnung darüber, welche Ziele an einem vergangenen Tag galten.</p>
+        <p>Nur Tage mit geeigneten erfassten Beobachtungen erhalten Punkte. Lücken bleiben sichtbar. Wenn sich bewertete Bereiche oder Vergleichsregeln ändern, ist ein direkter Vergleich der Punkteänderung möglicherweise nicht möglich. Heute läuft noch und bleibt von Vergleichen abgeschlossener Tage getrennt. Ein abgeschlossener Kalendertag beweist nicht, dass jede Mahlzeit oder Aktivität erfasst wurde.</p>
+      </section>
+      <figure class="shot-wrap">
+        <img src="../assets/screenshots/home-balance-calculation.png" width="780" height="1688" loading="lazy" alt="Example Sam — Berechnung der Balance-Punkte" />
+        <figcaption class="caption"><code>home-balance-calculation.png</code> — Example Sam — Balance-Berechnung. Die Verfügbarkeit hängt von erfassten Beobachtungen ab; Werte können N/A anzeigen.</figcaption>
+      </figure>
+      <figure class="shot-wrap">
+        <img src="../assets/screenshots/home-balance-history.png" width="780" height="1688" loading="lazy" alt="Example Sam — neu berechneter Balance-Verlauf" />
+        <figcaption class="caption"><code>home-balance-history.png</code> — Example Sam — neu berechneter Balance-Verlauf. Verfügbare Tage hängen von erfassten Beobachtungen ab; Lücken oder N/A können erscheinen.</figcaption>
+      </figure>
+
       <figure class="shot-wrap">
         <img src="../assets/screenshots/home-overview.png" alt="Home Übersicht" />
         <figcaption class="caption">home-overview.png</figcaption>
@@ -41,7 +66,7 @@
       </div>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mvwg5iwb" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mvwg5iwb" data-page="home-guide" data-lang="de" data-base="../" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mvwk5shq" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mvwk5shq" data-page="home-guide" data-lang="de" data-base="../" defer></script>
   </body>
 </html>
