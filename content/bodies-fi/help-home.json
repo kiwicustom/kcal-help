@@ -6,7 +6,7 @@
   "why": [
     "Väärän oven kirjaaminen on yleisin turhautuminen. Ihmiset avaavat Foodiaryn keksiäkseen tyhjän rivin, jättävät kcal:n tyhjäksi ja ihmettelevät, miksi Edistyminen pysyy nollassa. Koti on älykäs ovi kirjanpitoon.",
     "Oranssi Kamera-nappi on Buddyn pääasiallinen ruokakirjaus. Vesi, Paino ja Ostoskori istuvat sen vieressä. Tekstisyöttö on Kameran menetelmä, ei toinen Ruoka-nappi.",
-    "Näkymä (PX) on vain esitystapa. Aloittelija piilottaa koontinäytön. Perustaso näyttää budjetin. Power lisää TEF:n ja leusiinin. Merkintäsi eivät muutu."
+    "Näkymä (PX) on vain esitystapa. Aloittelija näyttää päivän visuaalisesti ja tiiviisti. Perustaso näyttää budjetin. Power lisää TEF:n ja leusiinin. Merkintäsi eivät muutu."
   ],
   "what": {
     "lead": "Mitä Kodissa (mobiili) kannattaa tunnistaa.",
@@ -43,6 +43,14 @@
   },
   "sections": [
     {
+      "title": "Aloittelija: päiväsi yhdellä silmäyksellä",
+      "paras": [
+        "Kalorikaari näyttää kirjatun energian suhteessa tallennettuun energiansaantisuunnitelmaasi. Vieressä kolme palkkia näyttävät proteiinin, kuidun ja veden. Napauta mittaria nähdäksesi lisätiedot. Kirjaamaton määrä pysyy tuntemattomana. Arvioitu päivittäinen energiankulutus näkyy erillään energiansaantisuunnitelmasta.",
+        "Tehdyissä aterioissa näkyy oma tallennettu kuvasi, jos sellainen on saatavilla, sekä aterian nimi ja kirjattu energia. Ilman kuvaa näkyvät kirjauksen oikea nimi ja yksinkertainen kuvake. Napauta ateriaa avataksesi Foodiaryn. Esimerkki- tai kuvapankkikuvaa ei näytetä oman ateriasi tilalla.",
+        "Napauta tasapainolukua nähdäksesi laskennan. Havaintokuvakkeista tai historiasta avautuvat alueiden lisätiedot ja kirjattu suunta. Yksi SEURAAVAKSI-toimi ja oranssi Kirjaa ruokaa Buddyn kanssa -painike pitävät seuraavan askeleen selkeänä. Jäljellä oleva proteiinimäärä koskee koko päivää, ei yhtä ateriaa. Näytä kaikki avaa muut tehtävät, ja kehosi tarina on edelleen saatavilla. Nykyinen alapalkki ja oranssi PLUS säilyvät ennallaan. Kodin tai lisätietojen avaaminen ei luo tekoälykatsausta."
+      ]
+    },
+    {
       "title": "Tasapainosi: pisteet käytettävissä olevista havainnoista",
       "paras": [
         "Tasapainosi näkyy Aloittelija-, Perustaso- ja Power-näkymissä. Sen luku asteikolla 0–100 yhdistää soveltuvat tuoreet Oura-arviot unesta, valmiudesta ja aktiivisuudesta sekä kirjatun edistymisen kohti tallennettuja proteiini-, vesi- ja viikoittaisia harjoitustavoitteitasi. Jokaisella pisteytetyllä alueella on sama paino. Proteiinin ja veden keskiarvo muodostaa Ravinnon yhden osuuden. Tavoitteen ylittäminen ei tuo yli 100 pistettä.",
@@ -67,7 +75,7 @@
     {
       "title": "Näkymä (PX)",
       "paras": [
-        "Aloittelija: tervehdys, tiivis Tasapainosi, tämän päivän terveys ja päivän tehtävälista. Napauta ateriariviä kirjataksesi. Ei kamerapalkkia, ei Ateriasuunnitelma / Aktiviteetti / Spaces -välilehtiä.",
+        "Aloittelija: tervehdys, tiivis Tasapainosi, kalorikaari ja proteiini-, kuitu- ja vesipalkit sekä tehdyt ateriat ja yksi SEURAAVAKSI-toimi. Napauta ateriariviä kirjataksesi. Ei kamerapalkkia, ei Ateriasuunnitelma / Aktiviteetti / Spaces -välilehtiä.",
         "Perustaso: kirjauspalkki + energiabudjetti (Ruoka · Liikunta · Jäljellä) + terveyskortit.",
         "Power-käyttäjä: sama kuin Perustaso, plus TEF budjetissa ja leusiini proteiinissa.",
         "PX on betan esitystapa. Tietoja ei katoa, kun vaihdat."

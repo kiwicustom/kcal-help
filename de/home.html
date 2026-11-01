@@ -3,23 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Home — Hilfe · kCal Buddy</title>
+    <title>Home-Bildschirm — Hilfe · kCal Buddy</title>
+    <meta name="description" content="Nummerierter Bild-Guide für Home." />
     <meta name="theme-color" content="#FF7A00" />
-    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvwojlb2" />
+    <meta name="kcal:asset-ver" content="1.1.0-phase2-mvxmbh5t" />
     <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate" />
     <link rel="icon" href="../assets/brand/kcal-mark-64.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvwojlb2" />
-    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvwojlb2" />
-    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvwojlb2" />
-    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvwojlb2" />
+    <link rel="stylesheet" href="../css/tokens.css?v=1.1.0-phase2-mvxmbh5t" />
+    <link rel="stylesheet" href="../css/shell.css?v=1.1.0-phase2-mvxmbh5t" />
+    <link rel="stylesheet" href="../css/help.css?v=1.1.0-phase2-mvxmbh5t" />
+    <link rel="stylesheet" href="../css/academy.css?v=1.1.0-phase2-mvxmbh5t" />
   </head>
   <body>
     <div id="help-shell-header"></div>
     <main class="help-main">
-      <p class="crumb"><a href="index.html">Hilfe</a> · Home</p>
-      <h1>Home — Bild-Guide</h1>
-      <p class="lead">Playwright-Screenshots aus der App.</p>
+
+      <p class="crumb"><a href="index.html">Hilfe</a> · Home-Bildschirm</p>
+      <h1>Home-Bildschirm — Bild-Guide</h1>
+      <p class="lead">Oben loggen. In der Mitte Progress. Unten die Tabs. Screenshots aus der Live-App (Playwright).</p>
+
+      <div class="callout callout--buddy">
+        <img class="callout__icon" src="../assets/brand/kcal-buddy-192.png" alt="" width="36" height="36" />
+        <div>
+          <strong>💬 Buddy-Tipp</strong>
+          <p class="note" style="margin: 0.25rem 0 0">Essen loggst du im orangen Streifen — nicht nur in Foodiary.</p>
+        </div>
+      </div>
+
+      <section id="beginner-at-a-glance">
+        <h2>Anfänger: dein Tag auf einen Blick</h2>
+        <p>Der Kalorienbogen zeigt die erfasste Energie gegenüber deinem gespeicherten Aufnahmeplan. Daneben zeigen drei Balken Protein, Ballaststoffe und Wasser. Tippe auf einen Wert für Details. Nicht erfasste Mengen bleiben unbekannt. Der geschätzte tägliche Verbrauch steht getrennt vom Aufnahmeplan.</p>
+        <p>Erfasste Mahlzeiten zeigen dein eigenes gespeichertes Foto, sofern vorhanden, mit Mahlzeitenname und erfasster Energie. Ohne Foto bleiben der echte Name und ein einfaches Symbol. Tippe auf die Mahlzeit, um Foodiary zu öffnen. Beispiel- oder Stockfotos ersetzen deine Mahlzeit nicht.</p>
+        <p>Tippe auf die Balance-Zahl für die Berechnung. Signalstreifen oder Verlauf öffnen Bereichsdetails und den erfassten Trend. Ein NÄCHSTER-Schritt und der orange Buddy-Log-Button halten die nächste Aktion klar. Die verbleibende Proteinmenge gilt für den Tag, nicht für eine einzelne Mahlzeit. Alle anzeigen öffnet die anderen Aufgaben; die Körpergeschichte bleibt erreichbar. Die bestehende Unterleiste und das orange PLUS bleiben unverändert. Home und seine Details zu öffnen erzeugt keinen KI-Bericht.</p>
+      </section>
       <section id="your-balance">
         <h2>Deine Balance: Punkte aus verfügbaren Signalen</h2>
         <p>Deine Balance ist in Anfänger, Standard und Power verfügbar. Die Zahl von 0 bis 100 verbindet geeignete aktuelle Oura-Bewertungen für Schlaf, Bereitschaft und Aktivität mit dem erfassten Fortschritt gegenüber deinen gespeicherten Protein-, Wasser- und wöchentlichen Trainingszielen. Jeder bewertete Bereich hat das gleiche Gewicht. Protein und Wasser werden innerhalb des einen Ernährungsbeitrags gemittelt. Zielfortschritt bringt höchstens 100 Punkte.</p>
@@ -45,28 +64,48 @@
         <figcaption class="caption"><code>home-balance-history.png</code> — Example Sam — neu berechneter Balance-Verlauf. Verfügbare Tage hängen von erfassten Beobachtungen ab; Lücken oder N/A können erscheinen.</figcaption>
       </figure>
 
+      <h2>Übersicht</h2>
       <figure class="shot-wrap">
-        <img src="../assets/screenshots/home-overview.png" alt="Home Übersicht" />
+        <img src="../assets/screenshots/home-overview.png" width="780" height="1688" alt="kCal Buddy Home Übersicht" />
         <figcaption class="caption">home-overview.png</figcaption>
       </figure>
+
+      <h2>Schnellaktionen</h2>
       <figure class="shot-wrap">
-        <img src="../assets/screenshots/home-quick-actions.png" alt="Quick Actions" />
+        <img src="../assets/screenshots/home-quick-actions.png" alt="Home Schnellaktionen" />
         <figcaption class="caption">home-quick-actions.png</figcaption>
       </figure>
+
+      <h2>Today's Progress / Budget</h2>
       <figure class="shot-wrap">
-        <img src="../assets/screenshots/home-budget.png" alt="Today's Progress" />
+        <img src="../assets/screenshots/home-budget.png" alt="Today's Progress Energie-Budget" />
         <figcaption class="caption">home-budget.png</figcaption>
       </figure>
+
+      <h2>Nummerierte Karte</h2>
+      <ol class="steps">
+        <li><span class="num">1</span><div><strong>Buddy-Maskottchen</strong><p>Markenzeichen — du bist in kCal Buddy.</p></div></li>
+        <li><span class="num">2</span><div><strong>Primärer Log / Talk food</strong><p>Standard-Erfassung — Text, Foto, Sprache.</p></div></li>
+        <li><span class="num">3</span><div><strong>Schnellaktions-Icons</strong><p>Kamera, Galerie, Text, Mikrofon, Wasser, Einkauf, mehr.</p></div></li>
+        <li><span class="num">4</span><div><strong>Tag + Tageslicht + Wetter</strong><p>Für welchen Tag du loggst.</p></div></li>
+        <li><span class="num">5</span><div><strong>Today's Progress</strong><p>Energie-Budget, Protein, Ballaststoffe, Wasser.</p></div></li>
+        <li><span class="num">6</span><div><strong>Unterleiste</strong><p>Home · Meal Plan · Foodiary · Activity · Progress · Spaces · Menü.</p></div></li>
+      </ol>
+
       <div class="callout callout--warn">
-        <span class="callout__emoji">⚠</span>
+        <span class="callout__emoji" aria-hidden="true">⚠</span>
         <div>
           <strong>Häufiger Fehler</strong>
-          <p class="note" style="margin: 0.25rem 0 0">Nur Foodiary ohne kcal → Progress bleibt 0. Zuerst Buddy Log auf Home.</p>
+          <p class="note" style="margin: 0.25rem 0 0">
+            Nur in Foodiary loggen ohne kcal — Progress bleibt bei 0. Zuerst Buddy Log auf Home.
+          </p>
         </div>
       </div>
+
+      <p><a href="foodiary.html">Buddy vs Foodiary →</a></p>
     </main>
     <div id="help-shell-footer"></div>
-    <script src="../js/version-update.js?v=1.1.0-phase2-mvwojlb2" defer></script>
-    <script src="../js/shell.js?v=1.1.0-phase2-mvwojlb2" data-page="home-guide" data-lang="de" data-base="../" defer></script>
+    <script src="../js/version-update.js?v=1.1.0-phase2-mvxmbh5t" defer></script>
+    <script src="../js/shell.js?v=1.1.0-phase2-mvxmbh5t" data-page="home-guide" data-lang="de" data-base="../" data-file="home.html" defer></script>
   </body>
 </html>

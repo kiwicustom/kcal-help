@@ -7,33 +7,33 @@
       "id": "beginner",
       "title": "Beginner",
       "px": "PX Beg",
-      "lead": "Zero dashboard. Greeting, today’s health, a task list. Tap a row to log with Buddy.",
-      "nav": "Home · Foodiary · Progress · Menu",
+      "lead": "Your day at a glance: Balance, calorie progress, three nutrient bars and saved meals. One clear next action.",
+      "nav": "Home · Foodiary · + · Progress · Menu",
       "items": [
         {
           "n": 1,
           "label": "Top bar",
-          "text": "kCal Buddy, language, theme, Settings, and a ? that labels Home in waves. Click here to CONTINUE / Click here to go BACK. Last wave: Click here to CLOSE."
+          "text": "kCal Buddy, Mode and More. Help, language, appearance and Settings are in More."
         },
         {
           "n": 2,
-          "label": "Greeting",
-          "text": "Buddy says hello. One line. That’s the whole coach."
+          "label": "Your Balance",
+          "text": "Tap the real Balance points for the calculation; tap its history or six signals to explore the evidence."
         },
         {
           "n": 3,
-          "label": "Today’s Health",
-          "text": "Calories, protein, fiber, water, drinks, and your burn vs goal. Tap a row for details."
+          "label": "Today",
+          "text": "One calorie arc plus protein, fibre and water bars. Tap any metric for details. Daily burn is a separate estimate."
         },
         {
           "n": 4,
-          "label": "Daily task list",
-          "text": "Breakfast · Lunch · Dinner · Snack · Drinks · Water. Tap a box → Buddy. It checks off only after you save."
+          "label": "Done and next",
+          "text": "Saved meals show your own photos when available, or their saved facts. Tap a meal for Foodiary. One NEXT and the orange Buddy action sit below; Show all reveals other tasks."
         },
         {
           "n": 5,
           "label": "Bottom tabs",
-          "text": "Home · Foodiary · Progress · PX Beg · Menu. No Meal Plan, Activity, or Spaces here."
+          "text": "Home · Foodiary · the circular orange + · Progress · Menu. The existing footer stays."
         }
       ]
     },

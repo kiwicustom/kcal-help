@@ -6,7 +6,8 @@
     "home-budget.png",
     "home-quick-actions.png",
     "home-balance-calculation.png",
-    "home-balance-history.png"
+    "home-balance-history.png",
+    "home-beginner-metric.png"
   ],
   "catalog": [
     "home-overview.png",
@@ -17,6 +18,7 @@
     "home-balance-calculation.png",
     "home-balance-history.png",
     "home-beginner.png",
+    "home-beginner-metric.png",
     "home-standard.png",
     "home-power.png",
     "foodiary-empty.png",

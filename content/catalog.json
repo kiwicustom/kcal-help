@@ -107,12 +107,14 @@
         "home-overview.png",
         "home-quick-actions.png",
         "home-budget.png",
+        "home-beginner-metric.png",
         "home-balance-calculation.png",
         "home-balance-history.png"
       ],
       "screenshotCaptions": {
         "home-balance-calculation.png": "Example Sam — Balance calculation. Availability depends on recorded evidence; values may show N/A.",
-        "home-balance-history.png": "Example Sam — recomputed Balance history. Available days depend on recorded evidence; gaps or N/A may appear."
+        "home-balance-history.png": "Example Sam — recomputed Balance history. Available days depend on recorded evidence; gaps or N/A may appear.",
+        "home-beginner-metric.png": "Example Sam — Beginner Home with the selected daily metric details. Example records; your values depend on your diary and saved targets."
       },
       "deepLink": {
         "path": "/#/",

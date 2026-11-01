@@ -37,7 +37,8 @@
     "summary": "Tasapainopisteet ja historia, päivän kirjaukset sekä Näkymä (Aloittelija / Perustaso / Power).",
     "screenshotCaptions": {
       "home-balance-calculation.png": "Example Sam — tasapainoluvun laskenta. Näytettävät tiedot riippuvat kirjauksista; arvona voi olla N/A.",
-      "home-balance-history.png": "Example Sam — uudelleen laskettu tasapainohistoria. Näytettävät päivät riippuvat kirjauksista; aukkoja tai N/A-arvoja voi esiintyä."
+      "home-balance-history.png": "Example Sam — uudelleen laskettu tasapainohistoria. Näytettävät päivät riippuvat kirjauksista; aukkoja tai N/A-arvoja voi esiintyä.",
+      "home-beginner-metric.png": "Example Sam — Aloittelijan Kotinäkymä ja valitun päivän mittarin lisätiedot. Esimerkkikirjaukset; omat arvosi riippuvat kirjauksistasi ja tallennetuista tavoitteistasi."
     },
     "why": "Koti on päivän työpöytä. Kirjaaminen täällä täyttää Foodiaryn ja Edistymisen.",
     "what": [

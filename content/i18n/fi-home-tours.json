@@ -7,33 +7,33 @@
       "id": "beginner",
       "title": "Aloittelija",
       "px": "PX Beg",
-      "lead": "Ei koontinäyttöä. Tervehdys, tämän päivän terveys, tehtävälista. Napauta riviä, niin Buddy kirjaa.",
-      "nav": "Koti · Foodiary · Edistyminen · Valikko",
+      "lead": "Päiväsi yhdellä silmäyksellä: Tasapainosi, kalorit, kolme ravintopalkkia ja tallennetut ateriat. Yksi selkeä seuraava askel.",
+      "nav": "Koti · Foodiary · + · Edistyminen · Valikko",
       "items": [
         {
           "n": 1,
           "label": "Yläpalkki",
-          "text": "kCal Buddy, kieli, teema, Asetukset ja ? joka selittää Kodin aaltoina. Click here to CONTINUE / Click here to go BACK. Viimeinen aalto: Click here to CLOSE."
+          "text": "kCal Buddy, Näkymä ja Lisää. Ohje, kieli, ulkoasu ja asetukset löytyvät Lisää-valikosta."
         },
         {
           "n": 2,
-          "label": "Tervehdys",
-          "text": "Buddy tervehtii. Yksi rivi. Siinä koko valmentaja."
+          "label": "Tasapainosi",
+          "text": "Napauta oikeita tasapainopisteitä nähdäksesi laskennan. Historia ja kuusi merkkiä avaavat havaintojen tarkastelun."
         },
         {
           "n": 3,
-          "label": "Tämän päivän terveys",
-          "text": "Kalorit, proteiini, kuitu, vesi, juomat ja kulutus vs tavoite. Napauta riviä nähdäksesi lisät."
+          "label": "Tänään",
+          "text": "Kalorikaari sekä proteiini-, kuitu- ja vesipalkit. Napauta mittaria nähdäksesi lisätiedot. Päivittäinen kulutus on erillinen arvio."
         },
         {
           "n": 4,
-          "label": "Päivän tehtävälista",
-          "text": "Aamiainen · Lounas · Illallinen · Välipala · Juomat · Vesi. Napauta ruutua → Buddy. Ruksi tulee vasta tallennuksen jälkeen."
+          "label": "Valmiina ja seuraavaksi",
+          "text": "Tallennetut ateriat näyttävät omat kuvasi, jos niitä on, tai tallennetut tiedot. Napauta ateriaa avataksesi Foodiaryn. Alla ovat yksi seuraava askel ja oranssi Buddy-painike. Näytä kaikki avaa muut tehtävät."
         },
         {
           "n": 5,
           "label": "Alapalkki",
-          "text": "Koti · Foodiary · Edistyminen · PX Beg · Valikko. Ei Ateriasuunnitelmaa, Aktiviteettia eikä Spaceja."
+          "text": "Koti · Foodiary · pyöreä oranssi + · Edistyminen · Valikko. Nykyinen alapalkki säilyy."
         }
       ]
     },

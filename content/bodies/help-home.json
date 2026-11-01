@@ -6,7 +6,7 @@
   "why": [
     "Wrong-door logging is the most common frustration. People open Foodiary to invent a blank row, leave kcal empty, then wonder why Progress stays at zero. Home is the smart door into the ledger.",
     "The orange Camera button is Buddy’s main food log. Water, Weight, and Cart sit beside it. Text input is a Camera method, not a second Food button.",
-    "Experience Mode (PX) is presentation only. Beginner hides the dashboard. Standard shows the budget. Power adds TEF and leucine. Your logs do not change."
+    "Experience Mode (PX) is presentation only. Beginner keeps the day visual and compact. Standard shows the budget. Power adds TEF and leucine. Your logs do not change."
   ],
   "what": {
     "lead": "What you should recognise on Home (mobile).",
@@ -43,6 +43,14 @@
   },
   "sections": [
     {
+      "title": "Beginner: your day at a glance",
+      "paras": [
+        "The calorie arc shows what you have logged against your saved intake plan. Beside it, three progress strips show protein, fibre and water. Tap a metric for its details. An unrecorded amount stays unknown; estimated daily burn is shown separately from the intake plan.",
+        "Done meals use your own saved photo when one is available, with the meal name and logged energy. Without a photo, the entry keeps its real name and a simple icon. Tap the meal to open Foodiary. No sample or stock photo stands in for your meal.",
+        "Tap the Balance number for its calculation. Tap the signal strip or history to reveal area details and the recorded trend. One NEXT and the orange Log Food with Buddy button keep the next action clear. A protein remainder is for the day, not an instruction to eat that amount in one sitting. Show all reveals the other tasks; the body-story entry stays available. The existing bottom bar and orange PLUS stay unchanged. Opening Home or its details does not generate an AI review."
+      ]
+    },
+    {
       "title": "Your Balance: points from available signals",
       "paras": [
         "Your Balance is available in Beginner, Standard and Power. Its 0–100 number combines eligible recent Oura sleep, readiness and activity assessments with recorded progress toward your saved protein, water and weekly training targets. Each scored area has equal weight; protein and water are averaged within Nutrition’s one contribution. Goal progress stops at 100 points.",
@@ -67,7 +75,7 @@
     {
       "title": "Experience Mode (PX)",
       "paras": [
-        "Beginner: greeting, compact Your Balance, today’s health, daily task list. Tap a meal row to log. No camera bar, no Meal Plan / Activity / Spaces tabs.",
+        "Beginner: greeting, compact Your Balance, a calorie arc with protein/fibre/water strips, and completed meals followed by one NEXT. Tap a meal row to log. No camera bar, no Meal Plan / Activity / Spaces tabs.",
         "Standard: log bar + energy budget (Food · Exercise · Remaining) + health cards.",
         "Power User: same as Standard, plus TEF on the budget and leucine on protein.",
         "PX is beta presentation. No data loss when you switch."
